@@ -11,14 +11,16 @@ dnsmasq:
     command: -S /.gate.dev.com/127.0.0.1 -A /.gate.dev.com/127.0.0.1
 
 ezproxy:
-    image: bibcnrs/ezproxy
+    image: bibcnrs/ezproxy:6.1.10
     volumes:
         - ./config:/usr/local/ezproxy/config
     links:
         - dnsmasq
     environment:
+        DNS_ADDR: dnsmasq
         http_proxy: ${http_proxy}
         https_proxy: ${https_proxy}
+        EZ_PROXY_KEY: ${EZ_PROXY_KEY}
         INTERFACE: Any
         COOKIE_NAME: bibliovie
         GATE_NAME: gate.dev.com
