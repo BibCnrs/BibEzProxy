@@ -1,0 +1,14 @@
+# Generated from /info/ProxyInfo
+# EZproxy config generated Thu Oct 22 13:48:20 GMT 2009 by LOCKSS cache lockss.intra.inist.fr
+Proxy lockss.intra.inist.fr:8080
+
+Title Age and Ageing
+URL http://ageing.oxfordjournals.com
+Domain ageing.oxfordjournals.com
+
+Title Oxford Journals
+URL http://oxfordjournals.org
+Domain oxfordjournals.org
+
+Proxy
+# End of LOCKSS config

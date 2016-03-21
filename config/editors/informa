@@ -1,0 +1,17 @@
+# Stéphane Gully le 25 septembre 2013 :
+# Cet éditeur semble faire confiance au contenu du header X-Forwarded-For
+# et ainsi ne pas prendre en compte l'adresse IP de l'ezproxy
+# on force donc ezproxy de ne pas transmettre l'adresse ip du client
+Option NoX-Forwarded-For
+
+Option DomainCookieOnly
+T Informa Healthcare
+U http://informahealthcare.com
+H www.informahealthcare.com
+H informahealthcare.com
+DJ informahealthcare.com
+Option Cookie
+H www.informaworld.com
+DJ informaworld.com
+
+Option X-Forwarded-For

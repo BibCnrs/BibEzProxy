@@ -1,0 +1,15 @@
+#
+# Par défault l'option HttpsHyphens est utilisée pour éviter les warning de sécurité.
+# On désactive cette option uniquement pour ce site car la procédure de login ne 
+# fonctionne pas avec des "-" (hyphen est un mot anglais qui signifi tiret en français) dans les URLs :
+# cela provoque une boucle infinie.
+# Cf ticket mantis : http://mantis.intra.inist.fr/view.php?id=3533
+#
+
+Option NoHttpsHyphens
+T EndNote Web
+U http://www.myendnoteweb.com
+H www.isiknowledge.com
+DJ isiknowledge.com
+DJ myendnoteweb.com
+Option HttpsHyphens

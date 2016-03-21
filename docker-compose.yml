@@ -1,0 +1,31 @@
+dnsmasq:
+    image: andyshinn/dnsmasq:2.75
+    cap_add:
+        - NET_ADMIN
+    environment:
+        http_proxy: ${http_proxy}
+        https_proxy: ${https_proxy}
+    ports:
+        - 127.0.0.1:53:53/udp
+        - 127.0.0.1:53:53/tcp
+    command: -S /.gate.dev.com/127.0.0.1 -A /.gate.dev.com/127.0.0.1
+
+ezproxy:
+    image: bibcnrs/ezproxy
+    volumes:
+        - ./config:/usr/local/ezproxy/config
+    links:
+        - dnsmasq
+    environment:
+        http_proxy: ${http_proxy}
+        https_proxy: ${https_proxy}
+        INTERFACE: Any
+        COOKIE_NAME: bibliovie
+        GATE_NAME: gate.dev.com
+        GROUP_NAME: bibliovie
+        APPNAME_USER: root
+        APPNAME_GROUP: root
+        ENV: DEV
+    ports:
+        - 50162:50162
+        - 80:80

@@ -1,0 +1,9 @@
+T Pubmed
+U http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?holding=ifristilib
+HJ www.ncbi.nlm.nih.gov
+DJ ncbi.nlm.nih.gov
+D linkinghub.elsevier.com
+D dx.doi.org
+D nlm.nih.gov
+Find http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed
+Replace http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?holding=ifristilib

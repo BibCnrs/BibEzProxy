@@ -1,0 +1,13 @@
+# ajoute le 5 aout 2008 par Pierre Couchet et Stephane Gully sur demande de DIDELOT, Isabelle 
+Option NoX-Forwarded-For
+T AGU. American Geophysical Union. Earth - Oceans - Atmosphere - Space - Planets
+U http://www.agu.org
+H www.agu.org
+U http://sites.agu.org
+H sites.agu.org
+HJ publications.agu.org
+DJ agu.org
+U http://europa.agu.org
+U http://europa.agu.org:8005
+U http://p8005-europa.agu.org
+Option X-Forwarded-For

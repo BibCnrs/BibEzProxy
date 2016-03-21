@@ -1,0 +1,22 @@
+T yahoo
+U http://edit.europe.yahoo.com/config/mail?
+D yahoo.fr
+D yahoo.com
+D edit.europe.yahoo.com
+
+T free
+U http://imp.free.fr
+D free.fr
+D imp1-q.free.fr
+H http://imp1-q.free.fr
+
+T Hotmail
+U http://login.passport.net/uilogin.srf?id=2
+Dj login.passport.net
+Dj hotmail.msn.com
+
+T Wanadoo
+U http://webmail11.wanadoo.fr/wanadoo/inbox.html
+D webmail11.wanadoo.fr
+D wanadoo.fr
+

@@ -1,0 +1,29 @@
+HTTPHeader X-Requested-With
+Option X-Forwarded-For
+Cookie theproxy=ezproxy; domain=.onlinelibrary.wiley.com
+T Wiley Online
+U http://onlinelibrary.wiley.com
+HJ doi.wiley.com
+HJ www3.interscience.wiley.com
+HJ interscience.wiley.com
+HJ www.mrw.interscience.wiley.com
+HJ www.interscience.wiley.com
+HJ mrw.interscience.wiley.com
+HJ www.onlinelibrary.wiley.com
+HJ www.wiley.com
+DJ wiley.com
+HJ www.wileyopenaccess.com
+DJ wileyopenaccess.com
+Option NoX-Forwarded-For
+
+
+U http://www.deepdyve.com
+HJ www.deepdyve.com
+DJ deepdyve.com
+Hj www.cochranelibrary.com
+#Hj els.wiley.com est remplace par les 2 lignes qui suivent
+U http://www.els.net/
+Hj www.els.net/
+Hj els.wiley.com
+U http://cda.currentprotocols.com/WileyCDA/CPTitle/isbn-0470942398.html
+D cda.currentprotocols.com  

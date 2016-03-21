@@ -1,0 +1,73 @@
+U http://www.tandfonline.com/toc/gcmb20/current
+U http://www.tandfonline.com/toc/tcon20/current
+HJ www.tandfonline.com
+DJ tandfonline.com
+
+#U http://iopscience.iop.org
+#H iopscience.iop.org
+#D iop.org
+
+U http://digital-library.theiet.org
+H digital-library.theiet.org
+U http://www.liebertpub.com/CMB
+U http://www.liebertpub.com/discipline/biotechnology/2/
+U http://www.liebertpub.com/discipline/technology-and-engineering/28/list/
+U http://www.liebertpub.com/discipline/clinical-medicine-and-surgery/20/
+H www.liebertpub.com
+D liebertpub.com
+
+U http://site.ebrary.com/lib/cnrs
+H site.ebrary.com 
+D ebrary.com
+
+U http://www.icevirtuallibrary.com/content/trialcollection
+D icevirtuallibrary.com
+
+#Campagne de test : BiblioST2I
+U http://www.ebooks.iospress.nl/
+U http://iospress.metapress.com/journals/
+U http://content.iospress.com/
+H www.ebooks.iospress.nl
+H iospress.metapress.com
+D metapress.com
+D iospress.nl
+HJ content.iospress.com
+DJ iospress.com
+
+#############################
+# SPRINGER
+# 8 Titres Springer
+# Collection Earth & environmental Science
+
+T SPRINGER 
+Dj springer.com
+Hj www.springer.com
+Dj springerlink.com
+Hj www.springerlink.com
+HJ www.springermaterials.com
+
+#############################
+# Collection Materials Science & Engineering 30 titres (Sage)
+# 19 titres IMECHE
+
+U http://www.icevirtuallibrary.com/content/book/100436
+U http://www.icevirtuallibrary.com/content/book/100519
+U http://www.icevirtuallibrary.com/content/book/100308
+U http://www.icevirtuallibrary.com/content/book/100207
+U http://www.icevirtuallibrary.com/content/book/100877
+U http://www.icevirtuallibrary.com/content/book/100821
+U http://www.icevirtuallibrary.com/content/book/101023
+U http://www.icevirtuallibrary.com/content/book/100785
+U http://www.icevirtuallibrary.com/content/book/100284
+U http://www.icevirtuallibrary.com/content/book/100163
+U http://www.icevirtuallibrary.com/content/book/100650
+H www.icevirtuallibrary.com
+D icevirtuallibrary.com
+
+U http://journals.aip.org/
+H journals.aip.org
+D aip.org
+
+#U http://www.opticsinfobase.org
+#HJ www.opticsinfobase.org
+#DJ opticsinfobase.org

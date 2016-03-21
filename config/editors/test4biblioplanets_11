@@ -1,0 +1,132 @@
+U http://www.tandfonline.com/loi/talc20
+U http://www.tandfonline.com/loi/ugmb20
+U http://www.tandfonline.com/loi/ghbi20
+U http://www.tandfonline.com/loi/tigr20
+U http://www.tandfonline.com/loi/ujvp20
+U http://www.tandfonline.com/loi/tnzg20
+H www.tandfonline.com
+D tandfonline.com
+U http://www.nrcresearchpress.com/
+H www.nrcresearchpress.com
+#U http://iopscience.iop.org
+#H iopscience.iop.org
+#D iop.org
+D nrcresearchpress.com
+#U http://www.publish.csiro.au/journals/eg
+#H www.publish.csiro.au
+#D publish.csiro.au
+
+U http://ebooks.cambridge.org/subscriptionServlet?ACTION=ALL&sortBy=1
+Hj ebooks.cambridge.org
+#Dj cambridge.org
+
+U http://sp.sepmonline.org/
+HJ sp.sepmonline.org
+DJ sepmonline.org
+
+U http://www.journals.cambridge.org/
+#U http://www.publish.csiro.au/
+U http://www.geosociety.org/
+HJ www.journals.cambridge.org
+#HJ www.publish.csiro.au
+HJ www.geosociety.org
+DJ cambridge.org
+#DJ csiro.au
+DJ geosociety.org
+
+#Campagne de test 2011: BiblioPlanets
+U http://www.earthdoc.org
+H www.earthdoc.org
+D earthdoc.org
+U http://rsta.royalsocietypublishing.org/
+U http://rstb.royalsocietypublishing.org/
+H rsta.royalsocietypublishing.org
+H rstb.royalsocietypublishing.org
+D royalsocietypublishing.org
+U http://www.springermaterials.com/docs/index.html  
+H www.springermaterials.com
+D springermaterials.com
+
+#############################
+#  JSTOR
+# Collection Mathematics
+# Collection Health & General Sciences
+
+T JSTOR
+Dj jstor.org
+Hj www.jstor.org
+
+#############################
+# Annual Reviews
+# Annual Review of Marine Science  
+
+T Annual Reviews
+Dj annualreviews.org
+Hj www.annualreviews.org
+
+#Hj www.annualreviews.org
+
+#############################
+# EAGE
+# Earthdoc 
+
+T EAGE
+Dj earthdoc.org
+Hj www.earthdoc.org
+
+
+#############################
+# WILEY 
+# Meteoritics & Planetary
+# Monthly Notices of the RAS
+# Monthly Notices of the RAS Letters
+# Quarterly Journal of the Royal Meteorological Society
+# Collection Earth Sciences  
+
+
+#############################
+# SPRINGER
+# 8 Titres Springer
+# Collection Earth & environmental Science
+
+T SPRINGER 
+Dj springer.com
+Hj www.springer.com
+Dj springerlink.com
+Hj www.springerlink.com
+
+#############################
+# GSL
+# Lyell Collection
+
+T GSL
+Dj lyellcollection.org
+Hj www.lyellcollection.org
+
+#############################
+# CAMBRIDGE UNIVERSITY PRESS
+#
+
+T CAMBRIDGE UNIVERSITY PRESS
+Hj ebooks.cambridge.org
+
+#U http://www.liebertpub.com/ast
+#H www.liebertpub.com
+#D liebertpub.com
+
+U http://scitation.aip.org/cise/
+H scitation.aip.org
+D aip.org
+
+#U http://icsd.fiz-karlsruhe.de/icsd/
+#HJ icsd.fiz-karlsruhe.de
+#DJ fiz-karlsruhe.de
+
+U http://www.sepmonline.org/
+HJ www.sepmonline.org
+DJ sepmonline.org
+
+# maj 10/04/2015        BiblioPlanets
+U https://www.soils.org/publications/sssaj
+H www.soils.org
+D soils.org
