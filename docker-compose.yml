@@ -21,6 +21,8 @@ ezproxy:
         http_proxy: ${http_proxy}
         https_proxy: ${https_proxy}
         EZ_PROXY_KEY: ${EZ_PROXY_KEY}
+        EZ_TICKET_URL: http://localhost:3000/ezticket
+        EZ_TICKET_SECRET: secret
         INTERFACE: Any
         COOKIE_NAME: bibliovie
         GATE_NAME: gate.dev.com

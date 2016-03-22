@@ -26,17 +26,15 @@ rdoe:keepsafe:admin
 # authentication, see:
 #      http://www.usefulutilities.com/support/usr/
 
-# On commence par dÃ©lÃ©guer l'authentification/autorisation Ã  ezticket
-# Remarque : notez le parametre "gate=" qui permet Ã  ezticket de revenir sur le bon ezproxy une fois l'authentification rÃ©ussie
-<?php
-require("./utils/ezproxyticket.php");
-$ezproxy = new EZproxyTicket("http://ezproxy.yourlib.org:2048", "shhhh", "someuser");
-?>
+# On commence par déléguer l'authentification/autorisation à ezticket
+# Remarque : notez le parametre "gate=" qui permet à ezticket de revenir sur le bon ezproxy une fois l'authentification réussie
+::CGI=<?php echo getenv('EZ_TICKET_URL') ?>?url=^U
 
-# L'authentification par ticket (couplÃ©e au module ezticket ci-dessus)
-#::Ticket
-#AcceptGroups bibliovie+shs+admin
-#TimeValid 10
-#MD5 secret
-#Expired; Deny expired.html
-#/Ticket
+# L'authentification par ticket (couplée au module ezticket ci-dessus)
+::Ticket
+AcceptGroups vie+shs
+TimeValid 10
+SHA512 <?php echo getenv('EZ_TICKET_SECRET') ?>
+
+Expired; Deny expired.html
+/Ticket
