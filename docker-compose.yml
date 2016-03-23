@@ -23,7 +23,7 @@ ezproxy:
         EZ_PROXY_KEY: ${EZ_PROXY_KEY}
         EZ_TICKET_URL: http://localhost:3000/ezticket
         EZ_TICKET_SECRET: secret
-        INTERFACE: Any
+        INTERFACE: 192.168.0.6
         COOKIE_NAME: bibliovie
         GATE_NAME: gate.dev.com
         GROUP_NAME: bibliovie

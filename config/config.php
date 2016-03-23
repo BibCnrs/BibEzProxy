@@ -10,14 +10,11 @@ Interface <?php echo getenv('INTERFACE'); ?>
 #   le port 80 (ou 443) dans la rÃ©ecriture des urls mais qu'il ne doit pas Ã©couter dessus.
 # * Un second LoginPort utilise pour Ã©couter est definit dans les fichiers de config
 #   de chaque instance (car on doit avoir un port different par instance)
-<?php if (getenv('ENV') != 'DEV') { ?>
-LoginPort -virtual 80
-LoginPortSSL -virtual 443
-<?php } else { ?>
+# LoginPort -virtual 80
+# LoginPortSSL -virtual 443
 XDebug 1000
-<?php } ?>
 
-# lance ezproxy en tant que user=fedegate group=fedegate
+# lance ezproxy en tant que user=$APPNAME_USER group=$APPNAME_GROUP
 RunAs <?php echo getenv('APPNAME_USER'); ?>:<?php echo getenv('APPNAME_GROUP'); ?>
 
 # ezproxy suffixera les urls par son nom de dommaine (ex: *.gate1.dev.inist.fr)
@@ -82,9 +79,16 @@ Name <?php echo getenv('GATE_NAME'); ?>
 LoginPort 50162
 LoginPortSSL 50169
 
-<?php if (getenv('ENV') == 'DEV') { ?>
-Proxy proxyout.inist.fr:8080
-ProxySSL proxyout.inist.fr:8080
-<?php } ?>
+Interface <?php echo getenv('INTERFACE'); ?>
+
+<?php if ($proxy = str_replace('http://', '', getenv('http_proxy'))) { ?>
+Proxy <?php echo $proxy;
+}?>
+
+<?php if ($proxySSL = str_replace('http://', '', getenv('https_proxy'))) { ?>
+ProxySSL <?php echo $proxySSL;
+}?>
+
+Group vie
 
 IncludeFile ./editors.txt
