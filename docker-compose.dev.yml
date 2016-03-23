@@ -8,28 +8,18 @@ dnsmasq:
     ports:
         - 127.0.0.1:53:53/udp
         - 127.0.0.1:53:53/tcp
-    command: -S /.gate.dev.com/127.0.0.1 -A /.gate.dev.com/127.0.0.1
+    command: -S /.insb.bib.dev.fr/127.0.0.1 -A /.insb.bib.dev.fr/127.0.0.1
 
-ezproxy:
-    image: bibcnrs/ezproxy:6.1.10
+insb:
+    extends:
+        file: ./docker-compose.yml
+        service: ezproxy
     volumes:
         - ./config:/usr/local/ezproxy/config
     links:
         - dnsmasq
     environment:
         DNS_ADDR: dnsmasq
-        http_proxy: ${http_proxy}
-        https_proxy: ${https_proxy}
-        EZ_PROXY_KEY: ${EZ_PROXY_KEY}
-        EZ_TICKET_URL: http://localhost:3000/ezticket
-        EZ_TICKET_SECRET: secret
-        INTERFACE: 192.168.0.6
-        COOKIE_NAME: bibliovie
-        GATE_NAME: gate.dev.com
-        GROUP_NAME: bibliovie
-        APPNAME_USER: root
-        APPNAME_GROUP: root
-        ENV: DEV
-    ports:
-        - 50162:50162
-        - 80:80
+        GATE_SUFFIX: bib.dev.fr
+    env_file:
+        - ./env/insb.env

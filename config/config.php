@@ -4,7 +4,7 @@
 #
 
 # On ecoute sur fede-dev (cad les flux entrent par fede-dev)
-Interface <?php echo getenv('INTERFACE'); ?>
+Interface Any
 
 # * "LoginPort -virtual" permet d'indiquer a ezproxy qu'il doit utiliser
 #   le port 80 (ou 443) dans la rÃ©ecriture des urls mais qu'il ne doit pas Ã©couter dessus.
@@ -15,7 +15,7 @@ Interface <?php echo getenv('INTERFACE'); ?>
 XDebug 1000
 
 # lance ezproxy en tant que user=$APPNAME_USER group=$APPNAME_GROUP
-RunAs <?php echo getenv('APPNAME_USER'); ?>:<?php echo getenv('APPNAME_GROUP'); ?>
+RunAs root:root
 
 # ezproxy suffixera les urls par son nom de dommaine (ex: *.gate1.dev.inist.fr)
 # http://www.usefulutilities.com/support/cfg/proxybyhostname.html
@@ -68,18 +68,18 @@ Option X-Forwarded-For
 ClientTimeout 300
 RemoteTimeout 300
 
-COOKIENAME  <?php echo getenv('COOKIE_NAME'); ?>
+COOKIENAME <?php echo getenv('GATE_NAME'); ?>
 
 ## Parametrages des ports et des interfaces rÃ©seaux
 # gate1.dev.inist.fr sera utilisÃ© pour les rÃ©Ã©critures d'url
-Name <?php echo getenv('GATE_NAME'); ?>
+Name <?php echo getenv('GATE_NAME'); ?>.<?php echo getenv('GATE_SUFFIX'); ?>
 
 # On Ã©coute sur fede-dev.intra.inist.fr:50162 (pour http) et fede-dev.intra.inist.fr:50169 (pour https)
 # cf http://www.usefulutilities.com/support/cfg/interface/
 LoginPort 50162
 LoginPortSSL 50169
 
-Interface <?php echo getenv('INTERFACE'); ?>
+Interface Any
 
 <?php if ($proxy = str_replace('http://', '', getenv('http_proxy'))) { ?>
 Proxy <?php echo $proxy;
@@ -89,6 +89,6 @@ Proxy <?php echo $proxy;
 ProxySSL <?php echo $proxySSL;
 }?>
 
-Group vie
+Group <?php echo getenv('GATE_NAME'); ?>
 
-IncludeFile ./editors.txt
+IncludeFile ./<?php echo getenv('GATE_NAME'); ?>-editors.txt

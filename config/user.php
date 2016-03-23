@@ -28,11 +28,12 @@ rdoe:keepsafe:admin
 
 # On commence par déléguer l'authentification/autorisation à ezticket
 # Remarque : notez le parametre "gate=" qui permet à ezticket de revenir sur le bon ezproxy une fois l'authentification réussie
-::CGI=<?php echo getenv('EZ_TICKET_URL') ?>?gate=<?php echo getenv('GATE_NAME'); ?>&url=^U
+::CGI=<?php echo getenv('EZ_TICKET_URL') ?>?gate=<?php echo getenv('GATE_NAME'); ?>.<?php echo getenv('GATE_SUFFIX'); ?>&url=^U
 
 # L'authentification par ticket (couplée au module ezticket ci-dessus)
 ::Ticket
-AcceptGroups vie+shs
+AcceptGroups <?php echo getenv('GATE_NAME'); ?>
+
 TimeValid 10
 SHA512 <?php echo getenv('EZ_TICKET_SECRET') ?>
 
