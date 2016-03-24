@@ -2,13 +2,15 @@ dnsmasq:
     image: andyshinn/dnsmasq:2.75
     cap_add:
         - NET_ADMIN
+    volumes:
+        - ./dnsmasq.conf:/etc/dnsmasq.conf
     environment:
         http_proxy: ${http_proxy}
         https_proxy: ${https_proxy}
     ports:
         - 127.0.0.1:53:53/udp
         - 127.0.0.1:53:53/tcp
-    command: -S /.insb.bib.dev.fr/127.0.0.1 -A /.insb.bib.dev.fr/127.0.0.1
+    command: --no-daemon
 
 insb:
     extends:
@@ -20,9 +22,36 @@ insb:
         - dnsmasq
     environment:
         DNS_ADDR: dnsmasq
-        GATE_SUFFIX: bib.dev.frexport
+        GATE_SUFFIX: bib.dev.fr
         EZ_TICKET_URL: http://localhost:3000/ezticket
         EZ_TICKET_SECRET: secret
         INTERFACE: Any
+        LOGIN_PORT: 50162
+        LOGIN_PORT_SSL: 50169
     env_file:
         - ./env/insb.env
+    ports:
+        - 50162:50162
+        - 50169:50169
+
+inshs:
+    extends:
+        file: ./docker-compose.yml
+        service: ezproxy
+    volumes:
+        - ./config:/usr/local/ezproxy/config
+    links:
+        - dnsmasq
+    environment:
+        DNS_ADDR: dnsmasq
+        GATE_SUFFIX: bib.dev.fr
+        EZ_TICKET_URL: http://localhost:3000/ezticket
+        EZ_TICKET_SECRET: secret
+        INTERFACE: Any
+        LOGIN_PORT: 50163
+        LOGIN_PORT_SSL: 50170
+    env_file:
+        - ./env/inshs.env
+    ports:
+        - 50163:50163
+        - 50170:50170

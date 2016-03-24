@@ -76,8 +76,8 @@ Name <?php echo getenv('GATE_NAME'); ?>.<?php echo getenv('GATE_SUFFIX'); ?>
 
 # On Ã©coute sur fede-dev.intra.inist.fr:50162 (pour http) et fede-dev.intra.inist.fr:50169 (pour https)
 # cf http://www.usefulutilities.com/support/cfg/interface/
-LoginPort 50162
-LoginPortSSL 50169
+LoginPort <?php echo getenv('LOGIN_PORT'); ?>
+LoginPortSSL <?php echo getenv('LOGIN_PORT_SSL'); ?>
 
 Interface <?php echo getenv('INTERFACE'); ?>
 

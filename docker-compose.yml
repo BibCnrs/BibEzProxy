@@ -7,6 +7,3 @@ ezproxy:
         https_proxy: ${https_proxy}
         EZ_TICKET_SECRET: ${EZ_TICKET_SECRET}
         EZ_TICKET_URL: ${EZ_TICKET_URL}
-    ports:
-        - 50162:50162
-        - 80:80

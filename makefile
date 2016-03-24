@@ -20,3 +20,4 @@ save-ws-key: ## save wskey.key from ezproxy docker image to locale folder
 
 load-ws-key: ## load wskey.key from locale folder to ezproxy docker image
 	docker cp ./wskey.key bibezproxy_insb_1:/usr/local/ezproxy/
+	docker cp ./wskey.key bibezproxy_inshs_1:/usr/local/ezproxy/
