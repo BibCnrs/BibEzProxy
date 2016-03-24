@@ -1,0 +1,8 @@
+T Services INIST internes
+U http://www.inist.fr
+D jose.intra.inist.fr
+D intra.inist.fr
+D jopt.intra.inist.fr
+H jopt.intra.inist.fr:35029 
+H jose.intra.inist.fr:35029
+

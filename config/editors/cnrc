@@ -1,0 +1,13 @@
+T CNRC
+U http://pubs.nrc-cnrc.gc.ca
+D nrc-cnrc.gc.ca
+D rpas.web-p.cisti.nrc.ca
+H nrc-cnrc.gc.ca
+H pubs.nrc-cnrc.gc.ca
+H rpas.web-p.cisti.nrc.ca
+H index.nrc-cnrc.gc.ca
+H article.pubs.nrc-cnrc.gc.ca
+
+Find http://article.pubs.nrc&#45;cnrc.gc.ca
+Replace http://^particle.pubs.nrc-cnrc.gc.ca^
+

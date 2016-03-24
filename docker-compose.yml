@@ -1,0 +1,9 @@
+ezproxy:
+    image: bibcnrs/ezproxy:6.1.10
+    volumes:
+        - ./config:/usr/local/ezproxy/config
+    environment:
+        http_proxy: ${http_proxy}
+        https_proxy: ${https_proxy}
+        EZ_TICKET_SECRET: ${EZ_TICKET_SECRET}
+        EZ_TICKET_URL: ${EZ_TICKET_URL}

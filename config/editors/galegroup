@@ -1,0 +1,27 @@
+T Galegroup
+U http://infotrac.galegroup.com
+U http://find.galegroup.com/ecco/start.do?prodId=ECCO
+H find.galegroup.com
+D infotrac.galegroup.com
+D galegroup.com
+H infotrac.galegroup.com
+H galenet.galegroup.com
+H gdc.gale.com
+
+HTTPHeader X-Requested-With
+T ProQuest New Platform
+U http://search.proquest.com/ip
+NeverProxy orders.proquest.com
+NeverProxy rss.proquest.com
+DJ proquest.com
+HJ gateway.proquest.com
+DJ umi.com
+HJ fedsearch.proquest.com
+
+Title Early English Books Online
+URL http://eebo.chadwyck.com
+DJ eebo.chadwyck.com
+Find &url=http://
+Replace &url=http://^A
+Find "eebo.chadwyck.com" == document.location.host
+Replace true

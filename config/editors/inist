@@ -1,0 +1,32 @@
+T Services INIST
+U http://mesh.inist.fr
+D mesh.inist.fr
+D inist.fr
+D services.inist.fr 
+H services.inist.fr
+H bibliovie.inist.fr
+H biblioshs.inist.fr
+H bibliostic.inist.fr
+H biblioinserm.inist.fr
+H bibliosciences.inist.fr
+H cnrs-iop.inist.fr
+D doge.inist.fr
+H doge.inist.fr
+D sd-ext.inist.fr
+H sd-ext.inist.fr:50010
+H accestest.inist.fr
+H sd-dev.inist.fr:50010
+H ida.intra.inist.fr:50030
+H ida.inist.fr:50030
+
+T Nouveau site DOGE
+H hippo.intra.inist.fr:51192
+H doge.demo.inist.fr
+
+T Acces SFX  Metalib Xerces
+
+U http://ida:50041
+U http://ida.intra.inist.fr:50041
+H sfx.intra.inist.fr:8331
+H sfx.intra.inist.fr:4331
+

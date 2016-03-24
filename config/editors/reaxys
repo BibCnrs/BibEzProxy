@@ -1,0 +1,10 @@
+Option NoHttpsHyphens
+T  Reaxys
+U https://www.reaxys.com
+U https://www.reaxys.com/reaxys/secured/search.do
+DJ reaxys.com
+HJ www.reaxys.com
+HJ sc.elsevier.com
+Find window.open(response)
+Replace window.open(response.replace('linksolver.ovid.com', '^plinksolver.ovid.com^').replace('sc.elsevier.com', '^psc.elsevier.com^'))
+Option HttpsHyphens

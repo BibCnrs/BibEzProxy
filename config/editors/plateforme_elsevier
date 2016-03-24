@@ -1,0 +1,43 @@
+Title SciVerse
+URL http://www.hub.sciverse.com 
+DJ sciverse.com
+DJ nextbio.com
+HJ sciverse-shindig.elsevier.com
+HJ acw.elsevier.com
+Find 'http://www.hub.sciverse.com/NextBio
+Replace 'http://^Awww.hub.sciverse.com/NextBio
+Find targetURL=http://
+Replace targetURL=http://^A
+
+# Elsevier ScienceDirect
+Cookie BROWSER_SUPPORTS_COOKIES=1; domain=.sciencedirect.com 
+Cookie theproxy=ezproxy; domain=.sciencedirect.com 
+Option DomainCookieOnly 
+AnonymousURL +http://rss.sciencedirect.com/* 
+Title SciVerse ScienceDirect 
+URL http://www.sciencedirect.com/ 
+DJ sciencedirect.com 
+DJ els-cdn.com 
+HJ linkinghub.elsevier.com 
+Find value="http:// 
+Replace value="http://^A 
+Find name="redirectURL" value="http://www.sciencedirect.com 
+Replace name="redirectURL" value="http://^pwww.sciencedirect.com^ 
+Option Cookie 
+AnonymousURL -* 
+
+# Elsevier Scopus
+Option Cookie
+ProxyHostnameEdit www.scopus.com$ www-scopus-com
+AnonymousURL +http://syndic8.scopus.com/*
+Title SciVerse Scopus
+MimeFilter application/json .* javascript
+URL http://www.scopus.com/home.url
+DJ scopus.com
+Find %22%3A%22http%3A%2F%2Fsciverse-shindig.elsevier.com%2F
+Replace %22%3A%22http%3A%2F%2F^psciverse-shindig.elsevier.com^%2F 
+Find gsUrl%22%3A%22http%3A%2F%2Fwww.scopus.com%2F
+Replace gsUrl%22%3A%22http%3A%2F%2F^pwww.scopus.com^%2F
+NeverProxy www.elsevier.com
+AnonymousURL -*
+

@@ -1,0 +1,24 @@
+# Generated from /info/ProxyInfo
+# EZproxy config generated Thu Oct 22 13:48:20 GMT 2009 by LOCKSS cache lockss.intra.inist.fr
+
+# ------------------
+
+Proxy lockss.intra.inist.fr:8080
+
+Title Project MUSE 
+URL http://muse.jhu.edu/
+# H muse.jhu.edu
+# H muse.uq.edu.au
+Domain muse.jhu.edu
+
+* T Project MUSE
+* U http://muse.jhu.edu
+* H muse.jhu.edu
+* H muse.uq.edu.au
+
+
+
+Proxy
+
+# ------------------
+# End of LOCKSS config

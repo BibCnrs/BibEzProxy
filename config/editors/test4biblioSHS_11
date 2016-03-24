@@ -1,0 +1,142 @@
+#U http://www.numeriquepremium.com/
+#HJ www.numeriquepremium.com
+#DJ numeriquepremium.com
+
+#U http://iopscience.iop.org
+#H iopscience.iop.org
+#D iop.org
+
+U http://www.tandfonline.com/loi/raza20
+U http://www.tandfonline.com/loi/rjrr20
+U http://www.tandfonline.com/toc/cjoe20
+H www.tandfonline.com
+D tandfonline.com
+U http://site.ebrary.com/lib/cnrs
+U http://site.ebrary.com/lib/cnrsshs
+#U https://site.ebrary.com/lib/cnrsshs
+H site.ebrary.com
+D ebrary.com
+
+U http://www2.askzad.com/e_genpages/login.aspx?u=BiblioSHS&p=BiblioSHS
+H www2.askzad.com
+D askzad.com
+
+U http://pm.nlx.com
+HJ pm.nlx.com
+HJ www.nlx.com
+DJ nlx.com
+
+#U http://www.tandfonline.com/loi/rurb20#.UyLZ3M6YfbA
+#U http://www.tandfonline.com/loi/reso20#.UyLZrM6YfbA
+#U http://www.tandfonline.com/toc/rjce20/current#.UyLViM6YfbA
+#HJ www.tandfonline.com
+#DJ tandfonline.com
+
+#U http://home.heinonline.org/
+#HJ home.heinonline.org
+#DJ heinonline.org
+
+#U http://www.frantext.fr/scripts/regular/7fmr.exe?CRITERE=ACCUEIL_DEMONSTRATION;OUVRIR_MENU=MENU_DEMONSTRATION;s=s0f3807bc;ISIS=isis_bbibftx.txt;s=s0f3807bc;;ISIS=isis_bbibftx.txt
+#HJ www.frantext.fr
+#DJ frantext.fr
+
+#U http://westlawinternational.com/
+#U http://login.westlaw.co.uk/maf/wluk/ext/app/tocectory?stnew=true&sp=inist-1
+#HJ www.westlaw.com
+#DJ westlaw.com
+#DJ westlaw.co.uk
+#DJ login.westlaw.co.uk
+#DJ westlawinternational.com
+
+#U http://www.bnds.fr/
+#HJ www.bnds.fr
+#DJ bnds.fr
+
+U http://www.journalofbusinesscompliance.com/
+U http://www.complexityandeconomics.com/
+U http://www.futurelearning.info/
+U http://www.internationalwatergovernance.com/
+U http://www.lifesciencecompliance.info/
+U http://www.privacycompliance.nl/
+U http://www.tijdschriftvoorwatergovernance.nl/
+H www.journalofbusinesscompliance.com
+H www.complexityandeconomics.com
+H www.futurelearning.info
+H www.internationalwatergovernance.com
+H www.lifesciencecompliance.info
+H www.privacycompliance.nl
+H www.tijdschriftvoorwatergovernance.nl
+D journalofbusinesscompliance.com
+D complexityandeconomics.com
+D futurelearning.info
+D internationalwatergovernance.com
+D lifesciencecompliance.info
+D privacycompliance.nl
+D tijdschriftvoorwatergovernance.nl
+
+U https://www.proquest.com/trials/trialSummary.action?view=subject&trialBean.token=MMZVDV32XQ9GQ9U12C9V
+U http://search.proquest.com/pqdthssai?accountid=16266
+HJ search.proquest.com
+Dj proquest.com
+
+#T Harmatheque
+#U http://www.harmatheque.com
+#U http://www.harmatheque.fr
+#HJ www.harmatheque.com
+#Dj harmatheque.com
+#Dj harmatheque.fr
+
+#############################
+# Brepols Publishers 
+
+T  Brepols Publishers
+Dj brepolis.net
+Hj apps.brepolis.net
+
+#############################
+# MITCognet plateform 
+
+T MITCognet plateform
+Hj cognet.mit.edu
+
+#############################
+# SPRINGER
+
+T SPRINGER 
+Dj springer.com
+Hj www.springer.com
+Dj springerlink.com
+Hj www.springerlink.com
+
+#############################
+# Armand Colin Revues 
+
+T Armand Colin Revues
+Dj armand-colin.com
+Hj www.armand-colin.com
+
+#############################
+# Nec Plus
+
+T Nec Plus
+Dj necplus.eu
+Hj www.necplus.eu
+
+U http://www.jstor.org/action/showJournals?browseType=collectionInfoPage&selectCollection=asv
+U http://www.jstor.org/action/showJournals?browseType=collectionInfoPage&selectCollection=asviii
+U http://www.jstor.org/action/showJournals?browseType=collectionInfoPage&selectCollection=asx
+Hj www.jstor.org
+Dj jstor.org
+
+#U  http://icc.oxfordjournals.org/
+#HJ icc.oxfordjournals.org
+#DJ oxfordjournals.org
+
+#U  http://jrs.oxfordjournals.org/
+#HJ jrs.oxfordjournals.org
+#DJ oxfordjournals.org
+
+#U  http://www.e-enlightenment.com
+#HJ www.e-enlightenment.com
+#DJ e-enlightenment.com
+
