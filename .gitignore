@@ -1,5 +1,5 @@
 config/ssl
 ezproxy
-wskey.key
+*.key
 !env/env.dist
 env/*
