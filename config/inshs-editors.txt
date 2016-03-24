@@ -1,0 +1,3 @@
+#IncludeFile ./editors/some/file
+IncludeFile ./editors/123.lib
+IncludeFile ./editors/copernicus

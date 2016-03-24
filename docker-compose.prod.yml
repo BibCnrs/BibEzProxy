@@ -1,0 +1,23 @@
+insb:
+    extends:
+        file: ./docker-compose.yml
+        service: ezproxy
+    volumes:
+        - ./config:/usr/local/ezproxy/config
+    environment:
+        GATE_SUFFIX: bib.cnrs.fr
+    env_file:
+        - ./env/insb.env
+
+inshs:
+    extends:
+        file: ./docker-compose.yml
+        service: ezproxy
+    volumes:
+        - ./config:/usr/local/ezproxy/config
+    environment:
+        GATE_SUFFIX: bib.cnrs.fr
+    env_file:
+        - ./env/inshs.env
+
+# etc...

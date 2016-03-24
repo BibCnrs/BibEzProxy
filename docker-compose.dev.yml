@@ -20,6 +20,9 @@ insb:
         - dnsmasq
     environment:
         DNS_ADDR: dnsmasq
-        GATE_SUFFIX: bib.dev.fr
+        GATE_SUFFIX: bib.dev.frexport
+        EZ_TICKET_URL: http://localhost:3000/ezticket
+        EZ_TICKET_SECRET: secret
+        INTERFACE: Any
     env_file:
         - ./env/insb.env
