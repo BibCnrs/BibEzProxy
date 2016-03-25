@@ -10,7 +10,6 @@ services:
             GATE_SUFFIX: bib.cnrs.fr
         env_file:
             - ./env/insb.env
-
     inshs:
         extends:
             file: ./docker-compose.yml
@@ -21,5 +20,16 @@ services:
             GATE_SUFFIX: bib.cnrs.fr
         env_file:
             - ./env/inshs.env
-
     # etc...
+networks:
+    insb:
+        driver: bridge
+        ipam:
+            config:
+                - subnet: 192.168.170.0/24
+    inshs:
+        driver: bridge
+        ipam:
+            config:
+                - subnet: 192.168.171.0/24
+# etc...
