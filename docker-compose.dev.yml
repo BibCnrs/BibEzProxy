@@ -19,57 +19,31 @@ services:
     insb:
         extends:
             file: ./docker-compose.yml
-            service: ezproxy
-        volumes:
-            - ./config:/usr/local/ezproxy/config
+            service: ezproxy_dev
         links:
             - dnsmasq
-        environment:
-            DNS_ADDR: dnsmasq
-            GATE_SUFFIX: bib.dev.fr
-            EZ_TICKET_URL: http://localhost:3000/ezticket
-            EZ_TICKET_SECRET: secret
-            INTERFACE: Any
-            LOGIN_PORT: 50162
-            LOGIN_PORT_SSL: 50182
         env_file:
             - ./env/insb.env
         networks:
             - insb
-        ports:
-            - 50162:50162
-            - 50182:50182
     inshs:
         extends:
             file: ./docker-compose.yml
-            service: ezproxy
-        volumes:
-            - ./config:/usr/local/ezproxy/config
+            service: ezproxy_dev
         links:
             - dnsmasq
-        environment:
-            DNS_ADDR: dnsmasq
-            GATE_SUFFIX: bib.dev.fr
-            EZ_TICKET_URL: http://localhost:3000/ezticket
-            EZ_TICKET_SECRET: secret
-            INTERFACE: Any
-            LOGIN_PORT: 50163
-            LOGIN_PORT_SSL: 50183
         env_file:
             - ./env/inshs.env
         networks:
             - inshs
-        ports:
-            - 50163:50163
-            - 50183:50183
 networks:
     insb:
         driver: bridge
         ipam:
             config:
-                - subnet: 192.168.170.0/24
+                - subnet: 192.168.169.8/29
     inshs:
         driver: bridge
         ipam:
             config:
-                - subnet: 192.168.171.0/24
+                - subnet: 192.168.169.16/29

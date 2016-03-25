@@ -4,15 +4,16 @@
 #
 
 # On ecoute sur fede-dev (cad les flux entrent par fede-dev)
-Interface <?php echo getenv('INTERFACE'); ?>
+Interface Any
 
 # * "LoginPort -virtual" permet d'indiquer a ezproxy qu'il doit utiliser
 #   le port 80 (ou 443) dans la rÃ©ecriture des urls mais qu'il ne doit pas Ã©couter dessus.
 # * Un second LoginPort utilise pour Ã©couter est definit dans les fichiers de config
 #   de chaque instance (car on doit avoir un port different par instance)
-# LoginPort -virtual 80
-# LoginPortSSL -virtual 443
+
+<?php if (getenv('env') == 'DEV') { ?>
 XDebug 1000
+<?php } ?>
 
 # lance ezproxy en tant que user=$APPNAME_USER group=$APPNAME_GROUP
 RunAs root:root
@@ -76,10 +77,10 @@ Name <?php echo getenv('GATE_NAME'); ?>.<?php echo getenv('GATE_SUFFIX'); ?>
 
 # On Ã©coute sur fede-dev.intra.inist.fr:50162 (pour http) et fede-dev.intra.inist.fr:50169 (pour https)
 # cf http://www.usefulutilities.com/support/cfg/interface/
-LoginPort <?php echo getenv('LOGIN_PORT'); ?>
-LoginPortSSL <?php echo getenv('LOGIN_PORT_SSL'); ?>
+LoginPort 80
+LoginPortSSL 443
 
-Interface <?php echo getenv('INTERFACE'); ?>
+Interface Any
 
 <?php if ($proxy = str_replace('http://', '', getenv('http_proxy'))) { ?>
 Proxy <?php echo $proxy;

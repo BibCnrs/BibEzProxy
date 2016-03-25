@@ -7,5 +7,25 @@ services:
         environment:
             http_proxy: ${http_proxy}
             https_proxy: ${https_proxy}
-            EZ_TICKET_SECRET: ${EZ_TICKET_SECRET}
+        ports:
+            - 80
+            - 443
+    ezproxy_dev:
+        extends:
+            file: ./docker-compose.yml
+            service: ezproxy
+        environment:
+            env: DEV
+            DNS_ADDR: dnsmasq
+            GATE_SUFFIX: bib.dev.fr
+            EZ_TICKET_URL: http://localhost:3000/ezticket
+            EZ_TICKET_SECRET: secret
+    ezproxy_prod:
+        extends:
+            file: ./docker-compose.yml
+            service: ezproxy
+        environment:
+            env: PROD
+            GATE_SUFFIX: ${GATE_SUFFIX}
             EZ_TICKET_URL: ${EZ_TICKET_URL}
+            EZ_TICKET_SECRET: ${EZ_TICKET_SECRET}

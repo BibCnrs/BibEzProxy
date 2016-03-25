@@ -3,21 +3,17 @@ services:
     insb:
         extends:
             file: ./docker-compose.yml
-            service: ezproxy
+            service: ezproxy_prod
         volumes:
             - ./config:/usr/local/ezproxy/config
-        environment:
-            GATE_SUFFIX: bib.cnrs.fr
         env_file:
             - ./env/insb.env
     inshs:
         extends:
             file: ./docker-compose.yml
-            service: ezproxy
+            service: ezproxy_prod
         volumes:
             - ./config:/usr/local/ezproxy/config
-        environment:
-            GATE_SUFFIX: bib.cnrs.fr
         env_file:
             - ./env/inshs.env
     # etc...
@@ -26,10 +22,10 @@ networks:
         driver: bridge
         ipam:
             config:
-                - subnet: 192.168.170.0/24
+                - subnet: 192.168.169.8/29
     inshs:
         driver: bridge
         ipam:
             config:
-                - subnet: 192.168.171.0/24
+                - subnet: 192.168.169.16/29
 # etc...
