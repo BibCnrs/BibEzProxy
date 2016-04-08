@@ -17,7 +17,7 @@ services:
         environment:
             env: DEV
             DNS_ADDR: dnsmasq
-            GATE_SUFFIX: bib.dev.fr
+            GATE_SUFFIX: bib.cnrs-dev.fr
             EZ_TICKET_URL: http://localhost:3000/ezticket
             EZ_TICKET_SECRET: secret
     ezproxy_prod:
