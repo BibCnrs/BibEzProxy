@@ -10,7 +10,7 @@ services:
             - insb
         env_file:
             - ./env/insb.env
-        netork_mode: bridge
+        network_mode: bridge
         ports:
             - "192.168.128.206:80:80"
             - "192.168.128.206:443:443"
@@ -24,7 +24,7 @@ services:
             - inshs
         env_file:
             - ./env/inshs.env
-        netork_mode: bridge
+        network_mode: bridge
         ports:
             - "192.168.128.207:80:80"
             - "192.168.128.207:443:443"
