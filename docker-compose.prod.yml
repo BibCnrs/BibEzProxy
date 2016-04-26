@@ -10,6 +10,10 @@ services:
             - insb
         env_file:
             - ./env/insb.env
+        netork_mode: bridge
+        ports:
+            - "192.168.128.206:80:80"
+            - "192.168.128.206:443:443"
     inshs:
         extends:
             file: ./docker-compose.yml
@@ -20,16 +24,7 @@ services:
             - inshs
         env_file:
             - ./env/inshs.env
-    # etc...
-networks:
-    insb:
-        driver: bridge
-        ipam:
-            config:
-                - subnet: 192.168.169.8/29
-    inshs:
-        driver: bridge
-        ipam:
-            config:
-                - subnet: 192.168.169.16/29
-# etc...
+        netork_mode: bridge
+        ports:
+            - "192.168.128.207:80:80"
+            - "192.168.128.207:443:443"
