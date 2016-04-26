@@ -6,8 +6,6 @@ services:
             service: ezproxy_prod
         volumes:
             - ./config:/usr/local/ezproxy/config
-        networks:
-            - insb
         env_file:
             - ./env/insb.env
         network_mode: bridge
@@ -20,8 +18,6 @@ services:
             service: ezproxy_prod
         volumes:
             - ./config:/usr/local/ezproxy/config
-        networks:
-            - inshs
         env_file:
             - ./env/inshs.env
         network_mode: bridge
