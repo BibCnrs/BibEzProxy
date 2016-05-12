@@ -1,7 +1,0 @@
-Title  Monip
-#Proxy    proxyout.inist.fr:8080
-#ProxySSL proxyout.inist.fr:8080
-URL    http://monip.org
-Domain monip.org
-
-

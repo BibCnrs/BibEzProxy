@@ -1,0 +1,135 @@
+IncludeFile authorization/common.txt
+
+
+
+# FOURNISSEURS
+# ============
+# AAAS
+IncludeFile authorization/oclc/ScienceAAAS
+
+# AACR
+IncludeFile authorization/oclc/AmericanAssociationForCancerResearch
+
+# AAI
+IncludeFile authorization/other/TheAmericanAssociationOfImmunologists
+
+# ACS
+IncludeFile authorization/oclc/AmericanChemicalSociety
+
+# AMERICAN SOCIETY FOR CELL BIOLOGY
+IncludeFile authorization/other/TheAmericanSocietyForCellBiology
+
+# ANNUAL REVIEWS
+IncludeFile authorization/oclc/AnnualReviews
+
+# APS
+IncludeFile authorization/oclc/AmericanPhysiologySociety
+
+# ASBMB
+IncludeFile authorization/other/AmericanSocietyForBiochemistryAndMolecularBiology
+
+# ASCO
+IncludeFile authorization/oclc/AmericanSocietyOfClinicalOncology(ASCO)
+
+# ASH
+IncludeFile authorization/oclc/AmericanSocietyOfHematology
+
+# ASM
+IncludeFile authorization/oclc/AmericanSocietyForMicrobiology
+
+# ASNS
+IncludeFile authorization/other/AmericanSocietyForNutrition
+
+# ASPET
+IncludeFile authorization/other/AmericanSocietyForPharmacolgyAndExperimentalTherapeutics
+
+# ASPB
+IncludeFile authorization/other/AmericanSocietyOfPlantBiologists
+
+# BMC
+IncludeFile authorization/oclc/BiomedCentral
+
+# BIOONE
+IncludeFile authorization/oclc/BiooneJournalsOnline
+
+# CAMBRIDGE UNIVERSITY PRESS
+IncludeFile authorization/oclc/CambridgeJournalsOnline
+
+# CNRC
+IncludeFile authorization/other/EditionsSciencesCanada
+
+# COLD SPRING HARBOR LABORATORY PRESS
+IncludeFile authorization/other/ColdSpringHarborLaboratoryPress
+
+# COMPANY OF BIOLOGISTS
+IncludeFile authorization/oclc/CompanyOfBiologists
+
+# EBSCO PUBLISHING APA
+# EBSCO PUBLISHING PBSC
+IncludeFile authorization/oclc/EBSCOHost
+
+# EDP
+IncludeFile authorization/other/EDPSciences
+
+# ELSEVIER MONOS
+IncludeFile authorization/oclc/ElsevierScienceDirectAndScopus
+
+# ENDOCRINE SOCIETY
+IncludeFile authorization/oclc/EndocrineSociety
+
+# FASEB
+IncludeFile authorization/other/FederationOfAmericanSocietiesForExperimentalBiology
+
+# GENETICS SOCIETY OF AMERICA
+IncludeFile authorization/other/GeneticsSocietyOfAmerica
+
+# IOS PRESS
+IncludeFile authorization/oclc/IOSPress
+
+# MARY ANN LIEBERT
+IncludeFile authorization/oclc/Liebert
+
+# NEJM
+IncludeFile authorization/other/NEJMJournalWatch
+
+# NPG
+IncludeFile authorization/oclc/NaturePublishing
+
+# OUP
+IncludeFile authorization/oclc/OxfordJournals
+
+# OVID
+IncludeFile authorization/oclc/Ovid
+
+# PNAS
+IncludeFile authorization/oclc/ProceedingsOfTheNationalAcademyOfSciences
+
+# PORTLAND PRESS
+IncludeFile authorization/other/PortlandPress
+
+# RUP
+IncludeFile authorization/other/TheRockefellerUniversityPress
+
+# SAGE
+IncludeFile authorization/oclc/SagePublications
+
+# SOCIETY FOR GENERAL MICROBIOLOGY
+IncludeFile authorization/other/MicrobiologySociety
+
+# SOCIETY FOR NEUROSCIENCE
+IncludeFile authorization/other/SocietyForNeurosciences
+
+# TAYLOR & FRANCIS GROUP
+IncludeFile authorization/oclc/TaylorAndFrancisOnline
+
+# UNIVERSITY OF CHICAGO PRESS
+IncludeFile authorization/oclc/UniversityOfChicagoPress
+
+# WILEY
+IncludeFile authorization/oclc/WileyOnlineLibrary
+
+
+
+# BASES DE DONNEES
+# ================
+IncludeFile authorization/oclc/PubMed

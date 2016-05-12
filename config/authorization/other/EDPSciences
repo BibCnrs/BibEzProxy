@@ -1,0 +1,29 @@
+T EDP Sciences
+
+U http://www.edpsciences.org/
+D edpsciences.org
+H www.aanda.org
+H aas.aanda.org
+H epljournal.edpsciences.org
+H www.journal-therapie.org
+H www.hydroecologie.org
+H www.shf-lhb.org
+
+Option DomainCookieOnly
+# T Medecine Sciences
+U http://www.medecinesciences.org
+HJ www.medecinesciences.org
+DJ medecinesciences.org
+Option Cookie
+
+# T Natures Sciences Societes
+U http://www.nss-journal.org/
+D nss-journal.org
+
+# T RAIRO OPERATIONS RESEARCH
+U http://www.rairo-ro.org/
+D rairo-ro.org/
+
+U http://www.swsc-journal.org
+H www.swsc-journal.org
+D swsc-journal.org

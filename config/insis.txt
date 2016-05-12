@@ -1,0 +1,31 @@
+IncludeFile authorization/common.txt
+
+
+
+# FOURNISSEURS
+# ============
+# AAAS
+IncludeFile authorization/oclc/ScienceAAAS
+
+# ACM
+IncludeFile authorization/oclc/AcmDigitalLibrary
+
+# CAMBRIDGE UNIVERSITY PRESS
+IncludeFile authorization/oclc/CambridgeJournalsOnline
+
+# IOS PRESS
+IncludeFile authorization/oclc/IOSPress
+
+# JSTOR
+IncludeFile authorization/oclc/JSTOR
+
+# OUP
+IncludeFile authorization/oclc/OxfordJournals
+
+# WILEY
+IncludeFile authorization/oclc/WileyOnlineLibrary
+
+
+
+# BASES DE DONNEES
+# ================

@@ -1,0 +1,5 @@
+Option NoX-Forwarded-For
+T Érudit
+U http://www.erudit.org/index.html
+D erudit.org
+Option X-Forwarded-For

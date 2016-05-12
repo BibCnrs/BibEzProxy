@@ -1,7 +1,0 @@
-# pour les tests : simule un editeur (2)
-# l'editeur autorisera cet ip pour autoriser l'ezproxy (c'est l'adresse ip sortante)
-Title  Editeur2
-Url    http://editeur2.dev.inist.fr
-Domain editeur2.dev.inist.fr
-Host   https://editeur2.dev.inist.fr
-

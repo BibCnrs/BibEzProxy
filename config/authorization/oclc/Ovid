@@ -1,0 +1,54 @@
+# http://www.oclc.org/support/services/ezproxy/documentation/db/ovid.en.html
+
+# When using Ovid without content from Primal Pictures, the following shorter database definition should be used in config.txt:
+Title Ovid
+URL http://ovidsp.ovid.com/autologin.html
+Host https://ovidsp.ovid.com
+Host ovidsp.ovid.com
+Host ovidsp.tx.ovid.com
+Host gateway.ovid.com
+Host gateway.tx.ovid.com
+Host www.anatomy.tv
+Host anatomy.tv
+Host nursing.ovid.com
+Host https://anatomy.tv
+Host https://secure.anatomy.tv
+DJ ovid.com
+DJ anatomy.tv
+Find returnUrl=http://
+Replace returnUrl=http://^A
+Find id="returnUrl" value="http://
+Replace id="returnUrl" value="http://^A
+
+# When using Ovid with content from Primal Pictures, the following longer database definition should be used in config.txt:
+#
+#     Title Ovid including Primal Pictures
+#     URL http://ovidsp.ovid.com/autologin.html
+#     Host https://ovidsp.ovid.com
+#     Host ovidsp.tx.ovid.com
+#     Host gateway.ovid.com
+#     Host anatomy.tv
+#     Host https://anatomy.tv
+#     Host https://secure.anatomy.tv
+#     DJ ovid.com
+#     DJ anatomy.tv
+#     Find returnUrl=http://
+#     Replace returnUrl=http://^A
+#     Find id="returnUrl" value="http://
+#     Replace id="returnUrl" value="http://^A
+#
+# Linux 2.6 kernels and PDF files
+#
+# Some institutions using Linux 2.6 kernels have encountered problems accessing Ovid PDF files. These problems occur with any attempt to access the PDF files, whether directly from a browser on the Linux server or through EZproxy. The conflict appears to be a bug in the packet inspection performed by iptables, as disabling iptables resolves the issue, yet reactivating iptables with even a simple rule to allow all traffic to pass recreates the issue. This problem appears to have a hardware component, as institutions have reported the problem manifesting on certain hardware configurations, but not others.
+#
+# If you suspect this issue, start by issuing the Linux command:
+#
+#     uname -r
+#
+# which will display your kernel version, which will look similar to "2.6.9-67.0.15.EL". In this example, 2 is the version of the kernel, 6 is the major revision, and 9 is the minor revision.
+#
+# Linux 2.6 kernels at minor revision 21 (2.6.21) and above are reported to have this issue resolved.
+#
+# If your institution is using Linux and encountering this behavior, you can verify the issue by launching a browser on the EZproxy server and trying to access a PDF document directly. If this fails, you can disable iptables and retest.
+#
+# Since this issue exists in the operating system, there are no changes to EZproxy that can correct this issue.

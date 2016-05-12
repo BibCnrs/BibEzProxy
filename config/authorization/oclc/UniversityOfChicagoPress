@@ -1,0 +1,11 @@
+# http://www.oclc.org/support/services/ezproxy/documentation/db/uchicago.en.html
+
+Option DomainCookieOnly
+T University of Chicago Press Journals
+U http://www.journals.uchicago.edu
+HJ www.journals.uchicago.edu
+HJ journals.uchicago.edu
+DJ uchicago.edu
+Option Cookie
+
+#In order to allow users to create accounts, log in, and save favorite articles and citations, EZproxy also requires SSL Configuration.
