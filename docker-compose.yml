@@ -4,9 +4,6 @@ services:
         image: bibcnrs/ezproxy:6.1.10
         volumes:
             - ./config:/usr/local/ezproxy/config
-        environment:
-            http_proxy: ${http_proxy}
-            https_proxy: ${https_proxy}
         ports:
             - 80
             - 443
@@ -16,6 +13,8 @@ services:
             service: ezproxy
         environment:
             env: DEV
+            http_proxy: ${http_proxy}
+            https_proxy: ${https_proxy}
             DNS_ADDR: dnsmasq
             ADMIN_LOGIN: 'admin'
             ADMIN_PASSWORD: 'admin'
