@@ -1,0 +1,94 @@
+# FOURNISSEURS
+# ============
+
+# BMJ LICENCES NATIONALES ISTEX
+IncludeFile authorization/oclc/BMJJournals
+
+# BRILL LICENCES NATIONALES ISTEX
+# BRILL NEW PAULY LICENCES NATIONALES ISTEX
+IncludeFile authorization/oclc/BrillOnline
+
+# CLASSIQUES GARNIER EBOOK 2013 LICENCE NATIONALE
+# CLASSIQUES GARNIER NUMERIQUE EBOOK LICENCE NATIONALE
+IncludeFile authorization/other/ClassiquesGarnier
+
+# DE GRUYTER LICENCES NATIONALES ISTEX
+IncludeFile authorization/oclc/DeGruyterOnline
+
+# ELSEVIER ARCH NEGOCIATION NATIONALE
+# ELSEVIER LICENCES NATIONALES ISTEX
+# ELSEVIER MONOS NEGOCIATIONS NATIONALES
+# ELSEVIER NEGOCIATION NATIONALE
+# ELSEVIER EBOOK ARCH NEGOCIATION NATIONALE
+# ELSEVIER EBOOK PRE-2007 NEGOCIATION NATIONALE
+# ELSEVIER EBOOK REFERENCE WORKS 2015 BIBLIOSITES
+# ELSEVIER EBOOK REFERENCE WORKS NEGOCIATION NATIONALE
+# ELSEVIER EI EBOOK ARCH NEGOCIATION NATIONALE
+IncludeFile authorization/oclc/ElsevierHealthJournals
+IncludeFile authorization/oclc/ElsevierScienceDirectAndScopus
+
+# EMERALD LICENCES NATIONALES ISTEX
+IncludeFile authorization/oclc/EmeraldInsight
+
+# EMS NEGOCIATIONS NATIONALES
+IncludeFile authorization/other/EMSPublishingHouse
+
+# IOP PUBLISHING LICENCES NATIONALES ISTEX
+IncludeFile authorization/oclc/InstituteOfPhysics
+
+# NPG LICENCES NATIONALES ISTEX
+# NPG NEGOCIATIONS NATIONALES
+IncludeFile authorization/oclc/NaturePublishing
+
+# OPENEDITION BOOKS EBOOK BIBLIOSITES
+IncludeFile authorization/oclc/OpenEdition
+
+# OVID NEGOCIATIONS NATIONALES
+IncludeFile authorization/oclc/Ovid
+
+# OUP LICENCES NATIONALES ISTEX
+IncludeFile authorization/oclc/OxfordJournals
+
+# RSC LICENCES NATIONALES ISTEX
+IncludeFile authorization/oclc/RoyalSocietyOfChemistry
+
+# SAGE LICENCES NATIONALES ISTEX
+IncludeFile authorization/oclc/SagePublications
+
+# SPRINGER ARCH NEGOCIATION NATIONALE
+# SPRINGER NEGOCIATIONS NATIONALES
+# SPRINGER ARCH EBOOK LICENCE NATIONALE
+# SPRINGER EBOOK 2015 BIBLIOSITES
+# SPRINGER EBOOK NEGOCIATION NATIONALE
+IncludeFile authorization/oclc/SpringerLink
+
+# WILEY LICENCES NATIONALES ISTEX
+IncludeFile authorization/oclc/WileyOnlineLibrary
+
+
+
+# BASES DE DONNEES
+# ================
+IncludeFile authorization/oclc/ChadwyckDatabase
+IncludeFile authorization/oclc/Crossref
+IncludeFile authorization/oclc/GaleInfoTrac
+IncludeFile authorization/oclc/InCites
+IncludeFile authorization/oclc/Reaxys
+IncludeFile authorization/oclc/WebOfKnowledge
+
+
+
+# FOURNISSEUR INIST
+# =================
+IncludeFile authorization/inist/Inist
+IncludeFile authorization/inist/Istex
+IncludeFile authorization/inist/IstexAPI
+IncludeFile authorization/inist/Panist
+IncludeFile authorization/inist/Refdoc
+
+
+
+# AUTRES
+# ======
+IncludeFile authorization/other/OclcFirstSearch
+IncludeFile authorization/oclc/Crossref

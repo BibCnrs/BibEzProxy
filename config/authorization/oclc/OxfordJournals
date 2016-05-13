@@ -1,0 +1,1206 @@
+# http://www.oclc.org/support/services/ezproxy/documentation/db/oxfordjournals.en.html
+
+# 2016-01-19
+
+#            Oxford Journals
+#   A division of Oxford University Press
+#   -------------------------------------
+#   This file contains database definitions
+#      for use in an EZProxy config file.
+#
+#   This cfg file can be called into an existing
+#     EZProxy config file by using IncludeFile.
+#     More information on this is available at
+# http://www.oclc.org/support/documentation/ezproxy/cfg/includefile/
+#
+#     The current list of Oxford Journals is available at
+#       http://www.oxfordjournals.org/our_journals/
+#
+#   Some journals have been given an oupjournals.org line
+#        to support historic links to that domain
+#
+#   The end of the file also contains a list of
+#    non-journal sites and historical redirects
+#
+#          Questions can be addressed to
+#         jnls.eprod@oxfordjournals.org
+#   -------------------------------------
+
+Title Oxford Journals
+URL http://www.oxfordjournals.org
+Domain oxfordjournals.org
+DJ oxfordjournals.org
+
+# Acta Biochimica et Biophysica Sinica
+Host abbs.oxfordjournals.org
+
+# Adaptation
+Host adaptation.oxfordjournals.org
+
+# Aesthetic Surgery Journal
+Host asj.oxfordjournals.org
+
+# African Affairs
+Host afraf.oxfordjournals.org
+
+# Age and Ageing
+Host ageing.oxfordjournals.org
+
+# AIBS Bulletin
+Host aibsbulletin.oxfordjournals.org
+
+# Alcohol and Alcoholism
+Host alcalc.oxfordjournals.org
+
+# American Entomologist
+Host ae.oxfordjournals.org
+
+# The American Historical Review
+Host ahr.oxfordjournals.org
+
+# American Journal of Epidemiology
+Host aje.oxfordjournals.org
+
+# American Journal of Agricultural Economics
+Host ajae.oxfordjournals.org
+
+# American Journal of Clinical Pathology
+Host ajcp.oxfordjournals.org
+
+# American Journal of Hypertension
+Host ajh.oxfordjournals.org
+
+# The American Journal of Jurisprudence
+Host ajj.oxfordjournals.org
+
+# American Journal of Legal History
+Host ajlh.oxfordjournals.org
+
+# American Law and Economics Review
+Host aler.oxfordjournals.org
+
+# American Literary History
+Host alh.oxfordjournals.org
+
+# American Zoologist
+Host az.oxfordjournals.org
+
+# Analysis
+Host analysis.oxfordjournals.org
+
+# Annals of Botany
+Host aob.oxfordjournals.org
+
+# The Annals of Occupational Hygiene
+Host annhyg.oxfordjournals.org
+
+# Annals of Oncology
+Host annonc.oxfordjournals.org
+
+# Annals of the Entomological Society of America
+Host aesa.oxfordjournals.org
+
+# AoB PLANTS
+Host aobpla.oxfordjournals.org
+
+# Applied Economic Perspectives and Policy
+Host aepp.oxfordjournals.org
+
+# Applied Linguistics
+Host applij.oxfordjournals.org
+
+# Applied Mathematics Research eXpress
+Host amrx.oxfordjournals.org
+
+# Arbitration International
+Host arbitration.oxfordjournals.org
+
+# Arbitration Law Reports and Review
+Host alrr.oxfordjournals.org
+
+# Archives of Clinical Neuropsychology
+Host acn.oxfordjournals.org
+
+# Aristotelian Society Supplementary Volume
+Host aristoteliansupp.oxfordjournals.org
+
+# Arthropod Management Tests
+Host amt.oxfordjournals.org
+
+# Astronomy & Geophysics
+Host astrogeo.oxfordjournals.org
+
+# Background
+Host background.oxfordjournals.org
+
+# Background on World Politics
+Host backgroundwp.oxfordjournals.org
+
+# Behavioral Ecology
+Host beheco.oxfordjournals.org
+
+# Bioinformatics
+Host bioinformatics.oxfordjournals.org
+
+# Biometrika
+Host biomet.oxfordjournals.org
+
+# BioScience
+Host bioscience.oxfordjournals.org
+
+# Bioscience Horizons: The International Journal of Student Research
+Host biohorizons.oxfordjournals.org
+
+# Biostatistics
+Host biostatistics.oxfordjournals.org
+
+# BJA: British Journal of Anaesthesia
+Host bja.oxfordjournals.org
+
+# Brain
+Host brain.oxfordjournals.org
+
+# Briefings in Bioinformatics
+Host bib.oxfordjournals.org
+
+# Briefings in Functional Genomics
+Host bfg.oxfordjournals.org
+
+# The British Journal of Aesthetics
+Host bjaesthetics.oxfordjournals.org
+
+# The British Journal of Criminology
+Host bjc.oxfordjournals.org
+
+# The British Journal for the Philosophy of Science
+Host bjps.oxfordjournals.org
+
+# The British Journal of Social Work
+Host bjsw.oxfordjournals.org
+
+# British Medical Bulletin
+Host bmb.oxfordjournals.org
+
+# British Yearbook of International Law
+Host bybil.oxfordjournals.org
+
+# Bulletin of the Entomological Society of America
+Host besa.oxfordjournals.org
+
+# Bulletin of the London Mathematical Society
+Host blms.oxfordjournals.org
+
+# Cambridge Journal of Economics
+Host cje.oxfordjournals.org
+
+# Cambridge Journal of Regions, Economy and Society
+Host cjres.oxfordjournals.org
+
+# The Cambridge Quarterly
+Host camqtly.oxfordjournals.org
+
+# Capital Markets Law Journal
+Host cmlj.oxfordjournals.org
+
+# Carcinogenesis
+Host carcin.oxfordjournals.org
+
+# Cardiovascular Research
+Host cardiovascres.oxfordjournals.org
+
+# Cerebral Cortex
+Host cercor.oxfordjournals.org
+
+# CESifo Economic Studies
+Host cesifo.oxfordjournals.org
+
+# Chemical Senses
+Host chemse.oxfordjournals.org
+
+# Children & Schools
+Host cs.oxfordjournals.org
+
+# The Chinese Journal of Comparative Law
+Host cjcl.oxfordjournals.org
+
+# Chinese Journal of International Law
+Host chinesejil.oxfordjournals.org
+
+# The Chinese Journal of International Politics
+Host cjip.oxfordjournals.org
+
+# Christian bioethics: Non-Ecumenical Studies in Medical Morality
+Host cb.oxfordjournals.org
+
+# Classical Receptions Journal
+Host crj.oxfordjournals.org
+
+# Clinical Infectious Diseases
+Host cid.oxfordjournals.org
+
+# Clinical Kidney Journal
+Host ckj.oxfordjournals.org
+
+# Community Development Journal
+Host cdj.oxfordjournals.org
+
+# The Computer Journal
+Host comjnl.oxfordjournals.org
+
+# Conservation Physiology
+Host conphys.oxfordjournals.org
+
+# Contemporary Women's Writing
+Host cww.oxfordjournals.org
+
+# Continuing Education in Anaesthesia, Critical Care & Pain
+Host ceaccp.oxfordjournals.org
+
+# Contributions to Political Economy
+Host cpe.oxfordjournals.org
+
+# Current Legal Problems
+Host clp.oxfordjournals.org
+
+# Current Zoology
+Host cz.oxfordjournals.org
+
+# Database
+Host database.oxfordjournals.org
+
+# Digital Scholarship in the Humanities
+Host dsh.oxfordjournals.org
+
+# Diplomatic History
+Host dh.oxfordjournals.org
+
+# DNA Research
+Host dnaresearch.oxfordjournals.org
+
+# Dynamics and Statistics of the Climate System
+Host climatesystem.oxfordjournals.org
+
+# Early Music
+Host em.oxfordjournals.org
+
+# Economic Policy
+Host economicpolicy.oxfordjournals.org
+
+# ELT Journal
+Host eltj.oxfordjournals.org
+
+# English: Journal of the English Association
+Host english.oxfordjournals.org
+
+# The English Historical Review
+Host ehr.oxfordjournals.org
+
+# Enterprise & Society: The International Journal of Business History
+Host es.oxfordjournals.org
+
+# Environmental Entomology
+Host ee.oxfordjournals.org
+
+# Environmental History
+Host envhis.oxfordjournals.org
+
+# Environmental History Review
+Host envihistrevi.oxfordjournals.org
+
+# EP Europace
+Host europace.oxfordjournals.org
+
+# Epidemiologic Reviews
+Host epirev.oxfordjournals.org
+
+# ESHRE Monographs
+Host eshremonographs.oxfordjournals.org
+
+# Essays in Criticism
+Host eic.oxfordjournals.org
+
+# European Heart Journal
+Host eurheartj.oxfordjournals.org
+
+# European Heart Journal - Cardiovascular Pharmacotherapy
+Host ehjcvp.oxfordjournals.org
+
+# European Heart Journal - Cardiovascular Imaging
+Host ehjcimaging.oxfordjournals.org
+
+# European Journal of International Law
+Host ejil.oxfordjournals.org
+
+# European Journal of Cardio-Thoracic Surgery
+Host ejcts.oxfordjournals.org
+
+# European Journal of Orthodontics
+Host ejo.oxfordjournals.org
+
+# European Journal of Public Health
+Host eurpub.oxfordjournals.org
+
+# European Review of Agricultural Economics
+Host erae.oxfordjournals.org
+
+# European Review of Economic History
+Host ereh.oxfordjournals.org
+
+# European Sociological Review
+Host esr.oxfordjournals.org
+
+# Evolution, Medicine, and Public Health
+Host emph.oxfordjournals.org
+
+# Family Practice
+Host fampra.oxfordjournals.org
+
+# FEMS Immunology & Medical Microbiology
+Host femsim.oxfordjournals.org
+
+# FEMS Microbiology Ecology
+Host femsec.oxfordjournals.org
+
+# FEMS Microbiology Immunology
+Host femsmi.oxfordjournals.org
+
+# FEMS Microbiology Letters
+Host femsle.oxfordjournals.org
+
+# FEMS Microbiology Reviews
+Host femsre.oxfordjournals.org
+
+# FEMS Yeast Research
+Host femsyr.oxfordjournals.org
+
+# Foreign Policy Analysis
+Host fpa.oxfordjournals.org/
+
+# Forest & Conservation History
+Host foreconshist.oxfordjournals.org
+
+# Forestry: An International Journal of Forest Research
+Host forestry.oxfordjournals.org
+
+# Forum for Modern Language Studies
+Host fmls.oxfordjournals.org
+
+# French History
+Host fh.oxfordjournals.org
+
+# French Studies
+Host fs.oxfordjournals.org
+
+# French Studies Bulletin
+Host fsb.oxfordjournals.org
+
+# Gastroenterology Report
+Host gastro.oxfordjournals.org
+
+# Genome Biology and Evolution
+Host gbe.oxfordjournals.org
+
+# Geophysical Journal International
+Host gji.oxfordjournals.org
+
+# Geophysical Supplements to the Monthly Notices of the Royal Astronomical Society
+Host gsmnras.oxfordjournals.org
+
+# German History
+Host gh.oxfordjournals.org
+
+# The Gerontologist
+Host gerontologist.oxfordjournals.org
+
+# Global Summitry
+Host globalsummitry.oxfordjournals.org
+
+# Glycobiology
+Host glycob.oxfordjournals.org
+
+# Health & Social Work
+Host hsw.oxfordjournals.org
+
+# Health Education Research
+Host her.oxfordjournals.org
+
+# Health Policy and Planning
+Host heapol.oxfordjournals.org
+
+# Health Promotion International
+Host heapro.oxfordjournals.org
+
+# History Workshop Journal
+Host hwj.oxfordjournals.org
+
+# Holocaust and Genocide Studies
+Host hgs.oxfordjournals.org
+
+# Human Molecular Genetics
+Host hmg.oxfordjournals.org
+
+# Human Reproduction
+Host humrep.oxfordjournals.org
+
+# Human Reproduction Update
+Host humupd.oxfordjournals.org
+
+# Human Rights Law Review
+Host hrlr.oxfordjournals.org
+
+# ICES Journal of Marine Science
+Host icesjms.oxfordjournals.org
+
+# ICSID Review - Foreign Investment Law Journal
+Host icsidreview.oxfordjournals.org
+
+# ILAR Journal
+Host ilarjournal.oxfordjournals.org
+
+# IMA Journal of Applied Mathematics
+Host imamat.oxfordjournals.org
+
+# IMA Journal of Management Mathematics
+Host imaman.oxfordjournals.org
+
+# IMA Journal of Mathematical Control and Information
+Host imamci.oxfordjournals.org
+
+# IMA Journal of Numerical Analysis
+Host imajna.oxfordjournals.org
+
+# Industrial and Corporate Change
+Host icc.oxfordjournals.org
+
+# Industrial Law Journal
+Host ilj.oxfordjournals.org
+
+# Information and Inference: A Journal of the IMA
+Host imaiai.oxfordjournals.org
+
+# Integrative and Comparative Biology
+Host icb.oxfordjournals.org
+
+# Interacting with Computers
+Host iwc.oxfordjournals.org
+
+# Interactive CardioVascular and Thoracic Surgery
+Host icvts.oxfordjournals.org
+
+# Interdisciplinary Studies in Literature and Environment
+Host isle.oxfordjournals.org
+
+# International Data Privacy Law
+Host idpl.oxfordjournals.org
+
+# International Health
+Host inthealth.oxfordjournals.org
+
+# International Immunology
+Host intimm.oxfordjournals.org
+
+# International Immunology Meeting Abstracts
+Host intimmabs.oxfordjournals.org
+
+# International Journal of Constitutional Law
+Host icon.oxfordjournals.org
+
+# International Journal of Epidemiology
+Host ije.oxfordjournals.org
+
+# International Journal of Law and Information Technology
+Host ijlit.oxfordjournals.org
+
+# International Journal of Law, Policy and the Family
+Host lawfam.oxfordjournals.org
+
+# International Journal of Lexicography
+Host ijl.oxfordjournals.org
+
+# International Journal of Low-Carbon Technologies
+Host ijlct.oxfordjournals.org
+
+# International Journal of Neuropsychopharmacology
+Host ijnp.oxfordjournals.org
+
+# International Journal of Public Opinion Research
+Host ijpor.oxfordjournals.org
+
+# International Journal for Quality in Health Care
+Host intqhc.oxfordjournals.org
+
+# International Journal of Refugee Law
+Host ijrl.oxfordjournals.org
+
+# International Journal of Transitional Justice
+Host ijtj.oxfordjournals.org
+
+# International Mathematics Research Notices
+Host imrn.oxfordjournals.org
+
+# International Mathematics Research Papers
+Host imrp.oxfordjournals.org
+
+# International Mathematics Research Surveys
+Host imrs.oxfordjournals.org
+
+# International Political Sociology
+Host ips.oxfordjournals.org/
+
+# International Relations of the Asia-Pacific
+Host irap.oxfordjournals.org
+
+# International Studies Perspectives
+Host isp.oxfordjournals.org
+
+# International Studies Quarterly
+Host isq.oxfordjournals.org/
+
+# International Studies Review
+Host isr.oxfordjournals.org/
+
+# ITNOW
+Host itnow.oxfordjournals.org
+
+# Japanese Journal of Clinical Oncology
+Host jjco.oxfordjournals.org
+
+# Jerusalem Review of Legal Studies
+Host jrls.oxfordjournals.org
+
+# Journal of African Economies
+Host jae.oxfordjournals.org
+
+# Journal of the American Academy of Religion
+Host jaar.oxfordjournals.org
+
+# Journal of American History
+Host jah.oxfordjournals.org
+
+# Journal of the American Medical Informatics Association
+Host jamia.oxfordjournals.org
+
+# Journal of Analytical Toxicology
+Host jat.oxfordjournals.org
+
+# Journal of Antimicrobial Chemotherapy
+Host jac.oxfordjournals.org
+
+# Journal of Antitrust Enforcement
+Host antitrust.oxfordjournals.org
+
+# The Journal of Applied Poultry Research
+Host japr.oxfordjournals.org
+
+# The Journal of Biochemistry
+Host jb.oxfordjournals.org
+
+# Journal of Chromatographic Science
+Host chromsci.oxfordjournals.org
+
+# Journal of Church and State
+Host jcs.oxfordjournals.org
+
+# Journal of Competition Law & Economics
+Host jcle.oxfordjournals.org
+
+# Journal of Complex Networks
+Host comnet.oxfordjournals.org
+
+# Journal of Conflict and Security Law
+Host jcsl.oxfordjournals.org
+
+# Journal of Consumer Research
+Host jcr.oxfordjournals.org
+
+# Journal of Crohn's and Colitis
+Host ecco-jcc.oxfordjournals.org
+
+# Journal of Crohn's and Colitis Supplements
+Host ecco-jccs.oxfordjournals.org
+
+#Journal of Cybersecurity
+Host cybersecurity.oxfordjournals.org
+
+# The Journal of Deaf Studies and Deaf Education
+Host jdsde.oxfordjournals.org
+
+# Journal of Design History
+Host jdh.oxfordjournals.org
+
+# Journal of Economic Entomology
+Host jee.oxfordjournals.org
+
+# Journal of Economic Geography
+Host joeg.oxfordjournals.org
+
+# Journal of Environmental Law
+Host jel.oxfordjournals.org
+
+# Journal of European Competition Law & Practice
+Host jeclap.oxfordjournals.org
+
+# Journal of Experimental Botany
+Host jxb.oxfordjournals.org
+
+# Journal of Financial Econometrics
+Host jfec.oxfordjournals.org
+
+# Journal of Financial Regulation
+Host jfr.oxfordjournals.org
+
+# Journal of Gerontology
+Host geronj.oxfordjournals.org
+
+# The Journals of Gerontology: Series A
+Host biomedgerontology.oxfordjournals.org
+
+# The Journals of Gerontology: Series B
+Host psychsocgerontology.oxfordjournals.org
+
+# Journal of Global Security Studies
+Host jogss.oxfordjournals.org
+
+# Journal of Heredity
+Host jhered.oxfordjournals.org
+
+# The Journal of Hindu Studies
+Host jhs.oxfordjournals.org
+
+# Journal of Hip Preservation Surgery
+Host jhps.oxfordjournals.org
+
+# Journal of the History of Collections
+Host jhc.oxfordjournals.org
+
+# Journal of the History of Medicine and Allied Sciences
+Host jhmas.oxfordjournals.org
+
+# Journal of Human Rights Practice
+Host jhrp.oxfordjournals.org
+
+# The Journal of Infectious Diseases
+Host jid.oxfordjournals.org
+
+# Journal of Insect Science
+Host jinsectscience.oxfordjournals.org
+
+# Journal of Integrable Systems
+Host integrablesystems.oxfordjournals.org
+
+# Journal of Integrated Pest Management
+Host jipm.oxfordjournals.org
+
+# Journal of Intellectual Property Law & Practice
+Host jiplp.oxfordjournals.org
+
+# Journal of the International Commission on Radiation Units and Measurements
+Host jicru.oxfordjournals.org
+
+# Journal of International Criminal Justice
+Host jicj.oxfordjournals.org
+
+# Journal of International Dispute Settlement
+Host jids.oxfordjournals.org
+
+# Journal of International Economic Law
+Host jiel.oxfordjournals.org
+
+# Journal of Islamic Studies
+Host jis.oxfordjournals.org
+
+# Journal of Language Evolution
+Host jole.oxfordjournals.org
+
+# Journal of Law and the Biosciences
+Host jlb.oxfordjournals.org
+
+# The Journal of Law, Economics, and Organization
+Host jleo.oxfordjournals.org
+
+# Journal of Legal Analysis
+Host jla.oxfordjournals.org
+
+# Journal of Logic and Computation
+Host logcom.oxfordjournals.org
+
+# Journal of the London Mathematical Society
+Host jlms.oxfordjournals.org
+
+# Journal of Mammalogy
+Host jmammal.oxfordjournals.org
+
+# Journal of Medical and Veterinary Mycology
+Host jmvm.oxfordjournals.org
+
+# Journal of Medical Entomology
+Host jme.oxfordjournals.org
+
+# The Journal of Medicine and Philosophy: A Forum for Bioethics and Philosophy of Medicine
+Host jmp.oxfordjournals.org
+
+# Journal of Molecular Cell Biology
+Host jmcb.oxfordjournals.org
+
+# Journal of Molluscan Studies
+Host mollus.oxfordjournals.org
+
+# Journal of Music Therapy
+Host jmt.oxfordjournals.org
+
+# JNCI: Journal of the National Cancer Institute
+Host jnci.oxfordjournals.org
+
+# JNCI Monographs
+Host jncimono.oxfordjournals.org
+
+# Journal of Neuropathology & Experimental Neurology
+Host jnen.oxfordjournals.org
+
+# Journal of the Pediatric Infectious Diseases Society
+Host jpids.oxfordjournals.org
+
+# Journal of Pediatric Psychology
+Host jpepsy.oxfordjournals.org
+
+# Journal of Petrology
+Host petrology.oxfordjournals.org
+
+# Journal of Plankton Research
+Host plankt.oxfordjournals.org
+
+# Journal of Plant Ecology
+Host jpe.oxfordjournals.org
+
+# Journal of Professions and Organization
+Host jpo.oxfordjournals.org
+
+# Journal of Public Administration Research and Theory
+Host jpart.oxfordjournals.org
+
+# Journal of Public Health
+Host jpubhealth.oxfordjournals.org
+
+# Journal of Radiation Research
+Host jrr.oxfordjournals.org
+
+# Journal of Refugee Studies
+Host jrs.oxfordjournals.org
+
+# Journal of Semantics
+Host jos.oxfordjournals.org
+
+# Journal of Semitic Studies
+Host jss.oxfordjournals.org
+
+# Journal of Social History
+Host jsh.oxfordjournals.org
+
+# Journal of Surgical Case Reports
+Host jscr.oxfordjournals.org
+
+# Journal of Survey Statistics and Methodology
+Host jssam.oxfordjournals.org
+
+# The Journal of Theological Studies
+Host jts.oxfordjournals.org
+
+# Journal of Topology
+Host jtopol.oxfordjournals.org
+
+# Journal of Tropical Pediatrics
+Host tropej.oxfordjournals.org
+
+# Journal of Travel Medicine
+Host jtm.oxfordjournals.org
+
+# The Journal of World Energy Law & Business
+Host jwelb.oxfordjournals.org
+
+# Laboratory Medicine
+Host labmed.oxfordjournals.org
+
+# Law, Probability and Risk
+Host lpr.oxfordjournals.org
+
+# The Leo Baeck Institute Yearbook
+Host leobaeck.oxfordjournals.org
+
+# The Library
+Host library.oxfordjournals.org
+
+# Literary Imagination
+Host litimag.oxfordjournals.org
+
+# Literary and Linguistic Computing
+Host llc.oxfordjournals.org
+
+# Literature and Theology
+Host litthe.oxfordjournals.org
+
+# Logic Journal of the IGPL
+Host jigpal.oxfordjournals.org
+
+# London Review of International Law
+Host lril.oxfordjournals.org
+
+# Mammalian Species
+Host mspecies.oxfordjournals.org
+
+# Mathematical Medicine and Biology: A Journal of the IMA
+Host imammb.oxfordjournals.org
+
+# Medical Law Review
+Host medlaw.oxfordjournals.org
+
+# Medical Mycology
+Host mmy.oxfordjournals.org
+
+# MELUS: Multi-Ethnic Literature of the United States
+Host melus.oxfordjournals.org
+
+# Mershon International Studies Review
+Host misr.oxfordjournals.org
+
+# MHR: Basic science of reproductive medicine
+Host molehr.oxfordjournals.org
+
+# Microscopy
+Host jmicro.oxfordjournals.org
+
+# Migration Studies
+Host migration.oxfordjournals.org
+
+# Mind
+Host mind.oxfordjournals.org
+
+# Modern Judaism - A Journal of Jewish Ideas and Experience
+Host mj.oxfordjournals.org
+
+# Molecular Biology and Evolution
+Host mbe.oxfordjournals.org
+
+# Molecular Plant
+Host mplant.oxfordjournals.org
+
+# Monthly Notices of the Royal Astronomical Society
+Host mnras.oxfordjournals.org
+
+# Monthly Notices of the Royal Astronomical Society: Letters
+Host mnrasl.oxfordjournals.org
+
+# Multimedia Manual of Cardio-Thoracic Surgery
+Host mmcts.oxfordjournals.org
+
+# Music and Letters
+Host ml.oxfordjournals.org
+
+# Music Theory Spectrum
+Host mts.oxfordjournals.org
+
+# Music Therapy
+Host musictherapy.oxfordjournals.org
+
+# Music Therapy Perspectives
+Host mtp.oxfordjournals.org
+
+# The Musical Quarterly
+Host mq.oxfordjournals.org
+
+# Mutagenesis
+Host mutage.oxfordjournals.org
+
+# National Science Review
+Host nsr.oxfordjournals.org
+
+# Nephrology Dialysis Transplantation
+Host ndt.oxfordjournals.org
+
+# Neuro-Oncology
+Host neuro-oncology.oxfordjournals.org
+
+# Neuro-Oncology Practice
+Host nop.oxfordjournals.org
+
+# Neuroscience of Consciousness
+Host nc.oxfordjournals.org
+
+# Nicotine and Tobacco Research
+Host ntr.oxfordjournals.org
+
+# Notes and Queries
+Host nq.oxfordjournals.org
+
+# Nucleic Acids Research
+Host nar.oxfordjournals.org
+
+# Nutrition Reviews
+Host nutritionreviews.oxfordjournals.org
+
+# Nucleic Acids Symposium Series
+Host nass.oxfordjournals.org
+
+# OAH Magazine of History
+Host maghis.oxfordjournals.org
+
+# Occupational Medicine
+Host occmed.oxfordjournals.org
+
+# Open Forum Infectious Diseases
+Host ofid.oxfordjournals.org
+
+# The Opera Quarterly
+Host oq.oxfordjournals.org
+
+# The Oral History Review
+Host ohr.oxfordjournals.org
+
+# Oxford Art Journal
+Host oaj.oxfordjournals.org
+
+# Oxford Economic Papers
+Host oep.oxfordjournals.org
+
+# Oxford Journal of Law and Religion
+Host ojlr.oxfordjournals.org
+
+# Oxford Journal of Legal Studies
+Host ojls.oxfordjournals.org
+
+# Oxford Medical Case Reports
+Host omcr.oxfordjournals.org
+
+# Oxford Review of Economic Policy
+Host oxrep.oxfordjournals.org
+
+# Pain Medicine
+Host painmedicine.oxfordjournals.org
+
+# Parliamentary Affairs
+Host pa.oxfordjournals.org
+
+# Past & Present
+Host past.oxfordjournals.org
+
+# Pathogens and Disease
+Host femspd.oxfordjournals.org
+
+# Philosophia Mathematica
+Host philmat.oxfordjournals.org
+
+# The Philosophical Quarterly
+Host pq.oxfordjournals.org
+
+# Plant and Cell Physiology
+Host pcp.oxfordjournals.org
+
+# Policing: A Journal of Policy and Practice
+Host policing.oxfordjournals.org
+
+# Political Analysis
+Host pan.oxfordjournals.org
+
+# Poultry Science
+Host ps.oxfordjournals.org
+
+# Proceedings of the Aristotelian Society
+Host aristotelian.oxfordjournals.org
+
+# Proceedings of the London Mathematical Society
+Host plms.oxfordjournals.org
+
+# Progress of Theoretical Physics
+Host ptp.oxfordjournals.org
+
+# Progress of Theoretical Physics Supplement
+Host ptps.oxfordjournals.org
+
+# Progress of Theoretical and Experimental Physics
+Host ptep.oxfordjournals.org
+
+# Protein Engineering, Design and Selection
+Host peds.oxfordjournals.org
+
+# Public Health Ethics
+Host phe.oxfordjournals.org
+
+# Public Opinion Quarterly
+Host poq.oxfordjournals.org
+
+# Public Policy & Aging Report
+Host ppar.oxfordjournals.org
+
+# Publications of the Astronomical Society of Japan
+Host pasj.oxfordjournals.org
+
+# Publius: The Journal of Federalism
+Host publius.oxfordjournals.org
+
+# QJM: An International Journal of Medicine
+Host qjmed.oxfordjournals.org
+
+# The Quarterly Journal of Economics
+Host qje.oxfordjournals.org
+
+# The Quarterly Journal of Mathematics
+Host qjmath.oxfordjournals.org
+
+# The Quarterly Journal of Mechanics and Applied Mathematics
+Host qjmam.oxfordjournals.org
+
+# Radiation Protection Dosimetry
+Host rpd.oxfordjournals.org
+
+# Refugee Survey Quarterly
+Host rsq.oxfordjournals.org
+
+# Regenerative Biomaterials
+Host rb.oxfordjournals.org
+
+# Reports of Patent, Design and Trade Mark Cases
+Host rpc.oxfordjournals.org
+
+# Research Evaluation
+Host rev.oxfordjournals.org
+
+# The Review of Asset Pricing Studies
+Host raps.oxfordjournals.org
+
+# The Review of Corporate Finance Studies
+Host rcfs.oxfordjournals.org
+
+# The Review of Economic Studies
+Host restud.oxfordjournals.org
+
+# The Review of English Studies
+Host res.oxfordjournals.org
+
+# Review of Environmental Economics and Policy
+Host reep.oxfordjournals.org
+
+# Review of Finance
+Host rof.oxfordjournals.org
+
+# The Review of Financial Studies
+Host rfs.oxfordjournals.org
+
+# Rheumatology
+Host rheumatology.oxfordjournals.org
+
+# Sabouraudia
+Host sabouraudia.oxfordjournals.org
+
+# Schizophrenia Bulletin
+Host schizophreniabulletin.oxfordjournals.org
+
+# Science and Public Policy
+Host spp.oxfordjournals.org
+
+# Screen
+Host screen.oxfordjournals.org
+
+# Social Cognitive and Affective Neuroscience
+Host scan.oxfordjournals.org
+
+# Social Forces
+Host sf.oxfordjournals.org
+
+# Social History of Medicine
+Host shm.oxfordjournals.org
+
+# Social Politics: International Studies in Gender, State & Society
+Host sp.oxfordjournals.org
+
+# Social Problems
+Host socpro.oxfordjournals.org
+
+# Social Science Japan Journal
+Host ssjj.oxfordjournals.org
+
+# Social Work
+Host sw.oxfordjournals.org
+
+# Social Work Research
+Host swr.oxfordjournals.org
+
+# Social Work Research and Abstracts
+Host swra.oxfordjournals.org
+
+# Socio-Economic Review
+Host ser.oxfordjournals.org
+
+# Sociology of Religion
+Host socrel.oxfordjournals.org
+
+# Statute Law Review
+Host slr.oxfordjournals.org
+
+# Systematic Biology
+Host sysbio.oxfordjournals.org
+
+# Teaching Mathematics and its Applications: An International Journal of the IMA
+Host teamat.oxfordjournals.org
+
+# The Monist
+Host monist.oxfordjournals.org
+
+# Toxicological Sciences
+Host toxsci.oxfordjournals.org
+
+# Transactions of the London Mathematical Society
+Host tlms.oxfordjournals.org
+
+# Transactions of The Royal Society of Tropical Medicine and Hygiene
+Host trstmh.oxfordjournals.org
+
+# Tree Physiology
+Host treephys.oxfordjournals.org
+
+# Trusts & Trustees
+Host tandt.oxfordjournals.org
+
+# Twentieth Century British History
+Host tcbh.oxfordjournals.org
+
+# Uniform Law Review
+Host ulr.oxfordjournals.org
+
+# Work, Aging and Retirement
+Host workar.oxfordjournals.org
+
+# The World Bank Economic Review
+Host wber.oxfordjournals.org
+
+# The World Bank Research Observer
+Host wbro.oxfordjournals.org
+
+# Virus Evolution
+Host ve.oxfordjournals.org
+
+# Western Historical Quarterly
+Host whq.oxfordjournals.org
+
+# Yearbook of European Law
+Host yel.oxfordjournals.org
+
+# Yearbook of International Environmental Law
+Host yielaw.oxfordjournals.org
+
+# The Year's Work in Critical and Cultural Theory
+Host ywcct.oxfordjournals.org
+
+# The Year's Work in English Studies
+Host ywes.oxfordjournals.org
+
+
+# URL changes, redirects, and non-journals sites
+Host cme.oxfordjournals.org
+Host escjnls.oxfordjournals.org
+Host philosophy.oxfordjournals.org
+Host www.amrx.org
+Host www.cardiovascres.org
+Host www.eurheartj.org
+Host www.eurheartjsupp.org
+Host www.imrn.org
+Host www.imrs.org
+Host www.thebsps.org

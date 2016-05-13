@@ -1,5 +1,0 @@
-Option NoX-Forwarded-For
-U https://www.123library.org
-HJ www.123library.org
-DJ 123library.org
-Option X-Forwarded-For

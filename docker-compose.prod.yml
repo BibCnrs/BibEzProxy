@@ -1,23 +1,132 @@
-insb:
-    extends:
-        file: ./docker-compose.yml
-        service: ezproxy
-    volumes:
-        - ./config:/usr/local/ezproxy/config
-    environment:
-        GATE_SUFFIX: bib.cnrs.fr
-    env_file:
-        - ./env/insb.env
-
-inshs:
-    extends:
-        file: ./docker-compose.yml
-        service: ezproxy
-    volumes:
-        - ./config:/usr/local/ezproxy/config
-    environment:
-        GATE_SUFFIX: bib.cnrs.fr
-    env_file:
-        - ./env/inshs.env
-
-# etc...
+version: '2'
+services:
+    in2p3:
+        extends:
+            file: ./docker-compose.yml
+            service: ezproxy_prod
+        volumes:
+            - ./config:/usr/local/ezproxy/config
+        env_file:
+            - ./env/in2p3.env
+        network_mode: bridge
+        ports:
+            - "192.168.128.201:80:80"
+            - "192.168.128.201:443:443"
+        restart: always
+    inc:
+        extends:
+            file: ./docker-compose.yml
+            service: ezproxy_prod
+        volumes:
+            - ./config:/usr/local/ezproxy/config
+        env_file:
+            - ./env/inc.env
+        network_mode: bridge
+        ports:
+            - "192.168.128.202:80:80"
+            - "192.168.128.202:443:443"
+        restart: always
+    inee:
+        extends:
+            file: ./docker-compose.yml
+            service: ezproxy_prod
+        volumes:
+            - ./config:/usr/local/ezproxy/config
+        env_file:
+            - ./env/inee.env
+        network_mode: bridge
+        ports:
+            - "192.168.128.203:80:80"
+            - "192.168.128.203:443:443"
+        restart: always
+    inp:
+        extends:
+            file: ./docker-compose.yml
+            service: ezproxy_prod
+        volumes:
+            - ./config:/usr/local/ezproxy/config
+        env_file:
+            - ./env/inp.env
+        network_mode: bridge
+        ports:
+            - "192.168.128.204:80:80"
+            - "192.168.128.204:443:443"
+        restart: always
+    ins2i:
+        extends:
+            file: ./docker-compose.yml
+            service: ezproxy_prod
+        volumes:
+            - ./config:/usr/local/ezproxy/config
+        env_file:
+            - ./env/ins2i.env
+        network_mode: bridge
+        ports:
+            - "192.168.128.205:80:80"
+            - "192.168.128.205:443:443"
+        restart: always
+    insb:
+        extends:
+            file: ./docker-compose.yml
+            service: ezproxy_prod
+        volumes:
+            - ./config:/usr/local/ezproxy/config
+        env_file:
+            - ./env/insb.env
+        network_mode: bridge
+        ports:
+            - "192.168.128.206:80:80"
+            - "192.168.128.206:443:443"
+        restart: always
+    inshs:
+        extends:
+            file: ./docker-compose.yml
+            service: ezproxy_prod
+        volumes:
+            - ./config:/usr/local/ezproxy/config
+        env_file:
+            - ./env/inshs.env
+        network_mode: bridge
+        ports:
+            - "192.168.128.207:80:80"
+            - "192.168.128.207:443:443"
+        restart: always
+    insis:
+        extends:
+            file: ./docker-compose.yml
+            service: ezproxy_prod
+        volumes:
+            - ./config:/usr/local/ezproxy/config
+        env_file:
+            - ./env/insis.env
+        network_mode: bridge
+        ports:
+            - "192.168.128.208:80:80"
+            - "192.168.128.208:443:443"
+        restart: always
+    insmi:
+        extends:
+            file: ./docker-compose.yml
+            service: ezproxy_prod
+        volumes:
+            - ./config:/usr/local/ezproxy/config
+        env_file:
+            - ./env/insmi.env
+        network_mode: bridge
+        ports:
+            - "192.168.128.209:80:80"
+            - "192.168.128.209:443:443"
+        restart: always
+    insu:
+        extends:
+            file: ./docker-compose.yml
+            service: ezproxy_prod
+        volumes:
+            - ./config:/usr/local/ezproxy/config
+        env_file:
+            - ./env/insu.env
+        network_mode: bridge
+        ports:
+            - "192.168.128.210:80:80"
+            - "192.168.128.210:443:443"
+        restart: always

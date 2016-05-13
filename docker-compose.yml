@@ -1,9 +1,35 @@
-ezproxy:
-    image: bibcnrs/ezproxy:6.1.10
-    volumes:
-        - ./config:/usr/local/ezproxy/config
-    environment:
-        http_proxy: ${http_proxy}
-        https_proxy: ${https_proxy}
-        EZ_TICKET_SECRET: ${EZ_TICKET_SECRET}
-        EZ_TICKET_URL: ${EZ_TICKET_URL}
+version: '2'
+services:
+    ezproxy:
+        image: bibcnrs/ezproxy:6.1.10
+        volumes:
+            - ./config:/usr/local/ezproxy/config
+        environment:
+            http_proxy: ${http_proxy}
+            https_proxy: ${https_proxy}
+        ports:
+            - 80
+            - 443
+    ezproxy_dev:
+        extends:
+            file: ./docker-compose.yml
+            service: ezproxy
+        environment:
+            env: DEV
+            DNS_ADDR: dnsmasq
+            ADMIN_LOGIN: 'admin'
+            ADMIN_PASSWORD: 'admin'
+            GATE_SUFFIX: bib.cnrs-dev.fr
+            EZ_TICKET_URL: http://localhost:3000/ezticket
+            EZ_TICKET_SECRET: secret
+    ezproxy_prod:
+        extends:
+            file: ./docker-compose.yml
+            service: ezproxy
+        environment:
+            env: PROD
+            ADMIN_LOGIN: ${ADMIN_LOGIN}
+            ADMIN_PASSWORD: ${ADMIN_PASSWORD}
+            GATE_SUFFIX: ${GATE_SUFFIX}
+            EZ_TICKET_URL: ${EZ_TICKET_URL}
+            EZ_TICKET_SECRET: ${EZ_TICKET_SECRET}

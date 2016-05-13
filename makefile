@@ -13,7 +13,7 @@ run-dev: ## run bibezproxy for dev environment
 	docker-compose -f docker-compose.dev.yml up
 
 run-prod: ## run bibezproxy for production environment
-	docker-compose -f docker-compose.prod.yml up
+	docker-compose -f docker-compose.prod.yml up -d
 
 save-ws-key: ## save wskey.key from ezproxy docker image to locale folder
 	docker cp bibezproxy_insb_1:/usr/local/ezproxy/wskey.key ./insb.key

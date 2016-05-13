@@ -1,0 +1,11 @@
+IncludeFile authorization/common.txt
+
+
+
+# FOURNISSEURS
+# ============
+
+
+
+# BASES DE DONNEES
+# ================
