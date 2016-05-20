@@ -20,6 +20,9 @@ services:
         extends:
             file: ./docker-compose.yml
             service: ezproxy_dev
+        volumes:
+            - ./config:/usr/local/ezproxy/config
+            - ./ssl/insb:/usr/local/ezproxy/config/ssl
         links:
             - dnsmasq
         env_file:
@@ -30,6 +33,9 @@ services:
         extends:
             file: ./docker-compose.yml
             service: ezproxy_dev
+        volumes:
+            - ./config:/usr/local/ezproxy/config
+            - ./ssl/inshs:/usr/local/ezproxy/config/ssl
         links:
             - dnsmasq
         env_file:

@@ -1,4 +1,3 @@
-config/ssl
 ezproxy
 *.key
 !env/env.dist

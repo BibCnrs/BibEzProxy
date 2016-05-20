@@ -6,6 +6,7 @@ services:
             service: ezproxy_prod
         volumes:
             - ./config:/usr/local/ezproxy/config
+            - ../ssl/in2p3:/usr/local/ezproxy/config/ssl
         env_file:
             - ./env/in2p3.env
         network_mode: bridge
@@ -19,6 +20,7 @@ services:
             service: ezproxy_prod
         volumes:
             - ./config:/usr/local/ezproxy/config
+            - ../ssl/inc:/usr/local/ezproxy/config/ssl
         env_file:
             - ./env/inc.env
         network_mode: bridge
@@ -32,6 +34,7 @@ services:
             service: ezproxy_prod
         volumes:
             - ./config:/usr/local/ezproxy/config
+            - ../ssl/inee:/usr/local/ezproxy/config/ssl
         env_file:
             - ./env/inee.env
         network_mode: bridge
@@ -45,6 +48,7 @@ services:
             service: ezproxy_prod
         volumes:
             - ./config:/usr/local/ezproxy/config
+            - ../ssl/inp:/usr/local/ezproxy/config/ssl
         env_file:
             - ./env/inp.env
         network_mode: bridge
@@ -58,6 +62,7 @@ services:
             service: ezproxy_prod
         volumes:
             - ./config:/usr/local/ezproxy/config
+            - ../ssl/ins2i:/usr/local/ezproxy/config/ssl
         env_file:
             - ./env/ins2i.env
         network_mode: bridge
@@ -71,6 +76,7 @@ services:
             service: ezproxy_prod
         volumes:
             - ./config:/usr/local/ezproxy/config
+            - ../ssl/insb:/usr/local/ezproxy/config/ssl
         env_file:
             - ./env/insb.env
         network_mode: bridge
@@ -84,6 +90,7 @@ services:
             service: ezproxy_prod
         volumes:
             - ./config:/usr/local/ezproxy/config
+            - ../ssl/inshs:/usr/local/ezproxy/config/ssl
         env_file:
             - ./env/inshs.env
         network_mode: bridge
@@ -97,6 +104,7 @@ services:
             service: ezproxy_prod
         volumes:
             - ./config:/usr/local/ezproxy/config
+            - ../ssl/insis:/usr/local/ezproxy/config/ssl
         env_file:
             - ./env/insis.env
         network_mode: bridge
@@ -110,6 +118,7 @@ services:
             service: ezproxy_prod
         volumes:
             - ./config:/usr/local/ezproxy/config
+            - ../ssl/insmi:/usr/local/ezproxy/config/ssl
         env_file:
             - ./env/insmi.env
         network_mode: bridge
@@ -123,6 +132,7 @@ services:
             service: ezproxy_prod
         volumes:
             - ./config:/usr/local/ezproxy/config
+            - ../ssl/insu:/usr/local/ezproxy/config/ssl
         env_file:
             - ./env/insu.env
         network_mode: bridge

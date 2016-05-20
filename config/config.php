@@ -34,13 +34,6 @@ LogFilter *.ico
 # on enregistre le login dans les logs (%u)
 Option LogUser
 
-# Pour eviter les reecritures avec des '-' a la place des '.' dans les noms de domaines en https
-# nous disposons d'un certificat wildcard par portail
-# ceci nous permet d'eviter les warnings en mettant des - dans le nom de domaine
-# En effet, les normes disent qu'un certificat *.inist.fr est valide pour
-# biblioplanets-gate.inist.fr mais pas pour biblioplanets.gate.inist.fr
-Option HttpsHyphens
-
 # Pour eviter des soucis avec les certificats wildcard (http://osdir.com/ml/education.ezproxy/2005-04/msg00012.html)
 # A utiliser seulement lorsque l'on a des certificats qui ne sont pas wildcard (ce n'est pas notre cas)
 #Option IgnoreWildcardCertificate
