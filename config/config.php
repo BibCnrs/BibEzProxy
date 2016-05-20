@@ -39,6 +39,7 @@ Option LogUser
 # ceci nous permet d'eviter les warnings en mettant des - dans le nom de domaine
 # En effet, les normes disent qu'un certificat *.inist.fr est valide pour
 # biblioplanets-gate.inist.fr mais pas pour biblioplanets.gate.inist.fr
+Option ForceWildcardCertificate
 Option HttpsHyphens
 
 # Pour eviter des soucis avec les certificats wildcard (http://osdir.com/ml/education.ezproxy/2005-04/msg00012.html)
