@@ -73,9 +73,10 @@ IncludeFile authorization/oclc/ChadwyckDatabase
 IncludeFile authorization/oclc/Crossref
 IncludeFile authorization/oclc/GaleInfoTrac
 IncludeFile authorization/oclc/InCites
-IncludeFile authorization/oclc/Reaxys
 IncludeFile authorization/oclc/WebOfKnowledge
 
+Group  reaxys
+IncludeFile authorization/oclc/Reaxys
 
 
 # FOURNISSEUR INIST
