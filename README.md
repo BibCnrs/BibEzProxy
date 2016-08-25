@@ -2,6 +2,16 @@
 
 Gestion des EzProxy pour les domaines de BibCnrs. Un EzProxy par domaine.
 
+## Développement
+
+- Copier les clés ezproxy dans `env/insb.env` et `env/inshs.env` en respectant le formalisme décrit dans `env/env.dist`
+- Ajouter `nameserver 127.0.0.1` au début de votre fichier `/etc/resolv.conf` (si la ligne n'est pas déjà présente)
+- Taper `make run-dev`
+
+Les ezproxy sont alors en ligne sur les noms de domaines suivants :
+- `*.insb.bib.cnrs-dev.fr`
+- `*.inshs.bib.cnrs-dev.fr`
+
 ## Configuration
 
 Dans config et config/authorization, il y a deux types de fichiers de configuration:
