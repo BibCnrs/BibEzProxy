@@ -1,27 +1,27 @@
 # BibEzProxy
-EzProxy for BibCnrs
 
-## configuration
-dans config et config/authorization
-Il y a deux types de fichiers de configuration:
-   * fournisseur: instructions EZProxy pour l'acc�s aux ressources. Ce sont souvent des �diteurs, mais aussi d'autres choses telles que des plateformes, des bases de donn�es, ... (comment - aspect technique)
-   * portails: r�f�rencement de tous les fichiers fournisseurs � prendre en compte, sous la forme d'instruction EZProxy IncludeFile. (quoi - aspect contractuel)
+Gestion des EzProxy pour les domaines de BibCnrs. Un EzProxy par domaine.
 
-Mettre chaque configuration fournisseur dans un fichier d�di�, portant le nom du fournisseur en toutes lettres, en lettres ASCII CamelCase.
+## Configuration
 
-Les fichiers de configuration fournisseurs sont r�partis en 3 cat�gories, dans des sous r�pertoires:
-   * "oclc": ceux provenant de l'OCLC, tels quels. Ils devraient �tre mis � jour syst�matiquement lorsque leur contenu change sur le site de l'OCLC.
-     A noter que les ressources concern�es ne sont pas limit�es � celles auquelles on a droit. Ce sont toutes les resources du fournisseur.
-   * "other": provenant de l'OCLC mais adapt�s sp�cifiquement pour l'INIST, provenant directement du fournisseur, cr��s � l'INIST, ...
-   * "inist": o� l'INIST est le fournisseur.
+Dans config et config/authorization, il y a deux types de fichiers de configuration:
+- fournisseur : instructions EZProxy pour l'accès aux ressources. Ce sont souvent des éditeurs, mais aussi d'autres choses telles que des plateformes, des bases de données, ... (comment - aspect technique)
+- portails: référencement de tous les fichiers fournisseurs à prendre en compte, sous la forme d'instruction EZProxy IncludeFile. (quoi - aspect contractuel)
 
-Mettre dans le fichier de configuration portail "common.txt" les inclusions de tous les fichiers qui ont vocation � figurer dans tous les portails (� priori les n�gociations nationales).
+Mettre chaque configuration fournisseur dans un fichier dédié, portant le nom du fournisseur en toutes lettres, en lettres ASCII CamelCase.
 
-Mettre dans les fichiers de configuration des portails l'inclusion de "common.txt", plus celui de tous les fichiers sp�cifiques.
+Les fichiers de configuration fournisseurs sont répartis en 3 catégories, dans des sous répertoires:
+- "oclc": ceux provenant de l'OCLC, tels quels. Ils devraient être mis à jour systématiquement lorsque leur contenu change sur le site de l'OCLC. A noter que les ressources concernées ne sont pas limitées à celles auquelles on a droit. Ce sont toutes les resources du fournisseur.
+- "other": provenant de l'OCLC mais adaptés spécifiquement pour l'INIST, provenant directement du fournisseur, créés à l'INIST, ...
+- "inist": où l'INIST est le fournisseur.
 
-Mettre l'URL de la configuration OCLC en commentaire au d�but des fichiers de configuration provenant de l'OCLC (exemple: # http://www.oclc.org/support/services/ezproxy/documentation/db/jstor.en.html).
+Mettre dans le fichier de configuration portail "common.txt" les inclusions de tous les fichiers qui ont vocation à figurer dans tous les portails (à priori les négociations nationales).
 
-Suggestion:
-Garder en commentaire dans les fichiers de configuration des portails l'inclusion des fournisseurs qui cessent d'�tre utilis�s, pour garder la trace de l'utilisation (quel portail, ...)
-Conserver les configurations fournisseur inutilis�es, si elles ne proviennent pas de l'OCLC, ce qui �vite d'avoir � les recr�er en cas de nouvelle utilisation.
-Trier les fournisseurs par ordre alphab�tique.
+Mettre dans les fichiers de configuration des portails l'inclusion de "common.txt", plus celui de tous les fichiers spécifiques.
+
+Mettre l'URL de la configuration OCLC en commentaire au début des fichiers de configuration provenant de l'OCLC (exemple: # http://www.oclc.org/support/services/ezproxy/documentation/db/jstor.en.html).
+
+Suggestion, recommendations :
+- Garder en commentaire dans les fichiers de configuration des portails l'inclusion des fournisseurs qui cessent d'être utilisés, pour garder la trace de l'utilisation (quel portail, ...)
+- Conserver les configurations fournisseur inutilisées, si elles ne proviennent pas de l'OCLC, ce qui évite d'avoir à les recréer en cas de nouvelle utilisation.
+- Trier les fournisseurs par ordre alphabétique.
