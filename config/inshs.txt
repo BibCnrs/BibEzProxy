@@ -1,7 +1,5 @@
 IncludeFile authorization/common.txt
 
-
-
 # FOURNISSEURS
 # ============
 # CAIRN
@@ -32,8 +30,6 @@ IncludeFile authorization/oclc/ProjectMuse
 
 # SAGE
 IncludeFile authorization/oclc/SagePublications
-
-
 
 # BASES DE DONNEES
 # ================

@@ -1,7 +1,5 @@
 IncludeFile authorization/common.txt
 
-
-
 # FOURNISSEURS
 # ============
 # AAAS
@@ -123,8 +121,6 @@ IncludeFile authorization/oclc/UniversityOfChicagoPress
 
 # WILEY
 IncludeFile authorization/oclc/WileyOnlineLibrary
-
-
 
 # BASES DE DONNEES
 # ================

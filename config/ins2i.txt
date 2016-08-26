@@ -1,7 +1,5 @@
 IncludeFile authorization/common.txt
 
-
-
 # FOURNISSEURS
 # ============
 # AAAS
@@ -24,8 +22,6 @@ IncludeFile authorization/oclc/OxfordJournals
 
 # WILEY
 IncludeFile authorization/oclc/WileyOnlineLibrary
-
-
 
 # BASES DE DONNEES
 # ================

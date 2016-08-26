@@ -73,9 +73,9 @@ IncludeFile authorization/oclc/GaleInfoTrac
 IncludeFile authorization/oclc/InCites
 IncludeFile authorization/oclc/WebOfKnowledge
 
-Group  reaxys
-IncludeFile authorization/oclc/Reaxys
-
+# EBSCO PUBLISHING APA
+# =================
+IncludeFile authorization/oclc/EBSCOHost
 
 # FOURNISSEUR INIST
 # =================
@@ -93,3 +93,7 @@ IncludeFile authorization/oclc/EBSCOHost
 # ======
 IncludeFile authorization/other/OclcFirstSearch
 IncludeFile authorization/oclc/Crossref
+
+# REAXYS
+# ======
+IncludeFile authorization/reaxys.txt
