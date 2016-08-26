@@ -13,9 +13,6 @@ IncludeFile authorization/other/BRGM
 # COPERNICUS
 IncludeFile authorization/other/CopernicusPublications
 
-# EBSCO PUBLISHING APA
-IncludeFile authorization/oclc/EBSCOHost
-
 # EDP
 IncludeFile authorization/other/EDPSciences
 

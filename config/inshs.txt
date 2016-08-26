@@ -9,12 +9,6 @@ IncludeFile authorization/common.txt
 # CAIRN EBOOK
 IncludeFile authorization/oclc/Cairn
 
-# EBSCO PUBLISHING APA
-# EBSCO PUBLISHING PBSC
-# EBSCO PUBLISHING EBOOK
-# EBSCO PUBLISHING EBOOK DON
-IncludeFile authorization/oclc/EBSCOHost
-
 # ELSEVIER ARCH
 IncludeFile authorization/oclc/ElsevierScienceDirectAndScopus
 

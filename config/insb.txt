@@ -64,10 +64,6 @@ IncludeFile authorization/other/ColdSpringHarborLaboratoryPress
 # COMPANY OF BIOLOGISTS
 IncludeFile authorization/oclc/CompanyOfBiologists
 
-# EBSCO PUBLISHING APA
-# EBSCO PUBLISHING PBSC
-IncludeFile authorization/oclc/EBSCOHost
-
 # EDP
 IncludeFile authorization/other/EDPSciences
 
