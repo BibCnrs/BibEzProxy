@@ -65,8 +65,6 @@ IncludeFile authorization/oclc/SpringerLink
 # WILEY LICENCES NATIONALES ISTEX
 IncludeFile authorization/oclc/WileyOnlineLibrary
 
-
-
 # BASES DE DONNEES
 # ================
 IncludeFile authorization/oclc/ChadwyckDatabase
@@ -87,7 +85,9 @@ IncludeFile authorization/inist/IstexAPI
 IncludeFile authorization/inist/Panist
 IncludeFile authorization/inist/Refdoc
 
-
+# EBSCO PUBLISHING APA
+# =================
+IncludeFile authorization/oclc/EBSCOHost
 
 # AUTRES
 # ======
