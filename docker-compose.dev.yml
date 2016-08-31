@@ -22,6 +22,8 @@ services:
             service: ezproxy_dev
         links:
             - dnsmasq
+        volumes:
+            - ./logs:/usr/local/ezproxy/logs
         env_file:
             - ./env/insb.env
         networks:
@@ -30,6 +32,8 @@ services:
         extends:
             file: ./docker-compose.yml
             service: ezproxy_dev
+        volumes:
+            - ./logs:/usr/local/ezproxy/logs
         links:
             - dnsmasq
         env_file:
