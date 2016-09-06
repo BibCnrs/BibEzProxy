@@ -8,9 +8,6 @@ IncludeFile authorization/oclc/AmericanChemicalSociety
 # ELSEVIER EBOOK EBS 2015
 IncludeFile authorization/oclc/ElsevierScienceDirectAndScopus
 
-# RSC
-IncludeFile authorization/oclc/RoyalSocietyOfChemistry
-
 # SOCIETE CHIMIQUE DE FRANCE
 IncludeFile authorization/other/LActualiteChimique
 
