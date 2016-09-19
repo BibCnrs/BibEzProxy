@@ -26,7 +26,6 @@ Option ProxyByHostname
 # http://www.usefulutilities.com/support/cfg/logformat/
 LogFile /usr/local/ezproxy/logs/<?php echo getenv('GATE_NAME'); ?>.log
 # %{X-FORWARDED-FOR}i permet de rÃ©cupÃ©rer l'adresse IP rÃ©elle du client en rendant transparent la traversÃ©e du reverse proxy
-Option LogSession
 # on enregistre le login dans les logs (%u)
 Option LogUser
 LogFormat %{X-FORWARDED-FOR}i %{ezproxy-session}i %l %u %t "%r" %s %b %{ezproxy-groups}i
