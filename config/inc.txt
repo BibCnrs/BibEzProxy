@@ -1,5 +1,3 @@
-IncludeFile authorization/common.txt
-
 # FOURNISSEURS
 # ============
 # ACS
@@ -19,3 +17,7 @@ IncludeFile authorization/oclc/WileyOnlineLibrary
 
 # BASES DE DONNEES
 # ================
+
+# COMMON
+# ======
+IncludeFile authorization/common.txt
