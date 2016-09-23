@@ -1,0 +1,42 @@
+IncludeFile authorization/common.txt
+
+# FOURNISSEURS
+# ============
+# AMS
+IncludeFile authorization/other/AmericanMeteorologicalSociety
+
+# BRGM
+IncludeFile authorization/other/BRGM
+
+# COPERNICUS
+IncludeFile authorization/other/CopernicusPublications
+
+# EDP
+IncludeFile authorization/other/EDPSciences
+
+# GALLICA LIBRES
+IncludeFile authorization/other/BNF
+
+# GSL
+IncludeFile authorization/other/GeologicalSocietyOfLondon
+
+# GSW
+IncludeFile authorization/oclc/GeoScienceWorld
+
+# IOP
+IncludeFile authorization/oclc/InstituteOfPhysics
+
+# LIBRES
+IncludeFile authorization/other/IntegratedOceanDrillingProgramManagementInternational
+IncludeFile authorization/other/IstitutoNazionalediGeofisicaEVulcanologia
+IncludeFile authorization/other/LeBureauCentralSismologiqueFrancais
+IncludeFile authorization/other/TerraScientificPublishingCompany
+
+# OUP
+IncludeFile authorization/oclc/OxfordJournals
+
+# WILEY
+IncludeFile authorization/oclc/WileyOnlineLibrary
+
+# BASES DE DONNEES
+# ================
