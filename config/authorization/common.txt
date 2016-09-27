@@ -1,6 +1,12 @@
 # FOURNISSEURS
 # ============
 
+# The Arabidopsis Information Resource
+IncludeFile authorization/oclc/Arabidopsis
+
+# Arxiv
+IncludeFile authorization/other/Arxiv
+
 # BMJ LICENCES NATIONALES ISTEX
 IncludeFile authorization/oclc/BMJJournals
 
@@ -14,6 +20,9 @@ IncludeFile authorization/other/ClassiquesGarnier
 
 # DE GRUYTER LICENCES NATIONALES ISTEX
 IncludeFile authorization/oclc/DeGruyterOnline
+
+# DRANT Droits Antiques MISHA
+IncludeFile authorization/other/Drant
 
 # ELSEVIER ARCH NEGOCIATION NATIONALE
 # ELSEVIER LICENCES NATIONALES ISTEX
@@ -33,8 +42,17 @@ IncludeFile authorization/oclc/EmeraldInsight
 # EMS NEGOCIATIONS NATIONALES
 IncludeFile authorization/other/EMSPublishingHouse
 
+# Faculty of 1000
+IncludeFile authorization/oclc/f1000
+
 # IOP PUBLISHING LICENCES NATIONALES ISTEX
 IncludeFile authorization/oclc/InstituteOfPhysics
+
+# Isidore
+IncludeFile authorization/other/Isidore
+
+# Mit Cognet
+IncludeFile authorization/other/MitCognet
 
 # NPG LICENCES NATIONALES ISTEX
 # NPG NEGOCIATIONS NATIONALES
@@ -48,6 +66,9 @@ IncludeFile authorization/oclc/Ovid
 
 # OUP LICENCES NATIONALES ISTEX
 IncludeFile authorization/oclc/OxfordJournals
+
+# Proquest
+IncludeFile authorization/oclc/Proquest
 
 # RSC LICENCES NATIONALES ISTEX
 IncludeFile authorization/oclc/RoyalSocietyOfChemistry
@@ -67,9 +88,11 @@ IncludeFile authorization/oclc/WileyOnlineLibrary
 
 # BASES DE DONNEES
 # ================
+IncludeFile authorization/other/bdsp
 IncludeFile authorization/oclc/ChadwyckDatabase
 IncludeFile authorization/oclc/Crossref
 IncludeFile authorization/oclc/GaleInfoTrac
+IncludeFile authorization/oclc/icsdFiz
 IncludeFile authorization/oclc/InCites
 IncludeFile authorization/oclc/WebOfKnowledge
 

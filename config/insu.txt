@@ -1,5 +1,9 @@
 # FOURNISSEURS
 # ============
+
+# ADS CDS
+IncludeFile authorization/other/AdsCds
+
 # AMS
 IncludeFile authorization/other/AmericanMeteorologicalSociety
 

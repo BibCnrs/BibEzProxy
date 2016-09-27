@@ -1,7 +1,8 @@
 T Services INIST
 U http://mesh.inist.fr
 D mesh.inist.fr
-D inist.fr
+HJ www.inist.fr
+DJ inist.fr
 D services.inist.fr 
 H services.inist.fr
 H bibliovie.inist.fr
@@ -27,6 +28,3 @@ T Acces SFX  Metalib Xerces
 
 U http://ida:50041
 U http://ida.intra.inist.fr:50041
-H sfx.intra.inist.fr:8331
-H sfx.intra.inist.fr:4331
-
