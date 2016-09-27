@@ -32,3 +32,14 @@ services:
             GATE_SUFFIX: ${GATE_SUFFIX}
             EZ_TICKET_URL: ${EZ_TICKET_URL}
             EZ_TICKET_SECRET: ${EZ_TICKET_SECRET}
+    ezproxy_verif:
+        extends:
+            file: ./docker-compose.yml
+            service: ezproxy
+        environment:
+            env: VERIF
+            ADMIN_LOGIN: ${ADMIN_LOGIN}
+            ADMIN_PASSWORD: ${ADMIN_PASSWORD}
+            GATE_SUFFIX: ${GATE_SUFFIX}
+            EZ_TICKET_URL: ${EZ_TICKET_URL}
+            EZ_TICKET_SECRET: ${EZ_TICKET_SECRET}
