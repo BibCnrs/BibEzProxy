@@ -92,7 +92,6 @@ IncludeFile authorization/other/bdsp
 IncludeFile authorization/oclc/ChadwyckDatabase
 IncludeFile authorization/oclc/Crossref
 IncludeFile authorization/oclc/GaleInfoTrac
-IncludeFile authorization/oclc/icsdFiz
 IncludeFile authorization/oclc/InCites
 IncludeFile authorization/oclc/WebOfKnowledge
 
