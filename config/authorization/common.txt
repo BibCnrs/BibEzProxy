@@ -70,6 +70,9 @@ IncludeFile authorization/oclc/OxfordJournals
 # Proquest
 IncludeFile authorization/oclc/Proquest
 
+# Safari Books Online
+IncludeFile authorization/oclc/SafariBooks
+
 # RSC LICENCES NATIONALES ISTEX
 IncludeFile authorization/oclc/RoyalSocietyOfChemistry
 
@@ -92,6 +95,7 @@ IncludeFile authorization/other/bdsp
 IncludeFile authorization/oclc/ChadwyckDatabase
 IncludeFile authorization/oclc/Crossref
 IncludeFile authorization/oclc/GaleInfoTrac
+IncludeFile authorization/other/IcsdFiz
 IncludeFile authorization/oclc/InCites
 IncludeFile authorization/oclc/WebOfKnowledge
 
