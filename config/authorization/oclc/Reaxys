@@ -1,6 +1,5 @@
 # http://www.oclc.org/support/services/ezproxy/documentation/db/reaxys.en.html
 
-Option NoHttpsHyphens
 T reaxys
 U https://www.reaxys.com
 DJ reaxys.com
@@ -8,4 +7,3 @@ HJ www.reaxys.com
 HJ sc.elsevier.com
 Find window.open(response)
 Replace window.open(response.replace('linksolver.ovid.com', '^plinksolver.ovid.com^').replace('sc.elsevier.com', '^psc.elsevier.com^'))
-Option HttpsHyphens
