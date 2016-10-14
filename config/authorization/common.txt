@@ -14,6 +14,9 @@ IncludeFile authorization/oclc/BMJJournals
 # BRILL NEW PAULY LICENCES NATIONALES ISTEX
 IncludeFile authorization/oclc/BrillOnline
 
+# The Cambridge Crystallographic Data Centre
+IncludeFile authorization/other/ccdc
+
 # CLASSIQUES GARNIER EBOOK 2013 LICENCE NATIONALE
 # CLASSIQUES GARNIER NUMERIQUE EBOOK LICENCE NATIONALE
 IncludeFile authorization/other/ClassiquesGarnier
