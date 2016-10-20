@@ -9,6 +9,9 @@ IncludeFile authorization/oclc/AcmDigitalLibrary
 # CAMBRIDGE UNIVERSITY PRESS
 IncludeFile authorization/oclc/CambridgeJournalsOnline
 
+# EDP
+IncludeFile authorization/other/EDPSciences
+
 # IOS PRESS
 IncludeFile authorization/oclc/IOSPress
 
