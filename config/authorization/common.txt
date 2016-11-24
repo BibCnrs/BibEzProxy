@@ -89,6 +89,9 @@ IncludeFile authorization/oclc/SagePublications
 # SPRINGER EBOOK NEGOCIATION NATIONALE
 IncludeFile authorization/oclc/SpringerLink
 
+# Taylor & Francis
+IncludeFile authorization/oclc/TaylorAndFrancisOnline
+
 # WILEY LICENCES NATIONALES ISTEX
 IncludeFile authorization/oclc/WileyOnlineLibrary
 

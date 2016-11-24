@@ -117,9 +117,6 @@ IncludeFile authorization/other/MicrobiologySociety
 # SOCIETY FOR NEUROSCIENCE
 IncludeFile authorization/other/SocietyForNeurosciences
 
-# TAYLOR & FRANCIS GROUP
-IncludeFile authorization/oclc/TaylorAndFrancisOnline
-
 # UNIVERSITY OF CHICAGO PRESS
 IncludeFile authorization/oclc/UniversityOfChicagoPress
 
