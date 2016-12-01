@@ -70,11 +70,17 @@ IncludeFile authorization/oclc/Ovid
 # OUP LICENCES NATIONALES ISTEX
 IncludeFile authorization/oclc/OxfordJournals
 
+# Plosone
+IncludeFile authorization/other/Plosone
+
 # Proquest
 IncludeFile authorization/oclc/Proquest
 
 # Safari Books Online
 IncludeFile authorization/oclc/SafariBooks
+
+# Scielo
+IncludeFile authorization/other/Scielo
 
 # RSC LICENCES NATIONALES ISTEX
 IncludeFile authorization/oclc/RoyalSocietyOfChemistry
