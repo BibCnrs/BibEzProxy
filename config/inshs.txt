@@ -26,9 +26,6 @@ IncludeFile authorization/other/Persee
 # PROJECT MUSE
 IncludeFile authorization/oclc/ProjectMuse
 
-# SAGE
-IncludeFile authorization/oclc/SagePublications
-
 # BASES DE DONNEES
 # ================
 IncludeFile authorization/inist/OpenBibArt

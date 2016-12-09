@@ -108,9 +108,6 @@ IncludeFile authorization/oclc/RoyalSocietyPublishing
 # RUP
 IncludeFile authorization/other/TheRockefellerUniversityPress
 
-# SAGE
-IncludeFile authorization/oclc/SagePublications
-
 # SOCIETY FOR GENERAL MICROBIOLOGY
 IncludeFile authorization/other/MicrobiologySociety
 
