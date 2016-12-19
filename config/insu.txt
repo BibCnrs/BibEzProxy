@@ -1,6 +1,9 @@
 # FOURNISSEURS
 # ============
 
+# Acsess Digital Library
+IncludeFile authorization/oclc/AcsessDigitalLibrary
+
 # ADS CDS
 IncludeFile authorization/other/AdsCds
 
