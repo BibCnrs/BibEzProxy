@@ -40,6 +40,9 @@ IncludeFile authorization/other/TerraScientificPublishingCompany
 # OUP
 IncludeFile authorization/oclc/OxfordJournals
 
+# Sciencemag
+IncludeFile authorization/oclc/ScienceAAAS
+
 # WILEY
 IncludeFile authorization/oclc/WileyOnlineLibrary
 
