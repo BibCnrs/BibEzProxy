@@ -1,6 +1,9 @@
 # FOURNISSEURS
 # ============
 
+# Algebraic Geometry
+IncludeFile authorization/other/AlgebraicGeometry
+
 # The Arabidopsis Information Resource
 IncludeFile authorization/oclc/Arabidopsis
 
