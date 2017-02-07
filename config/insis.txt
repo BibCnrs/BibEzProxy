@@ -6,9 +6,6 @@ IncludeFile authorization/oclc/ScienceAAAS
 # ACM
 IncludeFile authorization/oclc/AcmDigitalLibrary
 
-# CAMBRIDGE UNIVERSITY PRESS
-IncludeFile authorization/oclc/CambridgeJournalsOnline
-
 # EDP
 IncludeFile authorization/other/EDPSciences
 

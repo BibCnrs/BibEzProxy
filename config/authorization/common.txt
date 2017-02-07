@@ -17,6 +17,9 @@ IncludeFile authorization/oclc/BMJJournals
 # BRILL NEW PAULY LICENCES NATIONALES ISTEX
 IncludeFile authorization/oclc/BrillOnline
 
+# Cambridge University Press
+IncludeFile authorization/oclc/CambridgeJournalsOnline
+
 # The Cambridge Crystallographic Data Centre
 IncludeFile authorization/other/ccdc
 

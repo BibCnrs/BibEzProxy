@@ -48,9 +48,6 @@ IncludeFile authorization/oclc/BiomedCentral
 # BIOONE
 IncludeFile authorization/oclc/BiooneJournalsOnline
 
-# CAMBRIDGE UNIVERSITY PRESS
-IncludeFile authorization/oclc/CambridgeJournalsOnline
-
 # CNRC
 IncludeFile authorization/other/EditionsSciencesCanada
 
