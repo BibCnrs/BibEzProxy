@@ -5,11 +5,7 @@ HJ www.inist.fr
 DJ inist.fr
 D services.inist.fr 
 H services.inist.fr
-H bibliovie.inist.fr
-H biblioshs.inist.fr
-H bibliostic.inist.fr
 H biblioinserm.inist.fr
-H bibliosciences.inist.fr
 H cnrs-iop.inist.fr
 D doge.inist.fr
 H doge.inist.fr
@@ -19,6 +15,9 @@ H accestest.inist.fr
 H sd-dev.inist.fr:50010
 H ida.intra.inist.fr:50030
 H ida.inist.fr:50030
+
+U http://pascal-francis.inist.fr
+HJ pascal-francis.inist.fr
 
 T Nouveau site DOGE
 H hippo.intra.inist.fr:51192
