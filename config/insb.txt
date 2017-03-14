@@ -121,6 +121,9 @@ IncludeFile authorization/oclc/WileyOnlineLibrary
 # ================
 IncludeFile authorization/oclc/PubMed
 
+# TESTS INSB
+IncludeFile authorization/inist/TestsInsb
+
 # COMMON
 # ======
 IncludeFile authorization/common.txt

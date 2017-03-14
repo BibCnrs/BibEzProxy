@@ -30,6 +30,9 @@ IncludeFile authorization/oclc/ProjectMuse
 # ================
 IncludeFile authorization/inist/OpenBibArt
 
+# TESTS INSHS
+IncludeFile authorization/inist/TestsInshs
+
 # COMMON
 # ======
 IncludeFile authorization/common.txt
