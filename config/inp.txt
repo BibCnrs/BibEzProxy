@@ -4,6 +4,9 @@
 # BASES DE DONNEES
 # ================
 
+# TESTS INP
+IncludeFile authorization/inist/TestsInp
+
 # COMMON
 # ======
 IncludeFile authorization/common.txt

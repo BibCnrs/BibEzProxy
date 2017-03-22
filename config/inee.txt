@@ -93,9 +93,6 @@ IncludeFile authorization/oclc/OxfordJournals
 # OVID
 IncludeFile authorization/oclc/Ovid
 
-# PNAS
-IncludeFile authorization/oclc/ProceedingsOfTheNationalAcademyOfSciences
-
 # PORTLAND PRESS
 IncludeFile authorization/other/PortlandPress
 
@@ -120,6 +117,9 @@ IncludeFile authorization/oclc/WileyOnlineLibrary
 # BASES DE DONNEES
 # ================
 IncludeFile authorization/oclc/PubMed
+
+# TESTS INEE
+IncludeFile authorization/inist/TestsInee
 
 # COMMON
 # ======

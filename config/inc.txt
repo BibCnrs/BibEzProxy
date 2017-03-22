@@ -18,6 +18,12 @@ IncludeFile authorization/oclc/WileyOnlineLibrary
 # BASES DE DONNEES
 # ================
 
+# Thieme Connect
+IncludeFile authorization/oclc/ThiemeConnect
+
+# TESTS INC
+IncludeFile authorization/inist/TestsInc
+
 # COMMON
 # ======
 IncludeFile authorization/common.txt

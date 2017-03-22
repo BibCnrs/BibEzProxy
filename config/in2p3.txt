@@ -4,6 +4,9 @@
 # BASES DE DONNEES
 # ================
 
+# TESTS IN2P3
+IncludeFile authorization/inist/TestsIn2p3
+
 # COMMON
 # ======
 IncludeFile authorization/common.txt

@@ -49,6 +49,9 @@ IncludeFile authorization/oclc/WileyOnlineLibrary
 # BASES DE DONNEES
 # ================
 
+# TESTS INSU
+IncludeFile authorization/inist/TestsInsu
+
 # COMMON
 # ======
 IncludeFile authorization/common.txt

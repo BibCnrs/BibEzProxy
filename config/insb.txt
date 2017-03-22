@@ -93,9 +93,6 @@ IncludeFile authorization/oclc/OxfordJournals
 # OVID
 IncludeFile authorization/oclc/Ovid
 
-# PNAS
-IncludeFile authorization/oclc/ProceedingsOfTheNationalAcademyOfSciences
-
 # PORTLAND PRESS
 IncludeFile authorization/other/PortlandPress
 

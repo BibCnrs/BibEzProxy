@@ -82,6 +82,9 @@ IncludeFile authorization/oclc/OxfordJournals
 # Plosone
 IncludeFile authorization/other/Plosone
 
+# PNAS
+IncludeFile authorization/oclc/ProceedingsOfTheNationalAcademyOfSciences
+
 # Proquest
 IncludeFile authorization/oclc/Proquest
 
