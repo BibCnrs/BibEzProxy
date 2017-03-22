@@ -25,7 +25,7 @@ IncludeFile authorization/oclc/WileyOnlineLibrary
 # ================
 
 # TESTS IN2I
-IncludeFile authorization/inist/TestsIn2i
+IncludeFile authorization/inist/TestsIns2i
 
 # COMMON
 # ======
