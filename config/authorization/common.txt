@@ -144,3 +144,7 @@ IncludeFile authorization/oclc/EBSCOHost
 IncludeFile authorization/other/OclcFirstSearch
 IncludeFile authorization/oclc/Crossref
 IncludeFile authorization/other/DOISystem
+
+# CAMPAGNE DECOUVERTE
+# ===================
+IncludeFile authorization/inist/TestsAll
