@@ -4,6 +4,9 @@
 # Algebraic Geometry
 IncludeFile authorization/other/AlgebraicGeometry
 
+# Annual reviews
+IncludeFile authorization/oclc/AnnualReviews
+
 # The Arabidopsis Information Resource
 IncludeFile authorization/oclc/Arabidopsis
 
