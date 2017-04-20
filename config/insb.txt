@@ -81,9 +81,6 @@ IncludeFile authorization/other/NEJMJournalWatch
 # New England Journal of Medecine
 IncludeFile authorization/oclc/NewEnglandJournal
 
-# NPG
-IncludeFile authorization/oclc/NaturePublishing
-
 # OUP
 IncludeFile authorization/oclc/OxfordJournals
 
