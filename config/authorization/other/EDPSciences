@@ -1,31 +1,37 @@
 T EDP Sciences
 
-U http://www.edpsciences.org/
-U http://publications.edpsciences.org
+U https://www.edpsciences.org/
+U https://publications.edpsciences.org
 HJ publications.edpsciences.org
 DJ edpsciences.org
-H www.aanda.org
-H aas.aanda.org
-H epljournal.edpsciences.org
-H www.journal-therapie.org
-H www.hydroecologie.org
-H www.shf-lhb.org
+U https://www.aanda.org
+U https://aas.aanda.org
+U https://epljournal.edpsciences.org
+U https://www.journal-therapie.org
+U https://www.hydroecologie.org
+U https://www.shf-lhb.org
+HJ www.aanda.org
+HJ aas.aanda.org
+HJ epljournal.edpsciences.org
+HJ www.journal-therapie.org
+HJ www.hydroecologie.org
+HJ www.shf-lhb.org
 
 Option DomainCookieOnly
 # T Medecine Sciences
-U http://www.medecinesciences.org
+U https://www.medecinesciences.org
 HJ www.medecinesciences.org
 DJ medecinesciences.org
 Option Cookie
 
 # T Natures Sciences Societes
-U http://www.nss-journal.org/
-D nss-journal.org
+U https://www.nss-journal.org/
+DJ nss-journal.org
 
 # T RAIRO OPERATIONS RESEARCH
-U http://www.rairo-ro.org/
-D rairo-ro.org/
+U https://www.rairo-ro.org/
+DJ rairo-ro.org/
 
-U http://www.swsc-journal.org
-H www.swsc-journal.org
-D swsc-journal.org
+U https://www.swsc-journal.org
+HJ www.swsc-journal.org
+DJ swsc-journal.org
