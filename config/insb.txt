@@ -84,9 +84,6 @@ IncludeFile authorization/oclc/NewEnglandJournal
 # OUP
 IncludeFile authorization/oclc/OxfordJournals
 
-# OVID
-IncludeFile authorization/oclc/Ovid
-
 # PORTLAND PRESS
 IncludeFile authorization/other/PortlandPress
 
