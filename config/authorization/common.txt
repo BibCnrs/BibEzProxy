@@ -76,6 +76,9 @@ IncludeFile authorization/oclc/NaturePublishing
 # NPG NEGOCIATIONS NATIONALES
 IncludeFile authorization/oclc/NaturePublishing
 
+# Numerique Premium
+IncludeFile authorization/other/NumeriquePremium
+
 # OPENEDITION BOOKS EBOOK BIBLIOSITES
 IncludeFile authorization/oclc/OpenEdition
 
@@ -93,6 +96,9 @@ IncludeFile authorization/oclc/ProceedingsOfTheNationalAcademyOfSciences
 
 # Proquest
 IncludeFile authorization/oclc/Proquest
+
+# Royal Society Publishing
+IncludeFile authorization/oclc/RoyalSocietyPublishing
 
 # Safari Books Online
 IncludeFile authorization/oclc/SafariBooks

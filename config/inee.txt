@@ -87,9 +87,6 @@ IncludeFile authorization/oclc/OxfordJournals
 # PORTLAND PRESS
 IncludeFile authorization/other/PortlandPress
 
-# Royal Society Publishing
-IncludeFile authorization/oclc/RoyalSocietyPublishing
-
 # RUP
 IncludeFile authorization/other/TheRockefellerUniversityPress
 
