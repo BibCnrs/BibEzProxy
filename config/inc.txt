@@ -9,11 +9,6 @@ IncludeFile authorization/oclc/ElsevierScienceDirectAndScopus
 # SOCIETE CHIMIQUE DE FRANCE
 IncludeFile authorization/other/LActualiteChimique
 
-# WILEY
-# WILEY EBOOK
-IncludeFile authorization/oclc/WileyOnlineLibrary
-
-
 
 # BASES DE DONNEES
 # ================

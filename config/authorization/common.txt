@@ -72,10 +72,6 @@ IncludeFile authorization/other/MitCognet
 # Nature
 IncludeFile authorization/oclc/NaturePublishing
 
-# NPG LICENCES NATIONALES ISTEX
-# NPG NEGOCIATIONS NATIONALES
-IncludeFile authorization/oclc/NaturePublishing
-
 # Numerique Premium
 IncludeFile authorization/other/NumeriquePremium
 

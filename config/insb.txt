@@ -99,9 +99,6 @@ IncludeFile authorization/other/SocietyForNeurosciences
 # UNIVERSITY OF CHICAGO PRESS
 IncludeFile authorization/oclc/UniversityOfChicagoPress
 
-# WILEY
-IncludeFile authorization/oclc/WileyOnlineLibrary
-
 # BASES DE DONNEES
 # ================
 IncludeFile authorization/oclc/PubMed

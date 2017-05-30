@@ -43,9 +43,6 @@ IncludeFile authorization/oclc/OxfordJournals
 # Sciencemag
 IncludeFile authorization/oclc/ScienceAAAS
 
-# WILEY
-IncludeFile authorization/oclc/WileyOnlineLibrary
-
 # BASES DE DONNEES
 # ================
 

@@ -18,9 +18,6 @@ IncludeFile authorization/oclc/JSTOR
 # OUP
 IncludeFile authorization/oclc/OxfordJournals
 
-# WILEY
-IncludeFile authorization/oclc/WileyOnlineLibrary
-
 # BASES DE DONNEES
 # ================
 
