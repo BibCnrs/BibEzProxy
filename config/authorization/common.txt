@@ -7,6 +7,9 @@ IncludeFile authorization/other/AlgebraicGeometry
 # Annual reviews
 IncludeFile authorization/oclc/AnnualReviews
 
+# ASCE Library
+IncludeFile authorization/other/ASCElibrary
+
 # The Arabidopsis Information Resource
 IncludeFile authorization/oclc/Arabidopsis
 
