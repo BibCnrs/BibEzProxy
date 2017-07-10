@@ -2,6 +2,12 @@
 
 Title American Physiological Society
 URL http://www.physiology.org/
+URL https://journals.aps.org/prx/
+URL https://journals.aps.org/prab/
+URL https://journals.aps.org/prper/
+URL https://physics.aps.org/
+HJ journals.aps.org
+HJ physics.aps.org
 H advan.physiology.org
 H ajpcell.physiology.org
 H ajpendo.physiology.org
@@ -20,6 +26,8 @@ H physiologyonline.physiology.org
 H physreports.physiology.org
 H physrev.physiology.org
 H www.the-aps.org
+DJ aps.org
+DJ www.aps.org
 DJ physiology.org
 DJ the-aps.org
 
