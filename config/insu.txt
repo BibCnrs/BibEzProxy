@@ -31,6 +31,8 @@ IncludeFile authorization/oclc/GeoScienceWorld
 # IOP
 IncludeFile authorization/oclc/InstituteOfPhysics
 
+IncludeFile authorization/oclc/AmericanPhysiologySociety
+
 # LIBRES
 IncludeFile authorization/other/IntegratedOceanDrillingProgramManagementInternational
 IncludeFile authorization/other/IstitutoNazionalediGeofisicaEVulcanologia

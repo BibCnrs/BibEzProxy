@@ -3,6 +3,8 @@
 # AAAS
 IncludeFile authorization/oclc/ScienceAAAS
 
+IncludeFile authorization/oclc/AmericanPhysiologySociety
+
 # ACM
 IncludeFile authorization/oclc/AcmDigitalLibrary
 

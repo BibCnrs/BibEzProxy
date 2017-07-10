@@ -1,6 +1,8 @@
 # FOURNISSEURS
 # ============
 
+IncludeFile authorization/oclc/AmericanPhysiologySociety
+
 # BASES DE DONNEES
 # ================
 
