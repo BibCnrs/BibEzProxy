@@ -1,21 +1,26 @@
-T Portland Press
-
-U http://www.clinsci.org
-U http://essays.biochemistry.org
-U http://www.pressherald.com
-U http://www.emergtoplifesci.org
-HJ www.emergtoplifesci.org
-DJ emergtoplifesci.org
-D pressherald.com
-D portlandpress.com
-HJ www.clinsci.org
+Title Portland Press Limited
+URL http://www.portlandpress.com/
+HJ bab.portlandpress.com
+HJ bst.portlandpress.com
+HJ cs.portlandpress.com
 HJ essays.biochemistry.org
-DJ clinsci.org
+HJ portlandpress.com
+HJ portlandpresspublishing.com
+HJ symposia.biochemistry.org
+HJ www.asnneuro.org
+HJ www.biochemj.org
+HJ www.biolcell.org
+HJ www.bioscirep.org
+HJ www.cellbiolint.org
+HJ www.clinsci.org
+HJ www.portlandpress.com
+HJ www.portlandpresspublishing.com
+DJ asnneuro.org
 DJ biochemistry.org
-H www.biolcell.org
-H www.babonline.org
-H www.biochemsoctrans.org
-H www.biochemj.org
-
-U http://www.bioscirep.org/bsr/
-H www.bioscirep.org
+DJ biochemj.org
+DJ biolcell.org
+DJ bioscirep.org
+DJ cellbiolint.org
+DJ clinsci.org
+DJ portlandpress.com
+DJ portlandpresspublishing.com
