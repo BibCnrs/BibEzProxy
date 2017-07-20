@@ -101,7 +101,6 @@ IncludeFile authorization/oclc/UniversityOfChicagoPress
 
 # BASES DE DONNEES
 # ================
-IncludeFile authorization/oclc/PubMed
 
 # TESTS INSB
 IncludeFile authorization/inist/TestsInsb

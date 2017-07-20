@@ -134,6 +134,8 @@ IncludeFile authorization/other/IcsdFiz
 IncludeFile authorization/oclc/InCites
 IncludeFile authorization/oclc/WebOfKnowledge
 
+IncludeFile authorization/oclc/PubMed
+
 # EBSCO PUBLISHING APA
 # =================
 IncludeFile authorization/oclc/EBSCOHost
