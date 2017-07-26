@@ -22,9 +22,6 @@ IncludeFile authorization/other/EDPSciences
 # GALLICA LIBRES
 IncludeFile authorization/other/BNF
 
-# GSL
-IncludeFile authorization/other/GeologicalSocietyOfLondon
-
 # GSW
 IncludeFile authorization/oclc/GeoScienceWorld
 

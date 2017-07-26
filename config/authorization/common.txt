@@ -63,6 +63,9 @@ IncludeFile authorization/other/EMSPublishingHouse
 # Faculty of 1000
 IncludeFile authorization/oclc/f1000
 
+# GSL
+IncludeFile authorization/other/GeologicalSocietyOfLondon
+
 # IOP PUBLISHING LICENCES NATIONALES ISTEX
 IncludeFile authorization/oclc/InstituteOfPhysics
 
@@ -92,6 +95,9 @@ IncludeFile authorization/other/Plosone
 
 # PNAS
 IncludeFile authorization/oclc/ProceedingsOfTheNationalAcademyOfSciences
+
+# Projet Euclid Duke Mathematical Journal
+IncludeFile authorization/other/Projecteuclid
 
 # Proquest
 IncludeFile authorization/oclc/Proquest
