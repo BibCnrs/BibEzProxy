@@ -3,8 +3,10 @@
 Option NoX-Forwarded-For
 
 Title Plateforme Istex (API)
-URL   http://api.istex.fr/
-HJ    https://api.istex.fr/
-DJ    istex.fr
+URL http://api.istex.fr
+URL https://view.istex.fr   
+HJ https://api.istex.fr
+HJ https://view.istex.fr
+DJ istex.fr
 
 Option X-Forwarded-For
