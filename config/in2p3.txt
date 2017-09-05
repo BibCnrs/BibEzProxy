@@ -3,6 +3,10 @@
 
 IncludeFile authorization/oclc/AmericanPhysiologySociety
 
+IncludeFile authorization/other/EDPSciences
+
+IncludeFile authorization/other/AIP
+
 # BASES DE DONNEES
 # ================
 

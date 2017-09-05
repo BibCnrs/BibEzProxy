@@ -29,9 +29,25 @@ U https://www.nss-journal.org/
 DJ nss-journal.org
 
 # T RAIRO OPERATIONS RESEARCH
-U https://www.rairo-ro.org/
-DJ rairo-ro.org/
+U https://www.rairo-ro.org
+U https://www.rairo-ita.org
+DJ www.rairo-ita.org
+DJ rairo-ro.org
 
 U https://www.swsc-journal.org
 HJ www.swsc-journal.org
 DJ swsc-journal.org
+
+U https://www.esaim-cocv.org
+U https://www.esaim-m2an.org
+U https://www.esaim-ps.org
+HJ www.esaim-cocv.org
+HJ www.esaim-m2an.org
+HJ www.esaim-ps.org
+DJ esaim-cocv.org
+DJ esaim-m2an.org
+DJ www.esaim-ps.org
+
+U https://www.mmnp-journal.org
+HJ www.mmnp-journal.org
+DJ mmnp-journal.org
