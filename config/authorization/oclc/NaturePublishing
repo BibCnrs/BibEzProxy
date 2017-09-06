@@ -1,7 +1,7 @@
 # http://www.oclc.org/support/services/ezproxy/documentation/db/Nature_Publishing_Group.en.html
 
 Title Nature Publishing
-URL http://www.nature.com
+URL https://www.nature.com
 HJ ad.doubleclick.net
 HJ ajandrology.com
 HJ labanimal.com
@@ -11,6 +11,7 @@ HJ nature.com
 HJ search.nature.com
 HJ www.ajandrology.com
 HJ www.labanimal.com
+HJ www.nature.com
 HJ www.naturesj.com
 HJ www.npgjournals.com
 DJ ajandrology.com
