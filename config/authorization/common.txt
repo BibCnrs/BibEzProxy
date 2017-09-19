@@ -19,6 +19,9 @@ IncludeFile authorization/other/Arxiv
 # BMJ LICENCES NATIONALES ISTEX
 IncludeFile authorization/oclc/BMJJournals
 
+# BREPOLS ONLINE
+IncludeFile authorization/oclc/Brepols
+
 # BRILL LICENCES NATIONALES ISTEX
 # BRILL NEW PAULY LICENCES NATIONALES ISTEX
 IncludeFile authorization/oclc/BrillOnline
