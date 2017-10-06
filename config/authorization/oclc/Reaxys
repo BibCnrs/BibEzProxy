@@ -9,9 +9,6 @@
 #Replace window.open(response.replace('linksolver.ovid.com', '^plinksolver.ovid.com^').replace('sc.elsevier.com', '^psc.elsevier.com^'))
 Title Reaxys 2.0
 URL https://new.reaxys.com
-U https://www.reaxys.com
-DJ reaxys.com
-HJ www.reaxys.com
 HJ new.reaxys.com
 HJ https://sc.elsevier.com
 HJ sc.elsevier.com
