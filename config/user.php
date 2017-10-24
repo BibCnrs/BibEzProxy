@@ -33,7 +33,7 @@
 
 # L'authentification par ticket (couplée au module ezticket ci-dessus)
 ::Ticket
-AcceptGroups in2p3+inc+inee+inp+ins2i+insb+inshs+insis+insmi+insu+reaxys
+AcceptGroups in2p3+inc+inee+inp+ins2i+insb+inshs+insis+insmi+insu+iop+reaxys
 
 TimeValid 10
 SHA512 <?php echo getenv('EZ_TICKET_SECRET') ?>
