@@ -157,9 +157,9 @@ IncludeFile authorization/inist/IstexAPI
 IncludeFile authorization/inist/Panist
 IncludeFile authorization/inist/Refdoc
 
-# EBSCO PUBLISHING APA
+# EBSCO Linksource
 # =================
-IncludeFile authorization/oclc/EBSCOHost
+IncludeFile authorization/oclc/EBSCOLinkSource
 
 # AUTRES
 # ======
