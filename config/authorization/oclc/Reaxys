@@ -10,7 +10,6 @@
 Title Reaxys 2.0
 URL https://new.reaxys.com
 URL https://lls.reaxys.com
-HJ https://lls.reaxys.com
 HJ lls.reaxys.com
 HJ new.reaxys.com
 HJ https://sc.elsevier.com
@@ -20,6 +19,6 @@ DJ elsevier.com
 # DOI system provides linking to Springer, Wiley, and others
 DJ dx.doi.org
 Find .replace("OLD_EXTERNAL_URL","NEW_EXTERNAL_URL")
-#Replace .replace("linksolver.ovid.com","^plinksolver.ovid.com^").replace("sc.elsevier.com","^psc.elsevier.com^").replace("lls.reaxys.com","^slls.reaxys.com^").replace("linkresolver.library.edu","^plinkresolver.library.edu^")
 Replace .replace("linksolver.ovid.com","^plinksolver.ovid.com^").replace("sc.elsevier.com","^psc.elsevier.com^").replace("linkresolver.library.edu","^plinkresolver.library.edu^")
+#Replace .replace("linksolver.ovid.com","^plinksolver.ovid.com^").replace("sc.elsevier.com","^psc.elsevier.com^").replace("lls.reaxys.com","^slls.reaxys.com^").replace("linkresolver.library.edu","^plinkresolver.library.edu^")
 #Replace .replace("linksolver.ovid.com","^plinksolver.ovid.com^").replace("sc.elsevier.com","^psc.elsevier.com^")
