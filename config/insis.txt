@@ -8,9 +8,6 @@ IncludeFile authorization/oclc/AmericanPhysiologySociety
 # ACM
 IncludeFile authorization/oclc/AcmDigitalLibrary
 
-# EDP
-IncludeFile authorization/other/EDPSciences
-
 # IOS PRESS
 IncludeFile authorization/oclc/IOSPress
 

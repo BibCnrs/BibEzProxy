@@ -1,8 +1,6 @@
 # FOURNISSEURS
 # ============
 
-IncludeFile authorization/other/EDPSciences
-
 # BASES DE DONNEES
 # ================
 

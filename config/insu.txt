@@ -16,9 +16,6 @@ IncludeFile authorization/other/BRGM
 # COPERNICUS
 IncludeFile authorization/other/CopernicusPublications
 
-# EDP
-IncludeFile authorization/other/EDPSciences
-
 # GALLICA LIBRES
 IncludeFile authorization/other/BNF
 

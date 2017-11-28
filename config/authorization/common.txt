@@ -45,6 +45,9 @@ IncludeFile authorization/oclc/DeGruyterOnline
 # DRANT Droits Antiques MISHA
 IncludeFile authorization/other/Drant
 
+# EDP
+IncludeFile authorization/other/EDPSciences
+
 # ELSEVIER ARCH NEGOCIATION NATIONALE
 # ELSEVIER LICENCES NATIONALES ISTEX
 # ELSEVIER MONOS NEGOCIATIONS NATIONALES

@@ -54,9 +54,6 @@ IncludeFile authorization/other/ColdSpringHarborLaboratoryPress
 # COMPANY OF BIOLOGISTS
 IncludeFile authorization/oclc/CompanyOfBiologists
 
-# EDP
-IncludeFile authorization/other/EDPSciences
-
 # ELSEVIER MONOS
 IncludeFile authorization/oclc/ElsevierScienceDirectAndScopus
 
