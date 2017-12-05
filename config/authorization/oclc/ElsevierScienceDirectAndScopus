@@ -4,9 +4,12 @@ Cookie BROWSER_SUPPORTS_COOKIES=1;domain=.sciencedirect.com
 AnonymousURL +https://rss.sciencedirect.com/
 Title ScienceDirect
 URL https://www.sciencedirect.com
+URL https://acw.elsevier.com
 HJ https://www.sciencedirect.com
 HJ https://sciencedirect.com
 HJ http://www.sciencedirect.com
+HJ https://acw.elsevier.com
+HJ acw.elsevier.com
 HJ sciencedirect.com
 HJ linkinghub.elsevier.com
 HJ admintool.elsevier.com
