@@ -1,53 +1,338 @@
 T EDP Sciences
-
 U https://www.edpsciences.org/
 U https://publications.edpsciences.org
-HJ publications.edpsciences.org
+H aas.aanda.org
+H animres.edpsciences.org
+H asees.water-quality-journal.org
+H epistemo.edpsciences.org
+H epljournal.edpsciences.org
+H publications.edpsciences.org
+H jp1.journaldephysique.org
+H lait.dairy-journal.org
+H odf.edpsciences.org
+H www.aanda.org
+H www.alr-journal.org
+H www.agronomy-journal.org
+H www.annphys.org
+H www.apidologie.org
+H www.ata-journal.org
+H www.bio-conferences.org
+H www.biologie-journal.org
+H www.dairy-journal.org
+H www.e3s-conferences.org
+H www.eas-journal.org
+H www.edpsciences.org
+H www.epj-conferences.org
+H www.epj-pv.org
+H www.epjap.org
+H www.esaim-proc.org
+H www.esaim-m2an.org
+H www.etp-journal.org
+H www.europhysicsnews.org
+H www.gse-journal.org
+H www.hydroecologie.org
+H www.ijsmdo.org
+H www.jdao-journal.org
+H www.journal-therapie.org
+H www.kmae-journal.org
+H www.limnology-journal.org
+H www.matec-conferences.org
+H www.mattech-journal.org
+H www.mbcb-journal.org
+H www.mechanics-industry.org
+H www.medecine-nutrition.org
+H www.medecinesciences.org
+H www.metrology-journal.org
+H www.mov-sport-sciences.org
+H www.neutron-sciences.org
+H www.nss-journal.org
+H www.ocl-journal.org
+H www.orthodfr.org
+H www.parasite-journal.org
+H www.pedagogie-medicale.org
+H www.perspectives-psy.org
+H www.photoniques.com
+H www.psycho-clinique.org
+H www.quadrature-journal.org
+H www.rairo-ro.org
+H www.rdmbd.org
+H www.refletsdelaphysique.fr
+H www.shf-lhb.org
+H www.shs-conferences.org
+H www.swsc-journal.org
+H www.uniodf-journal.org
+H www.vetres.org
+H www.water-quality-journal.org
+H https://aas.aanda.org
+H https://analusis.edpsciences.org
+H https://animres.edpsciences.org
+H https://asees.water-quality-journal.org
+H https://ejess.edpsciences.org
+H https://emergent-scientist.edp-open.org
+H https://epjam.edp-open.org
+H https://epjb.epj.org
+H https://epjd.epj.org
+H https://epjds.epj.org
+H https://epje.epj.org
+H https://epjh.epj.org
+H https://epjst.epj.org
+H https://epjti.epj.org
+H https://epljournal.edpsciences.org
+H https://fruits.edpsciences.org
+H https://jcp.edpsciences.org
+H https://mfr.edp-open.org
+H https://mmm.edpsciences.org
+H https://odf.edpsciences.org
+H https://ogst.ifpenergiesnouvelles.fr
+H https://rgn.publications.sfen.org
+H https://rnd.edpsciences.org
+H https://tsm.astee.org
+H https://www.4open-sciences.org
+H https://www.afs-journal.org
+H https://www.biomedicine.edp-open.org
+H https://www.bsgf.fr
+H https://www.cahiersagricultures.fr
+H https://www.cahiers-myologie.org
+H https://www.ctv-jve-journal.org
+H https://www.ebr-journal.org
+H https://www.epj-n.org
+H https://www.epj-nbp.org
+H https://www.esaim-cocv.org
+H https://www.esaim-ps.org
+H https://www.geotechnique-journal.org
+H https://www.hel-journal.org
+H https://www.itm-conferences.org
+H https://www.j3ea.org
+H https://www.metallurgical-research.org
+H https://www.mmnp-journal.org
+H https://www.radioprotection.org
+H https://www.rees-journal.org
+H https://www.regenmedres-journal.org
+DJ 4open-sciences.org
+DJ aanda.org
+DJ afs-journal.org
+DJ agronomy-journal.org
+DJ alr-journal.org
+DJ annphys.org
+DJ apidologie.org
+DJ ata-journal.org
+DJ bio-conferences.org
+DJ biologie-journal.org
+DJ bsgf.fr
+DJ cahiersagricultures.fr
+DJ cahiers-myologie.org
+DJ ctv-jve-journal.org
+DJ dairy-journal.org
+DJ e3s-conferences.org
+DJ eas-journal.org
+DJ ebr-journal.org
+DJ edp-open.org
 DJ edpsciences.org
-U https://www.aanda.org
-U https://aas.aanda.org
-U https://epljournal.edpsciences.org
-U https://www.journal-therapie.org
-U https://www.hydroecologie.org
-U https://www.shf-lhb.org
-HJ www.aanda.org
-HJ aas.aanda.org
-HJ epljournal.edpsciences.org
-HJ www.journal-therapie.org
-HJ www.hydroecologie.org
-HJ www.shf-lhb.org
-
-Option DomainCookieOnly
-# T Medecine Sciences
-U https://www.medecinesciences.org
-HJ www.medecinesciences.org
-DJ medecinesciences.org
-Option Cookie
-
-# T Natures Sciences Societes
-U https://www.nss-journal.org/
-DJ nss-journal.org
-
-# T RAIRO OPERATIONS RESEARCH
-U https://www.rairo-ro.org
-U https://www.rairo-ita.org
-DJ www.rairo-ita.org
-DJ rairo-ro.org
-
-U https://www.swsc-journal.org
-HJ www.swsc-journal.org
-DJ swsc-journal.org
-
-U https://www.esaim-cocv.org
-U https://www.esaim-m2an.org
-U https://www.esaim-ps.org
-HJ www.esaim-cocv.org
-HJ www.esaim-m2an.org
-HJ www.esaim-ps.org
+DJ epj.org
+DJ epj-conferences.org
+DJ epj-n.org
+DJ epj-nbp.org
+DJ epj-pv.org
+DJ epjap.org
 DJ esaim-cocv.org
 DJ esaim-m2an.org
-DJ www.esaim-ps.org
-
-U https://www.mmnp-journal.org
-HJ www.mmnp-journal.org
+DJ esaim-proc.org
+DJ esaim-ps.org
+DJ etp-journal.org
+DJ europhysicsnews.org
+DJ geotechnique-journal.org
+DJ gse-journal.org
+DJ hel-journal.org
+DJ hydroecologie.org
+DJ ijsmdo.org
+DJ itm-conferences.org
+DJ j3ea.org
+DJ jdao-journal.org
+DJ journal-therapie.org
+DJ journaldephysique.org
+DJ kmae-journal.org
+DJ limnology-journal.org
+DJ matec-conferences.org
+DJ mattech-journal.org
+DJ mbcb-journal.org
+DJ mechanics-industry.org
+DJ medecine-nutrition.org
+DJ medecinesciences.org
+DJ metallurgical-research.org
+DJ metrology-journal.org
 DJ mmnp-journal.org
+DJ mov-sport-sciences.org
+DJ neutron-sciences.org
+DJ nss-journal.org
+DJ ocl-journal.org
+DJ ogst.ifpenergiesnouvelles.fr
+DJ orthodfr.org
+DJ parasite-journal.org
+DJ pedagogie-medicale.org
+DJ perspectives-psy.org
+DJ photoniques.com
+DJ psycho-clinique.org
+DJ quadrature-journal.org
+DJ radioprotection.org
+DJ rairo-ro.org
+DJ rdmbd.org
+DJ refletsdelaphysique.fr
+DJ regenmedres-journal.org
+DJ rees-journal.org
+DJ rgn.publications.sfen.org
+DJ shf-lhb.org
+DJ shs-conferences.org
+DJ sicot-j.org
+DJ surgmedtech-journal.org
+DJ sustainable-buildings-journal.org
+DJ swsc-journal.org
+DJ tsm.astee.org
+DJ uniodf-journal.org
+DJ vetres.org
+DJ water-quality-journal.org
+
+# Actualités Odonto-Stomatologiques
+H https://aos.edp-dentaire.fr/
+# Annales de Limnologie - International Journal of Limnology
+H https://www.limnology-journal.org/
+# Annales de Physique
+H https://www.annphys.org/
+# Annales de Toxicologie Analytique
+H https://www.ata-journal.org/
+# Aquatic Living Resources
+H https://www.alr-journal.org/
+# Astronomy & Astrophysics
+H https://www.aanda.org/
+# Astronomy and Astrophysics Supplement Series
+H https://aas.aanda.org/
+# Biologie Aujourd'hui
+H https://www.biologie-journal.org/
+# BIO Web of Conferences
+H https://www.bio-conferences.org/
+# Bulletin de l’Union Nationale pour l’Intérêt de l’Orthopédie Dento-Faciale
+H https://www.uniodf-journal.org/
+# Droit et Médecine Bucco-Dentaire
+H https://www.rdmbd.org/
+# EAS Publications Series
+H https://www.eas-journal.org/
+# Éducation thérapeutique du patient/Therapeutic patient education
+H https://www.etp-journal.org/
+# Environmental Biosafety Research
+H https://www.ebr-journal.org/
+# EPJ AP
+H https://www.epjap.org/
+# EPJ Photovoltaics
+H https://epjpv.epj.org/
+# EPJ Web of Conferences
+H https://www.epj-conferences.org/
+# EPL
+H https://epljournal.edpsciences.org.proxy.scd.univ-tours.fr/
+# ESAIM: Control, Optimisation and Calculus of Variations
+H https://www.esaim-cocv.org/
+# ESAIM: Mathematical Modelling and Numerical Analysis
+H https://www.esaim-m2an.org/
+# ESAIM: Probability and Statistics
+H https://www.esaim-ps.org/
+# ESAIM: Proceedings and Surveys
+H https://www.esaim-proc.org/
+# Europhysics News
+H https://www.europhysicsnews.org/
+# Fruits
+H https://fruits.edpsciences.org.proxy.scd.univ-tours.fr/
+# Histoire Épistémologie Langage
+H https://www.hel-journal.org/
+# Houille Blanche (La)
+H https://www.shf-lhb.org/
+# Hydroécologie Appliquée
+H https://www.hydroecologie.org/
+# International Journal for Simulation and Multidisciplinary Design Optimization
+H https://www.ijsmdo.org/
+# International Journal of Metrology and Quality Engineering
+H https://www.metrology-journal.org/
+# J3eA
+H https://www.j3ea.org/
+# Journal de Chimie Physique et de Physico-Chimie Biologique
+H https://jcp.edpsciences.org.proxy.scd.univ-tours.fr/
+# Journal of Dentofacial Anomalies and Orthodontics
+H https://www.jdao-journal.org/
+# Journal of Space Weather and Space Climate
+H https://www.swsc-journal.org/
+# Knowledge and Management of Aquatic Ecosystems
+H https://www.kmae-journal.org/
+# MATEC Web of Conferences
+H https://www.matec-conferences.org/
+# Matériaux & Techniques
+H https://www.mattech-journal.org/
+# Mathematical Modelling of Natural Phenomena
+H https://www.mmnp-journal.org/
+# Mechanics & Industry
+H https://www.mechanics-industry.org/
+# Médecine Buccale Chirurgie Buccale
+H https://www.mbcb-journal.org/
+# Médecine & Nutrition
+H https://www.medecine-nutrition.org/
+# médecine/sciences
+H https://www.medecinesciences.org/
+# Metallurgical Research & Technology
+H https://www.metallurgical-research.org/
+# Microscopy Microanalysis Microstructures
+H https://mmm.edpsciences.org.proxy.scd.univ-tours.fr/
+# Movement & Sport Sciences - Science & Motricité
+H https://www.mov-sport-sciences.org/
+# Natures Sciences Sociétés
+H https://www.nss-journal.org/
+# Oil & Gas Science and Technology - Rev. IFP Energies nouvelles
+H https://ogst.ifpenergiesnouvelles.fr/
+# Orthodontie Française (L')
+H https://www.orthodfr.org/
+# Parasite
+H https://www.parasite-journal.org/
+# Pédagogie Médicale
+H https://www.pedagogie-medicale.org/
+# Perspectives Psy
+H https://www.perspectives-psy.org/
+# psychologie clinique
+H https://www.psycho-clinique.org/
+# Radioprotection
+H https://www.radioprotection.org/
+# RAIRO - Operations Research
+H https://www.rairo-ro.org/
+# RAIRO - Theoretical Informatics and Applications
+H https://www.rairo-ita.org/
+# Revue d'Orthopédie Dento-Faciale
+H https://odf.edpsciences.org.proxy.scd.univ-tours.fr/
+# Revue Française de Géotechnique
+H https://www.geotechnique-journal.org/
+# SHS Web of Conferences
+H https://www.shs-conferences.org/
+# Thérapie
+H https://www.journal-therapie.org/
+# Journal de Physique
+H https://jphys.journaldephysique.org/
+# Journal de Physique Colloques
+H https://jphyscol.journaldephysique.org/
+# Journal de Physique et le Radium
+H https://jphysrad.journaldephysique.org/
+# Journal de Physique I
+H https://jp1.journaldephysique.org/
+# Journal de Physique II
+H https://jp2.journaldephysique.org/
+# Journal de Physique III
+H https://jp3.journaldephysique.org/
+# Journal de Physique IV - Proceedings
+H https://jp4.journaldephysique.org/
+# Journal de Physique Lettres
+H https://jphyslet.journaldephysique.org/
+# Journal de Physique... (Supplément)
+H https://jphysap.journaldephysique.org/
+# J. Phys. Theor. Appl.
+H https://jphystap.journaldephysique.org/
+# Radium (Le)
+H https://radium.journaldephysique.org/
+# Revue de Physique Appliquée (Paris)
+H https://rphysap.journaldephysique.org/
+# Cahiers de l'Association Scientifique Européenne pour l'Eau et la Santé
+H https://asees.water-quality-journal.org/
+# European Journal of Water Quality
+H https://www.water-quality-journal.org/
+
