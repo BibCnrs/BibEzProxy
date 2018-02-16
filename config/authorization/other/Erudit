@@ -1,5 +1,6 @@
 Option NoX-Forwarded-For
 T Érudit
-U http://www.erudit.org/index.html
-D erudit.org
+U https://www.erudit.org/fr/revues/
+HJ https://www.erudit.org
+DJ erudit.org
 Option X-Forwarded-For
