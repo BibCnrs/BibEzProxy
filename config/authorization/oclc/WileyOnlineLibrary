@@ -1,5 +1,4 @@
 HTTPHeader X-Requested-With
-Option X-Forwarded-For
 Cookie theproxy=ezproxy; domain=.onlinelibrary.wiley.com
 Title Wiley Online
 URL http://onlinelibrary.wiley.com
@@ -59,7 +58,6 @@ DJ wiley.com
 DJ esajournals.org
 DJ wileyopenaccess.com
 DJ wileyonlinelibrary.com
-Option NoX-Forwarded-For
 
 U http://embomolmed.embopress.org
 U http://embor.embopress.org
