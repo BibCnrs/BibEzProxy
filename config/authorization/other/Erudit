@@ -1,4 +1,8 @@
+Option NoX-Forwarded-For
+HTTPHeader X-JSON
+MimeFilter application/json .* javascript
 T Érudit
 U https://www.erudit.org/fr/revues/
 HJ https://www.erudit.org
 DJ erudit.org
+Option X-Forwarded-For
