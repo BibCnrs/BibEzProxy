@@ -58,7 +58,7 @@ Replace proxy.cfm?url=https://^A
 Find /login?url=https://
 Replace /login?url=https://^A
 NeverProxy *.eoncontent.ebscohost.com
-NeverProxy content.ebscohost.com
+#NeverProxy content.ebscohost.com
 NeverProxy ebscovideos.ebscohost.com
 NeverProxy rps2images.ebscohost.com
 NeverProxy rpsimages.ebscohost.com
