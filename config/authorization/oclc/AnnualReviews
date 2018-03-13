@@ -1,7 +1,7 @@
 # http://www.oclc.org/support/services/ezproxy/documentation/db/annual_reviews.en.html
 
-T Annual Reviews
-U http://www.annualreviews.org/
+Title Annual Reviews
+URL https://www.annualreviews.org/
 HJ annualreviews.org
 HJ anchem.annualreviews.org
 HJ animal.annualreviews.org
@@ -27,6 +27,7 @@ HJ fluid.annualreviews.org
 HJ food.annualreviews.org
 HJ genet.annualreviews.org
 HJ genom.annualreviews.org
+HJ http://www.annualreviews.org
 HJ immunol.annualreviews.org
 HJ lawsocsci.annualreviews.org
 HJ linguistics.annualreviews.org

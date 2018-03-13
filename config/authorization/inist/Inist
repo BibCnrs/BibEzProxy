@@ -19,8 +19,10 @@ H ida.inist.fr:50030
 U http://pascal-francis.inist.fr
 HJ pascal-francis.inist.fr
 
-U http://whatismyipaddress.com/fr/mon-ip
-HJ whatismyipaddress.com
+U https://www.whatismyip.com/
+HJ https://www.whatismyip.com/
+HJ www.whatismyip.com
+DJ whatismyip.com
 
 T Nouveau site DOGE
 H hippo.intra.inist.fr:51192
