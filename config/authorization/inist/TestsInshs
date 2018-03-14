@@ -1,3 +1,13 @@
+Option DomainCookieOnly
+T University of Chicago Press Journals
+U https://www.journals.uchicago.edu
+U https://www.journals.uchicago.edu/loi/jaere
+HJ http://www.journals.uchicago.edu
+HJ www.journals.uchicago.edu
+HJ journals.uchicago.edu
+DJ uchicago.edu
+Option Cookie
+
 T Retronews
 U http://www.retronews.fr
 HJ www.retronews.fr
