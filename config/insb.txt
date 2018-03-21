@@ -93,9 +93,6 @@ IncludeFile authorization/other/MicrobiologySociety
 # SOCIETY FOR NEUROSCIENCE
 IncludeFile authorization/other/SocietyForNeurosciences
 
-# UNIVERSITY OF CHICAGO PRESS
-IncludeFile authorization/oclc/UniversityOfChicagoPress
-
 # BASES DE DONNEES
 # ================
 

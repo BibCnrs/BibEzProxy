@@ -133,6 +133,9 @@ IncludeFile authorization/oclc/SpringerLink
 # Taylor & Francis
 IncludeFile authorization/oclc/TaylorAndFrancisOnline
 
+# UNIVERSITY OF CHICAGO PRESS
+IncludeFile authorization/oclc/UniversityOfChicagoPress
+
 # WILEY LICENCES NATIONALES ISTEX
 IncludeFile authorization/oclc/WileyOnlineLibrary
 
