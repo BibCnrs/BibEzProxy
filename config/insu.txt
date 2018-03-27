@@ -33,6 +33,9 @@ IncludeFile authorization/other/IstitutoNazionalediGeofisicaEVulcanologia
 IncludeFile authorization/other/LeBureauCentralSismologiqueFrancais
 IncludeFile authorization/other/TerraScientificPublishingCompany
 
+# LIEBERT
+IncludeFile authorization/oclc/Liebert
+
 # OUP
 IncludeFile authorization/oclc/OxfordJournals
 
