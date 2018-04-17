@@ -16,7 +16,8 @@ PHE www.nexis.com www-nexis-com
 Option CookiePassThrough
 Title LexisNexis
 URL http://www.lexisnexis.com/hottopics/lnacademic
-U https://advance.lexis.com/?identityprofileid=XT9STJ55727
+###U https://advance.lexis.com/?identityprofileid=XT9STJ55727
+U https://www.totalpatentone.com/?identityprofileid=XT9STJ55727
 HJ https://www.lexisnexis.com
 DJ lexis-nexis.com
 DJ lexisnexis.com
