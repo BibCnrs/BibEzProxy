@@ -72,6 +72,9 @@ IncludeFile authorization/oclc/f1000
 # GSL
 IncludeFile authorization/other/GeologicalSocietyOfLondon
 
+# HAL
+IncludeFile authorization/other/Hal
+
 # IOP PUBLISHING LICENCES NATIONALES ISTEX
 IncludeFile authorization/oclc/InstituteOfPhysics
 
