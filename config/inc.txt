@@ -3,9 +3,6 @@
 # ACS
 IncludeFile authorization/oclc/AmericanChemicalSociety
 
-# ELSEVIER EBOOK EBS 2015
-IncludeFile authorization/oclc/ElsevierScienceDirectAndScopus
-
 # SOCIETE CHIMIQUE DE FRANCE
 IncludeFile authorization/other/LActualiteChimique
 

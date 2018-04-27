@@ -5,9 +5,6 @@
 # CAIRN EBOOK
 IncludeFile authorization/oclc/Cairn
 
-# ELSEVIER ARCH
-IncludeFile authorization/oclc/ElsevierScienceDirectAndScopus
-
 # ERUDIT
 IncludeFile authorization/other/Erudit
 

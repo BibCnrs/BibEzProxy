@@ -54,9 +54,6 @@ IncludeFile authorization/other/ColdSpringHarborLaboratoryPress
 # COMPANY OF BIOLOGISTS
 IncludeFile authorization/oclc/CompanyOfBiologists
 
-# ELSEVIER MONOS
-IncludeFile authorization/oclc/ElsevierScienceDirectAndScopus
-
 # ENDOCRINE SOCIETY
 IncludeFile authorization/oclc/EndocrineSociety
 
