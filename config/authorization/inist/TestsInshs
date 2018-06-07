@@ -1,24 +1,3 @@
-Option DomainCookieOnly
-T University of Chicago Press Journals
-U https://www.journals.uchicago.edu
-U https://www.journals.uchicago.edu/loi/jaere
-HJ http://www.journals.uchicago.edu
-HJ www.journals.uchicago.edu
-HJ journals.uchicago.edu
-DJ uchicago.edu
-Option Cookie
-
-U http://www.universalis-edu.com/
-HJ www.universalis-edu.com
-DJ universalis-edu.com
-
-U http://journals.berghahnbooks.com
-U https://www.berghahnjournals.com
-HJ www.berghahnjournals.com
-HJ journals.berghahnbooks.com
-DJ berghahnjournals.com
-DJ berghahnbooks.com
-
 T Retronews
 U http://www.retronews.fr
 HJ www.retronews.fr
@@ -57,10 +36,3 @@ DJ torrossa.de
 DJ torrossa.es
 DJ torrossa.it
 DJ crypto-service.com
-
-U http://www.oed.com
-U https://public.oed.com
-HJ public.oed.com
-HJ www.oed.com
-DJ oed.com
-
