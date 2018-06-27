@@ -1,37 +1,12 @@
-# http://www.oclc.org/support/services/ezproxy/documentation/db/oxfordjournals.en.html
-
-# 2016-01-19
-
-#            Oxford Journals
-#   A division of Oxford University Press
-#   -------------------------------------
-#   This file contains database definitions
-#      for use in an EZProxy config file.
-#
-#   This cfg file can be called into an existing
-#     EZProxy config file by using IncludeFile.
-#     More information on this is available at
-# http://www.oclc.org/support/documentation/ezproxy/cfg/includefile/
-#
-#     The current list of Oxford Journals is available at
-#       http://www.oxfordjournals.org/our_journals/
-#
-#   Some journals have been given an oupjournals.org line
-#        to support historic links to that domain
-#
-#   The end of the file also contains a list of
-#    non-journal sites and historical redirects
-#
-#          Questions can be addressed to
-#         jnls.eprod@oxfordjournals.org
-#   -------------------------------------
-
-# Nouvelle plateforme Oxford a partir du 01/2017
-Title Oxford Journals (new platform Fall 2016)
+Title Oxford Journals (updated 20180516)
 URL https://academic.oup.com/
-URL http://oup.silverchair-cdn.com
-HJ oup.silverchair-cdn.com
 DJ oup.com
+DJ oup.silverchair-cdn.com
+Find domain="//global.oup.com"
+Replace domain="//^sglobal.oup.com^"
+HJ https://watermark.silverchair.com
+DJ silverchair.com
+HJ watermark.silverchair.com
 
 
 URL http://www.oxfordjournals.org
