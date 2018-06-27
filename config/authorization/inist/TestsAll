@@ -1,3 +1,12 @@
+##Ajout du 18/06/2018 FV/FJ
+Option X-Forwarded-For
+HTTPMethod PUT
+T SciFinder-N
+U https://scifinder-n.cas.org/
+D cas.org
+Option NoX-Forwarded-For
+
+
 Title CAS SciFinder
 URL https://scifinder.cas.org/scifinder
 URL https://scifinder-n.cas.org
