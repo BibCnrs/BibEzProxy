@@ -1,5 +1,16 @@
 # http://www.oclc.org/support/services/ezproxy/documentation/db/incites.en.html
 
+#Option DomainCookieOnly
+#PHE apps.clarivate.com$ apps-clarivate-com
+#HTTPHeader -request -process X-1P-INC-SID
+#Title InCites Benchmarking Journal Citation Reports and Essential Science Indicators
+#URL https://incites.thomsonreuters.com
+#DJ incites.thomsonreuters.com
+#DJ clarivate.com
+#Find "apps.clarivate.com/
+#Replace "^papps.clarivate.com^/
+#Option Cookie
+
 Option DomainCookieOnly
 Title InCites
 URL https://incites.thomsonreuters.com

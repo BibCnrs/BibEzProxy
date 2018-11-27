@@ -165,6 +165,7 @@ IncludeFile authorization/inist/Istex
 IncludeFile authorization/inist/IstexAPI
 IncludeFile authorization/inist/Panist
 IncludeFile authorization/inist/Refdoc
+IncludeFile authorization/other/Iop
 
 # EBSCO Linksource
 # =================
