@@ -5,6 +5,8 @@ U http://www.openedition.org
 NeverProxy static.openedition.org
 NeverProxy static-origin.openedition.org
 DJ openedition.org
+HJ https://usages.openedition.org
+HJ usages.openedition.org
 HJ https://books.openedition.org
 HJ https://journals.openedition.org
 HJ https://www.openedition.org
