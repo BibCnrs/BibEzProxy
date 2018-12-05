@@ -3813,40 +3813,6 @@ NeverProxy vttts.rs.ebscohost.com
 NeverProxy nvntts.rs.ebscohost.com
 NeverProxy ivotts.rs.ebscohost.com
 NeverProxy widgets.ebscohost.com
-T Services INIST
-U http://mesh.inist.fr
-D mesh.inist.fr
-HJ www.inist.fr
-DJ inist.fr
-D services.inist.fr 
-H services.inist.fr
-H biblioinserm.inist.fr
-H cnrs-iop.inist.fr
-D doge.inist.fr
-H doge.inist.fr
-D sd-ext.inist.fr
-H sd-ext.inist.fr:50010
-H accestest.inist.fr
-H sd-dev.inist.fr:50010
-H ida.intra.inist.fr:50030
-H ida.inist.fr:50030
-
-U http://pascal-francis.inist.fr
-HJ pascal-francis.inist.fr
-
-U https://www.whatismyip.com/
-HJ https://www.whatismyip.com/
-HJ www.whatismyip.com
-DJ whatismyip.com
-
-T Nouveau site DOGE
-H hippo.intra.inist.fr:51192
-H doge.demo.inist.fr
-
-T INIS CEA
-U https://inis-cea.inist.fr
-HJ https://inis-cea.inist.fr
-HJ inis-cea.inist.fr
 T Campagne nationale de test ISTEX
 U http://www.istex.fr/?Campagne-nationale-de-test
 DJ istex.fr
@@ -3863,16 +3829,6 @@ HJ https://view.istex.fr
 DJ istex.fr
 
 Option X-Forwarded-For
-T PANIST
-U http://panist-dev.inist.fr/
-U http://panist-test.inist.fr/
-U http://www.panist.fr/
-H panist-dev.inist.fr
-H panist-test.inist.fr
-D panist.fr
-T REFDOC
-H www.refdoc.fr
-H refdocprex-fo.inist.fr
 Option DomainCookieOnly
 Title -hide EBSCO Full Text Finder
 URL http://resolver.ebscohost.com
