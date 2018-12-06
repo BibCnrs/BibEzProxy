@@ -732,7 +732,6 @@ U http://api.archives-ouvertes.fr/docs
 U https://data.archives-ouvertes.fr/
 U https://doc.archives-ouvertes.fr/
 U https://www.episciences.org/
-U https://www.sciencesconf.org/
 HJ hal.archives-ouvertes.fr
 HJ halshs.archives-ouvertes.fr
 HJ tel.archives-ouvertes.fr
@@ -742,10 +741,8 @@ HJ api.archives-ouvertes.fr
 HJ data.archives-ouvertes.fr
 HJ doc.archives-ouvertes.fr
 HJ www.episciences.org
-HJ www.sciencesconf.org
 DJ archives-ouvertes.fr
 DJ episciences.org
-DJ sciencesconf.org
 # http://www.oclc.org/support/services/ezproxy/documentation/db/iop.en.html
 
 Title Institute of Physics
@@ -4103,3 +4100,8 @@ DJ aiaa-scitech.org
 DJ aiaa-space.org
 DJ aiaa.org
 DJ aiaafoundation.org
+
+T INIS CEA
+U https://inis-cea.inist.fr
+HJ https://inis-cea.inist.fr
+HJ inis-cea.inist.fr
