@@ -3133,8 +3133,6 @@ DJ sagepub.co.uk
 DJ cqpress.com
 Find url = "http://
 Replace url = "http://^A
-Find "google-analytics.com
-Replace "^pgoogle-analytics.com^
 Find url = document.location.protocol + "//" + document.location.host
 Replace url = "http://journals.sagepub.com/"
 Option Cookie
@@ -3582,14 +3580,12 @@ DJ galesites.com
 DJ galesupport.com
 DJ ggimg.com
 DJ gofullstack.net
-DJ google.com
 DJ mygovernment.us
 DJ nelnetsolutions.com
 DJ readspeaker.com
 DJ tinygaleurl.com
 DJ readspeaker.com
 NeverProxy library.demographicsnow.com
-NeverProxy apis.google.com
 T ICSD Fiz Karlsruhe
 U https://icsd.fiz-karlsruhe.de/search/index.xhtml
 HJ icsd.fiz-karlsruhe.de
