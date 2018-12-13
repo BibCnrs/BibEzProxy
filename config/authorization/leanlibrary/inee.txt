@@ -4147,3 +4147,8 @@ T INIS CEA
 U https://inis-cea.inist.fr
 HJ https://inis-cea.inist.fr
 HJ inis-cea.inist.fr
+
+T The American Association of Immunologists
+U http://www.jimmunol.org/contents-by-date.0.shtml
+D jimmunol.org
+

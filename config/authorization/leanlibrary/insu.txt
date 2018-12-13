@@ -453,7 +453,7 @@ DJ uniodf-journal.org
 DJ vetres.org
 DJ water-quality-journal.org
 
-# Actualités Odonto-Stomatologiques
+# ActualitéOdonto-Stomatologiques
 H https://aos.edp-dentaire.fr/
 # Annales de Limnologie - International Journal of Limnology
 H https://www.limnology-journal.org/
@@ -471,13 +471,13 @@ H https://aas.aanda.org/
 H https://www.biologie-journal.org/
 # BIO Web of Conferences
 H https://www.bio-conferences.org/
-# Bulletin de l’Union Nationale pour l’Intérêt de l’Orthopédie Dento-Faciale
+# Bulletin de l.Union Nationale pour l.Intét de l.Orthopée Dento-Faciale
 H https://www.uniodf-journal.org/
-# Droit et Médecine Bucco-Dentaire
+# Droit et Mécine Bucco-Dentaire
 H https://www.rdmbd.org/
 # EAS Publications Series
 H https://www.eas-journal.org/
-# Éducation thérapeutique du patient/Therapeutic patient education
+# Éucation thépeutique du patient/Therapeutic patient education
 H https://www.etp-journal.org/
 # Environmental Biosafety Research
 H https://www.ebr-journal.org/
@@ -501,12 +501,11 @@ H https://www.esaim-proc.org/
 H https://www.europhysicsnews.org/
 # Fruits
 H https://fruits.edpsciences.org.proxy.scd.univ-tours.fr/
-# Histoire Épistémologie Langage
+# Histoire Éistélogie Langage
 H https://www.hel-journal.org/
 # Houille Blanche (La)
 H https://www.shf-lhb.org/
-# Hydroécologie Appliquée
-H https://www.hydroecologie.org/
+# Hydroélogie AppliquéH https://www.hydroecologie.org/
 # International Journal for Simulation and Multidisciplinary Design Optimization
 H https://www.ijsmdo.org/
 # International Journal of Metrology and Quality Engineering
@@ -523,33 +522,32 @@ H https://www.swsc-journal.org/
 H https://www.kmae-journal.org/
 # MATEC Web of Conferences
 H https://www.matec-conferences.org/
-# Matériaux & Techniques
+# Matéaux & Techniques
 H https://www.mattech-journal.org/
 # Mathematical Modelling of Natural Phenomena
 H https://www.mmnp-journal.org/
 # Mechanics & Industry
 H https://www.mechanics-industry.org/
-# Médecine Buccale Chirurgie Buccale
+# Mécine Buccale Chirurgie Buccale
 H https://www.mbcb-journal.org/
-# Médecine & Nutrition
+# Mécine & Nutrition
 H https://www.medecine-nutrition.org/
-# médecine/sciences
+# mécine/sciences
 H https://www.medecinesciences.org/
 # Metallurgical Research & Technology
 H https://www.metallurgical-research.org/
 # Microscopy Microanalysis Microstructures
 H https://mmm.edpsciences.org.proxy.scd.univ-tours.fr/
-# Movement & Sport Sciences - Science & Motricité
-H https://www.mov-sport-sciences.org/
-# Natures Sciences Sociétés
+# Movement & Sport Sciences - Science & Motricité https://www.mov-sport-sciences.org/
+# Natures Sciences Sociés
 H https://www.nss-journal.org/
 # Oil & Gas Science and Technology - Rev. IFP Energies nouvelles
 H https://ogst.ifpenergiesnouvelles.fr/
-# Orthodontie Française (L')
+# Orthodontie Françse (L')
 H https://www.orthodfr.org/
 # Parasite
 H https://www.parasite-journal.org/
-# Pédagogie Médicale
+# Pégogie Mécale
 H https://www.pedagogie-medicale.org/
 # Perspectives Psy
 H https://www.perspectives-psy.org/
@@ -561,13 +559,13 @@ H https://www.radioprotection.org/
 H https://www.rairo-ro.org/
 # RAIRO - Theoretical Informatics and Applications
 H https://www.rairo-ita.org/
-# Revue d'Orthopédie Dento-Faciale
+# Revue d'Orthopée Dento-Faciale
 H https://odf.edpsciences.org.proxy.scd.univ-tours.fr/
-# Revue Française de Géotechnique
+# Revue Françse de Géechnique
 H https://www.geotechnique-journal.org/
 # SHS Web of Conferences
 H https://www.shs-conferences.org/
-# Thérapie
+# Thépie
 H https://www.journal-therapie.org/
 # Journal de Physique
 H https://jphys.journaldephysique.org/
@@ -585,16 +583,15 @@ H https://jp3.journaldephysique.org/
 H https://jp4.journaldephysique.org/
 # Journal de Physique Lettres
 H https://jphyslet.journaldephysique.org/
-# Journal de Physique... (Supplément)
+# Journal de Physique... (Supplént)
 H https://jphysap.journaldephysique.org/
 # J. Phys. Theor. Appl.
 H https://jphystap.journaldephysique.org/
 # Radium (Le)
 H https://radium.journaldephysique.org/
-# Revue de Physique Appliquée (Paris)
+# Revue de Physique Appliqué(Paris)
 H https://rphysap.journaldephysique.org/
-# Cahiers de l'Association Scientifique Européenne pour l'Eau et la Santé
-H https://asees.water-quality-journal.org/
+# Cahiers de l'Association Scientifique Européne pour l'Eau et la Santé https://asees.water-quality-journal.org/
 # European Journal of Water Quality
 H https://www.water-quality-journal.org/
 
@@ -3884,3 +3881,4 @@ T INIS CEA
 U https://inis-cea.inist.fr
 HJ https://inis-cea.inist.fr
 HJ inis-cea.inist.fr
+
