@@ -1,33 +1,3 @@
-##Ajout du 18/06/2018 FV/FJ
-Option X-Forwarded-For
-HTTPMethod PUT
-T SciFinder-N
-U https://scifinder-n.cas.org/
-D cas.org
-Option NoX-Forwarded-For
-
-
-Title CAS SciFinder
-URL https://scifinder.cas.org/scifinder
-URL https://scifinder-n.cas.org
-URL https://scifinder.cas.org/registration/index.html?corpKey=B48E51DDX86F35040X250F31B921D5C4A611
-H scifinder.cas.org
-H scifinder-n.cas.org
-D cas.org
-
-U https://aapt.scitation.org
-HJ https://aapt.scitation.org
-HJ aapt.scitation.org
-DJ scitation.org
-
-Title NRC Research Press
-URL http://www.nrcresearchpress.com/
-HJ https://www.nrcresearchpress.com
-HJ https://nrcresearchpress.com
-HJ nrcresearchpress.com
-HJ www.nrcresearchpress.com
-DJ nrcresearchpress.com
-
 PHE www.lexisnexis.com$ www-lexisnexis-com
 PHE www.nexis.com www-nexis-com
 Option CookiePassThrough

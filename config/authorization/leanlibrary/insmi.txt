@@ -3875,14 +3875,6 @@ HJ https://aapt.scitation.org
 HJ aapt.scitation.org
 DJ scitation.org
 
-Title NRC Research Press
-URL http://www.nrcresearchpress.com/
-HJ https://www.nrcresearchpress.com
-HJ https://nrcresearchpress.com
-HJ nrcresearchpress.com
-HJ www.nrcresearchpress.com
-DJ nrcresearchpress.com
-
 PHE www.lexisnexis.com$ www-lexisnexis-com
 PHE www.nexis.com www-nexis-com
 Option CookiePassThrough
