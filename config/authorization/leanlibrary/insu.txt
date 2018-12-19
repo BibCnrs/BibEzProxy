@@ -217,12 +217,9 @@ HJ www.cambridge.org
 HJ africabibliography.cambridge.org
 HJ ebooks.cambridge.org
 HJ journals.cambridge.org
-HJ stahlonline.cambridge.org
-HJ universitypublishingonline.org
 HJ www.africabibliography.cambridge.org
 HJ www.cambridge.org
 HJ www.journals.cambridge.org
-HJ www.stahlonline.cambridge.org
 DJ cambridge.org
 Find globalNav('//www.cambridge.org/tools/packages/cambridge_themes/
 Replace globalNav('/tools/packages/cambridge_themes/
@@ -643,14 +640,6 @@ Replace gsUrl%22%3A%22https%3A%2F%2F^pwww.scopus.com^%2F
 NeverProxy www.elsevier.com
 AnonymousURL -* 
 # http://www.oclc.org/support/services/ezproxy/documentation/db/emeraldinsight.en.html
-Title F1000
-MimeFilter application/json .* javascript
-URL http://f1000.com
-H https://f1000.com
-HJ f1000.com
-DJ f1000.com
-HJ f1000research.com
-DJ f1000research.com
 U http://www.lyellcollection.org
 U http://sp.lyellcollection.org/content/by/volume
 HJ www.lyellcollection.org
@@ -1003,7 +992,6 @@ HJ http://lcc.revues.org
 HJ http://dse.revues.org
 HJ http://dossiersgrihl.revues.org
 HJ http://nda.revues.org
-HJ http://lexis.revues.org
 HJ http://liame.revues.org
 HJ http://lidil.revues.org
 HJ http://linx.revues.org
@@ -2832,24 +2820,6 @@ Host www.eurheartjsupp.org
 Host www.imrn.org
 Host www.imrs.org
 Host www.thebsps.org
-#Plosone
-URL http://journals.plos.org/plosone/
-URL https://www.plos.org/
-HJ www.plos.org
-HJ journals.plos.org
-HJ www.plosone.org
-DJ plos.org
-# http://www.oclc.org/support/services/ezproxy/documentation/db/pnas.en.html
-Title Proceedings of the National Academy of Sciences
-URL http://www.pnas.org
-HJ anthropology.pnas.org
-HJ chemistry.pnas.org
-HJ frontmatter.pnas.org
-HJ intl.pnas.org
-HJ physics.pnas.org
-HJ pnas.org
-HJ sustainability.pnas.org
-HJ teachingresources.pnas.org
 Title Project Euclid
 U http://projecteuclid.org/librarians/lib_prime
 U https://projecteuclid.org/
@@ -3305,95 +3275,6 @@ URL http://wellesley.chadwyck.co.uk
 HJ wellesley.chadwyck.co.uk
 HJ wellesley.chadwyck.com
 
-Title -hide Gale/Infotrac/PowerSearch Databases
-URL http://infotrac.galegroup.com/
-HJ access.gale.com
-HJ auth.go.galegroup.com
-HJ bi.galegroup.com
-HJ bna.galegroup.com
-HJ careertransitions.galegroup.com
-HJ cyberadmin.gofullstack.net
-HJ education.gale.com
-HJ cyber.galegroup.com
-HJ find.galegroup.com
-HJ galeauth.galegroup.com
-HJ galenet.galegroup.com
-HJ galesites.com
-HJ galesupport.com
-HJ gdc.gale.com
-HJ gdc.galegroup.com
-HJ go.galegroup.com
-HJ ic.galegroup.com
-HJ infotrac.galenet.com
-HJ infotrac.london.galegroup.com
-HJ link.galegroup.com
-HJ natgeo.galegroup.com
-HJ ncco.galegroup.com
-HJ ncco.tu.galegroup.com
-HJ pdfserve.galegroup.com
-HJ sa.galegroup.com
-HJ shakespeare.galegroup.com
-HJ support.gale.com
-HJ tinygaleurl.com
-HJ tinyurl.galegroup.com
-HJ vs.galegroup.com
-HJ www.chiltonlibrary.com
-HJ www.galenet.com
-HJ www.galepages.com
-HJ www.infotrac.london.galegroup.com
-HJ www.mygovernment.us
-HJ www.nelnetsolutions.com
-HJ https://access.gale.com
-HJ https://auth.go.galegroup.com
-HJ https://bi.galegroup.com
-HJ https://bna.galegroup.com
-HJ https://careertransitions.galegroup.com
-HJ https://cyberadmin.gofullstack.net
-HJ https://education.gale.com
-HJ https://find.galegroup.com
-HJ https://cyber.galegroup.com
-HJ https://galeauth.galegroup.com
-HJ https://galenet.galegroup.com
-HJ https://galesites.com
-HJ https://galesupport.com
-HJ https://gdc.gale.com
-HJ https://gdc.galegroup.com
-HJ https://go.galegroup.com
-HJ https://ic.galegroup.com
-HJ https://infotrac.galenet.com
-HJ https://infotrac.london.galegroup.com
-HJ https://link.galegroup.com
-HJ https://natgeo.galegroup.com
-HJ https://ncco.galegroup.com
-HJ https://ncco.tu.galegroup.com
-HJ https://pdfserve.galegroup.com
-HJ https://sa.galegroup.com
-HJ https://shakespeare.galegroup.com
-HJ https://support.gale.com
-HJ https://tinygaleurl.com
-HJ https://tinyurl.galegroup.com
-HJ https://vs.galegroup.com
-HJ https://www.chiltonlibrary.com
-HJ https://www.galenet.com
-HJ https://www.galepages.com
-HJ https://www.infotrac.london.galegroup.com
-HJ https://www.mygovernment.us
-HJ https://www.nelnetsolutions.com
-HJ HJ https://api.cyber-anatomy.com
-DJ chiltonlibrary.com
-DJ galegroup.com
-DJ galenet.com
-DJ galepages.com
-DJ galesites.com
-DJ galesupport.com
-DJ ggimg.com
-DJ gofullstack.net
-DJ mygovernment.us
-DJ nelnetsolutions.com
-DJ readspeaker.com
-DJ tinygaleurl.com
-DJ readspeaker.com
-
 #Option DomainCookieOnly
 #PHE apps.clarivate.com$ apps-clarivate-com
 #HTTPHeader -request -process X-1P-INC-SID
@@ -3504,19 +3385,6 @@ Title EBSCOhost
 HJ https://resolver.ebscohost.com
 DJ smartimagebase.com
 
-U https://aapt.scitation.org
-HJ https://aapt.scitation.org
-HJ aapt.scitation.org
-DJ scitation.org
-
-Title NRC Research Press
-URL http://www.nrcresearchpress.com/
-HJ https://www.nrcresearchpress.com
-HJ https://nrcresearchpress.com
-HJ nrcresearchpress.com
-HJ www.nrcresearchpress.com
-DJ nrcresearchpress.com
-
 Title ACSESS Digital Library
 URL https://dl.sciencesocieties.org/
 HJ dl.sciencesocieties.org
@@ -3532,65 +3400,6 @@ D ametsoc.org
 U http://geolfrance.brgm.fr
 H geolfrance.brgm.fr
 D brgm.fr
-
-T Copernicus Publications
-U http://www.web-ecol.net/volumes_and_issues.html
-U http://www.adv-radio-sci.net/volumes.html
-U http://www.adv-stat-clim-meteorol-oceanogr.net/volumes_and_issues.html
-U http://www.astra-proc.net/recent_papers.html
-U http://www.drink-water-eng-sci.net/volumes_and_issues.html
-U http://www.earth-surf-dynam.net/
-U http://www.earth-syst-sci-data.net/volumes_and_issues.html
-U http://www.foss-rec.net/volumes.html
-U http://www.geogr-helv.net/volumes_and_issues.html
-U http://www.geophysical-research-abstracts.net/egu2015.html
-U http://www.geoth-energ-sci.net/volumes_and_issues.html
-U http://www.hist-geo-space-sci.net/volumes_and_issues.html
-U http://www.isprs.org/publications/archives.aspx
-U http://www.j-sens-sens-syst.net/volumes_and_issues.html
-U http://www.mech-sci.net/volumes_and_issues.html
-U http://www.primate-biol.net/volumes_and_issues.html
-U http://www.scientific-drilling.net/
-U http://www.soil-journal.net/volumes.html
-HJ www.adv-radio-sci.net
-HJ www.adv-stat-clim-meteorol-oceanogr.net
-HJ www.astra-proc.net
-HJ www.drink-water-eng-sci.net
-HJ www.earth-surf-dynam.net
-HJ www.earth-syst-sci-data.net
-HJ www.foss-rec.net
-HJ www.geogr-helv.net
-HJ www.geophysical-research-abstracts.net
-HJ www.geoth-energ-sci.net
-HJ www.hist-geo-space-sci.net
-HJ www.isprs.org
-HJ www.j-sens-sens-syst.net
-HJ www.mech-sci.net
-HJ www.primate-biol.net
-HJ www.scientific-drilling.net
-HJ www.soil-journal.net
-DJ adv-radio-sci.net
-DJ adv-stat-clim-meteorol-oceanogr.net
-DJ astra-proc.net
-DJ drink-water-eng-sci.net
-DJ earth-surf-dynam.net
-DJ earth-syst-sci-data.net
-DJ foss-rec.net
-DJ geogr-helv.net
-DJ geophysical-research-abstracts.net
-DJ geoth-energ-sci.net
-DJ hist-geo-space-sci.net
-DJ isprs.org
-DJ j-sens-sens-syst.net
-DJ mech-sci.net
-DJ primate-biol.net
-DJ scientific-drilling.net
-DJ soil-journal.net
-HJ www.web-ecol.net
-DJ web-ecol.net
-#U http://publications.copernicus.org
-#HJ publications.copernicus.org
-#DJ copernicus.org
 
 Title GeoScienceWorld
 URL https://pubs.geoscienceworld.org
@@ -3817,49 +3626,6 @@ HJ news.sciencemag.org
 HJ classic.sciencemag.org
 HJ https://www.sciencemag.org
 DJ sciencemag.org
-U http://memoirs.gsapubs.org
-U http://specialpapers.gsapubs.org
-HJ memoirs.gsapubs.org
-HJ specialpapers.gsapubs.org
-DJ gsapubs.org
-HJ www.gsapubs.org
-
-Title The American Institute of Aeronautics and Astronautics (AIAA)
-URL http://arc.aiaa.org/
-HJ aiaa-aviation.org
-HJ aiaa-defense.org
-HJ aiaa-propulsionenergy.org
-HJ aiaa-scitech.org
-HJ aiaa-space.org
-HJ aiaa.org
-HJ aiaafoundation.org
-HJ arc.aiaa.org
-HJ https://arc.aiaa.org
-HJ https://info.aiaa.org
-HJ https://lp.aiaa.org
-HJ https://www.aiaa-aviation.org
-HJ https://www.aiaa-defense.org
-HJ https://www.aiaa-propulsionenergy.org
-HJ https://www.aiaa-scitech.org
-HJ https://www.aiaa-space.org
-HJ https://www.aiaa.org
-HJ https://www.aiaafoundation.org
-HJ info.aiaa.org
-HJ lp.aiaa.org
-HJ www.aiaa-aviation.org
-HJ www.aiaa-defense.org
-HJ www.aiaa-propulsionenergy.org
-HJ www.aiaa-scitech.org
-HJ www.aiaa-space.org
-HJ www.aiaa.org
-HJ www.aiaafoundation.org
-DJ aiaa-aviation.org
-DJ aiaa-defense.org
-DJ aiaa-propulsionenergy.org
-DJ aiaa-scitech.org
-DJ aiaa-space.org
-DJ aiaa.org
-DJ aiaafoundation.org
 
 U https://mathscinet.ams.org/mathscinet/help/librarians.html?version=2
 U https://mathscinet.ams.org

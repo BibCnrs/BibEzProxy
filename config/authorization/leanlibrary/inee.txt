@@ -1,10 +1,3 @@
-# Algebraic Geometry
-U https://algebraicgeometry.nl
-HJ algebraicgeometry.nl
-HJ content.algebraicgeometry.nl
-DJ algebraicgeometry.nl
-# http://www.oclc.org/support/services/ezproxy/documentation/db/annual_reviews.en.html
-
 Title Annual Reviews
 URL https://www.annualreviews.org/
 HJ annualreviews.org
@@ -65,21 +58,6 @@ U http://ascelibrary.org/journal/jhend8
 U http://ascelibrary.org
 HJ ascelibrary.org
 DJ ascelibrary.org
-Title The Arabidopsis Information Resource
-URL https://www.arabidopsis.org/
-HJ arabidopsis.org
-HJ gbrowse.arabidopsis.org
-HJ https://arabidopsis.org
-HJ https://gbrowse.arabidopsis.org
-HJ https://seqviewer.arabidopsis.org
-HJ https://www.arabidopsis.org
-HJ seqviewer.arabidopsis.org
-HJ www.arabidopsis.org
-DJ arabidopsis.org
-T ARXIV
-U https://arxiv.org/
-HJ arxiv.org
-# http://www.oclc.org/support/services/ezproxy/documentation/db/bmjjournals.en.html
 
 Title BMJ Journals
 URL http://journals.bmj.com
@@ -199,12 +177,9 @@ HJ babo.brillonline.nl
 HJ bibliographies.brillonline.com
 HJ booksandjournals.brillonline.com
 HJ brillonline.com
-HJ ebooks.brillonline.nl
 HJ brillonline.nl
 HJ chinesereferenceshelf.brillonline.com
 HJ dictionaries.brillonline.com
-HJ iedo.brillonline.nl
-HJ lb.brillonline.nl
 HJ primarysources.brillonline.com
 HJ referenceworks.brillonline.com
 HJ www.brillonline.com
@@ -217,12 +192,9 @@ HJ https://babo.brillonline.nl
 HJ https://bibliographies.brillonline.com
 HJ https://booksandjournals.brillonline.com
 HJ https://brillonline.com
-HJ https://ebooks.brillonline.nl
 HJ https://brillonline.nl
 HJ https://chinesereferenceshelf.brillonline.com
 HJ https://dictionaries.brillonline.com
-HJ https://iedo.brillonline.nl
-HJ https://lb.brillonline.nl
 HJ https://primarysources.brillonline.com
 HJ https://referenceworks.brillonline.com
 HJ https://www.brillonline.com
@@ -234,7 +206,6 @@ HJ https://foreignlawguide.com
 DJ brillonline.com
 DJ brillonline.nl
 DJ foreignlawguide.com
-NeverProxy brill.metastore.ingenta.com
 # http://www.oclc.org/support/services/ezproxy/documentation/db/cambridgejournals.en.html
 
 Title Cambridge Core
@@ -244,37 +215,23 @@ HJ https://cambridge.org
 HJ cambridge.org
 HJ www.cambridge.org
 HJ africabibliography.cambridge.org
-HJ dib.cambridge.org
 HJ ebooks.cambridge.org
 HJ journals.cambridge.org
-HJ orlando.cambridge.org
-HJ stahlonline.cambridge.org
-HJ universitypublishingonline.org
 HJ www.africabibliography.cambridge.org
 HJ www.cambridge.org
-HJ www.dib.cambridge.org
 HJ www.journals.cambridge.org
-HJ www.orlando.cambridge.org
-HJ www.stahlonline.cambridge.org
 DJ cambridge.org
 Find globalNav('//www.cambridge.org/tools/packages/cambridge_themes/
 Replace globalNav('/tools/packages/cambridge_themes/
-T The Cambridge Crystallographic Data Centre
-U http://www.ccdc.cam.ac.uk/
-U http://www.ccdc.cam.ac.uk/support-and-resources/csdsdownloads/
-HJ www.ccdc.cam.ac.uk
-DJ ccdc.cam.ac.uk
+
 Title Cell Press
 URL https://www.cell.com
 HJ www.cell.com
 HJ https://www.cell.com
-HJ www.cellpress.com
-HJ https://www.cellpress.com
 HJ cell.com
 DJ cell.com
-H https://secure.jbs.elsevierhealth.com
-H acw.elsevier.com
-DJ elsevierhealth.com
+
+Title Classiques Garnier
 U http://www.classiques-garnier.com/
 U https://www.classiques-garnier.com
 HJ https://www.classiques-garnier.com
@@ -294,13 +251,7 @@ HJ https://degruyter.com
 HJ https://www.degruyter.com
 HJ www.rgz-rgst.degruyter.de
 DJ degruyter.com
-T DRANT Droits Antiques MISHA
-U http://www2i.misha.fr/
-U http://www.misha.fr/
-HJ www2.misha.fr
-HJ www2i.misha.fr
-HJ www.misha.fr
-DJ misha.fr
+
 T EDP Sciences
 U https://www.edpsciences.org/
 U https://publications.edpsciences.org
@@ -499,7 +450,7 @@ DJ uniodf-journal.org
 DJ vetres.org
 DJ water-quality-journal.org
 
-# Actualités Odonto-Stomatologiques
+# ActualitéOdonto-Stomatologiques
 H https://aos.edp-dentaire.fr/
 # Annales de Limnologie - International Journal of Limnology
 H https://www.limnology-journal.org/
@@ -517,13 +468,13 @@ H https://aas.aanda.org/
 H https://www.biologie-journal.org/
 # BIO Web of Conferences
 H https://www.bio-conferences.org/
-# Bulletin de l’Union Nationale pour l’Intérêt de l’Orthopédie Dento-Faciale
+# Bulletin de l.Union Nationale pour l.Intét de l.Orthopée Dento-Faciale
 H https://www.uniodf-journal.org/
-# Droit et Médecine Bucco-Dentaire
+# Droit et Mécine Bucco-Dentaire
 H https://www.rdmbd.org/
 # EAS Publications Series
 H https://www.eas-journal.org/
-# Éducation thérapeutique du patient/Therapeutic patient education
+# Éucation thépeutique du patient/Therapeutic patient education
 H https://www.etp-journal.org/
 # Environmental Biosafety Research
 H https://www.ebr-journal.org/
@@ -547,12 +498,11 @@ H https://www.esaim-proc.org/
 H https://www.europhysicsnews.org/
 # Fruits
 H https://fruits.edpsciences.org.proxy.scd.univ-tours.fr/
-# Histoire Épistémologie Langage
+# Histoire Éistélogie Langage
 H https://www.hel-journal.org/
 # Houille Blanche (La)
 H https://www.shf-lhb.org/
-# Hydroécologie Appliquée
-H https://www.hydroecologie.org/
+# Hydroélogie AppliquéH https://www.hydroecologie.org/
 # International Journal for Simulation and Multidisciplinary Design Optimization
 H https://www.ijsmdo.org/
 # International Journal of Metrology and Quality Engineering
@@ -569,33 +519,32 @@ H https://www.swsc-journal.org/
 H https://www.kmae-journal.org/
 # MATEC Web of Conferences
 H https://www.matec-conferences.org/
-# Matériaux & Techniques
+# Matéaux & Techniques
 H https://www.mattech-journal.org/
 # Mathematical Modelling of Natural Phenomena
 H https://www.mmnp-journal.org/
 # Mechanics & Industry
 H https://www.mechanics-industry.org/
-# Médecine Buccale Chirurgie Buccale
+# Mécine Buccale Chirurgie Buccale
 H https://www.mbcb-journal.org/
-# Médecine & Nutrition
+# Mécine & Nutrition
 H https://www.medecine-nutrition.org/
-# médecine/sciences
+# mécine/sciences
 H https://www.medecinesciences.org/
 # Metallurgical Research & Technology
 H https://www.metallurgical-research.org/
 # Microscopy Microanalysis Microstructures
 H https://mmm.edpsciences.org.proxy.scd.univ-tours.fr/
-# Movement & Sport Sciences - Science & Motricité
-H https://www.mov-sport-sciences.org/
-# Natures Sciences Sociétés
+# Movement & Sport Sciences - Science & Motricité https://www.mov-sport-sciences.org/
+# Natures Sciences Sociés
 H https://www.nss-journal.org/
 # Oil & Gas Science and Technology - Rev. IFP Energies nouvelles
 H https://ogst.ifpenergiesnouvelles.fr/
-# Orthodontie Française (L')
+# Orthodontie Françse (L')
 H https://www.orthodfr.org/
 # Parasite
 H https://www.parasite-journal.org/
-# Pédagogie Médicale
+# Pégogie Mécale
 H https://www.pedagogie-medicale.org/
 # Perspectives Psy
 H https://www.perspectives-psy.org/
@@ -607,13 +556,13 @@ H https://www.radioprotection.org/
 H https://www.rairo-ro.org/
 # RAIRO - Theoretical Informatics and Applications
 H https://www.rairo-ita.org/
-# Revue d'Orthopédie Dento-Faciale
+# Revue d'Orthopée Dento-Faciale
 H https://odf.edpsciences.org.proxy.scd.univ-tours.fr/
-# Revue Française de Géotechnique
+# Revue Françse de Géechnique
 H https://www.geotechnique-journal.org/
 # SHS Web of Conferences
 H https://www.shs-conferences.org/
-# Thérapie
+# Thépie
 H https://www.journal-therapie.org/
 # Journal de Physique
 H https://jphys.journaldephysique.org/
@@ -631,16 +580,15 @@ H https://jp3.journaldephysique.org/
 H https://jp4.journaldephysique.org/
 # Journal de Physique Lettres
 H https://jphyslet.journaldephysique.org/
-# Journal de Physique... (Supplément)
+# Journal de Physique... (Supplént)
 H https://jphysap.journaldephysique.org/
 # J. Phys. Theor. Appl.
 H https://jphystap.journaldephysique.org/
 # Radium (Le)
 H https://radium.journaldephysique.org/
-# Revue de Physique Appliquée (Paris)
+# Revue de Physique Appliqué(Paris)
 H https://rphysap.journaldephysique.org/
-# Cahiers de l'Association Scientifique Européenne pour l'Eau et la Santé
-H https://asees.water-quality-journal.org/
+# Cahiers de l'Association Scientifique Européne pour l'Eau et la Santé https://asees.water-quality-journal.org/
 # European Journal of Water Quality
 H https://www.water-quality-journal.org/
 
@@ -662,13 +610,8 @@ HJ https://sciencedirect.com
 HJ http://www.sciencedirect.com
 HJ sciencedirect.com
 HJ linkinghub.elsevier.com
-HJ admintool.elsevier.com
-HJ online.tableau.com
-HJ help-admintool.elsevier.com
-HJ tableau-admintool.elsevier.com
 DJ sciencedirect.com
 DJ www.elsevier.com
-DJ *.els-cdn.com
 Find value="http://
 Replace value="http://^A
 Find %22%3A%22https%3A%2F%2Fsciverse-shindig.elsevier.com%2F
@@ -697,53 +640,11 @@ Replace gsUrl%22%3A%22https%3A%2F%2F^pwww.scopus.com^%2F
 NeverProxy www.elsevier.com
 AnonymousURL -* 
 # http://www.oclc.org/support/services/ezproxy/documentation/db/emeraldinsight.en.html
-T Emerald Insightx
-URL http://www.emeraldinsight.com
-HJ emeraldinsight.com
-HJ https://emeraldinsight.com
-HJ https://www.emeraldinsight.com
-HJ www.emerald-library.com
-HJ www.emeraldinsight.com
-HJ xtra.emeraldinsight.com
-DJ emerald-library.com
-U http://www.ems-ph.org
-H www.ems-ph.org
-D ems-ph.org
-Title F1000
-MimeFilter application/json .* javascript
-URL http://f1000.com
-H https://f1000.com
-HJ f1000.com
-DJ f1000.com
-HJ f1000research.com
-DJ f1000research.com
 U http://www.lyellcollection.org
 U http://sp.lyellcollection.org/content/by/volume
 HJ www.lyellcollection.org
 HJ sp.lyellcollection.org
 DJ lyellcollection.org
-# HAL Archives ouvertes
-U https://hal.archives-ouvertes.fr/
-U https://halshs.archives-ouvertes.fr/
-U https://tel.archives-ouvertes.fr/
-U https://medihal.archives-ouvertes.fr/
-U https://aurehal.archives-ouvertes.fr/
-U http://api.archives-ouvertes.fr/docs
-U https://data.archives-ouvertes.fr/
-U https://doc.archives-ouvertes.fr/
-U https://www.episciences.org/
-HJ hal.archives-ouvertes.fr
-HJ halshs.archives-ouvertes.fr
-HJ tel.archives-ouvertes.fr
-HJ medihal.archives-ouvertes.fr
-HJ aurehal.archives-ouvertes.fr
-HJ api.archives-ouvertes.fr
-HJ data.archives-ouvertes.fr
-HJ doc.archives-ouvertes.fr
-HJ www.episciences.org
-DJ archives-ouvertes.fr
-DJ episciences.org
-# http://www.oclc.org/support/services/ezproxy/documentation/db/iop.en.html
 
 Title Institute of Physics
 URL http://iopscience.iop.org/
@@ -767,9 +668,7 @@ HJ njp.org
 HJ physicsworld.com
 HJ physicsworldarchive.iop.org
 HJ stimulatingphysics.org
-HJ stimulatingphysicssupport.iop.org
 HJ tap.iop.org
-HJ www.asia.iop.org
 HJ www.biologicalphysics.iop.org
 HJ www.iop.org
 HJ www.ioppublishing.org
@@ -782,10 +681,6 @@ HJ www.stimulatingphysics.org
 HJ www.tap.iop.org
 DJ iop.org
 DJ ioppublishing.org
-T Isidore
-U https://www.rechercheisidore.fr/
-HJ www.rechercheisidore.fr
-DJ rechercheisidore.fr
 T Mit Cognet
 U http://cognet.mit.edu/
 HJ cognet.mit.edu
@@ -794,29 +689,19 @@ DJ mit.edu
 
 Title Nature Publishing
 URL https://www.nature.com
-HJ ad.doubleclick.net
-HJ ajandrology.com
 HJ labanimal.com
-HJ links.ealert.nature.com
 HJ nano.nature.com
 HJ nature.com
 HJ search.nature.com
-HJ www.ajandrology.com
 HJ www.labanimal.com
 HJ www.nature.com
 HJ www.naturesj.com
 HJ www.npgjournals.com
-DJ ajandrology.com
-DJ ensighten.com
 DJ labanimal.com
 DJ nature.com
-DJ natureasia.com
 DJ naturesj.com
-DJ nexus.ensighten.com
 DJ npgjournals.com
 DJ scientificamerican.com
-Find nexus.ensighten.com
-Replace ^pnexus.ensighten.com^
 ## Numerique Premium
 Title Numerique Premium
 URL https://www.numeriquepremium.com/selfservice/subscribedtitles
@@ -826,8 +711,6 @@ HJ www.numeriquepremium.com
 
 Title OpenEdition
 U http://www.openedition.org
-NeverProxy static.openedition.org
-NeverProxy static-origin.openedition.org
 DJ openedition.org
 HJ https://books.openedition.org
 HJ https://journals.openedition.org
@@ -840,8 +723,6 @@ HJ www.openedition.org
 HJ auth.openedition.org
 HJ search.openedition.org
 DJ revues.org
-DJ hypotheses.org
-DJ calenda.org
 HJ bookserver.revues.org
 HJ http://1895.revues.org
 HJ http://abe.revues.org
@@ -1111,7 +992,6 @@ HJ http://lcc.revues.org
 HJ http://dse.revues.org
 HJ http://dossiersgrihl.revues.org
 HJ http://nda.revues.org
-HJ http://lexis.revues.org
 HJ http://liame.revues.org
 HJ http://lidil.revues.org
 HJ http://linx.revues.org
@@ -2940,24 +2820,6 @@ Host www.eurheartjsupp.org
 Host www.imrn.org
 Host www.imrs.org
 Host www.thebsps.org
-#Plosone
-URL http://journals.plos.org/plosone/
-URL https://www.plos.org/
-HJ www.plos.org
-HJ journals.plos.org
-HJ www.plosone.org
-DJ plos.org
-# http://www.oclc.org/support/services/ezproxy/documentation/db/pnas.en.html
-Title Proceedings of the National Academy of Sciences
-URL http://www.pnas.org
-HJ anthropology.pnas.org
-HJ chemistry.pnas.org
-HJ frontmatter.pnas.org
-HJ intl.pnas.org
-HJ physics.pnas.org
-HJ pnas.org
-HJ sustainability.pnas.org
-HJ teachingresources.pnas.org
 Title Project Euclid
 U http://projecteuclid.org/librarians/lib_prime
 U https://projecteuclid.org/
@@ -2969,86 +2831,47 @@ DJ projecteuclid.org
 HTTPHeader X-Requested-With
 Title ProQuest
 URL https://search.proquest.com/ip
-NeverProxy rss.proquest.com
-NeverProxy order.proquest.com
-NeverProxy flow.proquest.com
 HJ africanamericanheritage.proquest.com
 HJ congressional.proquest.com
 HJ datasets.proquest.com
-HJ dialog.proquest.com
 HJ digitalmicrofilm.proquest.com
-HJ digitalmicrofilm1.proquest.com
 HJ ebookcentral.proquest.com
-HJ fedsearch.proquest.com
 HJ fold3library.proquest.com
-HJ gateway.proquest.com
 HJ historicmapworks.proquest.com
 HJ hngraphical.proquest.com
 HJ hv.conquestsystems.com
-HJ hv.proquest.com
-HJ indianclaims.proquest.com
-HJ li.proquest.com
-HJ literature.proquest.com
-HJ m.search.proquest.com
-HJ media2.proquest.com
 HJ newspaperslibrary.proquest.com
-HJ openurl.proquest.com
-HJ parlipapers.proquest.com
 HJ pqrc.proquest.com
 HJ proquest.umi.com
-HJ prq.st
-HJ regulatoryinsight.proquest.com
 HJ sanborn.umi.com
 HJ search.proquest.com
 HJ statab.conquestsystems.com
 HJ statabs.proquest.com
-HJ statistical.proquest.com
-HJ supremecourt.proquest.com
 HJ trials.proquest.com
-HJ wt3.proquest.com
 HJ www.proquest.com
 HJ www.proquestk12.com
 DJ umi.com
 HJ https://africanamericanheritage.proquest.com
 HJ https://congressional.proquest.com
 HJ https://datasets.proquest.com
-HJ https://dialog.proquest.com
 HJ https://digitalmicrofilm.proquest.com
-HJ https://digitalmicrofilm1.proquest.com
 HJ https://ebookcentral.proquest.com
-HJ https://fedsearch.proquest.com
 HJ https://fold3library.proquest.com
 HJ https://historicmapworks.proquest.com
 HJ https://hngraphical.proquest.com
 HJ https://hv.conquestsystems.com
-HJ https://hv.proquest.com
-HJ https://indianclaims.proquest.com
-HJ https://li.proquest.com
-HJ https://literature.proquest.com
-HJ https://m.search.proquest.com
-HJ https://media2.proquest.com
 HJ https://newspaperslibrary.proquest.com
-HJ https://openurl.proquest.com
-HJ https://parlipapers.proquest.com
 HJ https://pqrc.proquest.com
 HJ https://proquest.umi.com
-HJ https://prq.st
-HJ https://regulatoryinsight.proquest.com
 HJ https://sanborn.umi.com
 HJ https://search.proquest.com
 HJ https://statab.conquestsystems.com
 HJ https://statabs.proquest.com
-HJ https://statistical.proquest.com
-HJ https://supremecourt.proquest.com
 HJ https://trials.proquest.com
-HJ https://wt3.proquest.com
 HJ https://www.proquest.com
 HJ https://www.proquestk12.com
 DJ proquestk12.com
 DJ proquest.com
-DJ medicalevidencematters.com
-DJ media.proquest.com
-DJ m.search.proquest.com
 DJ conquestsystems.com
 DJ conquest-leg-insight.com
 Find window.location.host=="congressional.proquest.com"
@@ -3083,7 +2906,6 @@ HJ https://proquestcombo.safaribooksonline.com
 HJ https://www.safaribooksonline.com
 HJ proquestcombo.safaribooksonline.com
 HJ www.safaribooksonline.com
-HJ m.proquest.safaribooksonline.com
 DJ safaribooksonline.com
 Find targetpage=https://
 Replace targetpage=https://^A
@@ -3112,12 +2934,6 @@ HJ www.rsc.org
 HJ xlink.rsc.org
 DJ rsc.org
 
-T RSC ChemSpider
-U http://www.chemspider.com/#
-HJ www.chemspider.com
-DJ chemspider.com
-HTTPHeader X-Requested-With
-Option CookiePassThrough
 Title Sage Journals
 URL http://journals.sagepub.com
 HJ https://journals.sagepub.com
@@ -3143,10 +2959,6 @@ Title SpringerLink
 URL http://link.springer.com
 URL https://link.springer.com
 HJ aa.springer.de
-HJ download.springer.com
-HJ ebooks.springerlink.com
-HJ link.springer.de
-HJ link.springer-ny.com
 HJ springerlink.metapress.com
 HJ link.springer.com
 HJ rd.springer.com
@@ -3155,18 +2967,12 @@ HJ www.springerlink.com
 HJ https://rd.springer.com
 HJ https://www.link.springer.com
 HJ https://www.springerlink.com
-DJ springer.de
 DJ sprn.gr
 DJ springer-ny.com
 DJ springerlink.com
 DJ springer.com
-NeverProxy static-content.springer.com
 OPTION COOKIE
 # http://www.oclc.org/support/services/ezproxy/documentation/db/taylorandfrancis_online.en.html
-
-T -hide DOI System
-U http://dx.doi.org
-Domain doi.org
 
 HTTPHeader Access-Token
 ProxyHostnameEdit www.tandfonline.com$ www-tandfonline-com
@@ -3211,7 +3017,6 @@ HJ accp1.onlinelibrary.wiley.com
 HJ agupubs.onlinelibrary.wiley.com
 HJ anthrosource.onlinelibrary.wiley.com
 HJ anzjsurg.onlinelibrary.wiley.com
-HJ api.wiley.com
 HJ ascpt.onlinelibrary.wiley.com
 HJ aslopubs.onlinelibrary.wiley.com
 HJ besjournals.onlinelibrary.wiley.com
@@ -3254,7 +3059,6 @@ HJ https://accp1.onlinelibrary.wiley.com
 HJ https://agupubs.onlinelibrary.wiley.com
 HJ https://anthrosource.onlinelibrary.wiley.com
 HJ https://anzjsurg.onlinelibrary.wiley.com
-HJ https://api.wiley.com
 HJ https://aps.onlinelibrary.wiley.com
 HJ https://ascpt.onlinelibrary.wiley.com
 HJ https://aslopubs.onlinelibrary.wiley.com
@@ -3313,23 +3117,6 @@ HJ emboj.embopress.org
 DJ embo.org
 DJ embopress.org
 
-URL http://www.els.net/WileyCDA/
-HJ www.els.net
-DJ els.net
-T BDSP
-U http://www.bdsp.ehesp.fr/
-HJ www.bdsp.ehesp.fr
-DJ bdsp.ehesp.fr
-# https://www.oclc.org/support/services/ezproxy/documentation/db/chadwyck.en.html
-
-# todo complete me
-
-Title Chadwyck
-URL http://www.chadwyck.com
-HJ www.chadwyck.com
-DJ chadwyck.com
-HJ www.chadwyck.co.uk
-DJ chadwyck.co.uk
 
 Title Chadwyck African American Biographical Database
 URL http://aabd.chadwyck.com
@@ -3487,110 +3274,6 @@ Title Chadwyck Wellesley Index to Victorian Periodicals
 URL http://wellesley.chadwyck.co.uk
 HJ wellesley.chadwyck.co.uk
 HJ wellesley.chadwyck.com
-# http://www.oclc.org/support/services/ezproxy/documentation/db/crossref.en.html
-
-Title Crossref
-URL http://www.crossref.org
-HJ crossref.org
-HJ doi.crossref.org
-HJ www.crossref.org
-DJ crossref.org
-# http://www.oclc.org/support/services/ezproxy/documentation/db/gale.en.html
-
-Title -hide Gale/Infotrac/PowerSearch Databases
-URL http://infotrac.galegroup.com/
-HJ access.gale.com
-HJ auth.go.galegroup.com
-HJ bi.galegroup.com
-HJ bna.galegroup.com
-HJ careertransitions.galegroup.com
-HJ cyberadmin.gofullstack.net
-HJ education.gale.com
-HJ cyber.galegroup.com
-HJ find.galegroup.com
-HJ galeauth.galegroup.com
-HJ galenet.galegroup.com
-HJ galesites.com
-HJ galesupport.com
-HJ gdc.gale.com
-HJ gdc.galegroup.com
-HJ go.galegroup.com
-HJ ic.galegroup.com
-HJ infotrac.galenet.com
-HJ infotrac.london.galegroup.com
-HJ link.galegroup.com
-HJ natgeo.galegroup.com
-HJ ncco.galegroup.com
-HJ ncco.tu.galegroup.com
-HJ pdfserve.galegroup.com
-HJ sa.galegroup.com
-HJ shakespeare.galegroup.com
-HJ support.gale.com
-HJ tinygaleurl.com
-HJ tinyurl.galegroup.com
-HJ vs.galegroup.com
-HJ www.chiltonlibrary.com
-HJ www.galenet.com
-HJ www.galepages.com
-HJ www.infotrac.london.galegroup.com
-HJ www.mygovernment.us
-HJ www.nelnetsolutions.com
-HJ https://access.gale.com
-HJ https://auth.go.galegroup.com
-HJ https://bi.galegroup.com
-HJ https://bna.galegroup.com
-HJ https://careertransitions.galegroup.com
-HJ https://cyberadmin.gofullstack.net
-HJ https://education.gale.com
-HJ https://find.galegroup.com
-HJ https://cyber.galegroup.com
-HJ https://galeauth.galegroup.com
-HJ https://galenet.galegroup.com
-HJ https://galesites.com
-HJ https://galesupport.com
-HJ https://gdc.gale.com
-HJ https://gdc.galegroup.com
-HJ https://go.galegroup.com
-HJ https://ic.galegroup.com
-HJ https://infotrac.galenet.com
-HJ https://infotrac.london.galegroup.com
-HJ https://link.galegroup.com
-HJ https://natgeo.galegroup.com
-HJ https://ncco.galegroup.com
-HJ https://ncco.tu.galegroup.com
-HJ https://pdfserve.galegroup.com
-HJ https://sa.galegroup.com
-HJ https://shakespeare.galegroup.com
-HJ https://support.gale.com
-HJ https://tinygaleurl.com
-HJ https://tinyurl.galegroup.com
-HJ https://vs.galegroup.com
-HJ https://www.chiltonlibrary.com
-HJ https://www.galenet.com
-HJ https://www.galepages.com
-HJ https://www.infotrac.london.galegroup.com
-HJ https://www.mygovernment.us
-HJ https://www.nelnetsolutions.com
-HJ HJ https://api.cyber-anatomy.com
-DJ chiltonlibrary.com
-DJ galegroup.com
-DJ galenet.com
-DJ galepages.com
-DJ galesites.com
-DJ galesupport.com
-DJ ggimg.com
-DJ gofullstack.net
-DJ mygovernment.us
-DJ nelnetsolutions.com
-DJ readspeaker.com
-DJ tinygaleurl.com
-DJ readspeaker.com
-NeverProxy library.demographicsnow.com
-T ICSD Fiz Karlsruhe
-U https://icsd.fiz-karlsruhe.de/search/index.xhtml
-HJ icsd.fiz-karlsruhe.de
-DJ fiz-karlsruhe.de
-# http://www.oclc.org/support/services/ezproxy/documentation/db/incites.en.html
 
 #Option DomainCookieOnly
 #PHE apps.clarivate.com$ apps-clarivate-com
@@ -3612,9 +3295,6 @@ Option Cookie
 
 OPTION DOMAINCOOKIEONLY
 Title Web of Knowledge
-URL https://urldefense.proofpoint.com
-HJ urldefense.proofpoint.com
-DJ proofpoint.com
 URL http://www.webofknowledge.com
 URL https://apps.clarivate.com
 URL https://incites.thomsonreuters.com
@@ -3625,55 +3305,27 @@ HJ www.webofknowledge.com
 HJ webofknowledge.com
 DJ webofknowledge.com
 DJ apps.clarivate.com
-HJ about.esi.incites.thomsonreuters.com
-HJ about.jcr.incites.thomsonreuters.com
 HJ admin.webofknowledge.com
 HJ admin-apps.webofknowledge.com
 HJ admin-router.webofknowledge.com
 HJ apps.webofknowledge.com
-HJ charts.webofknowledge.com
-HJ cm.webofknowledge.com
-HJ diipcs.webofknowledge.com
-HJ error.incites.thomsonreuters.com
 HJ esi.incites.thomsonreuters.com
 HJ esi.webofknowledge.com
-HJ hcr3.webofknowledge.com
 HJ https://apps.webofknowledge.com
 HJ https://esi.incites.thomsonreuters.com
 HJ https://incites.thomsonreuters.com
-HJ https://proview.thomsonreuters.com
-HJ proview.thomsonreuters.com
-HJ images.webofknowledge.com
 HJ incites.isiknowledge.com
-HJ isi01.isiknowledge.com
 HJ isiknowledge.com
 HJ https://isiknowledge.com
-HJ isiwebofknowledge.com
-HJ links.webofknowledge.com
 HJ login.webofknowledge.com
-HJ login.incites.thomsonreuters.com
 HJ myendnoteweb.com
-HJ pcs.webofknowledge.com
-HJ pcs.isiknowledge.com
-HJ rss.webofknowledge.com
-HJ search.webofknowledge.com
-HJ sub3.webofknowledge.com
-HJ sushi.webofknowledge.com
-HJ toc.webofknowledge.com
-HJ usagereports.webofscience.com
-HJ wcs.webofknowledge.com
-HJ webofknowledgev4.com
 HJ webofscience.com
-HJ ws.isiknowledge.com
-HJ www.highlycited.com
 HJ www.isiknowledge.com
 HJ www.researcherid.com
 HJ https://www.researcherid.com
 HJ www.webofscience.com
-HJ ip-science.thomsonreuters.com
 DJ incites.thomsonreuters.com
 DJ isiknowledge.com
-DJ isiwebofknowledge.com
 DJ myendnoteweb.com
 DJ webofknowledgev4.com
 DJ webofscience.com
@@ -3704,16 +3356,11 @@ Option CookiePassThrough
 Title PubMed
 URL https://www.ncbi.nlm.nih.gov/pubmed
 HJ https.ncbi.nlm.nih.gov
-HJ https://blast.ncbi.nlm.nih.gov
-HJ https://europepmc.org
-HJ https://eutils.ncbi.nlm.nih.gov
 HJ https://ncbi.nlm.nih.gov
-HJ https://pubchem.ncbi.nlm.nih.gov
 HJ https://www.ncbi.nlm.nih.gov
 HJ https://www.pubmedcentral.nih.gov
 HJ ncbi.nlm.nih.gov
 HJ www.ncbi.nlm.nih.gov
-DJ nih.gov
 DJ static.pubmed.gov
 # dx.doi.org provides linking Nature, Springer, Wiley, and others
 DJ dx.doi.org
@@ -3733,270 +3380,225 @@ AnonymousURL -*
 Option Cookie
 #This section is required before any EBSCOhost stanza to prevent linking issues
 Option DomainCookieOnly
-Title -hide EBSCO LinkSource
-URL http://linksource.ebsco.com
-HJ linksource.ebsco.com
-HJ https://linksource.ebsco.com
-Option Cookie
-#
+
 Title EBSCOhost
-URL http://search.ebscohost.com/login.aspx
-HJ https://search.ebscohost.com
 HJ https://resolver.ebscohost.com
-HJ https://www.ebscohost.com
-HJ https://openurl.ebscohost.com
-HJ ebsco.smartimagebase.com
-HJ eds.a.ebscohost.com
-HJ eds.b.ebscohost.com
-HJ eds.c.ebscohost.com
-HJ eds.d.ebscohost.com
-HJ eds.e.ebscohost.com
-HJ ehis.ebscohost.com
-HJ connection.ebscohost.com
-HJ eoncontent.ebscohost.com
-HJ m.ebscohost.com
-HJ openurl.ebscohost.com
-HJ resolver.ebscohost.com
-HJ search.ebscohost.mobi
-HJ search.epnet.com
-HJ web.a.ebscohost.com
-HJ web.b.ebscohost.com
-HJ web.c.ebscohost.com
-HJ web.d.ebscohost.com
-HJ web.e.ebscohost.com
-HJ web.ebscohost.com
-HJ www.netlibrary.com
-HJ exports.ebscohost.com
-HJ therapy.ebscohost.com
-HJ support.ebscohost.com
-HJ flipster.ebsco.com
-HJ e.ebsco.com
-HJ content.ebscohost.com
-DJ ebscohost.com
-DJ ebscohost.mobi
-DJ epnet.com
-HJ support.ebsco.com
-HJ www.ebsconet.com
-DJ ebsco.com
-DJ netlibrary.com
 DJ smartimagebase.com
-HJ www.teacherreference.com
-DJ teacherreference.com
-HJ www.europeanamericana.com
-Find proxy.cfm?url=http://
-Replace proxy.cfm?url=http://^A
-Find /login?url=http://
-Replace /login?url=http://^A
-Find proxy.cfm?url=https://
-Replace proxy.cfm?url=https://^A
-Find /login?url=https://
-Replace /login?url=https://^A
-NeverProxy *.eoncontent.ebscohost.com
-#NeverProxy content.ebscohost.com
-NeverProxy ebscovideos.ebscohost.com
-NeverProxy rps2images.ebscohost.com
-NeverProxy rpsimages.ebscohost.com
-NeverProxy epmedia.ebscohost.com
-NeverProxy imageserver.ebscohost.com
-NeverProxy *.footnotelibrary.com
-NeverProxy *.ebsco-content.com
-NeverProxy app.rs.ebscohost com
-NeverProxy media.rs.ebscohost.com
-NeverProxy vttts.rs.ebscohost.com
-NeverProxy nvntts.rs.ebscohost.com
-NeverProxy ivotts.rs.ebscohost.com
-NeverProxy widgets.ebscohost.com
-T Campagne nationale de test ISTEX
-U http://www.istex.fr/?Campagne-nationale-de-test
-DJ istex.fr
-DJ licencesnationales.fr
-# API Istex
-# Date configuration validée : 12/2014
-Option NoX-Forwarded-For
 
-Title Plateforme Istex (API)
-URL http://api.istex.fr
-URL https://view.istex.fr   
-HJ https://api.istex.fr
-HJ https://view.istex.fr
-DJ istex.fr
+Title ACSESS Digital Library
+URL https://dl.sciencesocieties.org/
+HJ dl.sciencesocieties.org
+HJ www.sciencesocieties.org
+HJ sciencesocieties.org
+HJ https://portal.sciencesocieties.org
+HJ portal.sciencesocieties.org
+DJ sciencesocieties.org
 
-Option X-Forwarded-For
-Option DomainCookieOnly
-Title -hide EBSCO Full Text Finder
-URL http://resolver.ebscohost.com
-HJ resolver.ebscohost.com
-Option Cookie
-# http://www.oclc.org/support/services/ezproxy/documentation/db/firstsearch.en.html
-# modifi爊Title OCLC FirstSearch
-URL http://firstsearch.oclc.org/FSIP
-DJ oclc.org
-U http://www.firstsearch.org/fsip
-D firstsearch.org
+U http://journals.ametsoc.org
+H journals.ametsoc.org
+D ametsoc.org
+U http://geolfrance.brgm.fr
+H geolfrance.brgm.fr
+D brgm.fr
 
-# http://www.oclc.org/support/services/ezproxy/documentation/db/crossref.en.html
+Title GeoScienceWorld
+URL https://pubs.geoscienceworld.org
+HJ aapgbull.geoscienceworld.org
+HJ ammin.geoscienceworld.org
+HJ bcpg.geoscienceworld.org
+HJ bsgf.geoscienceworld.org
+HJ bssa.geoscienceworld.org
+HJ bulletin.geoscienceworld.org
+HJ canmin.geoscienceworld.org
+HJ ccm.geoscienceworld.org
+HJ cjes.geoscienceworld.org
+HJ claymin.geoscienceworld.org
+HJ ebooks.geoscienceworld.org
+HJ econgeol.geoscienceworld.org
+HJ eeg.geoscienceworld.org
+HJ eg.geoscienceworld.org
+HJ elements.geoscienceworld.org
+HJ emg.geoscienceworld.org
+HJ eurjmin.geoscienceworld.org
+HJ geea.geoscienceworld.org
+HJ geolmag.geoscienceworld.org
+HJ geology.geoscienceworld.org
+HJ geophysics.geoscienceworld.org
+HJ geoscienceworld.org
+HJ geoscienceworld.org
+HJ geosphere.geoscienceworld.org
+HJ gsa.geoscienceworld.org
+HJ https://aapgbull.geoscienceworld.org
+HJ https://ammin.geoscienceworld.org
+HJ https://bcpg.geoscienceworld.org
+HJ https://bsgf.geoscienceworld.org
+HJ https://bssa.geoscienceworld.org
+HJ https://bulletin.geoscienceworld.org
+HJ https://canmin.geoscienceworld.org
+HJ https://ccm.geoscienceworld.org
+HJ https://cjes.geoscienceworld.org
+HJ https://claymin.geoscienceworld.org
+HJ https://ebooks.geoscienceworld.org
+HJ https://econgeol.geoscienceworld.org
+HJ https://eeg.geoscienceworld.org
+HJ https://eg.geoscienceworld.org
+HJ https://elements.geoscienceworld.org
+HJ https://emg.geoscienceworld.org
+HJ https://eurjmin.geoscienceworld.org
+HJ https://geea.geoscienceworld.org
+HJ https://geolmag.geoscienceworld.org
+HJ https://geology.geoscienceworld.org
+HJ https://geophysics.geoscienceworld.org
+HJ https://geoscienceworld.org
+HJ https://geoscienceworld.org
+HJ https://geosphere.geoscienceworld.org
+HJ https://gsa.geoscienceworld.org
+HJ https://interpretation.geoscienceworld.org
+HJ https://italianjgeo.geoscienceworld.org
+HJ https://jeeg.geoscienceworld.org
+HJ https://jfr.geoscienceworld.org
+HJ https://jgs.geoscienceworld.org
+HJ https://jm.geoscienceworld.org
+HJ https://jpaleontol.geoscienceworld.org
+HJ https://jsedres.geoscienceworld.org
+HJ https://lithosphere.geoscienceworld.org
+HJ https://micropal.geoscienceworld.org
+HJ https://minmag.geoscienceworld.org
+HJ https://palaios.geoscienceworld.org
+HJ https://paleobiol.geoscienceworld.org
+HJ https://palynology.geoscienceworld.org
+HJ https://perspectives.geoscienceworld.org
+HJ https://pg.geoscienceworld.org
+HJ https://pygs.geoscienceworld.org
+HJ https://qjegh.geoscienceworld.org
+HJ https://rimg.geoscienceworld.org
+HJ https://rmg.geoscienceworld.org
+HJ https://sajg.geoscienceworld.org
+HJ https://sjg.geoscienceworld.org
+HJ https://srl.geoscienceworld.org
+HJ https://tle.geoscienceworld.org
+HJ https://vzj.geoscienceworld.org
+HJ https://www.geoscienceworld.org
+HJ interpretation.geoscienceworld.org
+HJ italianjgeo.geoscienceworld.org
+HJ jeeg.geoscienceworld.org
+HJ jfr.geoscienceworld.org
+HJ jgs.geoscienceworld.org
+HJ jm.geoscienceworld.org
+HJ jpaleontol.geoscienceworld.org
+HJ jsedres.geoscienceworld.org
+HJ lithosphere.geoscienceworld.org
+HJ micropal.geoscienceworld.org
+HJ minmag.geoscienceworld.org
+HJ palaios.geoscienceworld.org
+HJ paleobiol.geoscienceworld.org
+HJ palynology.geoscienceworld.org
+HJ perspectives.geoscienceworld.org
+HJ pg.geoscienceworld.org
+HJ pubs.geoscienceworld.org
+HJ pygs.geoscienceworld.org
+HJ qjegh.geoscienceworld.org
+HJ rimg.geoscienceworld.org
+HJ rmg.geoscienceworld.org
+HJ sajg.geoscienceworld.org
+HJ sjg.geoscienceworld.org
+HJ srl.geoscienceworld.org
+HJ tle.geoscienceworld.org
+HJ vzj.geoscienceworld.org
+HJ www.geoscienceworld.org
+DJ geoscienceworld.org
+HJ nagt-jge.org
+HJ nagt-jge.org
+DJ nagt-jge.org
+# http://www.oclc.org/support/services/ezproxy/documentation/db/iop.en.html
 
-Title Crossref
-URL http://www.crossref.org
-HJ crossref.org
-HJ doi.crossref.org
-HJ www.crossref.org
-DJ crossref.org
-Title DOI System
-URL http://doi.org
-Host https://doi.org
-Host dx.doi.org
-Host https://dx.doi.org
-Domain doi.org
-##Ajout du 18/06/2018 FV/FJ
-Option X-Forwarded-For
-HTTPMethod PUT
-T SciFinder-N
-U https://scifinder-n.cas.org/
-D cas.org
-Option NoX-Forwarded-For
+Title Institute of Physics
+URL http://iopscience.iop.org/
+HJ asia.iop.org
+HJ biologicalphysics.iop.org
+HJ conferenceseries.iop.org/
+HJ https://asia.iop.org
+HJ https://biologicalphysics.iop.org
+HJ https://conferenceseries.iop.org/
+HJ https://iopscience.iop.org/
+HJ https://irish.iop.org
+HJ https://tap.iop.org/
+HJ https://www.iop.org
+HJ iop.org
+HJ ioppublishing.org
+HJ iopscience.iop.org
+HJ irish.iop.org
+HJ jphysplus.iop.org
+HJ librarians.iop.org
+HJ njp.org
+HJ physicsworld.com
+HJ physicsworldarchive.iop.org
+HJ stimulatingphysics.org
+HJ tap.iop.org
+HJ www.biologicalphysics.iop.org
+HJ www.iop.org
+HJ www.ioppublishing.org
+HJ www.iopscience.iop.org
+HJ www.librarians.iop.org
+HJ www.njp.org
+HJ www.physicsworld.com
+HJ www.physicsworldarchive.iop.org
+HJ www.stimulatingphysics.org
+HJ www.tap.iop.org
+DJ iop.org
+DJ ioppublishing.org
+# http://www.oclc.org/support/services/ezproxy/documentation/db/physiology.en.html
 
+Title American Physiological Society
+URL http://www.physiology.org/
+URL https://journals.aps.org/prx/
+URL https://journals.aps.org/prab/
+URL https://journals.aps.org/prper/
+URL https://physics.aps.org/
+URL http://prst-per.aps.org/browse
+HJ journals.aps.org
+HJ prst-per.aps.org
+HJ physics.aps.org
+H advan.physiology.org
+H ajpcell.physiology.org
+H ajpendo.physiology.org
+H ajpgi.physiology.org
+H ajpheart.physiology.org
+H ajplegacy.physiology.org
+H ajplung.physiology.org
+H ajpregu.physiology.org
+H ajprenal.physiology.org
+H apsselect.physiology.org
+H jap.physiology.org
+H jappl.physiology.org
+H jn.physiology.org
+H physiolgenomics.physiology.org
+H physiologyonline.physiology.org
+H physreports.physiology.org
+H physrev.physiology.org
+H www.the-aps.org
+DJ aps.org
+DJ www.aps.org
+DJ physiology.org
+DJ the-aps.org
 
-Title CAS SciFinder
-URL https://scifinder.cas.org/scifinder
-URL https://scifinder-n.cas.org
-URL https://scifinder.cas.org/registration/index.html?corpKey=B48E51DDX86F35040X250F31B921D5C4A611
-H scifinder.cas.org
-H scifinder-n.cas.org
-D cas.org
-
-T Journal of Visual Experiments
-U http://www.jove.com/
-HJ www.jove.com
-DJ jove.com
-
-U https://aapt.scitation.org
-HJ https://aapt.scitation.org
-HJ aapt.scitation.org
-DJ scitation.org
-
-Title NRC Research Press
-URL http://www.nrcresearchpress.com/
-HJ https://www.nrcresearchpress.com
-HJ https://nrcresearchpress.com
-HJ nrcresearchpress.com
-HJ www.nrcresearchpress.com
-DJ nrcresearchpress.com
-
-PHE www.lexisnexis.com$ www-lexisnexis-com
-PHE www.nexis.com www-nexis-com
-Option CookiePassThrough
-Title LexisNexis
-URL http://www.lexisnexis.com/hottopics/lnacademic
-###U https://advance.lexis.com/?identityprofileid=XT9STJ55727
-U https://www.totalpatentone.com/?identityprofileid=XT9STJ55727
-U https://www.totalpatentone.com/?identityprofileid=2VD5RP55799
-U https://www.totalpatentone.com/?identityprofileid=X2JX5C55800
-U https://www.totalpatentone.com/?identityprofileid=CRDC7755801
-U https://www.totalpatentone.com/?identityprofileid=VMZCRV55802
-U https://www.totalpatentone.com/?identityprofileid=7J2NZ455803
-U https://www.totalpatentone.com/?identityprofileid=23K7SB55804
-U https://www.totalpatentone.com/?identityprofileid=HX37WD55805
-U https://www.totalpatentone.com/?identityprofileid=M5NWG855806
-U https://www.totalpatentone.com/?identityprofileid=ZK8BXZ55807
-HJ www.totalpatentone.com
-DJ totalpatentone.com
-HJ https://www.lexisnexis.com
-DJ lexis-nexis.com
-DJ lexisnexis.com
-HJ advance.lexis.com
-HJ academic.lexisnexis.eu
-HJ academic.lexisnexis.nl
-HJ api.lexisnexis.eu
-DJ lexisnexis.eu
-DJ lexis.com
-DJ lexiscn.com
-DJ cispubs.com
-DJ nexis.com
-DJ lexis-nexis.com
-HJ https://www.lexisnexis.com
-HJ web.lexis-nexis.com
-HJ web.lexisnexis.com
-HJ widgetserver.lexisnexis.nl
-HJ www.lexis-nexis.com
-HJ www.lexisnexis.com
-HJ https://www.lexisnexis.com
-HJ https://www.nexis.com
-HJ https://academic.lexisnexis.nl
-HJ www.lexis.com
-HJ www.lexiscn.com
-HJ w3.lexis.com
-HJ w3.nexis.com
-HJ https://w3.nexis.com
-HJ www.nexis.com
-HJ nexis.com
-HJ companydashboard.lexisnexis.nl
-Find location.hostname
-Replace location.host
-Find = "www.lexisnexis.com"
-Replace = "^pwww.lexisnexis.com^"
-Find &unix=http://
-Replace &unix=http://^A
-Find GetCookie("LNAUTH")
-Replace "LNAUTH-IP"
-Find NAME="_PRIORREFERER" VALUE="http://
-Replace NAME="_PRIORREFERER" VALUE="http://^A
-Find NAME="_PRIORREFERER" VALUE="https://
-Replace NAME="_PRIORREFERER" VALUE="https://^A
-Find "www.nexis.com"
-Replace "^pwww.nexis.com^"
-Find window.location.replace(redirURL)
-Replace
-Find mq.set("rt", "https://
-Replace mq.set("rt", "https://^A
-Find mq.set("rt", "http://
-Replace mq.set("rt", "http://^A
-Option Cookie
-
-# http://www.oclc.org/support/services/ezproxy/documentation/db/endocrine.en.html
-
-Title Endocrine Society
-URL http://press.endocrine.org/
-HJ edrv.endojournals.org
-HJ endo.endojournals.org
-HJ endocrine.org
-HJ endojournals.org
-HJ hoca.endojournals.org
-HJ https://endocrine.org/
-HJ https://press.endocrine.org/
-HJ https://www.endocrine.org/
-HJ intl-endo.endojournals.org
-HJ intl-jcem.endojournals.org
-HJ intl-mend.endojournals.org
-HJ jcem.endojournals.org
-HJ mend.endojournals.org
-HJ press.endocrine.org
-HJ rphr.endojournals.org
-HJ www.endocrine.org
-HJ www.endojournals.org
-DJ endocrine.org
-DJ endojournals.org
-T Federation of American Societies for Experimental Biology
-U http://www.faseb.org
-Dj faseb.org
-Dj jleukbio.org
-Dj fasebj.org
-Hj www.fasebj.org
-Hj www.jleukbio.org
-
-T Genetics Society of America
-U http://www.genetics.org
-D genetics.org
-# http://www.oclc.org/support/services/ezproxy/documentation/db/iospress.en.html
-
-Option DomainCookieOnly
-Title IOS Press
-URL http://content.iospress.com
-HJ content.iospress.com
-HJ www.iospress.nl
-DJ iospress.com
-DJ iospress.nl
-Option Cookie
+# If you experience problems with the proxy dropping when downloading PDFs, try adding the following lines to the end of your stanza:
+Find physiology.org\/sites
+Replace ^Pphysiology.org^\/sites
+Find physiology.org\/content\/
+Replace ^Pphysiology.org^\/content\/
+U http://www.deepseadrilling.org
+H www.deepseadrilling.org
+D deepseadrilling.org
+U http://www.annalsofgeophysics.eu
+H www.annalsofgeophysics.eu
+D annalsofgeophysics.eu
+U http://www.seisme.prd.fr
+H www.seisme.prd.fr
+D seisme.prd.fr
+U https://www.jstage.jst.go.jp
+Hj www.jstage.jst.go.jp
+Dj jstage.jst.go.jp
 # http://www.oclc.org/support/services/ezproxy/documentation/db/liebertpub.en.html
 
 Title Liebert
@@ -4008,147 +3610,81 @@ HJ online.liebertpub.com
 HJ www.liebertonline.com
 HJ www.liebertpub.com
 DJ liebertpub.com
-T NEJM Journal Watch
-U http://www.jwatch.org/
-D jwatch.org
-H general-medicine.jwatch.org
-H cardiology.jwatch.org
-H dermatology.jwatch.org
-H emergency-medicine.jwatch.org
-H gastroenterology.jwatch.org
-H infectious-diseases.jwatch.org
-H neurology.jwatch.org
-H pediatrics.jwatch.org
-H psychiatry.jwatch.org
-H womens-health.jwatch.org
-H aids-clinical-care.jwatch.org
-H general-medicine.jwatch.org
+# http://www.oclc.org/support/services/ezproxy/documentation/db/science.en.html
 
-Title New England Journal of Medicine
-URL http://www.nejm.org/
-HJ https://www.nejm.org/
-HJ https://nejm.org
-HJ nejm.org
-HJ content.nejm.org
-HJ https://content.nejm.org
-HJ resident360.nejm.org
-HJ https://resident360.nejm.org
-HJ response.nejm.org
-HJ https://response.nejm.org
-DJ nejm.org
-HJ Interactive.nejm.org
-HJ Cdf.nejm.org
-HJ https://Interactive.nejm.org
-HJ https://Cdf.nejm.org
-Title Portland Press Limited
-URL http://www.portlandpress.com/
-U http://www.biochemsoctrans.org/
-HJ www.biochemsoctrans.org
-HJ bab.portlandpress.com
-HJ bst.portlandpress.com
-HJ cs.portlandpress.com
-HJ essays.biochemistry.org
-HJ portlandpress.com
-HJ portlandpresspublishing.com
-HJ symposia.biochemistry.org
-HJ www.asnneuro.org
-HJ www.biochemj.org
-HJ www.biolcell.org
-HJ www.bioscirep.org
-HJ www.cellbiolint.org
-HJ www.clinsci.org
-HJ www.portlandpress.com
-HJ www.portlandpresspublishing.com
-DJ biochemsoctrans.org
-DJ asnneuro.org
-DJ biochemistry.org
-DJ biochemj.org
-DJ biolcell.org
-DJ bioscirep.org
-DJ cellbiolint.org
-DJ clinsci.org
-DJ portlandpress.com
-DJ portlandpresspublishing.com
-T Rupress
-U http://www.rockefeller.edu/rupress/
-D rockefeller.edu
-H www.jcb.org
-H jcb.rupress.org
-H www.jem.org
-H jem.rupress.org
-H www.jgp.org
-H jgp.rupress.org
-T Society for General Microbiology
-U http://intl.sgmjournal.org/
-D intl.sgmjournals.org
-H intl.sgmjournals.org
-U http://ijs.microbiologyresearch.org/content/journal/ijsem
-U http://jgv.microbiologyresearch.org/content/journal/jgv
-U http://mic.microbiologyresearch.org/content/journal/micro
-HJ ijs.microbiologyresearch.org
-HJ jgv.microbiologyresearch.org
-HJ mic.microbiologyresearch.org
-DJ microbiologyresearch.org
-T Society for Neurosciences
-U http://www.jneurosci.org/contents-by-date.0.shtml
-U http://www.jneurosci.org/
-HJ www.jneurosci.org
-DJ jneurosci.org
-T BIOSCIENTIFICA
-U http://joe.endocrinology-journals.org
-U http://jme.endocrinology-journals.org
-U http://erc.endocrinology-journals.org
-U http://www.eje-online.org
-U http://www.reproduction-online.org
-U http://www.endocrineconnections.com
-U https://www.edmcasereports.com
-U http://www.echorespract.com
-U http://www.biosciabstracts.com
-U http://www.endocrine-abstracts.org
-U http://www.bone-abstracts.org
-U http://www.reproduction-abstracts.org
-HJ joe.endocrinology-journals.org
-HJ jme.endocrinology-journals.org
-HJ erc.endocrinology-journals.org
-HJ www.eje-online.org
-HJ www.reproduction-online.org
-HJ www.endocrineconnections.com
-HJ www.edmcasereports.com
-HJ www.echorespract.com
-HJ www.biosciabstracts.com
-HJ www.endocrine-abstracts.org
-HJ www.bone-abstracts.org
-HJ www.reproduction-abstracts.org
-DJ endocrinology-journals.org
-DJ eje-online.org
-DJ reproduction-online.org
-DJ endocrineconnections.com
-DJ edmcasereports.com
-DJ echorespract.com
-DJ biosciabstracts.com
-DJ endocrine-abstracts.org
-DJ bone-abstracts.org
-DJ reproduction-abstracts.org
+Title Science - AAAS
+URL http://www.sciencemag.org
+HJ immunology.sciencemag.org
+HJ advances.sciencemag.org
+HJ sageke.sciencemag.org
+HJ science.sciencemag.org
+HJ stke.sciencemag.org
+HJ sciencecareers.sciencemag.org
+HJ stm.sciencemag.org
+HJ www.sciencemag.org
+HJ news.sciencemag.org
+HJ classic.sciencemag.org
+HJ https://www.sciencemag.org
+DJ sciencemag.org
 
-U https://plant.pathwaystudio.com
-HJ plant.pathwaystudio.com
-DJ pathwaystudio.com
+U https://mathscinet.ams.org/mathscinet/help/librarians.html?version=2
+U https://mathscinet.ams.org
+HJ https://mathscinet.ams.org
+HJ mathscinet.ams.org
+DJ ams.org
 
-U http://highwire.stanford.edu/cgi/instadmininfo
-U http://home.highwire.org/
-HJ highwire.org
-HJ highwire.stanford.edu
-HJ home.highwire.org
-HJ www.highwire.org
-DJ highwire.org
-DJ stanford.edu 
+U https://www.osapublishing.org/ol/home.cfm
+HJ https://www.osapublishing.org
+HJ www.osapublishing.org
+DJ osapublishing.org
+
+U https://www.ann-geophys.net/index.html
+HJ https://www.ann-geophys.net
+HJ www.ann-geophys.net
+DJ ann-geophys.net
 
 T INIS CEA
 U https://inis-cea.inist.fr
 HJ https://inis-cea.inist.fr
 HJ inis-cea.inist.fr
 
-T The American Association of Immunologists
-U http://www.jimmunol.org/contents-by-date.0.shtml
-D jimmunol.org
+Title NRC Research Press
+URL http://www.nrcresearchpress.com/
+HJ https://www.nrcresearchpress.com
+HJ https://nrcresearchpress.com
+HJ nrcresearchpress.com
+HJ www.nrcresearchpress.com
+DJ nrcresearchpress.com
+
+Title F1000
+MimeFilter application/json .* javascript
+URL http://f1000.com
+H https://f1000.com
+HJ f1000.com
+DJ f1000.com
+HJ f1000research.com
+DJ f1000research.com
+
+Title Proceedings of the National Academy of Sciences
+URL http://www.pnas.org
+HJ anthropology.pnas.org
+HJ chemistry.pnas.org
+HJ frontmatter.pnas.org
+HJ intl.pnas.org
+HJ physics.pnas.org
+HJ pnas.org
+HJ sustainability.pnas.org
+HJ teachingresources.pnas.org
+
+Title The Arabidopsis Information Resource
+URL https://www.arabidopsis.org/
+HJ arabidopsis.org
+HJ gbrowse.arabidopsis.org
+HJ https://arabidopsis.org
+HJ https://gbrowse.arabidopsis.org
+HJ https://seqviewer.arabidopsis.org
+HJ https://www.arabidopsis.org
+HJ seqviewer.arabidopsis.org
+HJ www.arabidopsis.org
+DJ arabidopsis.org
 
