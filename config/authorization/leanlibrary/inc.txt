@@ -3654,3 +3654,4 @@ HJ icsd.fiz-karlsruhe.de
 DJ fiz-karlsruhe.de
 
 U http://www.lactualitechimique.org/
+U https://pubs.acs.org/
