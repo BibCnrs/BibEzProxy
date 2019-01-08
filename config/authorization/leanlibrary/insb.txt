@@ -3688,3 +3688,37 @@ HJ seqviewer.arabidopsis.org
 HJ www.arabidopsis.org
 DJ arabidopsis.org
 
+U http://aacrjournals.org/
+U http://www.jimmunol.org/contents-by-date.0.shtml
+U https://www.molbiolcell.org/
+U https://pubs.acs.org/
+U http://aspetjournals.org/
+U http://www.asbmb.org/
+U http://ascopubs.org/
+U http://www.hematology.org/
+U http://www.plantphysiol.org/
+U https://www.asm.org/
+U https://nutrition.org/
+U http://www.plantcell.org/
+U https://genome.cshlp.org/
+U https://bioone.org/
+U http://www.biologists.com/
+U http://www.faseb.org/
+U http://www.genetics.org/
+U https://content.iospress.com/
+U https://www.jwatch.org/
+U https://www.nejm.org/
+U http://www.portlandpress.com/pp/default.htm
+U http://www.biochemj.org/
+U http://symposia.biochemistry.org/
+U http://www.biochemsoctrans.org/
+U http://www.cellsignallingbiology.org/
+U http://www.bioscirep.org/
+U http://www.clinsci.org/
+U http://essays.biochemistry.org/
+U http://www.biochemist.org/
+U https://www.rockefeller.edu/
+U http://www.jneurosci.org/contents-by-date.0.shtml
+
+
+
