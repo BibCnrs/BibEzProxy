@@ -1,58 +1,5 @@
 Title Annual Reviews
-URL https://www.annualreviews.org/
-HJ annualreviews.org
-HJ anchem.annualreviews.org
-HJ animal.annualreviews.org
-HJ anthro.annualreviews.org
-HJ arcompsci.annualreviews.org
-HJ arjournals.annualreviews.org
-HJ arplant.annualreviews.org
-HJ astro.annualreviews.org
-HJ biochem.annualreviews.org
-HJ bioeng.annualreviews.org
-HJ biophys.annualreviews.org
-HJ cellbio.annualreviews.org
-HJ chembioeng.annualreviews.org
-HJ clinpsy.annualreviews.org
-HJ conmatphys.annualreviews.org
-HJ earth.annualreviews.org
-HJ ecolsys.annualreviews.org
-HJ economics.annualreviews.org
-HJ energy.annualreviews.org
-HJ ento.annualreviews.org
-HJ financial.annualreviews.org
-HJ fluid.annualreviews.org
-HJ food.annualreviews.org
-HJ genet.annualreviews.org
-HJ genom.annualreviews.org
-HJ http://www.annualreviews.org
-HJ immunol.annualreviews.org
-HJ lawsocsci.annualreviews.org
-HJ linguistics.annualreviews.org
-HJ marine.annualreviews.org
-HJ matsci.annualreviews.org
-HJ med.annualreviews.org
-HJ micro.annualreviews.org
-HJ neuro.annualreviews.org
-HJ nucl.annualreviews.org
-HJ nutr.annualreviews.org
-HJ orgpsych.annualreviews.org
-HJ pathmechdis.annualreviews.org
-HJ pharmtox.annualreviews.org
-HJ physchem.annualreviews.org
-HJ physiol.annualreviews.org
-HJ phyto.annualreviews.org
-HJ plant.annualreviews.org
-HJ polisci.annualreviews.org
-HJ psych.annualreviews.org
-HJ publhealth.annualreviews.org
-HJ resource.annualreviews.org
-HJ soc.annualreviews.org
-HJ statistics.annualreviews.org
-HJ virology.annualreviews.org
-HJ vision.annualreviews.org
 HJ www.annualreviews.org
-DJ annualreviews.org
 T ASCE Library
 U http://ascelibrary.org/journal/jhend8
 U http://ascelibrary.org
@@ -162,13 +109,9 @@ HJ www.jech.com
 HJ www.jnnp.com
 HJ www.jmedethics.com
 HJ www.jmedgenet.com
-DJ bmj.com
 # http://www.oclc.org/support/services/ezproxy/documentation/db/brepolsonline.en.html#par_text_title
 Title Brepols Online
-URL http://www.brepolsonline.net
-HJ brepolsonline.net
 HJ www.brepolsonline.net
-DJ brepolsonline.net
 # http://www.oclc.org/support/services/ezproxy/documentation/db/brillonline.en.html
 
 Title BrillOnline
@@ -176,8 +119,6 @@ URL http://www.brillonline.com/
 HJ babo.brillonline.nl
 HJ bibliographies.brillonline.com
 HJ booksandjournals.brillonline.com
-HJ brillonline.com
-HJ brillonline.nl
 HJ chinesereferenceshelf.brillonline.com
 HJ dictionaries.brillonline.com
 HJ primarysources.brillonline.com
@@ -191,8 +132,6 @@ HJ foreignlawguide.com
 HJ https://babo.brillonline.nl
 HJ https://bibliographies.brillonline.com
 HJ https://booksandjournals.brillonline.com
-HJ https://brillonline.com
-HJ https://brillonline.nl
 HJ https://chinesereferenceshelf.brillonline.com
 HJ https://dictionaries.brillonline.com
 HJ https://primarysources.brillonline.com
@@ -203,54 +142,40 @@ HJ https://www.primarysourcesonline.nl
 HJ https://ybio.brillonline.com
 HJ https://www.foreignlawguide.com
 HJ https://foreignlawguide.com
-DJ brillonline.com
-DJ brillonline.nl
 DJ foreignlawguide.com
 # http://www.oclc.org/support/services/ezproxy/documentation/db/cambridgejournals.en.html
 
 Title Cambridge Core
 MimeFilter application/html .* html
 URL https://www.cambridge.org/core
-HJ https://cambridge.org
-HJ cambridge.org
-HJ www.cambridge.org
 HJ africabibliography.cambridge.org
 HJ ebooks.cambridge.org
 HJ journals.cambridge.org
 HJ www.africabibliography.cambridge.org
 HJ www.cambridge.org
 HJ www.journals.cambridge.org
-DJ cambridge.org
 Find globalNav('//www.cambridge.org/tools/packages/cambridge_themes/
 Replace globalNav('/tools/packages/cambridge_themes/
 
 Title Cell Press
 URL https://www.cell.com
-HJ www.cell.com
 HJ https://www.cell.com
-HJ cell.com
-DJ cell.com
 
 Title Classiques Garnier
 U http://www.classiques-garnier.com/
 U https://www.classiques-garnier.com
 HJ https://www.classiques-garnier.com
 HJ www.classiques-garnier.com
-DJ classiques-garnier.com
 # http://www.oclc.org/support/services/ezproxy/documentation/db/degruyter.en.html
 
 Title De Gruyter Online
 URL http://www.degruyter.com
-HJ degruyter.com
-HJ degruyter.de
 HJ reference-global.com
 HJ www.reference-global.com
 HJ www.degruyter.com
 HJ www.degruyter.de
-HJ https://degruyter.com
 HJ https://www.degruyter.com
 HJ www.rgz-rgst.degruyter.de
-DJ degruyter.com
 
 T EDP Sciences
 U https://www.edpsciences.org/
@@ -597,21 +522,15 @@ H https://www.water-quality-journal.org/
 Title Elsevier Health Journals
 URL http://www.journals.elsevierhealth.com/
 HJ www.journals.elsevierhealth.com
-DJ elsevierhealth.com
 Cookie BROWSER_SUPPORTS_COOKIES=1;domain=.sciencedirect.com
 AnonymousURL +https://rss.sciencedirect.com/
 Title ScienceDirect
 URL https://www.sciencedirect.com
 URL https://acw.elsevier.com
 HJ https://acw.elsevier.com
-HJ acw.elsevier.com
 HJ https://www.sciencedirect.com
-HJ https://sciencedirect.com
 HJ http://www.sciencedirect.com
-HJ sciencedirect.com
 HJ linkinghub.elsevier.com
-DJ sciencedirect.com
-DJ www.elsevier.com
 Find value="http://
 Replace value="http://^A
 Find %22%3A%22https%3A%2F%2Fsciverse-shindig.elsevier.com%2F
@@ -632,7 +551,6 @@ MimeFilter application/json .* javascript
 URL https://www.scopus.com/home.url
 HJ https://www.scopus.com
 HJ www.scopus.com
-DJ scopus.com
 Find %22%3A%22http%3A%2F%2Fsciverse-shindig.elsevier.com%2F
 Replace %22%3A%22http%3A%2F%2F^psciverse-shindig.elsevier.com^%2F
 Find gsUrl%22%3A%22https%3A%2F%2Fwww.scopus.com%2F
@@ -644,7 +562,6 @@ U http://www.lyellcollection.org
 U http://sp.lyellcollection.org/content/by/volume
 HJ www.lyellcollection.org
 HJ sp.lyellcollection.org
-DJ lyellcollection.org
 
 Title Institute of Physics
 URL http://iopscience.iop.org/
@@ -689,19 +606,12 @@ DJ mit.edu
 
 Title Nature Publishing
 URL https://www.nature.com
-HJ labanimal.com
-HJ nano.nature.com
-HJ nature.com
 HJ search.nature.com
 HJ www.labanimal.com
 HJ www.nature.com
 HJ www.naturesj.com
 HJ www.npgjournals.com
-DJ labanimal.com
-DJ nature.com
-DJ naturesj.com
-DJ npgjournals.com
-DJ scientificamerican.com
+
 ## Numerique Premium
 Title Numerique Premium
 URL https://www.numeriquepremium.com/selfservice/subscribedtitles
@@ -711,7 +621,6 @@ HJ www.numeriquepremium.com
 
 Title OpenEdition
 U http://www.openedition.org
-DJ openedition.org
 HJ https://books.openedition.org
 HJ https://journals.openedition.org
 HJ https://www.openedition.org
@@ -1197,42 +1106,7 @@ Replace returnUrl=http://^A
 Find id="returnUrl" value="http://
 Replace id="returnUrl" value="http://^A
 
-# When using Ovid with content from Primal Pictures, the following longer database definition should be used in config.txt:
-#
-#     Title Ovid including Primal Pictures
-#     URL http://ovidsp.ovid.com/autologin.html
-#     Host https://ovidsp.ovid.com
-#     Host ovidsp.ovid.com
-#     Host ovidsp.tx.ovid.com
-#     Host gateway.ovid.com
-#     Host gateway.tx.ovid.com
-#     Host www.anatomy.tv
-#     Host anatomy.tv
-#     Host nursing.ovid.com
-#     Host https://anatomy.tv
-#     Host https://secure.anatomy.tv
-#     DJ ovid.com
-#     DJ anatomy.tv
-#     Find returnUrl=http://
-#     Replace returnUrl=http://^A
-#     Find id="returnUrl" value="http://
-#     Replace id="returnUrl" value="http://^A 
-#
-# Linux 2.6 kernels and PDF files
-#
-# Some institutions using Linux 2.6 kernels have encountered problems accessing Ovid PDF files. These problems occur with any attempt to access the PDF files, whether directly from a browser on the Linux server or through EZproxy. The conflict appears to be a bug in the packet inspection performed by iptables, as disabling iptables resolves the issue, yet reactivating iptables with even a simple rule to allow all traffic to pass recreates the issue. This problem appears to have a hardware component, as institutions have reported the problem manifesting on certain hardware configurations, but not others.
-#
-# If you suspect this issue, start by issuing the Linux command:
-#
-#     uname -r
-#
-# which will display your kernel version, which will look similar to "2.6.9-67.0.15.EL". In this example, 2 is the version of the kernel, 6 is the major revision, and 9 is the minor revision.
-#
-# Linux 2.6 kernels at minor revision 21 (2.6.21) and above are reported to have this issue resolved.
-#
-# If your institution is using Linux and encountering this behavior, you can verify the issue by launching a browser on the EZproxy server and trying to access a PDF document directly. If this fails, you can disable iptables and retest.
-#
-# Since this issue exists in the operating system, there are no changes to EZproxy that can correct this issue.
+
 Title Oxford Journals (updated 20180516)
 URL https://academic.oup.com/
 DJ oup.com
@@ -2823,11 +2697,7 @@ Host www.thebsps.org
 Title Project Euclid
 U http://projecteuclid.org/librarians/lib_prime
 U https://projecteuclid.org/
-HJ projecteuclid.org
-HJ www.projecteuclid.org
 HJ https://projecteuclid.org
-HJ https://www.projecteuclid.org
-DJ projecteuclid.org
 HTTPHeader X-Requested-With
 Title ProQuest
 URL https://search.proquest.com/ip
@@ -2850,7 +2720,6 @@ HJ statabs.proquest.com
 HJ trials.proquest.com
 HJ www.proquest.com
 HJ www.proquestk12.com
-DJ umi.com
 HJ https://africanamericanheritage.proquest.com
 HJ https://congressional.proquest.com
 HJ https://datasets.proquest.com
@@ -2878,7 +2747,6 @@ Find window.location.host=="congressional.proquest.com"
 Replace true
 Title The Royal Society Publishing
 URL https://royalsociety.org/journals/
-HJ https://www.royalsociety.org
 HJ royalsociety.org
 HJ royalsocietypublishing.org
 HJ rsbl.royalsocietypublishing.org
@@ -2894,8 +2762,6 @@ HJ rspl.royalsocietypublishing.org
 HJ rsta.royalsocietypublishing.org
 HJ rstb.royalsocietypublishing.org
 HJ rstl.royalsocietypublishing.org
-HJ www.royalsociety.org
-HJ www.royalsocietypublishing.org
 DJ royalsociety.org
 DJ royalsocietypublishing.org
 Option CookiePassThrough
@@ -3604,12 +3470,8 @@ Dj jstage.jst.go.jp
 Title Liebert
 URL http://www.liebertpub.com
 URL https://www.liebertpub.com
-HJ liebertonline.com
-HJ liebertpub.com
-HJ online.liebertpub.com
 HJ www.liebertonline.com
 HJ www.liebertpub.com
-DJ liebertpub.com
 # http://www.oclc.org/support/services/ezproxy/documentation/db/science.en.html
 
 Title Science - AAAS
@@ -3625,23 +3487,19 @@ HJ www.sciencemag.org
 HJ news.sciencemag.org
 HJ classic.sciencemag.org
 HJ https://www.sciencemag.org
-DJ sciencemag.org
 
 U https://mathscinet.ams.org/mathscinet/help/librarians.html?version=2
 U https://mathscinet.ams.org
 HJ https://mathscinet.ams.org
 HJ mathscinet.ams.org
-DJ ams.org
 
 U https://www.osapublishing.org/ol/home.cfm
 HJ https://www.osapublishing.org
 HJ www.osapublishing.org
-DJ osapublishing.org
 
 U https://www.ann-geophys.net/index.html
 HJ https://www.ann-geophys.net
 HJ www.ann-geophys.net
-DJ ann-geophys.net
 
 T INIS CEA
 U https://inis-cea.inist.fr
