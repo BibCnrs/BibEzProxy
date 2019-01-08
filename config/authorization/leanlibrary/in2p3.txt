@@ -3648,4 +3648,5 @@ U https://inis-cea.inist.fr
 HJ https://inis-cea.inist.fr
 HJ inis-cea.inist.fr
 
+T AIP
 U https://aip.scitation.org/journal/rsi
