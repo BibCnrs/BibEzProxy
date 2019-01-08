@@ -3648,8 +3648,13 @@ U https://inis-cea.inist.fr
 HJ https://inis-cea.inist.fr
 HJ inis-cea.inist.fr
 
+T JSTOR
 U https://www.jstor.org
+
+T IOSPRESS
 U https://content.iospress.com/
+
+T ACM
 U https://dl.acm.org/
 
 
