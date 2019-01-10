@@ -3653,5 +3653,8 @@ U https://icsd.fiz-karlsruhe.de/search/index.xhtml
 HJ icsd.fiz-karlsruhe.de
 DJ fiz-karlsruhe.de
 
+T L actualite chimique
 U http://www.lactualitechimique.org/
+
+T ACS
 U https://pubs.acs.org/
