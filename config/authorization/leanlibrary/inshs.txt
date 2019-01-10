@@ -3648,9 +3648,11 @@ U https://inis-cea.inist.fr
 HJ https://inis-cea.inist.fr
 HJ inis-cea.inist.fr
 
-U http://www.cairn.info
-U http://gallica.bnf.fr
+T ERUDIT
 U https://www.erudit.org
+
+T JSTOR
 U https://www.jstor.org
-U http://www.persee.fr
+
+T MUSE
 U https://muse.jhu.edu/
