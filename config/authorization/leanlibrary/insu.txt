@@ -3507,27 +3507,14 @@ U https://inis-cea.inist.fr
 HJ https://inis-cea.inist.fr
 HJ inis-cea.inist.fr
 
+T ACM
 U https://dl.acm.org/
-U http://cdsads.u-strasbg.fr/
+
+T AMETSOC
 U https://journals.ametsoc.org/
+
+T BRGM GEOLFRANCE
 U http://geolfrance.brgm.fr/
-U http://www.egu.eu/publications/open-access-journals/
-U http://www.web-ecol.net/volumes_and_issues.html
-U http://www.adv-radio-sci.net/volumes.html
-U http://www.adv-stat-clim-meteorol-oceanogr.net/volumes_and_issues.html
-U http://www.astra-proc.net/recent_papers.html
-U http://www.drink-water-eng-sci.net/volumes_and_issues.html
-U http://www.earth-surf-dynam.net/
-U http://www.earth-syst-sci-data.net/volumes_and_issues.html
-U http://www.foss-rec.net/volumes.html
-U http://www.geogr-helv.net/volumes_and_issues.html
-U http://www.geophysical-research-abstracts.net/egu2015.html
-U http://www.geoth-energ-sci.net/volumes_and_issues.html
-U http://www.hist-geo-space-sci.net/volumes_and_issues.html
-U http://www.isprs.org/publications/archives.aspx
-U http://www.j-sens-sens-syst.net/volumes_and_issues.html
-U http://www.mech-sci.net/volumes_and_issues.html
-U http://www.primate-biol.net/volumes_and_issues.html
-U http://www.scientific-drilling.net/
-U http://www.soil-journal.net/volumes.html
+
+T GEOSCIENCE WORLD
 U https://pubs.geoscienceworld.org/
