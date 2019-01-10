@@ -3688,35 +3688,95 @@ HJ seqviewer.arabidopsis.org
 HJ www.arabidopsis.org
 DJ arabidopsis.org
 
+T AACR Journals
 U http://aacrjournals.org/
-U http://www.jimmunol.org/contents-by-date.0.shtml
-U https://www.molbiolcell.org/
-U https://pubs.acs.org/
-U http://aspetjournals.org/
-U http://www.asbmb.org/
-U http://ascopubs.org/
-U http://www.hematology.org/
-U http://www.plantphysiol.org/
-U https://www.asm.org/
-U https://nutrition.org/
-U http://www.plantcell.org/
-U https://genome.cshlp.org/
-U https://bioone.org/
-U http://www.biologists.com/
-U http://www.faseb.org/
-U http://www.genetics.org/
-U https://content.iospress.com/
-U https://www.jwatch.org/
-U https://www.nejm.org/
-U http://www.portlandpress.com/pp/default.htm
-U http://www.biochemj.org/
-U http://symposia.biochemistry.org/
-U http://www.biochemsoctrans.org/
-U http://www.cellsignallingbiology.org/
-U http://www.bioscirep.org/
-U http://www.clinsci.org/
-U http://essays.biochemistry.org/
-U http://www.biochemist.org/
-U https://www.rockefeller.edu/
-U http://www.jneurosci.org/contents-by-date.0.shtml
 
+T Jimmunol
+U http://www.jimmunol.org/contents-by-date.0.shtml
+
+T MolbiolCell
+U https://www.molbiolcell.org/
+
+T ACS
+U https://pubs.acs.org/
+
+T Aspet journals
+U http://aspetjournals.org/
+
+T ASBMB
+U http://www.asbmb.org/
+
+T Asco
+U http://ascopubs.org/
+
+T Hematology
+U http://www.hematology.org/
+
+T Plant physiol
+U http://www.plantphysiol.org/
+
+T ASM
+U https://www.asm.org/
+
+T Nutrition
+U https://nutrition.org/
+
+T Plant Cell
+U http://www.plantcell.org/
+
+T Genome
+U https://genome.cshlp.org/
+
+T Bioone
+U https://bioone.org/
+
+T Biologists
+U http://www.biologists.com/
+
+T FASEB
+U http://www.faseb.org/
+
+T Genetics
+U http://www.genetics.org/
+
+T IOS press
+U https://content.iospress.com/
+
+T JWATCH
+U https://www.jwatch.org/
+
+T NEJM
+U https://www.nejm.org/
+
+T Portland Press
+U http://www.portlandpress.com/pp/default.htm
+
+T Biochemj
+U http://www.biochemj.org/
+
+T Symposia
+U http://symposia.biochemistry.org/
+
+T Biochemsoctrans
+U http://www.biochemsoctrans.org/
+
+T Cell signalling biology
+U http://www.cellsignallingbiology.org/
+
+T Bioscirep
+U http://www.bioscirep.org/
+
+T CLINSCI
+U http://www.clinsci.org/
+
+T ESSAYS Biochemistry
+U http://essays.biochemistry.org/
+
+T Biochemist
+U http://www.biochemist.org/
+
+T Rockefeller
+U https://www.rockefeller.edu/
+
+T Jneurosci
+U http://www.jneurosci.org/contents-by-date.0.shtml
