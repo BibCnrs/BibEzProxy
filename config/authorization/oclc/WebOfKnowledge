@@ -1,26 +1,24 @@
 # http://www.oclc.org/support/services/ezproxy/documentation/db/webofknowledge.en.html
 
 OPTION DOMAINCOOKIEONLY
+PHE apps.clarivate.com$ apps-clarivate-com
 Title Web of Knowledge
-URL https://urldefense.proofpoint.com
-HJ urldefense.proofpoint.com
-DJ proofpoint.com
+HTTPHeader -request -process X-1P-INC-SID
 URL http://www.webofknowledge.com
-URL https://apps.clarivate.com
-URL https://incites.thomsonreuters.com
 HJ https://jcr.incites.thomsonreuters.com
 HJ https://webofknowledge.com
+HJ http://webofknowledge.com
 HJ jcr.incites.thomsonreuters.com
 HJ www.webofknowledge.com
 HJ webofknowledge.com
 DJ webofknowledge.com
-DJ apps.clarivate.com
 HJ about.esi.incites.thomsonreuters.com
 HJ about.jcr.incites.thomsonreuters.com
 HJ admin.webofknowledge.com
 HJ admin-apps.webofknowledge.com
 HJ admin-router.webofknowledge.com
 HJ apps.webofknowledge.com
+HJ ac.webofknowledge.com
 HJ charts.webofknowledge.com
 HJ cm.webofknowledge.com
 HJ diipcs.webofknowledge.com
@@ -37,7 +35,6 @@ HJ images.webofknowledge.com
 HJ incites.isiknowledge.com
 HJ isi01.isiknowledge.com
 HJ isiknowledge.com
-HJ https://isiknowledge.com
 HJ isiwebofknowledge.com
 HJ links.webofknowledge.com
 HJ login.webofknowledge.com
@@ -58,7 +55,6 @@ HJ ws.isiknowledge.com
 HJ www.highlycited.com
 HJ www.isiknowledge.com
 HJ www.researcherid.com
-HJ https://www.researcherid.com
 HJ www.webofscience.com
 HJ ip-science.thomsonreuters.com
 DJ incites.thomsonreuters.com
@@ -67,6 +63,7 @@ DJ isiwebofknowledge.com
 DJ myendnoteweb.com
 DJ webofknowledgev4.com
 DJ webofscience.com
+DJ clarivate.com
 Find value="http://
 Replace value="http://^A
 Find VALUE="http://
@@ -87,4 +84,6 @@ Find "CIT.GATEWAY_URL">gateway.webofknowledge.com
 Replace "CIT.GATEWAY_URL">^pgateway.webofknowledge.com^
 Find value='gateway.webofknowledge.com/gateway/Gateway.cgi'
 Replace value='^pgateway.webofknowledge.com^/gateway/Gateway.cgi'
+Find "apps.clarivate.com/
+Replace "^papps.clarivate.com^/
 OPTION COOKIE
