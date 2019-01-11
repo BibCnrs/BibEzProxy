@@ -1,3 +1,5 @@
-U http://www.persee.fr
-H www.persee.fr
-D persee.fr
+T PERSEE
+U https://www.persee.fr
+HJ https://www.persee.fr
+HJ www.persee.fr
+DJ persee.fr

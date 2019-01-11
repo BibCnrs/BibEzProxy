@@ -6,20 +6,32 @@ Domain doi.org
 
 HTTPHeader Access-Token
 ProxyHostnameEdit www.tandfonline.com$ www-tandfonline-com
-T Taylor & Francis
-U http://www.tandfonline.com
+Title Taylor & Francis (updated 20180806)
+URL https://www.tandfonline.com
+HJ http://www.tandfonline.com
 HJ journalsonline.tandf.co.uk
 HJ afs.tandfonline.com
+HJ amstat.tandfonline.com
 HJ tandfonline.com
 HJ www.journalsonline.tandf.co.uk
 DJ tandfonline.com
 HJ tandfprod.literatumonline.com
+HJ https://tandfonline.com
 DJ literatumonline.com
 
-Title Taylor & Francis eBooks
-URL http://www.tandfebooks.com
-HJ tandfebooks.com
-HJ www.tandfebooks.com
-HJ https://tandfebooks.com/
-HJ https://www.tandfebooks.com
-DJ tandfebooks.com 
+HTTPHeader authtoken
+AnonymousURL +https://api.taylorandfrancis.com/*
+Title Taylor & Francis eBooks (updated 20180126)
+URL https://www.taylorfrancis.com
+HJ www.taylorfrancis.com
+HJ https://taylorfrancis.com
+HJ taylorfrancis.com
+HJ https://api.taylorandfrancis.com
+HJ api.taylorandfrancis.com
+HJ https://accounts.taylorfrancis.com
+HJ accounts.taylorfrancis.com
+DJ taylorandfrancis.com
+DJ taylorfrancis.com
+Find http-equiv="Content-Security-Policy"
+Replace http-equiv="X-Content-Security-Policy"
+AnonymousURL -*

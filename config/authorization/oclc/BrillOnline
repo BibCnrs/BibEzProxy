@@ -1,7 +1,8 @@
 # http://www.oclc.org/support/services/ezproxy/documentation/db/brillonline.en.html
-
-Title BrillOnline
-URL http://www.brillonline.com/
+Title BrillOnline (updated 20180726)
+URL https://www.brill.com
+HJ https://brill.com
+HJ http://www.brillonline.com
 HJ babo.brillonline.nl
 HJ bibliographies.brillonline.com
 HJ booksandjournals.brillonline.com
@@ -21,6 +22,7 @@ HJ ybio.brillonline.com
 HJ www.foreignlawguide.com
 HJ foreignlawguide.com
 HJ https://babo.brillonline.nl
+HJ https://www.worldchristiandatabase.org
 HJ https://bibliographies.brillonline.com
 HJ https://booksandjournals.brillonline.com
 HJ https://brillonline.com
@@ -38,7 +40,19 @@ HJ https://www.primarysourcesonline.nl
 HJ https://ybio.brillonline.com
 HJ https://www.foreignlawguide.com
 HJ https://foreignlawguide.com
+HJ http://arkyves.org
+HJ https://www.arkyves.org
+HJ www.arkyves.org
+HJ http://www.worldchristiandatabase.org
+HJ https://www.worldchristiandatabase.org
+HJ www.worldchristiandatabase.org
+HJ http://worldreligiondatabase.org
+HJ https://worldreligiondatabase.org
+D arkyves.org
+DJ worldchristiandatabase.org
+DJ worldreligiondatabase.org
 DJ brillonline.com
 DJ brillonline.nl
 DJ foreignlawguide.com
+DJ brill.com
 NeverProxy brill.metastore.ingenta.com
