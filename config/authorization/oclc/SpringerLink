@@ -4,6 +4,7 @@ OPTION DOMAINCOOKIEONLY
 Title SpringerLink
 URL http://link.springer.com
 URL https://link.springer.com
+HJ https://aa.springer.de
 HJ aa.springer.de
 HJ download.springer.com
 HJ ebooks.springerlink.com
