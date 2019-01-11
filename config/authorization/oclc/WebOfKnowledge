@@ -5,6 +5,9 @@ PHE apps.clarivate.com$ apps-clarivate-com
 Title Web of Knowledge
 HTTPHeader -request -process X-1P-INC-SID
 URL http://www.webofknowledge.com
+URL https://urldefense.proofpoint.com
+HJ https://urldefense.proofpoint.com
+HJ urldefense.proofpoint.com
 HJ https://jcr.incites.thomsonreuters.com
 HJ https://webofknowledge.com
 HJ http://webofknowledge.com
