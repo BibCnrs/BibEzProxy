@@ -5,6 +5,8 @@ IncludeFile authorization/oclc/AmericanPhysiologySociety
 
 IncludeFile authorization/other/AIP
 
+IncludeFile authorization/other/SCOAP
+
 # BASES DE DONNEES
 # ================
 
