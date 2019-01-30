@@ -3647,3 +3647,8 @@ T INIS CEA
 U https://inis-cea.inist.fr
 HJ https://inis-cea.inist.fr
 HJ inis-cea.inist.fr
+
+T SCOAP
+U https://repo.scoap3.org
+
+
