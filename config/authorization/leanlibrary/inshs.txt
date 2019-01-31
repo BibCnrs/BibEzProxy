@@ -1,5 +1,4 @@
 Title Annual Reviews
-URL https://www.annualreviews.org/
 HJ annualreviews.org
 HJ anchem.annualreviews.org
 HJ animal.annualreviews.org
@@ -54,13 +53,10 @@ HJ vision.annualreviews.org
 HJ www.annualreviews.org
 DJ annualreviews.org
 T ASCE Library
-U http://ascelibrary.org/journal/jhend8
-U http://ascelibrary.org
 HJ ascelibrary.org
 DJ ascelibrary.org
 
 Title BMJ Journals
-URL http://journals.bmj.com
 Domain group.bmj.com
 HJ adc.bmj.com
 HJ adc.bmjjournals.com
@@ -165,14 +161,12 @@ HJ www.jmedgenet.com
 DJ bmj.com
 # http://www.oclc.org/support/services/ezproxy/documentation/db/brepolsonline.en.html#par_text_title
 Title Brepols Online
-URL http://www.brepolsonline.net
 HJ brepolsonline.net
 HJ www.brepolsonline.net
 DJ brepolsonline.net
 # http://www.oclc.org/support/services/ezproxy/documentation/db/brillonline.en.html
 
 Title BrillOnline
-URL http://www.brillonline.com/
 HJ babo.brillonline.nl
 HJ bibliographies.brillonline.com
 HJ booksandjournals.brillonline.com
@@ -210,7 +204,6 @@ DJ foreignlawguide.com
 
 Title Cambridge Core
 MimeFilter application/html .* html
-URL https://www.cambridge.org/core
 HJ https://cambridge.org
 HJ cambridge.org
 HJ www.cambridge.org
@@ -225,22 +218,18 @@ Find globalNav('//www.cambridge.org/tools/packages/cambridge_themes/
 Replace globalNav('/tools/packages/cambridge_themes/
 
 Title Cell Press
-URL https://www.cell.com
 HJ www.cell.com
 HJ https://www.cell.com
 HJ cell.com
 DJ cell.com
 
 Title Classiques Garnier
-U http://www.classiques-garnier.com/
-U https://www.classiques-garnier.com
 HJ https://www.classiques-garnier.com
 HJ www.classiques-garnier.com
 DJ classiques-garnier.com
 # http://www.oclc.org/support/services/ezproxy/documentation/db/degruyter.en.html
 
 Title De Gruyter Online
-URL http://www.degruyter.com
 HJ degruyter.com
 HJ degruyter.de
 HJ reference-global.com
@@ -253,8 +242,6 @@ HJ www.rgz-rgst.degruyter.de
 DJ degruyter.com
 
 T EDP Sciences
-U https://www.edpsciences.org/
-U https://publications.edpsciences.org
 H aas.aanda.org
 H animres.edpsciences.org
 H asees.water-quality-journal.org
@@ -595,14 +582,11 @@ H https://www.water-quality-journal.org/
 # http://www.oclc.org/support/services/ezproxy/documentation/db/elsevierhealth.en.html
 
 Title Elsevier Health Journals
-URL http://www.journals.elsevierhealth.com/
 HJ www.journals.elsevierhealth.com
 DJ elsevierhealth.com
 Cookie BROWSER_SUPPORTS_COOKIES=1;domain=.sciencedirect.com
 AnonymousURL +https://rss.sciencedirect.com/
 Title ScienceDirect
-URL https://www.sciencedirect.com
-URL https://acw.elsevier.com
 HJ https://acw.elsevier.com
 HJ acw.elsevier.com
 HJ https://www.sciencedirect.com
@@ -629,7 +613,6 @@ MimeFilter text/uri-list .* javascript
 AnonymousURL +http://syndic8.scopus.com/*
 Title SciVerse Scopus
 MimeFilter application/json .* javascript
-URL https://www.scopus.com/home.url
 HJ https://www.scopus.com
 HJ www.scopus.com
 DJ scopus.com
@@ -640,14 +623,11 @@ Replace gsUrl%22%3A%22https%3A%2F%2F^pwww.scopus.com^%2F
 NeverProxy www.elsevier.com
 AnonymousURL -* 
 # http://www.oclc.org/support/services/ezproxy/documentation/db/emeraldinsight.en.html
-U http://www.lyellcollection.org
-U http://sp.lyellcollection.org/content/by/volume
 HJ www.lyellcollection.org
 HJ sp.lyellcollection.org
 DJ lyellcollection.org
 
 Title Institute of Physics
-URL http://iopscience.iop.org/
 HJ asia.iop.org
 HJ biologicalphysics.iop.org
 HJ conferenceseries.iop.org/
@@ -682,13 +662,11 @@ HJ www.tap.iop.org
 DJ iop.org
 DJ ioppublishing.org
 T Mit Cognet
-U http://cognet.mit.edu/
 HJ cognet.mit.edu
 DJ mit.edu
 # http://www.oclc.org/support/services/ezproxy/documentation/db/Nature_Publishing_Group.en.html
 
 Title Nature Publishing
-URL https://www.nature.com
 HJ labanimal.com
 HJ nano.nature.com
 HJ nature.com
@@ -704,13 +682,11 @@ DJ npgjournals.com
 DJ scientificamerican.com
 ## Numerique Premium
 Title Numerique Premium
-URL https://www.numeriquepremium.com/selfservice/subscribedtitles
 DJ www.numeriquepremium.com
 HJ www.numeriquepremium.com
 # http://www.oclc.org/support/services/ezproxy/documentation/db/openedition.en.html
 
 Title OpenEdition
-U http://www.openedition.org
 DJ openedition.org
 HJ https://books.openedition.org
 HJ https://journals.openedition.org
@@ -1183,7 +1159,6 @@ HJ http://oeconomia.revues.org
 
 # When using Ovid without content from Primal Pictures, the following shorter database definition should be used in config.txt:
 Title Ovid
-URL http://ovidsp.ovid.com/autologin.html
 Host https://ovidsp.ovid.com
 Host ovidsp.tx.ovid.com
 Host gateway.ovid.com
@@ -1234,7 +1209,6 @@ Replace id="returnUrl" value="http://^A
 #
 # Since this issue exists in the operating system, there are no changes to EZproxy that can correct this issue.
 Title Oxford Journals (updated 20180516)
-URL https://academic.oup.com/
 DJ oup.com
 DJ oup.silverchair-cdn.com
 Find domain="//global.oup.com"
@@ -1244,7 +1218,6 @@ DJ silverchair.com
 HJ watermark.silverchair.com
 
 
-URL http://www.oxfordjournals.org
 Host https://www.oxfordjournals.org
 Domain oxfordjournals.org
 DJ oxfordjournals.org
@@ -2821,8 +2794,6 @@ Host www.imrn.org
 Host www.imrs.org
 Host www.thebsps.org
 Title Project Euclid
-U http://projecteuclid.org/librarians/lib_prime
-U https://projecteuclid.org/
 HJ projecteuclid.org
 HJ www.projecteuclid.org
 HJ https://projecteuclid.org
@@ -2830,7 +2801,6 @@ HJ https://www.projecteuclid.org
 DJ projecteuclid.org
 HTTPHeader X-Requested-With
 Title ProQuest
-URL https://search.proquest.com/ip
 HJ africanamericanheritage.proquest.com
 HJ congressional.proquest.com
 HJ datasets.proquest.com
@@ -2877,7 +2847,6 @@ DJ conquest-leg-insight.com
 Find window.location.host=="congressional.proquest.com"
 Replace true
 Title The Royal Society Publishing
-URL https://royalsociety.org/journals/
 HJ https://www.royalsociety.org
 HJ royalsociety.org
 HJ royalsocietypublishing.org
@@ -2900,7 +2869,6 @@ DJ royalsociety.org
 DJ royalsocietypublishing.org
 Option CookiePassThrough
 Title Safari Books
-URL http://proquest.safaribooksonline.com
 HJ https://proquest.safaribooksonline.com
 HJ https://proquestcombo.safaribooksonline.com
 HJ https://www.safaribooksonline.com
@@ -2915,8 +2883,6 @@ Find window.location.replace('http://m' + subDomain + '.safaribooksonline.com
 Replace window.location.replace('http://m' + subDomain + '.^psafaribooksonline.com^
 Option Cookie
 #Scielo
-URL http://www.scielo.br/
-URL http://www.scielo.org/php/index.php?lang=en
 HJ www.scielo.br
 HJ www.scielo.org
 DJ scielo.br
@@ -2924,7 +2890,6 @@ DJ scielo.org
 # http://www.oclc.org/support/services/ezproxy/documentation/db/Royal_Society_Chemistry.en.html
 
 T Royal Society of Chemistry
-U http://pubs.rsc.org/
 HJ ebook.rsc.org
 HJ https://pubs.rsc.org
 HJ https://rsc.org
@@ -2935,7 +2900,6 @@ HJ xlink.rsc.org
 DJ rsc.org
 
 Title Sage Journals
-URL http://journals.sagepub.com
 HJ https://journals.sagepub.com
 HJ businessresearcher.sagepub.com
 HJ www.sagepub.co.uk
@@ -2956,8 +2920,6 @@ Option Cookie
 
 OPTION DOMAINCOOKIEONLY
 Title SpringerLink
-URL http://link.springer.com
-URL https://link.springer.com
 HJ aa.springer.de
 HJ springerlink.metapress.com
 HJ link.springer.com
@@ -2977,7 +2939,6 @@ OPTION COOKIE
 HTTPHeader Access-Token
 ProxyHostnameEdit www.tandfonline.com$ www-tandfonline-com
 T Taylor & Francis
-U http://www.tandfonline.com
 HJ journalsonline.tandf.co.uk
 HJ afs.tandfonline.com
 HJ tandfonline.com
@@ -2987,7 +2948,6 @@ HJ tandfprod.literatumonline.com
 DJ literatumonline.com
 
 Title Taylor & Francis eBooks
-URL http://www.tandfebooks.com
 HJ tandfebooks.com
 HJ www.tandfebooks.com
 HJ https://tandfebooks.com/
@@ -2997,7 +2957,6 @@ DJ tandfebooks.com
 
 Option DomainCookieOnly
 T University of Chicago Press Journals
-U https://www.journals.uchicago.edu
 HJ http://www.journals.uchicago.edu
 HJ www.journals.uchicago.edu
 HJ journals.uchicago.edu
@@ -3009,7 +2968,6 @@ Option X-Forwarded-For
 Cookie theproxy=ezproxy; domain=.onlinelibrary.wiley.com
 Title Wiley Online
 HTTPHeader -request -process X-Requested-With
-URL https://onlinelibrary.wiley.com
 H http://onlinelibrary.wiley.com
 HJ aapm.onlinelibrary.wiley.com
 HJ aasldpubs.onlinelibrary.wiley.com
@@ -3104,11 +3062,6 @@ DJ wileyopenaccess.com
 DJ wileyonlinelibrary.com
 Option NoX-Forwarded-For
 
-U http://embomolmed.embopress.org
-U http://embor.embopress.org
-U http://www.embo.org/embo-press
-U http://msb.embopress.org
-U http://emboj.embopress.org
 HJ embomolmed.embopress.org
 HJ embor.embopress.org
 HJ www.embo.org
@@ -3119,159 +3072,125 @@ DJ embopress.org
 
 
 Title Chadwyck African American Biographical Database
-URL http://aabd.chadwyck.com
 HJ aabd.chadwyck.com
 
 Title Chadwyck American Film Institute Catalog
-URL http://afi.chadwyck.com
 HJ afi.chadwyck.com
 HJ afi.chadwyck.co.uk
 
 Title Chadwyck Black Studies Center, Abolitionist Papers, History Makers, and BSC Dissertations
-URL http://bsc.chadwyck.com/
 HJ bsc.chadwyck.com
 HJ bsc.chadwyck.co.uk
 
 Title Chadwyck Colonial State Papers Collection
-URL http://colonial.chadwyck.com/
 HJ colonial.chadwyck.com
 HJ colonial.chadwyck.co.uk
 
 Title Chadwyck Digital National Security Archive
-URL http://nsarchive.chadwyck.com/
 HJ nsarchive.chadwyck.com
 
 Title Chadwyck Early European Books
-URL http://eeb.chadwyck.com
 HJ eeb.chadwyck.com
 HJ eeb.chadwyck.co.uk
 
 Title Chadwyck Early English Books Online
-URL http://eebo.chadwyck.com
 HJ eebo.chadwyck.com
 
 Title Chadwyck FIAF International Index to Film Periodicals
-URL http://fiaf.chadwyck.com/
 HJ fiaf.chadwyck.com
 HJ fiaf.chadwyck.co.uk
 
 Title Chadwyck Film Index International
-URL http://fii.chadwyck.com
 HJ fii.chadwyck.com
 HJ fii.chadwyck.co.uk
 Title Chadwyck Film Index Online
-URL http://film.chadwyck.com
 HJ film.chadwyck.com
 HJ film.chadwyck.co.uk
 
 Title Chadwyck Gerritsen's Women's History Collection
-URL http://gerritsen.chadwyck.com
 HJ gerritsen.chadwyck.com
 
 Title Chadwyck Historical Newspapers
-URL http://history.chadwyck.co.uk
 HJ history.chadwyck.co.uk
 
 Title Chadwyck Historical Newspapers Online
-URL http://historynews.chadwyck.com
 HJ historynews.chadwyck.com
 
 Title Chadwyck History Makers
-URL http://historymakers.chadwyck.com
 HJ historymakers.chadwyck.com
 
 Title Chadwyck Paley Center Seminars
-URL http://paley.chadwyck.com/
 HJ paley.chadwyck.com
 
 Title Chadwyck House of Commons Parliamentary Papers
-URL http://parlipapers.chadwyck.com/
 HJ parlipapers.chadwyck.com
 HJ parlipapers.chadwyck.co.uk
 
 Title Chadwyck iibp
-URL http://iibp.chadwyck.com
 HJ iibp.chadwyck.com
 
 Title Chadwyck IIMP
-URL http://iimp.chadwyck.com
 HJ iimp.chadwyck.com
 HJ iimp.chadwyck.co.uk
 
 Title Chadwyck IIMP Full Text
-URL http://iimpft.chadwyck.com
 HJ iimpft.chadwyck.com
 HJ iimpft.chadwyck.co.uk
 
 Title Chadwyck IIPA
-URL http://iipa.chadwyck.com
 HJ iipa.chadwyck.com
 HJ iipa.chadwyck.co.uk
 
 Title Chadwyck John Johnson Collection
-URL http://johnjohnson.chadwyck.com/
 HJ johnjohnson.chadwyck.com
 HJ johnjohnson.chadwyck.co.uk
 
 Title Chadwyck Luthers Werke
-URL http://luther.chadwyck.com/
 HJ luther.chadwyck.com
 HJ luther.chadwyck.co.uk
 
 Title Chadwyck Literature Collections
-URL http://collections.chadwyck.com
 HJ collections.chadwyck.com
 HJ collections.chadwyck.co.uk
 Find + sDomain +
 Replace + 'collections.chadwyck.com' +
 
 Title Chadwyck Literature Online
-URL http://lion.chadwyck.com
 HJ lion.chadwyck.com
 HJ lion.chadwyck.co.uk
 
 Title Chadwyck Music
-URL http://music.chadwyck.com
 HJ music.chadwyck.com
 
 Title Chadwyck Nineteenth Century Short Title Catalogue
-URL http://nstc.chadwyck.com/
 HJ nstc.chadwyck.com
 
 Title Chadwyck Patrologia Latina
-URL http://pld.chadwyck.co.uk
 HJ pld.chadwyck.co.uk
 HJ pld.chadwyck.com
 
 Title Chadwyck Periodicals Contents Index
-URL http://pci.chadwyck.com
 HJ pci.chadwyck.com
 
 Title Chadwyck Periodicals Contents Index Full-Text
-URL http://pao.chadwyck.com
 HJ pao.chadwyck.com
 HJ pao.chadwyck.co.uk
 
 Title Chadwyck Periodicals Index Online
-URL http://pio.chadwyck.com
 HJ pio.chadwyck.com
 HJ pio.chadwyck.co.uk
 
 Title Chadwyck Queen Victoria's Journals
-URL http://qvj.chadwyck.com
 HJ qvj.chadwyck.com
 
 Title Chadwyck ProQuest British Periodicals
-URL http://britishperiodicals.chadwyck.co.uk
 DJ britishperiodicals.chadwyck.co.uk
 HJ bp.chadwyck.co.uk
 
 Title Chadwyck FT Archive
-URL http://ft.chadwyck.co.uk
 D ft.chadwyck.co.uk
 
 Title Chadwyck Wellesley Index to Victorian Periodicals
-URL http://wellesley.chadwyck.co.uk
 HJ wellesley.chadwyck.co.uk
 HJ wellesley.chadwyck.com
 
@@ -3288,16 +3207,12 @@ HJ wellesley.chadwyck.com
 
 Option DomainCookieOnly
 Title InCites
-URL https://incites.thomsonreuters.com
 DJ incites.thomsonreuters.com
 Option Cookie
 # http://www.oclc.org/support/services/ezproxy/documentation/db/webofknowledge.en.html
 
 OPTION DOMAINCOOKIEONLY
 Title Web of Knowledge
-URL http://www.webofknowledge.com
-URL https://apps.clarivate.com
-URL https://incites.thomsonreuters.com
 HJ https://jcr.incites.thomsonreuters.com
 HJ https://webofknowledge.com
 HJ jcr.incites.thomsonreuters.com
@@ -3354,7 +3269,6 @@ ProxyHostnameEdit www.ncbi.nlm.nih.gov$ www-ncbi-nlm-nih-gov
 AnonymousURL http://www.ncbi.nlm.nih.gov/corehtml/query/static/pubmedsearch.xml*
 Option CookiePassThrough
 Title PubMed
-URL https://www.ncbi.nlm.nih.gov/pubmed
 HJ https.ncbi.nlm.nih.gov
 HJ https://ncbi.nlm.nih.gov
 HJ https://www.ncbi.nlm.nih.gov
@@ -3386,7 +3300,6 @@ HJ https://resolver.ebscohost.com
 DJ smartimagebase.com
 
 Title ACSESS Digital Library
-URL https://dl.sciencesocieties.org/
 HJ dl.sciencesocieties.org
 HJ www.sciencesocieties.org
 HJ sciencesocieties.org
@@ -3394,15 +3307,12 @@ HJ https://portal.sciencesocieties.org
 HJ portal.sciencesocieties.org
 DJ sciencesocieties.org
 
-U http://journals.ametsoc.org
 H journals.ametsoc.org
 D ametsoc.org
-U http://geolfrance.brgm.fr
 H geolfrance.brgm.fr
 D brgm.fr
 
 Title GeoScienceWorld
-URL https://pubs.geoscienceworld.org
 HJ aapgbull.geoscienceworld.org
 HJ ammin.geoscienceworld.org
 HJ bcpg.geoscienceworld.org
@@ -3513,7 +3423,6 @@ DJ nagt-jge.org
 # http://www.oclc.org/support/services/ezproxy/documentation/db/iop.en.html
 
 Title Institute of Physics
-URL http://iopscience.iop.org/
 HJ asia.iop.org
 HJ biologicalphysics.iop.org
 HJ conferenceseries.iop.org/
@@ -3550,12 +3459,6 @@ DJ ioppublishing.org
 # http://www.oclc.org/support/services/ezproxy/documentation/db/physiology.en.html
 
 Title American Physiological Society
-URL http://www.physiology.org/
-URL https://journals.aps.org/prx/
-URL https://journals.aps.org/prab/
-URL https://journals.aps.org/prper/
-URL https://physics.aps.org/
-URL http://prst-per.aps.org/browse
 HJ journals.aps.org
 HJ prst-per.aps.org
 HJ physics.aps.org
@@ -3587,23 +3490,17 @@ Find physiology.org\/sites
 Replace ^Pphysiology.org^\/sites
 Find physiology.org\/content\/
 Replace ^Pphysiology.org^\/content\/
-U http://www.deepseadrilling.org
 H www.deepseadrilling.org
 D deepseadrilling.org
-U http://www.annalsofgeophysics.eu
 H www.annalsofgeophysics.eu
 D annalsofgeophysics.eu
-U http://www.seisme.prd.fr
 H www.seisme.prd.fr
 D seisme.prd.fr
-U https://www.jstage.jst.go.jp
 Hj www.jstage.jst.go.jp
 Dj jstage.jst.go.jp
 # http://www.oclc.org/support/services/ezproxy/documentation/db/liebertpub.en.html
 
 Title Liebert
-URL http://www.liebertpub.com
-URL https://www.liebertpub.com
 HJ liebertonline.com
 HJ liebertpub.com
 HJ online.liebertpub.com
@@ -3613,7 +3510,6 @@ DJ liebertpub.com
 # http://www.oclc.org/support/services/ezproxy/documentation/db/science.en.html
 
 Title Science - AAAS
-URL http://www.sciencemag.org
 HJ immunology.sciencemag.org
 HJ advances.sciencemag.org
 HJ sageke.sciencemag.org
@@ -3627,32 +3523,30 @@ HJ classic.sciencemag.org
 HJ https://www.sciencemag.org
 DJ sciencemag.org
 
-U https://mathscinet.ams.org/mathscinet/help/librarians.html?version=2
-U https://mathscinet.ams.org
+T MATH
 HJ https://mathscinet.ams.org
 HJ mathscinet.ams.org
 DJ ams.org
 
-U https://www.osapublishing.org/ol/home.cfm
+T OSA
 HJ https://www.osapublishing.org
 HJ www.osapublishing.org
 DJ osapublishing.org
 
-U https://www.ann-geophys.net/index.html
+T ANN
 HJ https://www.ann-geophys.net
 HJ www.ann-geophys.net
 DJ ann-geophys.net
 
 T INIS CEA
-U https://inis-cea.inist.fr
 HJ https://inis-cea.inist.fr
 HJ inis-cea.inist.fr
 
 T ERUDIT
-U https://www.erudit.org
+H https://www.erudit.org
 
 T JSTOR
-U https://www.jstor.org
+H https://www.jstor.org
 
 T MUSE
-U https://muse.jhu.edu/
+H https://muse.jhu.edu/
