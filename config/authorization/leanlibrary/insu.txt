@@ -1,11 +1,7 @@
 Title Annual Reviews
 HJ www.annualreviews.org
-T ASCE Library
-HJ ascelibrary.org
-DJ ascelibrary.org
 
 Title BMJ Journals
-Domain group.bmj.com
 HJ adc.bmj.com
 HJ adc.bmjjournals.com
 HJ aim.bmj.com
@@ -49,8 +45,6 @@ HJ heartasia.bmj.com
 HJ injuryprevention.bmj.com
 HJ inpractice.bmj.com
 HJ inpractice.bvapublications.com
-HJ jamia.bmj.com
-HJ jamia.bmjjournals.com
 HJ jcp.bmj.com
 HJ jcp.bmjjournals.com
 HJ jech.bmj.com
@@ -97,7 +91,6 @@ HJ tobaccocontrol.bmj.com
 HJ veterinaryrecord.bmj.com
 HJ veterinaryrecord.bvapublications.com
 HJ vetrecordcasereports.bmj.com
-HJ vetrecordopen.bmj.com
 HJ www.clinicalevidence.com
 HJ www.bmj.com
 HJ www.bmjjournals.com
@@ -112,87 +105,32 @@ HJ www.brepolsonline.net
 # http://www.oclc.org/support/services/ezproxy/documentation/db/brillonline.en.html
 
 Title BrillOnline
-HJ babo.brillonline.nl
-HJ bibliographies.brillonline.com
-HJ booksandjournals.brillonline.com
-HJ chinesereferenceshelf.brillonline.com
-HJ dictionaries.brillonline.com
-HJ primarysources.brillonline.com
-HJ referenceworks.brillonline.com
 HJ www.brillonline.com
-HJ www.brillonline.nl
-HJ www.primarysourcesonline.nl
-HJ ybio.brillonline.com
-HJ www.foreignlawguide.com
-HJ foreignlawguide.com
-HJ https://babo.brillonline.nl
-HJ https://bibliographies.brillonline.com
-HJ https://booksandjournals.brillonline.com
-HJ https://chinesereferenceshelf.brillonline.com
-HJ https://dictionaries.brillonline.com
-HJ https://primarysources.brillonline.com
-HJ https://referenceworks.brillonline.com
-HJ https://www.brillonline.com
-HJ https://www.brillonline.nl
-HJ https://www.primarysourcesonline.nl
-HJ https://ybio.brillonline.com
-HJ https://www.foreignlawguide.com
-HJ https://foreignlawguide.com
-DJ foreignlawguide.com
-# http://www.oclc.org/support/services/ezproxy/documentation/db/cambridgejournals.en.html
 
 Title Cambridge Core
-MimeFilter application/html .* html
-HJ africabibliography.cambridge.org
-HJ ebooks.cambridge.org
-HJ journals.cambridge.org
-HJ www.africabibliography.cambridge.org
 HJ www.cambridge.org
-HJ www.journals.cambridge.org
-Find globalNav('//www.cambridge.org/tools/packages/cambridge_themes/
-Replace globalNav('/tools/packages/cambridge_themes/
 
 Title Cell Press
 HJ https://www.cell.com
 
-Title Classiques Garnier
-HJ https://www.classiques-garnier.com
-HJ www.classiques-garnier.com
-# http://www.oclc.org/support/services/ezproxy/documentation/db/degruyter.en.html
-
-Title De Gruyter Online
-HJ reference-global.com
-HJ www.reference-global.com
-HJ www.degruyter.com
-HJ www.degruyter.de
-HJ https://www.degruyter.com
-HJ www.rgz-rgst.degruyter.de
-
 T EDP Sciences
 H aas.aanda.org
-H animres.edpsciences.org
 H asees.water-quality-journal.org
-H epistemo.edpsciences.org
 H epljournal.edpsciences.org
 H publications.edpsciences.org
 H jp1.journaldephysique.org
 H jphys.journaldephysique.org
-H lait.dairy-journal.org
 H odf.edpsciences.org
 H www.aanda.org
 H www.alr-journal.org
-H www.agronomy-journal.org
 H www.annphys.org
 H www.apidologie.org
 H www.ata-journal.org
 H www.bio-conferences.org
 H www.biologie-journal.org
-H www.dairy-journal.org
-H www.e3s-conferences.org
 H www.eas-journal.org
 H www.edpsciences.org
 H www.epj-conferences.org
-H www.epj-pv.org
 H www.epjap.org
 H www.esaim-cocv.org
 H www.esaim-proc.org
@@ -200,7 +138,6 @@ H www.esaim-m2an.org
 H www.esaim-ps.org
 H www.etp-journal.org
 H www.europhysicsnews.org
-H www.gse-journal.org
 H www.hel-journal.org
 H www.hydroecologie.org
 H www.ijsmdo.org
@@ -217,24 +154,18 @@ H www.medecinesciences.org
 H www.metrology-journal.org
 H www.mmnp-journal.org
 H www.mov-sport-sciences.org
-H www.neutron-sciences.org
 H www.nss-journal.org
-H www.ocl-journal.org
 H www.orthodfr.org
 H www.parasite-journal.org
 H www.pedagogie-medicale.org
 H www.perspectives-psy.org
-H www.photoniques.com
 H www.psycho-clinique.org
-H www.quadrature-journal.org
 H www.rairo-ro.org
 H www.rdmbd.org
-H www.refletsdelaphysique.fr
 H www.shf-lhb.org
 H www.shs-conferences.org
 H www.swsc-journal.org
 H www.uniodf-journal.org
-H www.vetres.org
 H www.water-quality-journal.org
 H https://aas.aanda.org
 H https://analusis.edpsciences.org
@@ -260,7 +191,6 @@ H https://ogst.ifpenergiesnouvelles.fr
 H https://rgn.publications.sfen.org
 H https://rnd.edpsciences.org
 H https://tsm.astee.org
-H https://www.4open-sciences.org
 H https://www.afs-journal.org
 H https://www.biomedicine.edp-open.org
 H https://www.bsgf.fr
@@ -274,98 +204,9 @@ H https://www.esaim-cocv.org
 H https://www.esaim-ps.org
 H https://www.geotechnique-journal.org
 H https://www.hel-journal.org
-H https://www.itm-conferences.org
-H https://www.j3ea.org
 H https://www.metallurgical-research.org
 H https://www.mmnp-journal.org
 H https://www.radioprotection.org
-H https://www.rees-journal.org
-H https://www.regenmedres-journal.org
-DJ 4open-sciences.org
-DJ aanda.org
-DJ afs-journal.org
-DJ agronomy-journal.org
-DJ alr-journal.org
-DJ annphys.org
-DJ apidologie.org
-DJ ata-journal.org
-DJ bio-conferences.org
-DJ biologie-journal.org
-DJ bsgf.fr
-DJ cahiersagricultures.fr
-DJ cahiers-myologie.org
-DJ ctv-jve-journal.org
-DJ dairy-journal.org
-DJ e3s-conferences.org
-DJ eas-journal.org
-DJ ebr-journal.org
-DJ edp-open.org
-DJ edpsciences.org
-DJ epj.org
-DJ epj-conferences.org
-DJ epj-n.org
-DJ epj-nbp.org
-DJ epj-pv.org
-DJ epjap.org
-DJ esaim-cocv.org
-DJ esaim-m2an.org
-DJ esaim-proc.org
-DJ esaim-ps.org
-DJ etp-journal.org
-DJ europhysicsnews.org
-DJ geotechnique-journal.org
-DJ gse-journal.org
-DJ hel-journal.org
-DJ hydroecologie.org
-DJ ijsmdo.org
-DJ itm-conferences.org
-DJ j3ea.org
-DJ jdao-journal.org
-DJ journal-therapie.org
-DJ journaldephysique.org
-DJ kmae-journal.org
-DJ limnology-journal.org
-DJ matec-conferences.org
-DJ mattech-journal.org
-DJ mbcb-journal.org
-DJ mechanics-industry.org
-DJ medecine-nutrition.org
-DJ medecinesciences.org
-DJ metallurgical-research.org
-DJ metrology-journal.org
-DJ mmnp-journal.org
-DJ mov-sport-sciences.org
-DJ neutron-sciences.org
-DJ nss-journal.org
-DJ ocl-journal.org
-DJ ogst.ifpenergiesnouvelles.fr
-DJ orthodfr.org
-DJ parasite-journal.org
-DJ pedagogie-medicale.org
-DJ perspectives-psy.org
-DJ photoniques.com
-DJ psycho-clinique.org
-DJ quadrature-journal.org
-DJ radioprotection.org
-DJ rairo-ro.org
-DJ rdmbd.org
-DJ refletsdelaphysique.fr
-DJ regenmedres-journal.org
-DJ rees-journal.org
-DJ rgn.publications.sfen.org
-DJ shf-lhb.org
-DJ shs-conferences.org
-DJ sicot-j.org
-DJ surgmedtech-journal.org
-DJ sustainable-buildings-journal.org
-DJ swsc-journal.org
-DJ tsm.astee.org
-DJ uniodf-journal.org
-DJ vetres.org
-DJ water-quality-journal.org
-
-# ActualitéOdonto-Stomatologiques
-H https://aos.edp-dentaire.fr/
 # Annales de Limnologie - International Journal of Limnology
 H https://www.limnology-journal.org/
 # Annales de Physique
@@ -376,8 +217,6 @@ H https://www.ata-journal.org/
 H https://www.alr-journal.org/
 # Astronomy & Astrophysics
 H https://www.aanda.org/
-# Astronomy and Astrophysics Supplement Series
-H https://aas.aanda.org/
 # Biologie Aujourd'hui
 H https://www.biologie-journal.org/
 # BIO Web of Conferences
@@ -394,12 +233,8 @@ H https://www.etp-journal.org/
 H https://www.ebr-journal.org/
 # EPJ AP
 H https://www.epjap.org/
-# EPJ Photovoltaics
-H https://epjpv.epj.org/
 # EPJ Web of Conferences
 H https://www.epj-conferences.org/
-# EPL
-H https://epljournal.edpsciences.org.proxy.scd.univ-tours.fr/
 # ESAIM: Control, Optimisation and Calculus of Variations
 H https://www.esaim-cocv.org/
 # ESAIM: Mathematical Modelling and Numerical Analysis
@@ -410,8 +245,6 @@ H https://www.esaim-ps.org/
 H https://www.esaim-proc.org/
 # Europhysics News
 H https://www.europhysicsnews.org/
-# Fruits
-H https://fruits.edpsciences.org.proxy.scd.univ-tours.fr/
 # Histoire Éistélogie Langage
 H https://www.hel-journal.org/
 # Houille Blanche (La)
@@ -424,8 +257,6 @@ H https://www.metrology-journal.org/
 # J3eA
 H https://www.j3ea.org/
 # Journal de Chimie Physique et de Physico-Chimie Biologique
-H https://jcp.edpsciences.org.proxy.scd.univ-tours.fr/
-# Journal of Dentofacial Anomalies and Orthodontics
 H https://www.jdao-journal.org/
 # Journal of Space Weather and Space Climate
 H https://www.swsc-journal.org/
@@ -447,8 +278,6 @@ H https://www.medecine-nutrition.org/
 H https://www.medecinesciences.org/
 # Metallurgical Research & Technology
 H https://www.metallurgical-research.org/
-# Microscopy Microanalysis Microstructures
-H https://mmm.edpsciences.org.proxy.scd.univ-tours.fr/
 # Movement & Sport Sciences - Science & Motricité https://www.mov-sport-sciences.org/
 # Natures Sciences Sociés
 H https://www.nss-journal.org/
@@ -470,8 +299,6 @@ H https://www.radioprotection.org/
 H https://www.rairo-ro.org/
 # RAIRO - Theoretical Informatics and Applications
 H https://www.rairo-ita.org/
-# Revue d'Orthopée Dento-Faciale
-H https://odf.edpsciences.org.proxy.scd.univ-tours.fr/
 # Revue Françse de Géechnique
 H https://www.geotechnique-journal.org/
 # SHS Web of Conferences
