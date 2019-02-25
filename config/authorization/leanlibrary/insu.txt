@@ -106,14 +106,22 @@ HJ www.brepolsonline.net
 
 Title BrillOnline
 HJ www.brillonline.com
+HJ booksandjournals.brillonline.com
 
 Title Cambridge Core
 HJ www.cambridge.org
+HJ journals.cambridge.org
+
+Title Degruyter
+HJ degruyter.com
 
 Title Cell Press
 HJ https://www.cell.com
 
 T EDP Sciences
+HJ afs-journal.org
+HJ epj.org
+HJ journaldephysique.org
 H aas.aanda.org
 H asees.water-quality-journal.org
 H epljournal.edpsciences.org
@@ -170,8 +178,6 @@ H https://epljournal.edpsciences.org
 H https://jcp.edpsciences.org
 H https://odf.edpsciences.org
 H https://ogst.ifpenergiesnouvelles.fr
-H https://rgn.publications.sfen.org
-H https://www.biomedicine.edp-open.org
 H https://www.ebr-journal.org
 H https://www.esaim-cocv.org
 H https://www.esaim-ps.org
@@ -305,11 +311,9 @@ H https://www.water-quality-journal.org/
 Title Elsevier Health Journals
 HJ www.journals.elsevierhealth.com
 Cookie BROWSER_SUPPORTS_COOKIES=1;domain=.sciencedirect.com
-AnonymousURL +https://rss.sciencedirect.com/
 Title ScienceDirect
 HJ https://www.sciencedirect.com
 HJ http://www.sciencedirect.com
-HJ linkinghub.elsevier.com
 Find value="http://
 Replace value="http://^A
 Find %22%3A%22https%3A%2F%2Fsciverse-shindig.elsevier.com%2F
@@ -324,7 +328,7 @@ Replace pdfurl="//^swww.sciencedirect.com^/
 #Elsevier Scopus
 ProxyHostnameEdit www.scopus.com$ www-scopus-com
 MimeFilter text/uri-list .* javascript
-AnonymousURL +http://syndic8.scopus.com/*
+
 Title SciVerse Scopus
 MimeFilter application/json .* javascript
 HJ https://www.scopus.com
@@ -333,46 +337,20 @@ Find %22%3A%22http%3A%2F%2Fsciverse-shindig.elsevier.com%2F
 Replace %22%3A%22http%3A%2F%2F^psciverse-shindig.elsevier.com^%2F
 Find gsUrl%22%3A%22https%3A%2F%2Fwww.scopus.com%2F
 Replace gsUrl%22%3A%22https%3A%2F%2F^pwww.scopus.com^%2F
-NeverProxy www.elsevier.com
 AnonymousURL -* 
 # http://www.oclc.org/support/services/ezproxy/documentation/db/emeraldinsight.en.html
 HJ www.lyellcollection.org
 HJ sp.lyellcollection.org
 
 Title Institute of Physics
-HJ asia.iop.org
-HJ biologicalphysics.iop.org
 HJ conferenceseries.iop.org/
-HJ https://asia.iop.org
-HJ https://biologicalphysics.iop.org
 HJ https://conferenceseries.iop.org/
 HJ https://iopscience.iop.org/
-HJ https://irish.iop.org
-HJ https://tap.iop.org/
 HJ https://www.iop.org
-HJ iop.org
-HJ ioppublishing.org
 HJ iopscience.iop.org
-HJ irish.iop.org
-HJ jphysplus.iop.org
-HJ librarians.iop.org
 HJ njp.org
-HJ physicsworld.com
-HJ physicsworldarchive.iop.org
-HJ stimulatingphysics.org
-HJ tap.iop.org
-HJ www.biologicalphysics.iop.org
-HJ www.iop.org
-HJ www.ioppublishing.org
 HJ www.iopscience.iop.org
-HJ www.librarians.iop.org
 HJ www.njp.org
-HJ www.physicsworld.com
-HJ www.physicsworldarchive.iop.org
-HJ www.stimulatingphysics.org
-HJ www.tap.iop.org
-DJ iop.org
-DJ ioppublishing.org
 
 Title Nature Publishing
 HJ search.nature.com
@@ -394,7 +372,6 @@ HJ https://search.openedition.org
 HJ books.openedition.org
 HJ journals.openedition.org
 HJ www.openedition.org
-HJ auth.openedition.org
 HJ search.openedition.org
 DJ revues.org
 HJ http://1895.revues.org
@@ -858,6 +835,12 @@ Title Oxford Journals (updated 20180516)
 Host https://www.oxfordjournals.org
 Domain oxfordjournals.org
 DJ oxfordjournals.org
+HJ academic.oup.com
+HJ envhis.oxfordjournals.org
+HJ gji.oxfordjournals.org
+HJ petrology.oxfordjournals.org
+HJ mnras.oxfordjournals.org
+HJ tcbh.oxfordjournals.org
 
 Title Project Euclid
 HJ https://projecteuclid.org
@@ -950,7 +933,17 @@ HJ www.interscience.wiley.com
 HJ www.mrw.interscience.wiley.com
 HJ www.onlinelibrary.wiley.com
 HJ www.wileyonlinelibrary.com
+HJ aps.onlinelibrary.wiley.com
+HJ jlb.onlinelibrary.wiley.com
 Option NoX-Forwarded-For
+
+T Chadwyk
+HJ eebo.chadwyck.com
+
+T Science AAAS
+HJ sciencemag.org
+HJ science.sciencemag.org
+HJ classic.sciencemag.org
 
 Option DomainCookieOnly
 Title InCites
@@ -1043,12 +1036,10 @@ Option DomainCookieOnly
 
 Title EBSCOhost
 HJ https://resolver.ebscohost.com
-DJ smartimagebase.com
 
 H journals.ametsoc.org
 D ametsoc.org
 H geolfrance.brgm.fr
-D brgm.fr
 
 Title GeoScienceWorld
 HJ aapgbull.geoscienceworld.org
@@ -1061,7 +1052,6 @@ HJ canmin.geoscienceworld.org
 HJ ccm.geoscienceworld.org
 HJ cjes.geoscienceworld.org
 HJ claymin.geoscienceworld.org
-HJ ebooks.geoscienceworld.org
 HJ econgeol.geoscienceworld.org
 HJ eeg.geoscienceworld.org
 HJ eg.geoscienceworld.org
@@ -1086,7 +1076,6 @@ HJ https://canmin.geoscienceworld.org
 HJ https://ccm.geoscienceworld.org
 HJ https://cjes.geoscienceworld.org
 HJ https://claymin.geoscienceworld.org
-HJ https://ebooks.geoscienceworld.org
 HJ https://econgeol.geoscienceworld.org
 HJ https://eeg.geoscienceworld.org
 HJ https://eg.geoscienceworld.org
@@ -1155,9 +1144,6 @@ HJ tle.geoscienceworld.org
 HJ vzj.geoscienceworld.org
 HJ www.geoscienceworld.org
 DJ geoscienceworld.org
-HJ nagt-jge.org
-HJ nagt-jge.org
-DJ nagt-jge.org
 # http://www.oclc.org/support/services/ezproxy/documentation/db/iop.en.html
 
 Title Institute of Physics
@@ -1170,14 +1156,6 @@ Find physiology.org\/sites
 Replace ^Pphysiology.org^\/sites
 Find physiology.org\/content\/
 Replace ^Pphysiology.org^\/content\/
-H www.deepseadrilling.org
-D deepseadrilling.org
-H www.annalsofgeophysics.eu
-D annalsofgeophysics.eu
-H www.seisme.prd.fr
-D seisme.prd.fr
-Hj www.jstage.jst.go.jp
-Dj jstage.jst.go.jp
 # http://www.oclc.org/support/services/ezproxy/documentation/db/liebertpub.en.html
 
 T INIS CEA
@@ -1187,8 +1165,6 @@ HJ inis-cea.inist.fr
 T AMETSOC
 H https://journals.ametsoc.org/
 
-T BRGM GEOLFRANCE
-H http://geolfrance.brgm.fr/
-
 T GEOSCIENCE WORLD
 H https://pubs.geoscienceworld.org/
+
