@@ -1017,8 +1017,6 @@ HJ www.ncbi.nlm.nih.gov
 DJ static.pubmed.gov
 # dx.doi.org provides linking Nature, Springer, Wiley, and others
 DJ dx.doi.org
-# linkinghub.elsevier.com provides linking to Elsevier and ScienceDirect
-DJ linkinghub.elsevier.com
 Find &url=http://
 Replace &url=http://^A
 Find &url=http://
@@ -1039,7 +1037,6 @@ HJ https://resolver.ebscohost.com
 
 H journals.ametsoc.org
 D ametsoc.org
-H geolfrance.brgm.fr
 
 Title GeoScienceWorld
 HJ aapgbull.geoscienceworld.org
