@@ -9,9 +9,6 @@ IncludeFile authorization/oclc/AmericanAssociationForCancerResearch
 # AAI
 IncludeFile authorization/other/TheAmericanAssociationOfImmunologists
 
-# ACS
-IncludeFile authorization/oclc/AmericanChemicalSociety
-
 # AMERICAN SOCIETY FOR CELL BIOLOGY
 IncludeFile authorization/other/TheAmericanSocietyForCellBiology
 

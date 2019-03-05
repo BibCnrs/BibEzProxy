@@ -1,7 +1,5 @@
 # FOURNISSEURS
 # ============
-# ACS
-IncludeFile authorization/oclc/AmericanChemicalSociety
 
 # SOCIETE CHIMIQUE DE FRANCE
 IncludeFile authorization/other/LActualiteChimique

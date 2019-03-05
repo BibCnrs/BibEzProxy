@@ -3,11 +3,13 @@
 Title American Chemical Society
 URL http://pubs.acs.org
 HJ acs.org
-HJ chemistry.org
-HJ pubs3.acs.org
-HJ www.pubs.acs.org
+HJ cenglobal.acs.org
+HJ https://cenglobal.acs.org
+HJ https://pubs.acs.org
+HJ pubs.acs.org
 HJ www.acs.org
-HJ www.chemisty.org
+HJ www.chemistry.org
+HJ www.pubs.acs.org
 DJ acs.org
 Find hostdev="pubsdev.acs.org"
 Replace hostdev="^ppubsdev.acs.org^"

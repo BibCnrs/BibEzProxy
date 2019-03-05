@@ -1,6 +1,9 @@
 # FOURNISSEURS
 # ============
 
+# ACS
+IncludeFile authorization/oclc/AmericanChemicalSociety
+
 # Algebraic Geometry
 IncludeFile authorization/other/AlgebraicGeometry
 
@@ -15,6 +18,9 @@ IncludeFile authorization/oclc/Arabidopsis
 
 # Arxiv
 IncludeFile authorization/other/Arxiv
+
+# Bibliographie Internationale de l Humanisme et de la Renaissance
+IncludeFile authorization/oclc/BIHR
 
 # BMJ LICENCES NATIONALES ISTEX
 IncludeFile authorization/oclc/BMJJournals
