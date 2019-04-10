@@ -1,5 +1,40 @@
+T American Physiological Society
+HJ ajpcell.physiology.org
+HJ ajpendo.physiology.org
+HJ ajpgi.physiology.org
+HJ ajpheart.physiology.org
+HJ ajplung.physiology.org
+HJ ajpregu.physiology.org
+HJ ajprenal.physiology.org
+HJ jap.physiology.org
+HJ jn.physiology.org
+HJ physiolgenomics.physiology.org
+HJ physiologyonline.physiology.org
+HJ physrev.physiology.org
+HJ www.physiology.org
+
 Title Annual Reviews
 HJ annualreviews.org
+HJ www.annualreviews.org
+
+T Brepols Online
+HJ www.brepolsonline.net
+
+T Cell Press
+HJ www.cell.com
+
+T Liebert
+HJ www.liebertpub.com
+
+T Numerique Premium
+HJ www.numeriquepremium.com
+
+T The Arabidopsis Information Resource
+HJ seqviewer.arabidopsis.org
+HJ www.arabidopsis.org
+
+T University of Chicago Press Journals
+HJ www.journals.uchicago.edu
 
 Title BMJ Journals
 HJ adc.bmj.com
@@ -98,7 +133,7 @@ HJ www.jnnp.com
 HJ www.jmedethics.com
 HJ www.jmedgenet.com
 DJ bmj.com
-# http://www.oclc.org/support/services/ezproxy/documentation/db/brepolsonline.en.html#par_text_title
+# http://www.oclc.org/support/services/ezproxy/documentation/db/online.en.html#par_text_title
 
 Title BrillOnline
 HJ www.brillonline.com
@@ -115,6 +150,9 @@ Title De Gruyter Online
 HJ www.degruyter.com
 
 T EDP Sciences
+HJ annphys.org
+HJ www.shs-conferences.org
+HJ www.uniodf-journal.org
 HJ afs-journal.org
 HJ epj.org
 HJ journaldephysique.org
@@ -374,16 +412,17 @@ HJ www.stimulatingphysics.org
 HJ www.tap.iop.org
 DJ iop.org
 DJ ioppublishing.org
+
 T Mit Cognet
 HJ cognet.mit.edu
 DJ mit.edu
-# http://www.oclc.org/support/services/ezproxy/documentation/db/Nature_Publishing_Group.en.html
 
 Title Nature Publishing
 HJ search.nature.com
 HJ www.nature.com
 HJ www.naturesj.com
 HJ www.npgjournals.com
+HJ scientificamerican.com
 
 Title OpenEdition
 DJ openedition.org
@@ -898,12 +937,16 @@ Title Oxford Journals (updated 20180516)
 Host https://www.oxfordjournals.org
 Domain oxfordjournals.org
 DJ oxfordjournals.org
+HJ afraf.oxfordjournals.org
+HJ ageing.oxfordjournals.org
+HJ alcalc.oxfordjournals.org
 HJ academic.oup.com
 HJ envhis.oxfordjournals.org
 HJ gji.oxfordjournals.org
 HJ petrology.oxfordjournals.org
 HJ mnras.oxfordjournals.org
 HJ tcbh.oxfordjournals.org
+HJ oup.com
 
 Title Project Euclid
 HJ projecteuclid.org
@@ -922,6 +965,8 @@ Replace true
 Title The Royal Society Publishing
 HJ royalsociety.org
 HJ royalsocietypublishing.org
+HJ www.royalsociety.org
+HJ www.royalsocietypublishing.org
 HJ rsbl.royalsocietypublishing.org
 HJ rsbm.royalsocietypublishing.org
 HJ rsfs.royalsocietypublishing.org
@@ -958,6 +1003,7 @@ HJ rd.springer.com
 HJ www.link.springer.com
 HJ www.springerlink.com
 HJ https://rd.springer.com
+HJ springer.com
 DJ sprn.gr
 DJ springer-ny.com
 OPTION COOKIE
@@ -971,7 +1017,7 @@ HJ www.tandfebooks.com
 HJ https://tandfebooks.com/
 HJ https://www.tandfebooks.com
 DJ tandfebooks.com 
-# http://www.oclc.org/support/services/ezproxy/documentation/db/uchicago.en.html
+# http://www.oclc.org/support/services/ezproxy/documentation/db/.en.html
 Option DomainCookieOnly
 
 #In order to allow users to create accounts, log in, and save favorite articles and citations, EZproxy also requires SSL Configuration.
@@ -980,6 +1026,16 @@ Cookie theproxy=ezproxy; domain=.onlinelibrary.wiley.com
 Title Wiley Online
 HTTPHeader -request -process X-Requested-With
 H http://onlinelibrary.wiley.com
+HJ aasldpubs.onlinelibrary.wiley.com
+HJ bpspubs.onlinelibrary.wiley.com
+HJ currentprotocols.onlinelibrary.wiley.com
+HJ ila.onlinelibrary.wiley.com
+HJ iubmb.onlinelibrary.wiley.com
+HJ londmathsoc.onlinelibrary.wiley.com
+HJ physoc.onlinelibrary.wiley.com
+HJ setac.onlinelibrary.wiley.com
+HJ sigmapubs.onlinelibrary.wiley.com
+HJ zslpublications.onlinelibrary.wiley.com
 HJ accp1.onlinelibrary.wiley.com
 HJ agupubs.onlinelibrary.wiley.com
 HJ ascpt.onlinelibrary.wiley.com
@@ -1115,11 +1171,6 @@ HJ https://conferenceseries.iop.org
 HJ https://iopscience.iop.org
 HJ iopscience.iop.org
 
-# If you experience problems with the proxy dropping when downloading PDFs, try adding the following lines to the end of your stanza:
-Find physiology.org\/sites
-Replace ^Pphysiology.org^\/sites
-Find physiology.org\/content\/
-Replace ^Pphysiology.org^\/content\/
 H www.deepseadrilling.org
 D deepseadrilling.org
 H www.annalsofgeophysics.eu
@@ -1133,6 +1184,10 @@ T Science AAAS
 HJ sciencemag.org
 HJ science.sciencemag.org
 HJ classic.sciencemag.org
+HJ news.sciencemag.org
+HJ sageke.sciencemag.org
+HJ stke.sciencemag.org
+HJ www.sciencemag.org
 
 T INIS CEA
 HJ https://inis-cea.inist.fr
@@ -1150,6 +1205,7 @@ HJ f1000research.com
 DJ f1000research.com
 
 Title Proceedings of the National Academy of Sciences
+HJ www.pnas.org
 HJ anthropology.pnas.org
 HJ chemistry.pnas.org
 HJ frontmatter.pnas.org
