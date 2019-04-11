@@ -14,7 +14,6 @@ HJ physrev.physiology.org
 HJ www.physiology.org
 
 Title Annual Reviews
-HJ annualreviews.org
 HJ www.annualreviews.org
 
 T Brepols Online
@@ -351,7 +350,7 @@ HJ acw.elsevier.com
 HJ https://www.sciencedirect.com
 HJ https://sciencedirect.com
 HJ sciencedirect.com
-DJ www.elsevier.com
+HJ www.elsevier.com
 Find value="http://
 Replace value="http://^A
 Find %22%3A%22https%3A%2F%2Fsciverse-shindig.elsevier.com%2F
@@ -415,7 +414,7 @@ DJ ioppublishing.org
 
 T Mit Cognet
 HJ cognet.mit.edu
-DJ mit.edu
+HJ mit.edu
 
 Title Nature Publishing
 HJ search.nature.com
@@ -425,7 +424,7 @@ HJ www.npgjournals.com
 HJ scientificamerican.com
 
 Title OpenEdition
-DJ openedition.org
+HJ openedition.org
 HJ https://books.openedition.org
 HJ https://journals.openedition.org
 HJ https://www.openedition.org
@@ -434,7 +433,7 @@ HJ books.openedition.org
 HJ journals.openedition.org
 HJ www.openedition.org
 HJ search.openedition.org
-DJ revues.org
+HJ revues.org
 HJ http://1895.revues.org
 HJ http://abe.revues.org
 HJ http://abstractairanica.revues.org
@@ -894,7 +893,7 @@ HJ http://oeconomia.revues.org
 
 # When using Ovid without content from Primal Pictures, the following shorter database definition should be used in config.txt:
 Title Ovid
-DJ ovid.com
+HJ ovid.com
 
 # When using Ovid with content from Primal Pictures, the following longer database definition should be used in config.txt:
 #
@@ -963,8 +962,6 @@ Find window.location.host=="congressional.proquest.com"
 Replace true
 
 Title The Royal Society Publishing
-HJ royalsociety.org
-HJ royalsocietypublishing.org
 HJ www.royalsociety.org
 HJ www.royalsocietypublishing.org
 HJ rsbl.royalsocietypublishing.org
@@ -988,7 +985,7 @@ HJ xlink.rsc.org
 
 Title Sage Journals
 HJ https://journals.sagepub.com
-DJ sagepub.com
+HJ sagepub.com
 DJ cqpress.com
 Find url = "http://
 Replace url = "http://^A
@@ -1000,12 +997,12 @@ Option Cookie
 OPTION DOMAINCOOKIEONLY
 Title SpringerLink
 HJ rd.springer.com
-HJ www.link.springer.com
-HJ www.springerlink.com
+HJ link.springer.com
+HJ springerlink.com
 HJ https://rd.springer.com
 HJ springer.com
 DJ sprn.gr
-DJ springer-ny.com
+HJ springer-ny.com
 OPTION COOKIE
 # http://www.oclc.org/support/services/ezproxy/documentation/db/taylorandfrancis_online.en.html
 
