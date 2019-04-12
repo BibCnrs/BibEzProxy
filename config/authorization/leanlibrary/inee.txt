@@ -140,7 +140,6 @@ HJ booksandjournals.brillonline.com
 
 Title Cambridge Core
 HJ www.cambridge.org
-HJ journals.cambridge.org
 
 Title Classiques Garnier
 HJ www.classiques-garnier.com
@@ -152,12 +151,9 @@ T EDP Sciences
 HJ annphys.org
 HJ www.shs-conferences.org
 HJ www.uniodf-journal.org
-HJ afs-journal.org
-HJ epj.org
 HJ journaldephysique.org
 H aas.aanda.org
 H asees.water-quality-journal.org
-H epljournal.edpsciences.org
 H publications.edpsciences.org
 H jp1.journaldephysique.org
 H jphys.journaldephysique.org
@@ -207,7 +203,6 @@ H www.swsc-journal.org
 H www.water-quality-journal.org
 H https://aas.aanda.org
 H https://asees.water-quality-journal.org
-H https://epljournal.edpsciences.org
 H https://jcp.edpsciences.org
 H https://odf.edpsciences.org
 H https://ogst.ifpenergiesnouvelles.fr
@@ -346,10 +341,7 @@ HJ www.journals.elsevierhealth.com
 DJ elsevierhealth.com
 Cookie BROWSER_SUPPORTS_COOKIES=1;domain=.sciencedirect.com
 Title ScienceDirect
-HJ acw.elsevier.com
 HJ https://www.sciencedirect.com
-HJ https://sciencedirect.com
-HJ sciencedirect.com
 HJ www.elsevier.com
 Find value="http://
 Replace value="http://^A
@@ -378,9 +370,6 @@ AnonymousURL -*
 
 
 Title Institute of Physics
-HJ asia.iop.org
-HJ biologicalphysics.iop.org
-HJ conferenceseries.iop.org/
 HJ https://asia.iop.org
 HJ https://biologicalphysics.iop.org
 HJ https://conferenceseries.iop.org/
@@ -388,29 +377,7 @@ HJ https://iopscience.iop.org/
 HJ https://irish.iop.org
 HJ https://tap.iop.org/
 HJ https://www.iop.org
-HJ iop.org
-HJ ioppublishing.org
-HJ iopscience.iop.org
-HJ irish.iop.org
-HJ jphysplus.iop.org
-HJ librarians.iop.org
 HJ njp.org
-HJ physicsworld.com
-HJ physicsworldarchive.iop.org
-HJ stimulatingphysics.org
-HJ tap.iop.org
-HJ www.biologicalphysics.iop.org
-HJ www.iop.org
-HJ www.ioppublishing.org
-HJ www.iopscience.iop.org
-HJ www.librarians.iop.org
-HJ www.njp.org
-HJ www.physicsworld.com
-HJ www.physicsworldarchive.iop.org
-HJ www.stimulatingphysics.org
-HJ www.tap.iop.org
-DJ iop.org
-DJ ioppublishing.org
 
 T Mit Cognet
 HJ cognet.mit.edu
@@ -948,11 +915,8 @@ HJ tcbh.oxfordjournals.org
 HJ oup.com
 
 Title Project Euclid
-HJ projecteuclid.org
 HJ www.projecteuclid.org
-HJ https://projecteuclid.org
 HJ https://www.projecteuclid.org
-DJ projecteuclid.org
 HTTPHeader X-Requested-With
 
 Title ProQuest
@@ -1009,11 +973,8 @@ OPTION COOKIE
 HTTPHeader Access-Token
 ProxyHostnameEdit www.tandfonline.com$ www-tandfonline-com
 Title Taylor & Francis eBooks
-HJ tandfebooks.com
 HJ www.tandfebooks.com
-HJ https://tandfebooks.com/
 HJ https://www.tandfebooks.com
-DJ tandfebooks.com 
 # http://www.oclc.org/support/services/ezproxy/documentation/db/.en.html
 Option DomainCookieOnly
 
@@ -1043,20 +1004,9 @@ HJ febs.onlinelibrary.wiley.com
 HJ nph.onlinelibrary.wiley.com
 HJ nyaspubs.onlinelibrary.wiley.com
 HJ rmets.onlinelibrary.wiley.com
-HJ www.esajournals.org
-HJ www.interscience.wiley.com
-HJ www.mrw.interscience.wiley.com
-HJ www.onlinelibrary.wiley.com
-HJ www.wileyonlinelibrary.com
-HJ aps.onlinelibrary.wiley.com
 HJ jlb.onlinelibrary.wiley.com
 Option NoX-Forwarded-For
 
-HJ embomolmed.embopress.org
-HJ embor.embopress.org
-HJ www.embo.org
-HJ msb.embopress.org
-HJ emboj.embopress.org
 DJ embo.org
 DJ embopress.org
 
@@ -1084,30 +1034,14 @@ OPTION DOMAINCOOKIEONLY
 Title Web of Knowledge
 HJ https://jcr.incites.thomsonreuters.com
 HJ jcr.incites.thomsonreuters.com
-HJ www.webofknowledge.com
 DJ apps.clarivate.com
 HJ admin.webofknowledge.com
 HJ admin-apps.webofknowledge.com
-HJ admin-router.webofknowledge.com
-HJ apps.webofknowledge.com
-HJ esi.incites.thomsonreuters.com
 HJ esi.webofknowledge.com
-HJ https://apps.webofknowledge.com
-HJ https://esi.incites.thomsonreuters.com
 HJ https://incites.thomsonreuters.com
 HJ incites.isiknowledge.com
-HJ isiknowledge.com
 HJ https://isiknowledge.com
-HJ login.webofknowledge.com
-HJ myendnoteweb.com
-HJ webofscience.com
-HJ www.isiknowledge.com
-HJ www.webofscience.com
 DJ incites.thomsonreuters.com
-DJ isiknowledge.com
-DJ myendnoteweb.com
-DJ webofknowledgev4.com
-DJ webofscience.com
 Find value="http://
 Replace value="http://^A
 Find VALUE="http://
@@ -1129,13 +1063,9 @@ Replace "CIT.GATEWAY_URL">^pgateway.webofknowledge.com^
 Find value='gateway.webofknowledge.com/gateway/Gateway.cgi'
 Replace value='^pgateway.webofknowledge.com^/gateway/Gateway.cgi'
 OPTION COOKIE
-ProxyHostnameEdit www.ncbi.nlm.nih.gov$ www-ncbi-nlm-nih-gov
-AnonymousURL http://www.ncbi.nlm.nih.gov/corehtml/query/static/pubmedsearch.xml*
 Option CookiePassThrough
 
 Title PubMed
-HJ https://www.pubmedcentral.nih.gov
-HJ www.ncbi.nlm.nih.gov
 DJ static.pubmed.gov
 # dx.doi.org provides linking Nature, Springer, Wiley, and others
 DJ dx.doi.org
@@ -1157,7 +1087,6 @@ Option Cookie
 Option DomainCookieOnly
 
 Title EBSCOhost
-HJ https://resolver.ebscohost.com
 DJ smartimagebase.com
 
 H journals.ametsoc.org
@@ -1168,17 +1097,11 @@ HJ https://conferenceseries.iop.org
 HJ https://iopscience.iop.org
 HJ iopscience.iop.org
 
-H www.deepseadrilling.org
 D deepseadrilling.org
-H www.annalsofgeophysics.eu
 D annalsofgeophysics.eu
-H www.seisme.prd.fr
 D seisme.prd.fr
-Hj www.jstage.jst.go.jp
-Dj jstage.jst.go.jp
 
 T Science AAAS
-HJ sciencemag.org
 HJ science.sciencemag.org
 HJ classic.sciencemag.org
 HJ news.sciencemag.org
