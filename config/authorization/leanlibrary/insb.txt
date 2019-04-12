@@ -1,5 +1,39 @@
+T American Physiological Society
+HJ ajpcell.physiology.org
+HJ ajpendo.physiology.org
+HJ ajpgi.physiology.org
+HJ ajpheart.physiology.org
+HJ ajplung.physiology.org
+HJ ajpregu.physiology.org
+HJ ajprenal.physiology.org
+HJ jap.physiology.org
+HJ jn.physiology.org
+HJ physiolgenomics.physiology.org
+HJ physiologyonline.physiology.org
+HJ physrev.physiology.org
+HJ www.physiology.org
+
 Title Annual Reviews
-HJ annualreviews.org
+HJ www.annualreviews.org
+
+T Brepols Online
+HJ www.brepolsonline.net
+
+T Cell Press
+HJ www.cell.com
+
+T Liebert
+HJ www.liebertpub.com
+
+T Numerique Premium
+HJ www.numeriquepremium.com
+
+T The Arabidopsis Information Resource
+HJ seqviewer.arabidopsis.org
+HJ www.arabidopsis.org
+
+T University of Chicago Press Journals
+HJ www.journals.uchicago.edu
 
 Title BMJ Journals
 HJ adc.bmj.com
@@ -115,6 +149,9 @@ Title De Gruyter Online
 HJ www.degruyter.com
 
 T EDP Sciences
+HJ annphys.org
+HJ www.shs-conferences.org
+HJ www.uniodf-journal.org
 HJ afs-journal.org
 HJ epj.org
 HJ journaldephysique.org
@@ -313,7 +350,7 @@ HJ acw.elsevier.com
 HJ https://www.sciencedirect.com
 HJ https://sciencedirect.com
 HJ sciencedirect.com
-DJ www.elsevier.com
+HJ www.elsevier.com
 Find value="http://
 Replace value="http://^A
 Find %22%3A%22https%3A%2F%2Fsciverse-shindig.elsevier.com%2F
@@ -374,9 +411,10 @@ HJ www.stimulatingphysics.org
 HJ www.tap.iop.org
 DJ iop.org
 DJ ioppublishing.org
+
 T Mit Cognet
 HJ cognet.mit.edu
-DJ mit.edu
+HJ mit.edu
 # http://www.oclc.org/support/services/ezproxy/documentation/db/Nature_Publishing_Group.en.html
 
 Title Nature Publishing
@@ -384,9 +422,10 @@ HJ search.nature.com
 HJ www.nature.com
 HJ www.naturesj.com
 HJ www.npgjournals.com
+HJ scientificamerican.com
 
 Title OpenEdition
-DJ openedition.org
+HJ openedition.org
 HJ https://books.openedition.org
 HJ https://journals.openedition.org
 HJ https://www.openedition.org
@@ -395,7 +434,7 @@ HJ books.openedition.org
 HJ journals.openedition.org
 HJ www.openedition.org
 HJ search.openedition.org
-DJ revues.org
+HJ revues.org
 HJ http://1895.revues.org
 HJ http://abe.revues.org
 HJ http://abstractairanica.revues.org
@@ -855,7 +894,7 @@ HJ http://oeconomia.revues.org
 
 # When using Ovid without content from Primal Pictures, the following shorter database definition should be used in config.txt:
 Title Ovid
-DJ ovid.com
+HJ ovid.com
 
 # When using Ovid with content from Primal Pictures, the following longer database definition should be used in config.txt:
 #
@@ -898,12 +937,16 @@ Title Oxford Journals (updated 20180516)
 Host https://www.oxfordjournals.org
 Domain oxfordjournals.org
 DJ oxfordjournals.org
+HJ afraf.oxfordjournals.org
+HJ ageing.oxfordjournals.org
+HJ alcalc.oxfordjournals.org
 HJ academic.oup.com
 HJ envhis.oxfordjournals.org
 HJ gji.oxfordjournals.org
 HJ petrology.oxfordjournals.org
 HJ mnras.oxfordjournals.org
 HJ tcbh.oxfordjournals.org
+HJ oup.com
 
 Title Project Euclid
 HJ projecteuclid.org
@@ -920,8 +963,8 @@ Find window.location.host=="congressional.proquest.com"
 Replace true
 
 Title The Royal Society Publishing
-HJ royalsociety.org
-HJ royalsocietypublishing.org
+HJ www.royalsociety.org
+HJ www.royalsocietypublishing.org
 HJ rsbl.royalsocietypublishing.org
 HJ rsbm.royalsocietypublishing.org
 HJ rsfs.royalsocietypublishing.org
@@ -943,7 +986,7 @@ HJ xlink.rsc.org
 
 Title Sage Journals
 HJ https://journals.sagepub.com
-DJ sagepub.com
+HJ sagepub.com
 DJ cqpress.com
 Find url = "http://
 Replace url = "http://^A
@@ -955,11 +998,12 @@ Option Cookie
 OPTION DOMAINCOOKIEONLY
 Title SpringerLink
 HJ rd.springer.com
-HJ www.link.springer.com
-HJ www.springerlink.com
+HJ link.springer.com
+HJ springerlink.com
 HJ https://rd.springer.com
+HJ springer.com
 DJ sprn.gr
-DJ springer-ny.com
+HJ springer-ny.com
 OPTION COOKIE
 # http://www.oclc.org/support/services/ezproxy/documentation/db/taylorandfrancis_online.en.html
 
@@ -980,6 +1024,16 @@ Cookie theproxy=ezproxy; domain=.onlinelibrary.wiley.com
 Title Wiley Online
 HTTPHeader -request -process X-Requested-With
 H http://onlinelibrary.wiley.com
+HJ aasldpubs.onlinelibrary.wiley.com
+HJ bpspubs.onlinelibrary.wiley.com
+HJ currentprotocols.onlinelibrary.wiley.com
+HJ ila.onlinelibrary.wiley.com
+HJ iubmb.onlinelibrary.wiley.com
+HJ londmathsoc.onlinelibrary.wiley.com
+HJ physoc.onlinelibrary.wiley.com
+HJ setac.onlinelibrary.wiley.com
+HJ sigmapubs.onlinelibrary.wiley.com
+HJ zslpublications.onlinelibrary.wiley.com
 HJ accp1.onlinelibrary.wiley.com
 HJ agupubs.onlinelibrary.wiley.com
 HJ ascpt.onlinelibrary.wiley.com
@@ -1133,6 +1187,10 @@ T Science AAAS
 HJ sciencemag.org
 HJ science.sciencemag.org
 HJ classic.sciencemag.org
+HJ news.sciencemag.org
+HJ sageke.sciencemag.org
+HJ stke.sciencemag.org
+HJ www.sciencemag.org
 
 T INIS CEA
 HJ https://inis-cea.inist.fr
@@ -1150,6 +1208,7 @@ HJ f1000research.com
 DJ f1000research.com
 
 Title Proceedings of the National Academy of Sciences
+HJ www.pnas.org
 HJ anthropology.pnas.org
 HJ chemistry.pnas.org
 HJ frontmatter.pnas.org
