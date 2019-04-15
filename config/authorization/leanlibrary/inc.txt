@@ -101,13 +101,22 @@ HJ www.jmedethics.com
 HJ www.jmedgenet.com
 # http://www.oclc.org/support/services/ezproxy/documentation/db/brepolsonline.en.html#par_text_title
 
+Title Annual Reviews
+HJ www.annualreviews.org
+
 Title Brepols Online
-HJ brepolsonline.net
+HJ www.brepolsonline.net
 # http://www.oclc.org/support/services/ezproxy/documentation/db/brillonline.en.html
+
+T BrillOnline
+HJ www.brillonline.com
 
 Title Cambridge Core
 HJ www.cambridge.org
-HJ journals.cambridge.org
+HJ www.journals.cambridge.org
+
+T Cell Press
+HJ www.cell.com
 
 Title Classiques Garnier
 HJ www.classiques-garnier.com
@@ -307,7 +316,7 @@ H https://www.water-quality-journal.org/
 
 Title ScienceDirect
 DJ www.elsevier.com
-HJ sciencedirect.com
+HJ www.sciencedirect.com
 
 #Elsevier Scopus
 ProxyHostnameEdit www.scopus.com$ www-scopus-com
@@ -845,9 +854,10 @@ HJ gji.oxfordjournals.org
 HJ petrology.oxfordjournals.org
 HJ mnras.oxfordjournals.org
 HJ tcbh.oxfordjournals.org
+HJ alcalc.oxfordjournals.org
 
 Title Project Euclid
-HJ projecteuclid.org
+HJ www.projecteuclid.org
 
 Title ProQuest
 DJ conquestsystems.com
@@ -872,11 +882,22 @@ Replace url = "http://journals.sagepub.com/"
 Option Cookie
 # http://www.oclc.org/support/services/ezproxy/documentation/db/springerlink.en.html
 
+T The Royal Society Publishing
+HJ rspa.royalsocietypublishing.org
+HJ rspb.royalsocietypublishing.org
+HJ rspl.royalsocietypublishing.org
+HJ rsta.royalsocietypublishing.org
+HJ rstb.royalsocietypublishing.org
+HJ rstl.royalsocietypublishing.org
+HJ www.royalsociety.org
+HJ www.royalsocietypublishing.org
+
 OPTION DOMAINCOOKIEONLY
 Title SpringerLink
 HJ rd.springer.com
-HJ www.link.springer.com
-HJ www.springerlink.com
+HJ link.springer.com
+HJ springerlink.com
+HJ springer.com
 HJ https://rd.springer.com
 DJ sprn.gr
 DJ springer-ny.com
@@ -884,7 +905,7 @@ OPTION COOKIE
 # http://www.oclc.org/support/services/ezproxy/documentation/db/taylorandfrancis_online.en.html
 
 Title Taylor & Francis eBooks
-HJ tandfebooks.com
+HJ www.tandfebooks.com
 
 #In order to allow users to create accounts, log in, and save favorite articles and citations, EZproxy also requires SSL Configuration.
 Option X-Forwarded-For
@@ -1049,3 +1070,10 @@ H http://www.lactualitechimique.org/
 
 T ACS
 H https://pubs.acs.org/
+
+T GeoScienceWorld
+HJ bulletin.geoscienceworld.org
+
+T Numerique Premium
+HJ www.numeriquepremium.com
+
