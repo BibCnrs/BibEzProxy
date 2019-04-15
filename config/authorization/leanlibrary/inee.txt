@@ -371,13 +371,8 @@ AnonymousURL -*
 
 
 Title Institute of Physics
-HJ https://asia.iop.org
 HJ https://biologicalphysics.iop.org
 HJ https://conferenceseries.iop.org/
-HJ https://iopscience.iop.org/
-HJ https://irish.iop.org
-HJ https://tap.iop.org/
-HJ https://www.iop.org
 HJ njp.org
 
 T Mit Cognet
@@ -1040,7 +1035,6 @@ HJ admin.webofknowledge.com
 HJ admin-apps.webofknowledge.com
 HJ esi.webofknowledge.com
 HJ https://incites.thomsonreuters.com
-HJ incites.isiknowledge.com
 HJ https://isiknowledge.com
 DJ incites.thomsonreuters.com
 Find value="http://
@@ -1092,11 +1086,6 @@ DJ smartimagebase.com
 
 H journals.ametsoc.org
 D ametsoc.org
-
-Title Institute of Physics
-HJ https://conferenceseries.iop.org
-HJ https://iopscience.iop.org
-HJ iopscience.iop.org
 
 D deepseadrilling.org
 D annalsofgeophysics.eu
