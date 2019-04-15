@@ -140,6 +140,7 @@ HJ booksandjournals.brillonline.com
 
 Title Cambridge Core
 HJ www.cambridge.org
+HJ www.journals.cambridge.org
 
 Title Classiques Garnier
 HJ www.classiques-garnier.com
