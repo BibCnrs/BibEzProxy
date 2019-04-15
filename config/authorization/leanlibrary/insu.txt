@@ -92,7 +92,6 @@ HJ veterinaryrecord.bmj.com
 HJ veterinaryrecord.bvapublications.com
 HJ vetrecordcasereports.bmj.com
 HJ www.clinicalevidence.com
-HJ www.bmj.com
 HJ www.bmjjournals.com
 HJ www.injuryprevention.com
 HJ www.jech.com
@@ -110,10 +109,7 @@ HJ booksandjournals.brillonline.com
 
 Title Cambridge Core
 HJ www.cambridge.org
-HJ journals.cambridge.org
-
-Title Degruyter
-HJ degruyter.com
+HJ www.journals.cambridge.org
 
 Title Cell Press
 HJ https://www.cell.com
@@ -310,6 +306,7 @@ H https://www.water-quality-journal.org/
 
 Title Elsevier Health Journals
 HJ www.journals.elsevierhealth.com
+HJ www.elsevier.com
 Cookie BROWSER_SUPPORTS_COOKIES=1;domain=.sciencedirect.com
 Title ScienceDirect
 HJ https://www.sciencedirect.com
@@ -338,19 +335,21 @@ Replace %22%3A%22http%3A%2F%2F^psciverse-shindig.elsevier.com^%2F
 Find gsUrl%22%3A%22https%3A%2F%2Fwww.scopus.com%2F
 Replace gsUrl%22%3A%22https%3A%2F%2F^pwww.scopus.com^%2F
 AnonymousURL -* 
-# http://www.oclc.org/support/services/ezproxy/documentation/db/emeraldinsight.en.html
 HJ www.lyellcollection.org
 HJ sp.lyellcollection.org
+
+T Emerald
+HJ www.emeraldinsight.com
+
+T De Gruyter Online
+HJ www.degruyter.com
 
 Title Institute of Physics
 HJ conferenceseries.iop.org/
 HJ https://conferenceseries.iop.org/
 HJ https://iopscience.iop.org/
-HJ https://www.iop.org
 HJ iopscience.iop.org
-HJ njp.org
 HJ www.iopscience.iop.org
-HJ www.njp.org
 
 Title Nature Publishing
 HJ search.nature.com
@@ -415,7 +414,6 @@ HJ http://archeosciences.revues.org
 HJ http://archipel.revues.org
 HJ http://assr.revues.org
 HJ http://aad.revues.org
-HJ http://artelogie.revues.org
 HJ http://aes.revues.org
 HJ http://arzana.revues.org
 HJ http://asp.revues.org
@@ -844,12 +842,6 @@ HJ tcbh.oxfordjournals.org
 
 Title Project Euclid
 HJ https://projecteuclid.org
-HTTPHeader X-Requested-With
-Title ProQuest
-DJ conquestsystems.com
-DJ conquest-leg-insight.com
-Find window.location.host=="congressional.proquest.com"
-Replace true
 
 Title The Royal Society Publishing
 HJ royalsociety.org
@@ -880,7 +872,6 @@ DJ rsc.org
 Title Sage Journals
 HJ https://journals.sagepub.com
 DJ sagepub.com
-DJ cqpress.com
 Find url = "http://
 Replace url = "http://^A
 Find url = document.location.protocol + "//" + document.location.host
@@ -897,7 +888,6 @@ HJ www.springerlink.com
 HJ https://rd.springer.com
 HJ https://www.link.springer.com
 HJ https://www.springerlink.com
-DJ sprn.gr
 DJ springer-ny.com
 DJ springerlink.com
 DJ springer.com
@@ -941,7 +931,7 @@ T Chadwyk
 HJ eebo.chadwyck.com
 
 T Science AAAS
-HJ sciencemag.org
+HJ www.sciencemag.org
 HJ science.sciencemag.org
 HJ classic.sciencemag.org
 
@@ -954,34 +944,14 @@ Option Cookie
 OPTION DOMAINCOOKIEONLY
 Title Web of Knowledge
 HJ https://jcr.incites.thomsonreuters.com
-HJ https://webofknowledge.com
 HJ jcr.incites.thomsonreuters.com
-HJ www.webofknowledge.com
-HJ webofknowledge.com
-DJ webofknowledge.com
 DJ apps.clarivate.com
 HJ admin.webofknowledge.com
 HJ admin-apps.webofknowledge.com
-HJ admin-router.webofknowledge.com
-HJ apps.webofknowledge.com
-HJ esi.incites.thomsonreuters.com
 HJ esi.webofknowledge.com
-HJ https://apps.webofknowledge.com
-HJ https://esi.incites.thomsonreuters.com
 HJ https://incites.thomsonreuters.com
-HJ incites.isiknowledge.com
-HJ isiknowledge.com
 HJ https://isiknowledge.com
-HJ login.webofknowledge.com
-HJ myendnoteweb.com
-HJ webofscience.com
-HJ www.isiknowledge.com
-HJ www.webofscience.com
 DJ incites.thomsonreuters.com
-DJ isiknowledge.com
-DJ myendnoteweb.com
-DJ webofknowledgev4.com
-DJ webofscience.com
 Find value="http://
 Replace value="http://^A
 Find VALUE="http://
@@ -1003,40 +973,10 @@ Replace "CIT.GATEWAY_URL">^pgateway.webofknowledge.com^
 Find value='gateway.webofknowledge.com/gateway/Gateway.cgi'
 Replace value='^pgateway.webofknowledge.com^/gateway/Gateway.cgi'
 OPTION COOKIE
-ProxyHostnameEdit www.ncbi.nlm.nih.gov$ www-ncbi-nlm-nih-gov
-AnonymousURL http://www.ncbi.nlm.nih.gov/corehtml/query/static/pubmedsearch.xml*
 Option CookiePassThrough
 
-Title PubMed
-HJ https.ncbi.nlm.nih.gov
-HJ https://ncbi.nlm.nih.gov
-HJ https://www.ncbi.nlm.nih.gov
-HJ https://www.pubmedcentral.nih.gov
-HJ ncbi.nlm.nih.gov
-HJ www.ncbi.nlm.nih.gov
-DJ static.pubmed.gov
-# dx.doi.org provides linking Nature, Springer, Wiley, and others
-DJ dx.doi.org
-Find &url=http://
-Replace &url=http://^A
-Find &url=http://
-Replace &url=http://^A
-Find fref.fcgi?http://
-Replace fref.fcgi?http://^A
-Find 'https://' + window.location.hostname
-Replace 'https://^swww.ncbi.nlm.nih.gov^'
-Find 'https://' + window.location.host +
-Replace 'https://^swww.ncbi.nlm.nih.gov^' +
-AnonymousURL -*
-Option Cookie
-#This section is required before any EBSCOhost stanza to prevent linking issues
-Option DomainCookieOnly
-
-Title EBSCOhost
-HJ https://resolver.ebscohost.com
-
+T AMETSOC
 H journals.ametsoc.org
-D ametsoc.org
 
 Title GeoScienceWorld
 HJ aapgbull.geoscienceworld.org
