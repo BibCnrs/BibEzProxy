@@ -125,7 +125,6 @@ Title De Gruyter Online
 HJ www.degruyter.com
 
 T EDP Sciences
-HJ afs-journal.org
 HJ epj.org
 HJ journaldephysique.org
 H aas.aanda.org
@@ -319,7 +318,6 @@ HJ www.journals.elsevierhealth.com
 DJ elsevierhealth.com
 Cookie BROWSER_SUPPORTS_COOKIES=1;domain=.sciencedirect.com
 Title ScienceDirect
-HJ acw.elsevier.com
 HJ sciencedirect.com
 
 #Elsevier Scopus
@@ -337,39 +335,7 @@ AnonymousURL -*
 # http://www.oclc.org/support/services/ezproxy/documentation/db/emeraldinsight.en.html
 
 Title Institute of Physics
-HJ asia.iop.org
-HJ biologicalphysics.iop.org
-HJ conferenceseries.iop.org/
-HJ https://asia.iop.org
-HJ https://biologicalphysics.iop.org
-HJ https://conferenceseries.iop.org/
-HJ https://iopscience.iop.org/
-HJ https://irish.iop.org
-HJ https://tap.iop.org/
-HJ https://www.iop.org
-HJ iop.org
-HJ ioppublishing.org
-HJ iopscience.iop.org
-HJ irish.iop.org
-HJ jphysplus.iop.org
-HJ librarians.iop.org
-HJ njp.org
-HJ physicsworld.com
-HJ physicsworldarchive.iop.org
-HJ stimulatingphysics.org
-HJ tap.iop.org
-HJ www.biologicalphysics.iop.org
-HJ www.iop.org
-HJ www.ioppublishing.org
-HJ www.iopscience.iop.org
-HJ www.librarians.iop.org
-HJ www.njp.org
-HJ www.physicsworld.com
-HJ www.physicsworldarchive.iop.org
-HJ www.stimulatingphysics.org
-HJ www.tap.iop.org
-DJ iop.org
-DJ ioppublishing.org
+HJ conferenceseries.iop.org
 
 Title Nature Publishing
 HJ search.nature.com
@@ -911,37 +877,15 @@ DJ springer-ny.com
 OPTION COOKIE
 # http://www.oclc.org/support/services/ezproxy/documentation/db/taylorandfrancis_online.en.html
 
-HTTPHeader Access-Token
-ProxyHostnameEdit www.tandfonline.com$ www-tandfonline-com
-T Taylor & Francis
-HJ tandfonline.com
-
-Title Taylor & Francis eBooks
-HJ tandfebooks.com
-
 #In order to allow users to create accounts, log in, and save favorite articles and citations, EZproxy also requires SSL Configuration.
 Option X-Forwarded-For
 Cookie theproxy=ezproxy; domain=.onlinelibrary.wiley.com
 Title Wiley Online
 HTTPHeader -request -process X-Requested-With
 H http://onlinelibrary.wiley.com
-HJ accp1.onlinelibrary.wiley.com
-HJ agupubs.onlinelibrary.wiley.com
-HJ ascpt.onlinelibrary.wiley.com
-HJ aslopubs.onlinelibrary.wiley.com
-HJ besjournals.onlinelibrary.wiley.com
-HJ esajournals.onlinelibrary.wiley.com
 HJ febs.onlinelibrary.wiley.com
-HJ nph.onlinelibrary.wiley.com
-HJ nyaspubs.onlinelibrary.wiley.com
-HJ rmets.onlinelibrary.wiley.com
 HJ www.esajournals.org
-HJ www.interscience.wiley.com
-HJ www.mrw.interscience.wiley.com
 HJ www.onlinelibrary.wiley.com
-HJ www.wileyonlinelibrary.com
-HJ aps.onlinelibrary.wiley.com
-HJ jlb.onlinelibrary.wiley.com
 Option NoX-Forwarded-For
 
 HJ embomolmed.embopress.org
@@ -964,12 +908,8 @@ OPTION DOMAINCOOKIEONLY
 Title Web of Knowledge
 HJ https://jcr.incites.thomsonreuters.com
 HJ jcr.incites.thomsonreuters.com
-HJ www.webofknowledge.com
-DJ apps.clarivate.com
 HJ admin.webofknowledge.com
 HJ admin-apps.webofknowledge.com
-HJ admin-router.webofknowledge.com
-HJ apps.webofknowledge.com
 HJ esi.incites.thomsonreuters.com
 HJ esi.webofknowledge.com
 HJ https://apps.webofknowledge.com
@@ -980,14 +920,10 @@ HJ isiknowledge.com
 HJ https://isiknowledge.com
 HJ login.webofknowledge.com
 HJ myendnoteweb.com
-HJ webofscience.com
 HJ www.isiknowledge.com
-HJ www.webofscience.com
 DJ incites.thomsonreuters.com
 DJ isiknowledge.com
 DJ myendnoteweb.com
-DJ webofknowledgev4.com
-DJ webofscience.com
 Find value="http://
 Replace value="http://^A
 Find VALUE="http://
@@ -1045,12 +981,6 @@ HJ https://resolver.ebscohost.com
 DJ smartimagebase.com
 
 H journals.ametsoc.org
-D ametsoc.org
-
-Title Institute of Physics
-HJ https://conferenceseries.iop.org
-HJ https://iopscience.iop.org
-HJ iopscience.iop.org
 
 # If you experience problems with the proxy dropping when downloading PDFs, try adding the following lines to the end of your stanza:
 Find physiology.org\/sites
@@ -1059,8 +989,6 @@ Find physiology.org\/content\/
 Replace ^Pphysiology.org^\/content\/
 H www.deepseadrilling.org
 D deepseadrilling.org
-H www.annalsofgeophysics.eu
-D annalsofgeophysics.eu
 H www.seisme.prd.fr
 D seisme.prd.fr
 Hj www.jstage.jst.go.jp
@@ -1075,17 +1003,11 @@ HJ classic.sciencemag.org
 T MATH
 HJ https://mathscinet.ams.org
 HJ mathscinet.ams.org
-DJ ams.org
 
 T OSA
 HJ https://www.osapublishing.org
 HJ www.osapublishing.org
 DJ osapublishing.org
-
-T ANN
-HJ https://www.ann-geophys.net
-HJ www.ann-geophys.net
-DJ ann-geophys.net
 
 T INIS CEA
 HJ https://inis-cea.inist.fr
