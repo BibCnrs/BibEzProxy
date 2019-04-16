@@ -115,6 +115,7 @@ Title Cell Press
 HJ https://www.cell.com
 
 T EDP Sciences
+HJ www.shs-conferences.org
 HJ afs-journal.org
 HJ epj.org
 HJ journaldephysique.org
@@ -945,12 +946,10 @@ OPTION DOMAINCOOKIEONLY
 Title Web of Knowledge
 HJ https://jcr.incites.thomsonreuters.com
 HJ jcr.incites.thomsonreuters.com
-DJ apps.clarivate.com
 HJ admin.webofknowledge.com
 HJ admin-apps.webofknowledge.com
 HJ esi.webofknowledge.com
 HJ https://incites.thomsonreuters.com
-HJ https://isiknowledge.com
 DJ incites.thomsonreuters.com
 Find value="http://
 Replace value="http://^A
