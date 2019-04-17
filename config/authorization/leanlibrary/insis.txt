@@ -1,4 +1,5 @@
 Title BMJ Journals
+HJ bmj.com
 Domain group.bmj.com
 HJ adc.bmj.com
 HJ adc.bmjjournals.com
@@ -111,6 +112,7 @@ HJ booksandjournals.brillonline.com
 
 Title Cambridge Core
 HJ www.cambridge.org
+HJ cambridge.org
 HJ www.journals.cambridge.org
 
 Title Cell Press
@@ -123,6 +125,7 @@ Title De Gruyter Online
 HJ www.degruyter.com
 
 T EDP Sciences
+HJ www.shs-conferences.org
 HJ journaldephysique.org
 H aas.aanda.org
 H asees.water-quality-journal.org
@@ -324,13 +327,21 @@ AnonymousURL -*
 # http://www.oclc.org/support/services/ezproxy/documentation/db/emeraldinsight.en.html
 
 Title Institute of Physics
-HJ conferenceseries.iop.org/
+HJ conferenceseries.iop.org
+
+T ScienceDirect
+HJ www.elsevier.com
+HJ www.sciencedirect.com
 
 Title Nature Publishing
+HJ scientificamerican.com
 HJ search.nature.com
 HJ www.nature.com
 HJ www.naturesj.com
 HJ www.npgjournals.com
+
+T Numerique Premium
+HJ www.numeriquepremium.com
 
 Title OpenEdition
 DJ openedition.org
@@ -813,6 +824,13 @@ HJ gji.oxfordjournals.org
 HJ petrology.oxfordjournals.org
 HJ mnras.oxfordjournals.org
 HJ tcbh.oxfordjournals.org
+HJ afraf.oxfordjournals.org
+HJ ageing.oxfordjournals.org
+HJ alcalc.oxfordjournals.org
+HJ asj.oxfordjournals.org
+
+T Project Euclid
+HJ www.projecteuclid.org
 
 Title The Royal Society Publishing
 HJ royalsociety.org
@@ -828,6 +846,15 @@ HJ rsta.royalsocietypublishing.org
 HJ rstb.royalsocietypublishing.org
 HJ rstl.royalsocietypublishing.org
 Option CookiePassThrough
+
+T Science AAAS
+HJ www.sciencemag.org
+
+T Taylor Francis
+HJ www.tandfonline.com
+
+T Taylor Francis ebooks
+HJ www.tandfebooks.com
 
 T Royal Society of Chemistry
 HJ ebook.rsc.org
@@ -848,6 +875,7 @@ Option Cookie
 OPTION DOMAINCOOKIEONLY
 Title SpringerLink
 HJ rd.springer.com
+HJ springer.com
 HJ www.link.springer.com
 HJ www.springerlink.com
 HJ https://rd.springer.com
@@ -863,10 +891,15 @@ HTTPHeader -request -process X-Requested-With
 H http://onlinelibrary.wiley.com
 HJ febs.onlinelibrary.wiley.com
 HJ www.onlinelibrary.wiley.com
+HJ anzjsurg.onlinelibrary.wiley.com
+HJ currentprotocols.onlinelibrary.wiley.com
 Option NoX-Forwarded-For
 
 T Chadwyk
 HJ eebo.chadwyck.com
+
+T F1000
+HJ www.lyellcollection.org
 
 OPTION DOMAINCOOKIEONLY
 Title Web of Knowledge
