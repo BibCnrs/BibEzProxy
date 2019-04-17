@@ -317,7 +317,6 @@ ProxyHostnameEdit www.scopus.com$ www-scopus-com
 MimeFilter text/uri-list .* javascript
 AnonymousURL +http://syndic8.scopus.com/*
 Title SciVerse Scopus
-HJ www.scopus.co
 MimeFilter application/json .* javascript
 HJ https://www.scopus.com
 HJ www.scopus.com
@@ -885,12 +884,10 @@ OPTION DOMAINCOOKIEONLY
 Title Web of Knowledge
 HJ https://jcr.incites.thomsonreuters.com
 HJ jcr.incites.thomsonreuters.com
-DJ apps.clarivate.com
 HJ admin.webofknowledge.com
 HJ admin-apps.webofknowledge.com
 HJ esi.webofknowledge.com
 HJ https://incites.thomsonreuters.com
-DJ incites.thomsonreuters.com
 Find value="http://
 Replace value="http://^A
 Find VALUE="http://
