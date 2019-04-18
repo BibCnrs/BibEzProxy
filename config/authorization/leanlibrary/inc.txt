@@ -868,8 +868,6 @@ HJ eebo.chadwyck.com
 #PHE apps.clarivate.com$ apps-clarivate-com
 #HTTPHeader -request -process X-1P-INC-SID
 #Title InCites Benchmarking Journal Citation Reports and Essential Science Indicators
-#URL https://incites.thomsonreuters.com
-#DJ incites.thomsonreuters.com
 #DJ clarivate.com
 #Find "apps.clarivate.com/
 #Replace "^papps.clarivate.com^/
@@ -887,7 +885,6 @@ HJ jcr.incites.thomsonreuters.com
 HJ admin.webofknowledge.com
 HJ admin-apps.webofknowledge.com
 HJ esi.webofknowledge.com
-HJ https://incites.thomsonreuters.com
 Find value="http://
 Replace value="http://^A
 Find VALUE="http://
