@@ -905,8 +905,6 @@ HJ jcr.incites.thomsonreuters.com
 HJ admin.webofknowledge.com
 HJ admin-apps.webofknowledge.com
 HJ esi.webofknowledge.com
-HJ https://apps.webofknowledge.com
-HJ incites.isiknowledge.com
 Find value="http://
 Replace value="http://^A
 Find VALUE="http://
