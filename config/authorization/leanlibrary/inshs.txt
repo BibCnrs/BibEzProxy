@@ -324,7 +324,6 @@ MimeFilter application/json .* javascript
 HJ www.scopus.com
 
 Title Institute of Physics
-HJ https://biologicalphysics.iop.org
 HJ https://conferenceseries.iop.org/
 HJ njp.org
 
@@ -954,9 +953,6 @@ Find physiology.org\/sites
 Replace ^Pphysiology.org^\/sites
 Find physiology.org\/content\/
 Replace ^Pphysiology.org^\/content\/
-D deepseadrilling.org
-D annalsofgeophysics.eu
-D seisme.prd.fr
 # http://www.oclc.org/support/services/ezproxy/documentation/db/liebertpub.en.html
 
 T INIS CEA
