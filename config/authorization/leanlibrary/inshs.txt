@@ -1,5 +1,7 @@
 Title BMJ Journals
 Domain group.bmj.com
+HJ jamia.bmj.com
+HJ vetrecordcasereports.bmj.com
 HJ adc.bmj.com
 HJ adc.bmjjournals.com
 HJ aim.bmj.com
@@ -97,6 +99,9 @@ HJ www.jmedethics.com
 HJ www.jmedgenet.com
 # http://www.oclc.org/support/services/ezproxy/documentation/db/brepolsonline.en.html#par_text_title
 
+T Chadwyck Early English Books Online
+HJ eebo.chadwyck.com
+
 Title Brepols Online
 HJ www.brepolsonline.net
 # http://www.oclc.org/support/services/ezproxy/documentation/db/brillonline.en.html
@@ -116,7 +121,12 @@ HJ https://www.classiques-garnier.com
 HJ www.classiques-garnier.com
 # http://www.oclc.org/support/services/ezproxy/documentation/db/degruyter.en.html
 
+T GeoScienceWorld
+HJ ammin.geoscienceworld.org
+
 T EDP Sciences
+HJ www.shs-conferences.org
+HJ www.uniodf-journal.org
 HJ journaldephysique.org
 H aas.aanda.org
 H asees.water-quality-journal.org
@@ -303,6 +313,7 @@ DJ elsevierhealth.com
 Title ScienceDirect
 HJ acw.elsevier.com
 DJ www.elsevier.com
+HJ www.sciencedirect.com
 
 #Elsevier Scopus
 ProxyHostnameEdit www.scopus.com$ www-scopus-com
@@ -318,10 +329,14 @@ HJ https://conferenceseries.iop.org/
 HJ njp.org
 
 Title Nature Publishing
+HJ scientificamerican.com
 HJ search.nature.com
 HJ www.nature.com
 HJ www.naturesj.com
 HJ www.npgjournals.com
+
+T Numerique Premium
+HJ www.numeriquepremium.com
 
 Title OpenEdition
 HJ https://books.openedition.org
@@ -789,6 +804,12 @@ HJ http://oeconomia.revues.org
 # http://www.oclc.org/support/services/ezproxy/documentation/db/ovid.en.html
 
 Title Oxford Journals (updated 20180516)
+HJ afraf.oxfordjournals.org
+HJ ageing.oxfordjournals.org
+HJ alcalc.oxfordjournals.org
+HJ asj.oxfordjournals.org
+HJ oup.com
+HJ silverchair.com
 Host https://www.oxfordjournals.org
 Domain oxfordjournals.org
 DJ oxfordjournals.org
@@ -805,8 +826,15 @@ HJ www.projecteuclid.org
 Title ProQuest
 HJ www.proquest.com
 HJ www.proquestk12.com
+HJ digitalmicrofilm.proquest.com
+HJ proquest.umi.com
+HJ search.proquest.com
+HJ conquest-leg-insight.com
+HJ conquestsystems.com
+HJ umi.com
 
 itle The Royal Society Publishing
+HJ www.royalsociety.org
 HJ rsbl.royalsocietypublishing.org
 HJ rsbm.royalsocietypublishing.org
 HJ rsfs.royalsocietypublishing.org
@@ -820,6 +848,14 @@ HJ rstb.royalsocietypublishing.org
 HJ rstl.royalsocietypublishing.org
 Option CookiePassThrough
 
+T Royal Society of Chemistry
+HJ ebook.rsc.org
+HJ pubs.rsc.org
+HJ xlink.rsc.org
+
+T Safari Books
+HJ safaribooksonline.com
+
 Title Sage Journals
 HJ https://journals.sagepub.com
 DJ sagepub.com
@@ -831,9 +867,16 @@ Replace url = "http://journals.sagepub.com/"
 Option Cookie
 # http://www.oclc.org/support/services/ezproxy/documentation/db/springerlink.en.html
 
+T Taylor & Francis
+HJ www.tandfonline.com
+HJ literatumonline.com
+HJ www.tandfebooks.com
+
 OPTION DOMAINCOOKIEONLY
 Title SpringerLink
+HJ springer.com
 HJ rd.springer.com
+HJ link.springer.com
 HJ springerlink.com
 DJ sprn.gr
 DJ springer-ny.com
@@ -849,6 +892,7 @@ H http://onlinelibrary.wiley.com
 HJ www.interscience.wiley.com
 HJ www.mrw.interscience.wiley.com
 HJ www.onlinelibrary.wiley.com
+HJ mrw.interscience.wiley.com
 Option NoX-Forwarded-For
 
 Title InCites
@@ -887,6 +931,7 @@ Option CookiePassThrough
 
 Title PubMed
 DJ static.pubmed.gov
+HJ www.pubmedcentral.nih.gov
 # dx.doi.org provides linking Nature, Springer, Wiley, and others
 # linkinghub.elsevier.com provides linking to Elsevier and ScienceDirect
 Find &url=http://
