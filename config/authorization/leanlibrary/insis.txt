@@ -876,8 +876,8 @@ OPTION DOMAINCOOKIEONLY
 Title SpringerLink
 HJ rd.springer.com
 HJ springer.com
-HJ www.link.springer.com
-HJ www.springerlink.com
+HJ link.springer.com
+HJ springerlink.com
 HJ https://rd.springer.com
 DJ springer-ny.com
 OPTION COOKIE
