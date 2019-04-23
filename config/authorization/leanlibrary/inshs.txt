@@ -112,6 +112,7 @@ HJ www.brillonline.com
 
 Title Cambridge Core
 HJ www.cambridge.org
+HJ www.journals.cambridge.org
 
 Title Cell Press
 HJ https://www.cell.com
@@ -120,6 +121,9 @@ Title Classiques Garnier
 HJ https://www.classiques-garnier.com
 HJ www.classiques-garnier.com
 # http://www.oclc.org/support/services/ezproxy/documentation/db/degruyter.en.html
+
+T Degruyter
+HJ www.degruyter.com
 
 T GeoScienceWorld
 HJ ammin.geoscienceworld.org
