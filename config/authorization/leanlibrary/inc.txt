@@ -30,10 +30,8 @@ HJ ejhp.bmj.com
 HJ emj.bmj.com
 HJ emj.bmjjournals.com
 HJ ep.bmj.com
-HJ ep.bmjjournals.com
 HJ fg.bmj.com
 HJ fn.bmj.com
-HJ fn.bmjjournals.com
 HJ group.bmj.com
 HJ gut.bmj.com
 HJ gut.bmjjournals.com
@@ -44,9 +42,7 @@ HJ injuryprevention.bmj.com
 HJ inpractice.bmj.com
 HJ inpractice.bvapublications.com
 HJ jamia.bmj.com
-HJ jamia.bmjjournals.com
 HJ jcp.bmj.com
-HJ jcp.bmjjournals.com
 HJ jech.bmj.com
 HJ jech.bmjjournals.com
 HJ jech.com
@@ -75,7 +71,6 @@ HJ openheart.bmj.com
 HJ pmj.bmj.com
 HJ pmj.bmjjournals.com
 HJ pn.bmj.com
-HJ pn.bmjjournals.com
 HJ qir.bmj.com
 HJ qshc.bmj.com
 HJ qshc.bmjjournals.com
@@ -101,13 +96,21 @@ HJ www.jmedethics.com
 HJ www.jmedgenet.com
 # http://www.oclc.org/support/services/ezproxy/documentation/db/brepolsonline.en.html#par_text_title
 
-Title Brepols Online
-HJ brepolsonline.net
-# http://www.oclc.org/support/services/ezproxy/documentation/db/brillonline.en.html
+Title Annual Reviews
+HJ www.annualreviews.org
+
+T Brepols Online
+HJ www.brepolsonline.net
+
+T BrillOnline
+HJ www.brillonline.com
 
 Title Cambridge Core
 HJ www.cambridge.org
-HJ journals.cambridge.org
+HJ www.journals.cambridge.org
+
+T Cell Press
+HJ www.cell.com
 
 Title Classiques Garnier
 HJ www.classiques-garnier.com
@@ -116,8 +119,9 @@ Title De Gruyter Online
 HJ www.degruyter.com
 
 T EDP Sciences
-HJ afs-journal.org
-HJ epj.org
+HJ epj-pv.org
+HJ j3ea.org
+HJ www.shs-conferences.org
 HJ journaldephysique.org
 H aas.aanda.org
 H asees.water-quality-journal.org
@@ -307,59 +311,21 @@ H https://www.water-quality-journal.org/
 
 Title ScienceDirect
 DJ www.elsevier.com
-HJ sciencedirect.com
 
 #Elsevier Scopus
 ProxyHostnameEdit www.scopus.com$ www-scopus-com
 MimeFilter text/uri-list .* javascript
 AnonymousURL +http://syndic8.scopus.com/*
 Title SciVerse Scopus
-HJ www.scopus.co
 MimeFilter application/json .* javascript
 HJ https://www.scopus.com
 HJ www.scopus.com
-DJ scopus.com
 Find %22%3A%22http%3A%2F%2Fsciverse-shindig.elsevier.com%2F
 Replace %22%3A%22http%3A%2F%2F^psciverse-shindig.elsevier.com^%2F
 Find gsUrl%22%3A%22https%3A%2F%2Fwww.scopus.com%2F
 Replace gsUrl%22%3A%22https%3A%2F%2F^pwww.scopus.com^%2F
 AnonymousURL -* 
 # http://www.oclc.org/support/services/ezproxy/documentation/db/emeraldinsight.en.html
-
-Title Institute of Physics
-HJ asia.iop.org
-HJ biologicalphysics.iop.org
-HJ conferenceseries.iop.org/
-HJ https://asia.iop.org
-HJ https://biologicalphysics.iop.org
-HJ https://conferenceseries.iop.org/
-HJ https://iopscience.iop.org/
-HJ https://irish.iop.org
-HJ https://tap.iop.org/
-HJ https://www.iop.org
-HJ iop.org
-HJ ioppublishing.org
-HJ iopscience.iop.org
-HJ irish.iop.org
-HJ jphysplus.iop.org
-HJ librarians.iop.org
-HJ njp.org
-HJ physicsworld.com
-HJ physicsworldarchive.iop.org
-HJ stimulatingphysics.org
-HJ tap.iop.org
-HJ www.biologicalphysics.iop.org
-HJ www.iop.org
-HJ www.ioppublishing.org
-HJ www.iopscience.iop.org
-HJ www.librarians.iop.org
-HJ www.njp.org
-HJ www.physicsworld.com
-HJ www.physicsworldarchive.iop.org
-HJ www.stimulatingphysics.org
-HJ www.tap.iop.org
-DJ iop.org
-DJ ioppublishing.org
 
 Title Nature Publishing
 HJ search.nature.com
@@ -845,15 +811,10 @@ HJ gji.oxfordjournals.org
 HJ petrology.oxfordjournals.org
 HJ mnras.oxfordjournals.org
 HJ tcbh.oxfordjournals.org
+HJ alcalc.oxfordjournals.org
 
 Title Project Euclid
-HJ projecteuclid.org
-
-Title ProQuest
-DJ conquestsystems.com
-DJ conquest-leg-insight.com
-Find window.location.host=="congressional.proquest.com"
-Replace true
+HJ www.projecteuclid.org
 
 T Royal Society of Chemistry
 HJ ebook.rsc.org
@@ -864,7 +825,6 @@ HJ xlink.rsc.org
 Title Sage Journals
 HJ https://journals.sagepub.com
 DJ sagepub.com
-DJ cqpress.com
 Find url = "http://
 Replace url = "http://^A
 Find url = document.location.protocol + "//" + document.location.host
@@ -872,19 +832,26 @@ Replace url = "http://journals.sagepub.com/"
 Option Cookie
 # http://www.oclc.org/support/services/ezproxy/documentation/db/springerlink.en.html
 
+T The Royal Society Publishing
+HJ rspa.royalsocietypublishing.org
+HJ rspb.royalsocietypublishing.org
+HJ rspl.royalsocietypublishing.org
+HJ rsta.royalsocietypublishing.org
+HJ rstb.royalsocietypublishing.org
+HJ rstl.royalsocietypublishing.org
+HJ www.royalsociety.org
+HJ www.royalsocietypublishing.org
+
 OPTION DOMAINCOOKIEONLY
 Title SpringerLink
 HJ rd.springer.com
-HJ www.link.springer.com
-HJ www.springerlink.com
+HJ link.springer.com
+HJ springerlink.com
+HJ springer.com
 HJ https://rd.springer.com
-DJ sprn.gr
 DJ springer-ny.com
 OPTION COOKIE
 # http://www.oclc.org/support/services/ezproxy/documentation/db/taylorandfrancis_online.en.html
-
-Title Taylor & Francis eBooks
-HJ tandfebooks.com
 
 #In order to allow users to create accounts, log in, and save favorite articles and citations, EZproxy also requires SSL Configuration.
 Option X-Forwarded-For
@@ -892,30 +859,7 @@ Cookie theproxy=ezproxy; domain=.onlinelibrary.wiley.com
 Title Wiley Online
 HTTPHeader -request -process X-Requested-With
 H http://onlinelibrary.wiley.com
-HJ accp1.onlinelibrary.wiley.com
-HJ agupubs.onlinelibrary.wiley.com
-HJ ascpt.onlinelibrary.wiley.com
-HJ aslopubs.onlinelibrary.wiley.com
-HJ besjournals.onlinelibrary.wiley.com
-HJ esajournals.onlinelibrary.wiley.com
-HJ febs.onlinelibrary.wiley.com
-HJ nph.onlinelibrary.wiley.com
-HJ nyaspubs.onlinelibrary.wiley.com
-HJ rmets.onlinelibrary.wiley.com
-HJ www.esajournals.org
-HJ www.interscience.wiley.com
-HJ www.mrw.interscience.wiley.com
-HJ www.onlinelibrary.wiley.com
-HJ www.wileyonlinelibrary.com
-HJ aps.onlinelibrary.wiley.com
-HJ jlb.onlinelibrary.wiley.com
 Option NoX-Forwarded-For
-
-HJ embomolmed.embopress.org
-HJ embor.embopress.org
-HJ msb.embopress.org
-HJ emboj.embopress.org
-DJ embopress.org
 
 Title Chadwyck Early English Books Online
 HJ eebo.chadwyck.com
@@ -924,8 +868,6 @@ HJ eebo.chadwyck.com
 #PHE apps.clarivate.com$ apps-clarivate-com
 #HTTPHeader -request -process X-1P-INC-SID
 #Title InCites Benchmarking Journal Citation Reports and Essential Science Indicators
-#URL https://incites.thomsonreuters.com
-#DJ incites.thomsonreuters.com
 #DJ clarivate.com
 #Find "apps.clarivate.com/
 #Replace "^papps.clarivate.com^/
@@ -933,7 +875,6 @@ HJ eebo.chadwyck.com
 
 Option DomainCookieOnly
 Title InCites
-DJ incites.thomsonreuters.com
 Option Cookie
 # http://www.oclc.org/support/services/ezproxy/documentation/db/webofknowledge.en.html
 
@@ -941,30 +882,9 @@ OPTION DOMAINCOOKIEONLY
 Title Web of Knowledge
 HJ https://jcr.incites.thomsonreuters.com
 HJ jcr.incites.thomsonreuters.com
-HJ www.webofknowledge.com
-DJ apps.clarivate.com
 HJ admin.webofknowledge.com
 HJ admin-apps.webofknowledge.com
-HJ admin-router.webofknowledge.com
-HJ apps.webofknowledge.com
-HJ esi.incites.thomsonreuters.com
 HJ esi.webofknowledge.com
-HJ https://apps.webofknowledge.com
-HJ https://esi.incites.thomsonreuters.com
-HJ https://incites.thomsonreuters.com
-HJ incites.isiknowledge.com
-HJ isiknowledge.com
-HJ https://isiknowledge.com
-HJ login.webofknowledge.com
-HJ myendnoteweb.com
-HJ webofscience.com
-HJ www.isiknowledge.com
-HJ www.webofscience.com
-DJ incites.thomsonreuters.com
-DJ isiknowledge.com
-DJ myendnoteweb.com
-DJ webofknowledgev4.com
-DJ webofscience.com
 Find value="http://
 Replace value="http://^A
 Find VALUE="http://
@@ -986,57 +906,7 @@ Replace "CIT.GATEWAY_URL">^pgateway.webofknowledge.com^
 Find value='gateway.webofknowledge.com/gateway/Gateway.cgi'
 Replace value='^pgateway.webofknowledge.com^/gateway/Gateway.cgi'
 OPTION COOKIE
-ProxyHostnameEdit www.ncbi.nlm.nih.gov$ www-ncbi-nlm-nih-gov
-AnonymousURL http://www.ncbi.nlm.nih.gov/corehtml/query/static/pubmedsearch.xml*
 Option CookiePassThrough
-
-Title EBSCOhost
-HJ https://resolver.ebscohost.com
-DJ smartimagebase.com
-
-T AMETSOC
-H journals.ametsoc.org
-D ametsoc.org
-
-Title Institute of Physics
-HJ https://conferenceseries.iop.org
-HJ https://iopscience.iop.org
-HJ iopscience.iop.org
-
-# If you experience problems with the proxy dropping when downloading PDFs, try adding the following lines to the end of your stanza:
-Find physiology.org\/sites
-Replace ^Pphysiology.org^\/sites
-Find physiology.org\/content\/
-Replace ^Pphysiology.org^\/content\/
-H www.deepseadrilling.org
-D deepseadrilling.org
-H www.annalsofgeophysics.eu
-D annalsofgeophysics.eu
-H www.seisme.prd.fr
-D seisme.prd.fr
-# http://www.oclc.org/support/services/ezproxy/documentation/db/liebertpub.en.html
-
-
-T Science AAAS
-HJ sciencemag.org
-HJ science.sciencemag.org
-HJ classic.sciencemag.org
-
-T MATH
-HJ https://mathscinet.ams.org
-HJ mathscinet.ams.org
-DJ ams.org
-
-T OSA
-HJ https://www.osapublishing.org
-HJ www.osapublishing.org
-DJ osapublishing.org
-
-T ANN
-HJ https://www.ann-geophys.net
-HJ www.ann-geophys.net
-DJ ann-geophys.net
-
 T INIS CEA
 HJ https://inis-cea.inist.fr
 HJ inis-cea.inist.fr
@@ -1049,3 +919,10 @@ H http://www.lactualitechimique.org/
 
 T ACS
 H https://pubs.acs.org/
+
+T GeoScienceWorld
+HJ bulletin.geoscienceworld.org
+
+T Numerique Premium
+HJ www.numeriquepremium.com
+
