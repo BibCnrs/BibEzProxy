@@ -14,3 +14,14 @@ U https://www.oecd-ilibrary.org
 HJ https://www.oecd-ilibrary.org
 HJ www.oecd-ilibrary.org
 DJ oecd-ilibrary.org
+
+T Dimensions
+HTTPHeader X-CSRF-Token
+HTTPHeader X-Requested-With
+HTTPHeader X-Accel-Redirect
+HTTPHeader X-Sendfile
+U https://app.dimensions.ai/discover/publication
+U https://app.dimensions.ai
+HJ https://app.dimensions.ai
+HJ app.dimensions.ai
+DJ dimensions.ai
