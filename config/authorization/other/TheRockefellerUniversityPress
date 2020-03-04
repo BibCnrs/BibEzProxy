@@ -1,5 +1,10 @@
 T Rupress
-U http://www.rockefeller.edu/rupress/
+U https://rupress.org/	
+U https://www.rockefeller.edu/rupress/
+HJ https://rupress.org
+HJ https://www.rockefeller.edu
+HJ rupress.org
+DJ rupress.org
 D rockefeller.edu
 H www.jcb.org
 H jcb.rupress.org
