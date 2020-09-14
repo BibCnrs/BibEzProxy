@@ -1,7 +1,7 @@
 version: '2'
 services:
     ezproxy:
-        image: bibcnrs/ezproxy:6.3.5
+        image: vsnexus-registry.intra.inist.fr:8083/bibcnrs/bibezproxy:6.3.5
         volumes:
             - ./config:/usr/local/ezproxy/config
         ports:
