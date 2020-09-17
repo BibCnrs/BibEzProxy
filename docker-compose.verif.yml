@@ -1,7 +1,7 @@
 version: '3.5'
 services:
     verif:
-        image: bibcnrs/ezproxy:6.3.5
+        image: vsnexus-registry.intra.inist.fr:8083/bibcnrs/bibezproxy:6.3.5
         ports:
             - 80
             - 443
