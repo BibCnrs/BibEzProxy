@@ -1,4 +1,4 @@
-version: '2'
+version: '3.5'
 services:
     ezproxy:
         image: bibcnrs/ezproxy:6.3.5
