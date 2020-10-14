@@ -1,142 +1,245 @@
-version: '2'
+version: '3.5'
 services:
     in2p3:
-        extends:
-            file: ./docker-compose.yml
-            service: ezproxy_prod
+        image: vsnexus-registry.intra.inist.fr:8083/bibcnrs/bibezproxy:6.3.5
+        ports:
+            - 80
+            - 443
+        environment:
+            env: PROD
+            ADMIN_LOGIN: ${ADMIN_LOGIN}
+            ADMIN_PASSWORD: ${ADMIN_PASSWORD}
+            GATE_SUFFIX: ${GATE_SUFFIX}
+            EZ_TICKET_URL: ${EZ_TICKET_URL}
+            EZ_TICKET_SECRET: ${EZ_TICKET_SECRET}
         volumes:
             - ./config:/usr/local/ezproxy/config
             - ./logs:/usr/local/ezproxy/logs
         env_file:
             - ./env/in2p3.env
-        network_mode: bridge
+#        network_mode: bridge
         ports:
             - "192.168.128.201:80:80"
             - "192.168.128.201:443:443"
         restart: always
+        networks:
+            - bibfrontend
     inc:
-        extends:
-            file: ./docker-compose.yml
-            service: ezproxy_prod
+        image: vsnexus-registry.intra.inist.fr:8083/bibcnrs/bibezproxy:6.3.5
+        ports:
+            - 80
+            - 443
+        environment:
+            env: PROD
+            ADMIN_LOGIN: ${ADMIN_LOGIN}
+            ADMIN_PASSWORD: ${ADMIN_PASSWORD}
+            GATE_SUFFIX: ${GATE_SUFFIX}
+            EZ_TICKET_URL: ${EZ_TICKET_URL}
+            EZ_TICKET_SECRET: ${EZ_TICKET_SECRET}
         volumes:
             - ./config:/usr/local/ezproxy/config
             - ./logs:/usr/local/ezproxy/logs
         env_file:
             - ./env/inc.env
-        network_mode: bridge
+#        network_mode: bridge
         ports:
             - "192.168.128.202:80:80"
             - "192.168.128.202:443:443"
         restart: always
+        networks:
+            - bibfrontend
     inee:
-        extends:
-            file: ./docker-compose.yml
-            service: ezproxy_prod
+        image: vsnexus-registry.intra.inist.fr:8083/bibcnrs/bibezproxy:6.3.5
+        ports:
+            - 80
+            - 443
+        environment:
+            env: PROD
+            ADMIN_LOGIN: ${ADMIN_LOGIN}
+            ADMIN_PASSWORD: ${ADMIN_PASSWORD}
+            GATE_SUFFIX: ${GATE_SUFFIX}
+            EZ_TICKET_URL: ${EZ_TICKET_URL}
+            EZ_TICKET_SECRET: ${EZ_TICKET_SECRET}
         volumes:
             - ./config:/usr/local/ezproxy/config
             - ./logs:/usr/local/ezproxy/logs
         env_file:
             - ./env/inee.env
-        network_mode: bridge
+#        network_mode: bridge
         ports:
             - "192.168.128.203:80:80"
             - "192.168.128.203:443:443"
         restart: always
+        networks:
+            - bibfrontend
     inp:
-        extends:
-            file: ./docker-compose.yml
-            service: ezproxy_prod
+        image: vsnexus-registry.intra.inist.fr:8083/bibcnrs/bibezproxy:6.3.5
+        ports:
+            - 80
+            - 443
+        environment:
+            env: PROD
+            ADMIN_LOGIN: ${ADMIN_LOGIN}
+            ADMIN_PASSWORD: ${ADMIN_PASSWORD}
+            GATE_SUFFIX: ${GATE_SUFFIX}
+            EZ_TICKET_URL: ${EZ_TICKET_URL}
+            EZ_TICKET_SECRET: ${EZ_TICKET_SECRET}
         volumes:
             - ./config:/usr/local/ezproxy/config
             - ./logs:/usr/local/ezproxy/logs
         env_file:
             - ./env/inp.env
-        network_mode: bridge
+#        network_mode: bridge
         ports:
             - "192.168.128.204:80:80"
             - "192.168.128.204:443:443"
         restart: always
+        networks:
+            - bibfrontend
     ins2i:
-        extends:
-            file: ./docker-compose.yml
-            service: ezproxy_prod
+        image: vsnexus-registry.intra.inist.fr:8083/bibcnrs/bibezproxy:6.3.5
+        ports:
+            - 80
+            - 443
+        environment:
+            env: PROD
+            ADMIN_LOGIN: ${ADMIN_LOGIN}
+            ADMIN_PASSWORD: ${ADMIN_PASSWORD}
+            GATE_SUFFIX: ${GATE_SUFFIX}
+            EZ_TICKET_URL: ${EZ_TICKET_URL}
+            EZ_TICKET_SECRET: ${EZ_TICKET_SECRET}
         volumes:
             - ./config:/usr/local/ezproxy/config
             - ./logs:/usr/local/ezproxy/logs
         env_file:
             - ./env/ins2i.env
-        network_mode: bridge
+#        network_mode: bridge
         ports:
             - "192.168.128.205:80:80"
             - "192.168.128.205:443:443"
         restart: always
+        networks:
+            - bibfrontend
     insb:
-        extends:
-            file: ./docker-compose.yml
-            service: ezproxy_prod
+        image: vsnexus-registry.intra.inist.fr:8083/bibcnrs/bibezproxy:6.3.5
+        ports:
+            - 80
+            - 443
+        environment:
+            env: PROD
+            ADMIN_LOGIN: ${ADMIN_LOGIN}
+            ADMIN_PASSWORD: ${ADMIN_PASSWORD}
+            GATE_SUFFIX: ${GATE_SUFFIX}
+            EZ_TICKET_URL: ${EZ_TICKET_URL}
+            EZ_TICKET_SECRET: ${EZ_TICKET_SECRET}
         volumes:
             - ./config:/usr/local/ezproxy/config
             - ./logs:/usr/local/ezproxy/logs
         env_file:
             - ./env/insb.env
-        network_mode: bridge
+#        network_mode: bridge
         ports:
             - "192.168.128.206:80:80"
             - "192.168.128.206:443:443"
         restart: always
+        networks:
+            - bibfrontend
     inshs:
-        extends:
-            file: ./docker-compose.yml
-            service: ezproxy_prod
+        image: vsnexus-registry.intra.inist.fr:8083/bibcnrs/bibezproxy:6.3.5
+        ports:
+            - 80
+            - 443
+        environment:
+            env: PROD
+            ADMIN_LOGIN: ${ADMIN_LOGIN}
+            ADMIN_PASSWORD: ${ADMIN_PASSWORD}
+            GATE_SUFFIX: ${GATE_SUFFIX}
+            EZ_TICKET_URL: ${EZ_TICKET_URL}
+            EZ_TICKET_SECRET: ${EZ_TICKET_SECRET}
         volumes:
             - ./config:/usr/local/ezproxy/config
             - ./logs:/usr/local/ezproxy/logs
         env_file:
             - ./env/inshs.env
-        network_mode: bridge
+#        network_mode: bridge
         ports:
             - "192.168.128.207:80:80"
             - "192.168.128.207:443:443"
         restart: always
+        networks:
+            - bibfrontend
     insis:
-        extends:
-            file: ./docker-compose.yml
-            service: ezproxy_prod
+        image: vsnexus-registry.intra.inist.fr:8083/bibcnrs/bibezproxy:6.3.5
+        ports:
+            - 80
+            - 443
+        environment:
+            env: PROD
+            ADMIN_LOGIN: ${ADMIN_LOGIN}
+            ADMIN_PASSWORD: ${ADMIN_PASSWORD}
+            GATE_SUFFIX: ${GATE_SUFFIX}
+            EZ_TICKET_URL: ${EZ_TICKET_URL}
+            EZ_TICKET_SECRET: ${EZ_TICKET_SECRET}
         volumes:
             - ./config:/usr/local/ezproxy/config
             - ./logs:/usr/local/ezproxy/logs
         env_file:
             - ./env/insis.env
-        network_mode: bridge
+#        network_mode: bridge
         ports:
             - "192.168.128.208:80:80"
             - "192.168.128.208:443:443"
         restart: always
+        networks:
+            - bibfrontend
     insmi:
-        extends:
-            file: ./docker-compose.yml
-            service: ezproxy_prod
+        image: vsnexus-registry.intra.inist.fr:8083/bibcnrs/bibezproxy:6.3.5
+        ports:
+            - 80
+            - 443
+        environment:
+            env: PROD
+            ADMIN_LOGIN: ${ADMIN_LOGIN}
+            ADMIN_PASSWORD: ${ADMIN_PASSWORD}
+            GATE_SUFFIX: ${GATE_SUFFIX}
+            EZ_TICKET_URL: ${EZ_TICKET_URL}
+            EZ_TICKET_SECRET: ${EZ_TICKET_SECRET}
         volumes:
             - ./config:/usr/local/ezproxy/config
             - ./logs:/usr/local/ezproxy/logs
         env_file:
             - ./env/insmi.env
-        network_mode: bridge
+#        network_mode: bridge
         ports:
             - "192.168.128.209:80:80"
             - "192.168.128.209:443:443"
         restart: always
+        networks:
+            - bibfrontend
     insu:
-        extends:
-            file: ./docker-compose.yml
-            service: ezproxy_prod
+        image: vsnexus-registry.intra.inist.fr:8083/bibcnrs/bibezproxy:6.3.5
+        ports:
+            - 80
+            - 443
+        environment:
+            env: PROD
+            ADMIN_LOGIN: ${ADMIN_LOGIN}
+            ADMIN_PASSWORD: ${ADMIN_PASSWORD}
+            GATE_SUFFIX: ${GATE_SUFFIX}
+            EZ_TICKET_URL: ${EZ_TICKET_URL}
+            EZ_TICKET_SECRET: ${EZ_TICKET_SECRET}
         volumes:
             - ./config:/usr/local/ezproxy/config
             - ./logs:/usr/local/ezproxy/logs
         env_file:
             - ./env/insu.env
-        network_mode: bridge
+#        network_mode: bridge
         ports:
             - "192.168.128.210:80:80"
             - "192.168.128.210:443:443"
         restart: always
+        networks:
+            - bibfrontend
+networks:
+  bibfrontend:
+    external: true
