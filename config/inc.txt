@@ -1,8 +1,13 @@
 # FOURNISSEURS
 # ============
 
+# AAAS
+IncludeFile authorization/oclc/ScienceAAAS
+
 # SOCIETE CHIMIQUE DE FRANCE
 IncludeFile authorization/other/LActualiteChimique
+
+IncludeFile authorization/oclc/JSTOR
 
 
 # BASES DE DONNEES

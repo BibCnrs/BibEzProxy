@@ -1,9 +1,14 @@
 # FOURNISSEURS
 # ============
 
+# AAAS
+IncludeFile authorization/oclc/ScienceAAAS
+
 IncludeFile authorization/oclc/AmericanPhysiologySociety
 
 IncludeFile authorization/other/AIP
+
+IncludeFile authorization/oclc/JSTOR
 
 
 # BASES DE DONNEES

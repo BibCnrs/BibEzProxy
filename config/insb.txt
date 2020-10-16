@@ -3,6 +3,8 @@
 # AAAS
 IncludeFile authorization/oclc/ScienceAAAS
 
+IncludeFile authorization/oclc/JSTOR
+
 # AACR
 IncludeFile authorization/oclc/AmericanAssociationForCancerResearch
 
