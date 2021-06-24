@@ -1,6 +1,9 @@
 # http://www.oclc.org/support/services/ezproxy/documentation/db/brepolsonline.en.html#par_text_title
+Option DomainCookieOnly
 Title Brepols Online
-URL http://www.brepolsonline.net
+URL https://www.brepolsonline.net
 HJ brepolsonline.net
 HJ www.brepolsonline.net
+HJ https://www.brepolsonline.net
 DJ brepolsonline.net
+Option Cookie

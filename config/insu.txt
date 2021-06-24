@@ -24,9 +24,6 @@ IncludeFile authorization/other/BNF
 # GSW
 IncludeFile authorization/oclc/GeoScienceWorld
 
-# IOP
-IncludeFile authorization/oclc/InstituteOfPhysics
-
 IncludeFile authorization/oclc/AmericanPhysiologySociety
 
 # LIBRES

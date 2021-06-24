@@ -5,6 +5,12 @@ URL https://www.sciencedirect.com
 URL https://acw.elsevier.com
 URL https://reader.elsevier.com
 URL https://pdf.sciencedirectassets.com
+URL https://dev.elsevier.com
+URL https://auth.elsevier.com
+HJ https://auth.elsevier.com
+HJ https://dev.elsevier.com
+HJ auth.elsevier.com
+HJ dev.elsevier.com
 HJ https://pdf.sciencedirectassets.com
 HJ pdf.sciencedirectassets.com
 HJ https://reader.elsevier.com

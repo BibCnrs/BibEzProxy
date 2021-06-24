@@ -5,9 +5,14 @@ Option NoX-Forwarded-For
 Title Plateforme ISTEX (API)
 URL http://api.istex.fr/
 HTTPHeader X-JSON
+HTTPHeader Access-Control-Allow-Origin
+HTTPHeader Access-Control-Allow-Headers
+HTTPHeader Access-Control-Allow-Methods
 MimeFilter application/json .* javascript
+HJ https://revue-sommaire.istex.fr
 HJ https://revue-sommaire.data.istex.fr
 HJ https://api.istex.fr
+HJ https://view.istex.fr
 HJ http://istex.github.io
 HJ https://istex.github.io
 HJ http://widget.istex.fr

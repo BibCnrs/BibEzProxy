@@ -1,3 +1,21 @@
+Option HttpsHyphens
+Option CookiePassThrough
+AnonymousURL -CS +https://app.stradalex.eu/*
+AnonymousURL -CS +https://statics.stradalex.eu/*
+AnonymousURL -CS -Options +https://larbiz-api.larciergroup.com/*
+AnonymousURL -CS -Options +https://dbs.larciergroup.com/*
+Title Strada Lex Europe
+URL https://www.stradalex.eu
+HJ https://www.stradalex.eu
+HJ https://dbs.larciergroup.com
+HJ https://larbiz-api.larciergroup.com
+HJ https://app.stradalex.eu
+HJ https://statics.stradalex.eu
+DJ stradalex.eu
+DJ larciergroup.com
+AnonymousURL -*
+Option Cookie
+
 T INSPEC
 U https://inspec-analytics-app.theiet.org
 HJ https://inspec-analytics-app.theiet.org
@@ -114,3 +132,54 @@ HJ www.nexis.com
 HJ nexis.com
 HJ companydashboard.lexisnexis.nl
 Option Cookie
+
+T Optics Letters
+U https://www.osapublishing.org/ol/home.cfm
+HJ https://www.osapublishing.org
+HJ www.osapublishing.org
+DJ osapublishing.org
+
+Title ARTstor Digital Library (ADL) (updated 20201204)
+HTTPHeader -request -process X-*
+HTTPHeader -request -process Accept-Encoding
+HTTPHeader -request -process Access-Control-Allow-Origin
+HTTPMethod PUT
+HTTPMethod PATCH
+HTTPMethod OPTIONS
+HTTPMethod DELETE
+AnonymousUrl +.jar
+AnonymousUrl +.class
+AnonymousUrl +.gif
+AnonymousUrl +.jpg
+URL https://library.artstor.org
+HJ library.artstor.org
+HJ https://tsprod.artstor.org
+HJ https://mdxdv.artstor.org
+HJ https://www.artstor.org
+HJ www.artstor.org
+DJ artstor.org
+DJ mdxdv.artstor.org
+Find //tsprod
+Replace https://tsprod
+Find https&#x3A;&#x2F;&#x2F;www.artstor.org
+Replace https&#x3A;&#x2F;&#x2F;^swww.artstor.org^
+Find http&#x3A;&#x2F;&#x2F;library.artstor.org
+Replace http&#x3A;&#x2F;&#x2F;^plibrary.artstor.org^
+NeverProxy tsprod.artstor.org
+NeverProxy kaltura.artstor.org
+NeverProxy kts.artstor.org
+NeverProxy viewer.artstor.org
+NeverProxy viewer2.artstor.org
+NeverProxy library.stanford.edu
+NeverProxy stor.artstor.org
+AnonymousUrl -*
+
+T Droz
+U https://openurl.droz.org
+U https://calvin.droz.org
+U https://humanisme-renaissance.droz.org
+HJ https://calvin.droz.org
+HJ https://humanisme-renaissance.droz.org
+HJ calvin.droz.org
+HJ humanisme-renaissance.droz.org
+DJ droz.org

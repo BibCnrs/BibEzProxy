@@ -1,4 +1,4 @@
-#This section is required before any EBSCOhost stanza to prevent linking issues
+#this seems to now be required before any EBSCOhost stanza to prevent linking issues
 Option DomainCookieOnly
 Title -hide EBSCO LinkSource
 URL http://linksource.ebsco.com
@@ -6,12 +6,20 @@ HJ linksource.ebsco.com
 HJ https://linksource.ebsco.com
 Option Cookie
 #
-Title EBSCOhost
+AddUserHeader -base64 X-EBSCO-PROXY-Username
+AnonymousURL https://ppws.ebsco-content.com/*
+Title EBSCO Information Services (updated 20210323)
+HTTPHeader -request -process userIdentifier
+HTTPHeader -request -process Authorization
 URL http://search.ebscohost.com/login.aspx
 HJ https://search.ebscohost.com
 HJ https://resolver.ebscohost.com
 HJ https://www.ebscohost.com
 HJ https://openurl.ebscohost.com
+HJ https://logon.ebsco.zone
+HJ logon.ebsco.zone
+DJ logon.ebsco.zone
+HJ https://m-eon-search.ebscohost.com
 HJ ebsco.smartimagebase.com
 HJ eds.a.ebscohost.com
 HJ eds.b.ebscohost.com
@@ -26,6 +34,7 @@ HJ openurl.ebscohost.com
 HJ resolver.ebscohost.com
 HJ search.ebscohost.mobi
 HJ search.epnet.com
+HJ novelist.epnet.com
 HJ web.a.ebscohost.com
 HJ web.b.ebscohost.com
 HJ web.c.ebscohost.com
@@ -38,7 +47,8 @@ HJ therapy.ebscohost.com
 HJ support.ebscohost.com
 HJ flipster.ebsco.com
 HJ e.ebsco.com
-HJ content.ebscohost.com
+DJ discovery.ebsco.com
+DJ ppws.ebsco-content.com
 DJ ebscohost.com
 DJ ebscohost.mobi
 DJ epnet.com
@@ -47,6 +57,9 @@ HJ www.ebsconet.com
 DJ ebsco.com
 DJ netlibrary.com
 DJ smartimagebase.com
+DJ apis.ebsco.com
+DJ ebscois-live.apigee.net
+DJ ebsco.babelscape.com
 HJ www.teacherreference.com
 DJ teacherreference.com
 HJ www.europeanamericana.com
@@ -59,17 +72,24 @@ Replace proxy.cfm?url=https://^A
 Find /login?url=https://
 Replace /login?url=https://^A
 NeverProxy *.eoncontent.ebscohost.com
-#NeverProxy content.ebscohost.com
+NeverProxy content.ebscohost.com
 NeverProxy ebscovideos.ebscohost.com
 NeverProxy rps2images.ebscohost.com
 NeverProxy rpsimages.ebscohost.com
 NeverProxy epmedia.ebscohost.com
 NeverProxy imageserver.ebscohost.com
 NeverProxy *.footnotelibrary.com
-NeverProxy *.ebsco-content.com
-NeverProxy app.rs.ebscohost com
+#NeverProxy *.ebsco-content.com
+NeverProxy app.rs.ebscohost.com
 NeverProxy media.rs.ebscohost.com
 NeverProxy vttts.rs.ebscohost.com
 NeverProxy nvntts.rs.ebscohost.com
 NeverProxy ivotts.rs.ebscohost.com
 NeverProxy widgets.ebscohost.com
+NeverProxy connect.ebsco.com
+NeverProxy signin.ebsco.zone
+NeverProxy auth.ebsco.zone
+NeverProxy shibboleth.ebscohost.com
+NeverProxy imagesrvr.epnet.com
+AnonymousURL -*
+AddUserHeader

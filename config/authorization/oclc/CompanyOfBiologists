@@ -1,12 +1,28 @@
 # http://www.oclc.org/support/services/ezproxy/documentation/db/biologists.en.html
 
-Title The Company of Biologists
-URL http://www.biologists.org/
-HJ www.biologists.org
+Title The Company of Biologists (updated 20190704)
+URL https://www.biologists.com/
+HJ www.biologists.com
+HJ bio.biologists.org
+HJ https://bio.biologists.org
 HJ dev.biologists.org
-HJ jcs.biologists.org
-HJ jeb.biologists.org
+HJ https://dev.biologists.org
 HJ dmm.biologists.org
+HJ https://dmm.biologists.org
 HJ jcs.biologists.org
-HJ biologists.org
-DJ biologists.org
+HJ https://jcs.biologists.org
+HJ jeb.biologists.org
+HJ https://jeb.biologists.org
+HJ www.biologists.org
+DJ biologists.com
+U https://journals.biologists.com/dev
+U https://journals.biologists.com/jcs
+U https://journals.biologists.com/jeb
+U https://journals.biologists.com/dmm
+U https://journals.biologists.com/bio
+HJ https://journals.biologists.com/dev
+HJ https://journals.biologists.com/jcs
+HJ https://journals.biologists.com/jeb
+HJ https://journals.biologists.com/dmm
+HJ https://journals.biologists.com/bio
+HJ journals.biologists.com
