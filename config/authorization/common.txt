@@ -1,6 +1,9 @@
 # FOURNISSEURS
 # ============
 
+# Cookie Law (resoud probleme de banniere popup cookie)
+IncludeFile authorization/oclc/cookielaw
+
 # ACS
 IncludeFile authorization/oclc/AmericanChemicalSociety
 
@@ -65,6 +68,7 @@ IncludeFile authorization/other/EDPSciences
 # ELSEVIER EI EBOOK ARCH NEGOCIATION NATIONALE
 IncludeFile authorization/oclc/ElsevierHealthJournals
 IncludeFile authorization/oclc/ElsevierScienceDirectAndScopus
+IncludeFile authorization/oclc/ScienceAAAS
 
 # EMERALD LICENCES NATIONALES ISTEX
 IncludeFile authorization/oclc/EmeraldInsight
@@ -80,6 +84,9 @@ IncludeFile authorization/other/GeologicalSocietyOfLondon
 
 # HAL
 IncludeFile authorization/other/Hal
+
+# Inspec Analytics
+IncludeFile authorization/oclc/InspecAnalytics
 
 # IOP PUBLISHING LICENCES NATIONALES ISTEX
 IncludeFile authorization/oclc/InstituteOfPhysics
